@@ -1,0 +1,1878 @@
+{
+  "company_name": "Cisco",
+  "augmented_jobs": [
+    {
+      "id": "in-891dcf76742a0a49",
+      "augmented": {
+        "job_summary": "Entry-level warehouse role responsible for mixing seed ingredients, packaging mixes, and supporting inventory control in a fast-paced environment.",
+        "required_skills": [
+          "Attention to detail",
+          "Teamwork",
+          "Multi-tasking",
+          "Manual dexterity"
+        ],
+        "desired_skills": [
+          "Basic inventory control",
+          "Time management"
+        ],
+        "experience_level": "Entry-level",
+        "education_requirement": "High School Diploma or equivalent",
+        "job_category": "Warehouse Operations / Logistics",
+        "benefits_highlights": [
+          "401(k)",
+          "Health Insurance",
+          "Dental Insurance",
+          "Paid Time Off",
+          "Vision Insurance"
+        ],
+        "compensation_description": "Hourly wage of approximately $18.00",
+        "employment_type": "Full-time",
+        "job_posting_age": "28 days old",
+        "location_insight": "Indianapolis, IN, USA",
+        "company_culture": "Inclusive, innovative, and supportive",
+        "training_provided": "On-the-job training available",
+        "potential_career_path": "Advancement into supervisory or logistics roles",
+        "physical_requirements": "Requires prolonged standing and manual labor",
+        "work_environment": "Fast-paced, safety-focused warehouse",
+        "scheduling_details": "Standard day shift; possible overtime; typically Monday-Friday",
+        "job_demand": "Moderate",
+        "recruitment_priority": "High",
+        "remote_option": "Not available",
+        "work_life_balance": "Standard shift hours with limited overtime",
+        "company_reputation": "Cisco is a global leader in technology with a commitment to diversity",
+        "application_deadline": "Open until filled",
+        "onboarding_process": "Standard orientation with comprehensive training",
+        "shift_information": "Day shift with potential variability",
+        "safety_requirements": "Strict adherence to safety protocols and PPE usage",
+        "physical_workload": "Moderate to high physical activity",
+        "career_growth": "Clear path for advancement in logistics management",
+        "job_stability": "Stable and essential role",
+        "performance_metrics": "Efficiency, accuracy, and safety compliance",
+        "training_and_development": "Regular sessions on safety and equipment handling",
+        "work_tools": [
+          "Mixing equipment",
+          "Packaging machines",
+          "Inventory systems"
+        ],
+        "communication_requirements": "Basic verbal and written English communication",
+        "industry_specific_terms": [
+          "batch mixing",
+          "seed mixes",
+          "inventory control"
+        ],
+        "language_proficiency": "English required",
+        "hiring_incentives": "Competitive hourly wage with potential bonuses",
+        "working_conditions": "Indoor, climate-controlled, safety-compliant",
+        "additional_requirements": "Punctuality, flexibility, team ethic",
+        "company_overview": "Cisco is renowned for innovation, diversity, and an inclusive culture",
+        "environmental_conditions": "Clean, organized warehouse environment",
+        "job_risk": "Low risk typical of warehouse roles",
+        "diversity_stats": "Committed to a diverse and inclusive workforce",
+        "travel_requirement": "None",
+        "industry_trend": "Increasing automation in warehouse operations",
+        "future_technology_integration": "Potential integration with automated systems",
+        "recruitment_channels": [
+          "Indeed",
+          "Cisco Careers",
+          "Recruitment Agencies"
+        ],
+        "evaluation_criteria": "Skill proficiency, safety adherence, teamwork",
+        "augmented_data_quality": "High",
+        "augmentation_timestamp": "2025-02-04T12:00:00Z",
+        "llm_version": "GPT-4",
+        "ethics": {
+          "is_ghost_job": false,
+          "is_coherent": true,
+          "coherence_analysis": {
+            "title_vs_description": {
+              "is_coherent": true,
+              "proof": "The title 'Warehouse Mixing' aligns with the listed responsibilities."
+            },
+            "content_coherence": {
+              "transparency": {
+                "score": "High",
+                "proof": "Job duties, benefits, and schedule are clearly stated."
+              },
+              "accuracy": {
+                "score": "High",
+                "proof": "Compensation and requirements are consistent with industry standards."
+              },
+              "completeness": {
+                "score": "Complete",
+                "proof": "All key details are provided."
+              },
+              "fairness": {
+                "score": "Neutral",
+                "proof": "Language is neutral and non-discriminatory."
+              },
+              "inclusivity": {
+                "score": "Inclusive",
+                "proof": "Encourages a diverse range of applicants."
+              }
+            },
+            "overall_coherence": {
+              "score": "High",
+              "proof": "The posting is well-structured, complete, and ethically sound."
+            }
+          },
+          "reason": "The posting is clear, comprehensive, and meets ethical standards with a title that accurately reflects the role."
+        }
+      }
+    },
+    {
+      "id": "in-a50449972d0f77ca",
+      "augmented": {
+        "job_summary": "Onsite role for a Physical Design Engineer focusing on full chip implementation and physical verification in advanced ASIC design.",
+        "required_skills": [
+          "ASIC verification",
+          "DRC/LVS",
+          "Debugging",
+          "Scripting (Python/Tcl)"
+        ],
+        "desired_skills": [
+          "Deep submicron CMOS knowledge",
+          "Package design insight"
+        ],
+        "experience_level": "Mid to Senior-level",
+        "education_requirement": "BS/MS in Electrical Engineering or Computer Science",
+        "job_category": "Semiconductor / Hardware Design",
+        "benefits_highlights": [
+          "401(k)",
+          "Health insurance",
+          "Paid time off"
+        ],
+        "compensation_description": "Yearly salary between approximately $148K and $188K",
+        "employment_type": "Full-time",
+        "job_posting_age": "Recent posting",
+        "location_insight": "San Jose, CA with onsite requirements",
+        "company_culture": "Innovative, collaborative, and quality-driven",
+        "training_provided": "On-the-job exposure to advanced ASIC flows",
+        "potential_career_path": "Opportunities to advance to technical lead roles",
+        "physical_requirements": "Onsite presence required",
+        "work_environment": "Fast-paced engineering and design lab",
+        "scheduling_details": "Regular daytime hours, onsite",
+        "job_demand": "High for specialized skills",
+        "recruitment_priority": "High",
+        "remote_option": "Not available",
+        "work_life_balance": "Challenging yet rewarding",
+        "company_reputation": "Cisco is a leader in networking and semiconductor innovation",
+        "application_deadline": "Closes on 11/30/2024",
+        "onboarding_process": "Structured onboarding in a high-performance environment",
+        "shift_information": "Standard work hours",
+        "safety_requirements": "Compliance with onsite safety protocols",
+        "physical_workload": "Primarily desk and lab work",
+        "career_growth": "Potential to move into leadership in chip design",
+        "job_stability": "Core, stable engineering role",
+        "performance_metrics": "Timely design verification, signoff quality, defect resolution",
+        "training_and_development": "Regular training on EDA tools and methodologies",
+        "work_tools": [
+          "EDA software",
+          "Scripting tools",
+          "Design verification systems"
+        ],
+        "communication_requirements": "Clear technical communication and teamwork",
+        "industry_specific_terms": [
+          "ASIC",
+          "DRC",
+          "LVS",
+          "CMOS",
+          "RTL"
+        ],
+        "language_proficiency": "English required",
+        "hiring_incentives": "Competitive salary and benefits package",
+        "working_conditions": "Onsite, modern engineering lab",
+        "additional_requirements": "Detail oriented with strong problem-solving skills",
+        "company_overview": "Cisco is recognized for pioneering networking hardware and semiconductor solutions",
+        "environmental_conditions": "Controlled lab environment",
+        "job_risk": "Low risk",
+        "diversity_stats": "Committed to diversity and inclusion",
+        "travel_requirement": "Minimal travel",
+        "industry_trend": "Growing demand for advanced chip design",
+        "future_technology_integration": "Integration with next-generation silicon technologies",
+        "recruitment_channels": [
+          "Cisco Careers",
+          "Industry recruiters",
+          "LinkedIn"
+        ],
+        "evaluation_criteria": "Technical expertise, design quality, teamwork",
+        "augmented_data_quality": "High",
+        "augmentation_timestamp": "2025-02-04T12:00:00Z",
+        "llm_version": "GPT-4",
+        "ethics": {
+          "is_ghost_job": false,
+          "is_coherent": true,
+          "coherence_analysis": {
+            "title_vs_description": {
+              "is_coherent": true,
+              "proof": "The title 'Physical Design Engineer' clearly reflects the ASIC verification and physical design responsibilities."
+            },
+            "content_coherence": {
+              "transparency": {
+                "score": "High",
+                "proof": "The posting details responsibilities, qualifications, and benefits thoroughly."
+              },
+              "accuracy": {
+                "score": "High",
+                "proof": "Technical details and compensation align with industry norms."
+              },
+              "completeness": {
+                "score": "Complete",
+                "proof": "All required information including experience, responsibilities, and benefits is provided."
+              },
+              "fairness": {
+                "score": "Neutral",
+                "proof": "Language remains neutral and non-discriminatory."
+              },
+              "inclusivity": {
+                "score": "Inclusive",
+                "proof": "Encourages qualified candidates from diverse backgrounds."
+              }
+            },
+            "overall_coherence": {
+              "score": "High",
+              "proof": "The posting is structured, detailed, and ethically sound."
+            }
+          },
+          "reason": "The posting is clear, complete, and its title accurately reflects the technical role, meeting high ethical standards."
+        }
+      }
+    },
+    {
+      "id": "in-3ce2ba26e9f09c4b",
+      "augmented": {
+        "job_summary": "Role focused on driving customer value realization through premium services and strategic buying programs, blending sales expertise with consultative support.",
+        "required_skills": [
+          "Consultative selling",
+          "Customer relationship management",
+          "Negotiation",
+          "Forecasting"
+        ],
+        "desired_skills": [
+          "Strategic planning",
+          "ROI analysis"
+        ],
+        "experience_level": "Mid-level",
+        "education_requirement": "Bachelor's degree or equivalent",
+        "job_category": "Sales / Account Management",
+        "benefits_highlights": [
+          "401(k)",
+          "Health, Dental & Vision",
+          "Paid Time Off"
+        ],
+        "compensation_description": "Yearly salary ranging between approximately $115K and $147K",
+        "employment_type": "Full-time",
+        "job_posting_age": "Recent posting",
+        "location_insight": "Clayton, MO with candidate location requirement (TN or MO)",
+        "company_culture": "Diverse, innovative, and customer‑focused",
+        "training_provided": "Ongoing sales training and mentorship",
+        "potential_career_path": "Growth into senior account leadership roles",
+        "physical_requirements": "Minimal; primarily office‑based",
+        "work_environment": "Collaborative and fast‑paced",
+        "scheduling_details": "Standard business hours",
+        "job_demand": "High in competitive markets",
+        "recruitment_priority": "High",
+        "remote_option": "Not available",
+        "work_life_balance": "Balanced within a sales-driven environment",
+        "company_reputation": "Cisco is a trusted leader in technology and innovation",
+        "application_deadline": "Closes on 1/20/2025",
+        "onboarding_process": "Structured onboarding with cross‑functional integration",
+        "shift_information": "Daytime, standard business schedule",
+        "safety_requirements": "Standard office environment protocols",
+        "physical_workload": "Low",
+        "career_growth": "Opportunities for advancement in sales leadership",
+        "job_stability": "Stable role in a growing business unit",
+        "performance_metrics": "Sales quotas, customer satisfaction, and revenue growth",
+        "training_and_development": "Regular training sessions and performance reviews",
+        "work_tools": [
+          "CRM systems",
+          "Sales forecasting tools"
+        ],
+        "communication_requirements": "Excellent verbal and written communication skills",
+        "industry_specific_terms": [
+          "Enterprise agreements",
+          "Premium services",
+          "ROI"
+        ],
+        "language_proficiency": "English required",
+        "hiring_incentives": "Competitive salary with performance bonuses",
+        "working_conditions": "Office-based, collaborative setting",
+        "additional_requirements": "Strong customer focus and consultative approach",
+        "company_overview": "Cisco is globally recognized for its innovative technology solutions and inclusive culture",
+        "environmental_conditions": "Modern office environment",
+        "job_risk": "Low risk",
+        "diversity_stats": "Committed to diversity and inclusive hiring",
+        "travel_requirement": "Occasional travel may be required",
+        "industry_trend": "Growing emphasis on integrated service solutions",
+        "future_technology_integration": "Ongoing integration of digital sales tools",
+        "recruitment_channels": [
+          "Cisco Careers",
+          "LinkedIn",
+          "Industry referrals"
+        ],
+        "evaluation_criteria": "Sales performance, relationship building, and strategic impact",
+        "augmented_data_quality": "High",
+        "augmentation_timestamp": "2025-02-04T12:00:00Z",
+        "llm_version": "GPT-4",
+        "ethics": {
+          "is_ghost_job": false,
+          "is_coherent": true,
+          "coherence_analysis": {
+            "title_vs_description": {
+              "is_coherent": true,
+              "proof": "The title clearly reflects the dual focus on services and buying programs."
+            },
+            "content_coherence": {
+              "transparency": {
+                "score": "High",
+                "proof": "All key details on responsibilities and requirements are provided."
+              },
+              "accuracy": {
+                "score": "High",
+                "proof": "The description and compensation details are consistent."
+              },
+              "completeness": {
+                "score": "Complete",
+                "proof": "The posting covers responsibilities, qualifications, and benefits."
+              },
+              "fairness": {
+                "score": "Neutral",
+                "proof": "Language is clear and non-biased."
+              },
+              "inclusivity": {
+                "score": "Inclusive",
+                "proof": "Encourages a diverse pool of applicants."
+              }
+            },
+            "overall_coherence": {
+              "score": "High",
+              "proof": "The job posting is comprehensive and ethically sound."
+            }
+          },
+          "reason": "The posting is transparent, accurate, and its title properly represents the role."
+        }
+      }
+    },
+    {
+      "id": "in-f2b743beef453dbe",
+      "augmented": {
+        "job_summary": "Senior-level role focused on designing and validating data‑plane features for SONiC platforms, driving innovations in AI/ML networking infrastructure.",
+        "required_skills": [
+          "C, C++",
+          "Python",
+          "System design",
+          "Telemetry",
+          "Yang modeling"
+        ],
+        "desired_skills": [
+          "Mentoring",
+          "Agile development",
+          "Open‑source collaboration"
+        ],
+        "experience_level": "Senior-level",
+        "education_requirement": "Bachelor's or higher in Computer Science or related field",
+        "job_category": "Software / Network Engineering",
+        "benefits_highlights": [
+          "401(k)",
+          "Health benefits",
+          "Paid time off"
+        ],
+        "compensation_description": "Yearly salary ranging from approximately $207K to $263K",
+        "employment_type": "Full-time",
+        "job_posting_age": "Recent posting",
+        "location_insight": "San Jose, CA with on-premises work",
+        "company_culture": "Innovative, agile, and customer‑focused",
+        "training_provided": "Opportunities for continuous learning and mentorship",
+        "potential_career_path": "Growth into technical leadership and management roles",
+        "physical_requirements": "Minimal physical demands; primarily desk‑based",
+        "work_environment": "Fast‑paced, collaborative engineering environment",
+        "scheduling_details": "Standard work hours",
+        "job_demand": "High for experienced engineers",
+        "recruitment_priority": "High",
+        "remote_option": "Not available",
+        "work_life_balance": "Balanced with dynamic challenges",
+        "company_reputation": "Cisco is a global leader in networking innovation",
+        "application_deadline": "Closes on 2/3/2025",
+        "onboarding_process": "Structured onboarding with mentorship",
+        "shift_information": "Regular daytime schedule",
+        "safety_requirements": "Standard office environment",
+        "physical_workload": "Low",
+        "career_growth": "Opportunities for significant technical impact",
+        "job_stability": "Stable, strategic role",
+        "performance_metrics": "Innovation, code quality, customer impact",
+        "training_and_development": "Regular technical training sessions",
+        "work_tools": [
+          "Development environments",
+          "Collaboration tools",
+          "Telemetry systems"
+        ],
+        "communication_requirements": "Excellent technical and interpersonal communication",
+        "industry_specific_terms": [
+          "SONiC",
+          "Data-plane",
+          "Netconf",
+          "GNMI",
+          "Yang"
+        ],
+        "language_proficiency": "English required",
+        "hiring_incentives": "Competitive salary with bonus potential",
+        "working_conditions": "Onsite, modern tech workspace",
+        "additional_requirements": "Proven track record in complex system design",
+        "company_overview": "Cisco is renowned for its pioneering role in global networking and advanced technologies",
+        "environmental_conditions": "Standard office conditions",
+        "job_risk": "Low risk",
+        "diversity_stats": "Strong commitment to diversity and inclusion",
+        "travel_requirement": "Limited travel",
+        "industry_trend": "Increasing focus on AI/ML in network infrastructures",
+        "future_technology_integration": "High potential for integration with emerging AI technologies",
+        "recruitment_channels": [
+          "Cisco Careers",
+          "Industry referrals",
+          "LinkedIn"
+        ],
+        "evaluation_criteria": "Technical innovation, leadership, and collaborative skills",
+        "augmented_data_quality": "High",
+        "augmentation_timestamp": "2025-02-04T12:00:00Z",
+        "llm_version": "GPT-4",
+        "ethics": {
+          "is_ghost_job": false,
+          "is_coherent": true,
+          "coherence_analysis": {
+            "title_vs_description": {
+              "is_coherent": true,
+              "proof": "The title accurately reflects the advanced technical responsibilities detailed in the description."
+            },
+            "content_coherence": {
+              "transparency": {
+                "score": "High",
+                "proof": "The posting clearly outlines responsibilities, qualifications, and benefits."
+              },
+              "accuracy": {
+                "score": "High",
+                "proof": "Technical and compensation details are in line with industry standards."
+              },
+              "completeness": {
+                "score": "Complete",
+                "proof": "The posting is comprehensively covering the role’s requirements and expectations."
+              },
+              "fairness": {
+                "score": "Neutral",
+                "proof": "Language is neutral and inclusive."
+              },
+              "inclusivity": {
+                "score": "Inclusive",
+                "proof": "The description welcomes diverse candidates."
+              }
+            },
+            "overall_coherence": {
+              "score": "High",
+              "proof": "The posting is logically structured and ethically sound."
+            }
+          },
+          "reason": "The role is described in detail with clear, consistent, and inclusive language, making it ethically sound."
+        }
+      }
+    },
+    {
+      "id": "in-c632bea6e5f33aac",
+      "augmented": {
+        "job_summary": "Technical role acting as a customer success advisor focused on driving the adoption of Cisco security solutions and optimizing customer outcomes.",
+        "required_skills": [
+          "Technical consulting",
+          "Relationship management",
+          "Product knowledge",
+          "Presentation skills"
+        ],
+        "desired_skills": [
+          "Account handling",
+          "Customer engagement",
+          "Industry best practices"
+        ],
+        "experience_level": "Senior-level",
+        "education_requirement": "Bachelor's degree or equivalent in a technical field",
+        "job_category": "Customer Success / Technical Consulting",
+        "benefits_highlights": [
+          "401(k)",
+          "Health, dental & vision",
+          "Paid Time Off"
+        ],
+        "compensation_description": "Yearly salary between approximately $160K and $203K",
+        "employment_type": "Full-time",
+        "job_posting_age": "Recent posting",
+        "location_insight": "San Jose, CA with remote work option",
+        "company_culture": "Innovative, customer‑centric, and collaborative",
+        "training_provided": "Ongoing training in technical and soft skills",
+        "potential_career_path": "Growth into senior customer success or technical leadership roles",
+        "physical_requirements": "Minimal; mostly virtual interactions",
+        "work_environment": "Remote with occasional onsite meetings",
+        "scheduling_details": "Standard work hours with flexibility",
+        "job_demand": "High in competitive markets",
+        "recruitment_priority": "High",
+        "remote_option": "Available",
+        "work_life_balance": "Balanced with flexible remote work",
+        "company_reputation": "Cisco is a leader in secure networking solutions",
+        "application_deadline": "Closes on 12/20/2024",
+        "onboarding_process": "Structured remote onboarding with team integration",
+        "shift_information": "Flexible, standard business hours",
+        "safety_requirements": "Office and remote work safety standards apply",
+        "physical_workload": "Low",
+        "career_growth": "Opportunities to advance in customer success roles",
+        "job_stability": "Stable role in a core business function",
+        "performance_metrics": "Customer satisfaction, adoption rates, and engagement metrics",
+        "training_and_development": "Regular training on new product features and customer engagement strategies",
+        "work_tools": [
+          "CRM systems",
+          "Web conferencing tools",
+          "Customer analytics platforms"
+        ],
+        "communication_requirements": "Excellent written and verbal communication skills",
+        "industry_specific_terms": [
+          "Zero Trust",
+          "Cloud Security",
+          "Integrated Security Operations"
+        ],
+        "language_proficiency": "English required",
+        "hiring_incentives": "Competitive compensation with performance bonuses",
+        "working_conditions": "Remote-friendly, collaborative virtual environment",
+        "additional_requirements": "Proven track record in technical customer support",
+        "company_overview": "Cisco is a global leader with a strong commitment to innovation and customer success in security.",
+        "environmental_conditions": "Flexible remote working conditions",
+        "job_risk": "Low risk",
+        "diversity_stats": "Dedicated to fostering a diverse and inclusive workforce",
+        "travel_requirement": "Limited travel",
+        "industry_trend": "Increasing emphasis on digital transformation and customer success",
+        "future_technology_integration": "Ongoing evolution of digital customer engagement",
+        "recruitment_channels": [
+          "Cisco Careers",
+          "Remote job boards",
+          "LinkedIn"
+        ],
+        "evaluation_criteria": "Technical expertise, customer impact, and strategic thinking",
+        "augmented_data_quality": "High",
+        "augmentation_timestamp": "2025-02-04T12:00:00Z",
+        "llm_version": "GPT-4",
+        "ethics": {
+          "is_ghost_job": false,
+          "is_coherent": true,
+          "coherence_analysis": {
+            "title_vs_description": {
+              "is_coherent": true,
+              "proof": "The title reflects the customer success focus in a technical security domain."
+            },
+            "content_coherence": {
+              "transparency": {
+                "score": "High",
+                "proof": "Duties and requirements are clearly detailed."
+              },
+              "accuracy": {
+                "score": "High",
+                "proof": "All aspects of the role are accurately described."
+              },
+              "completeness": {
+                "score": "Complete",
+                "proof": "The posting fully covers role, responsibilities, and benefits."
+              },
+              "fairness": {
+                "score": "Neutral",
+                "proof": "Language is objective and unbiased."
+              },
+              "inclusivity": {
+                "score": "Inclusive",
+                "proof": "Encourages candidates from diverse technical backgrounds."
+              }
+            },
+            "overall_coherence": {
+              "score": "High",
+              "proof": "The posting is coherent and ethically robust."
+            }
+          },
+          "reason": "The posting is detailed, consistent, and its title properly reflects the technical customer success focus."
+        }
+      }
+    },
+    {
+      "id": "in-81fa8c06cbed6d9b",
+      "augmented": {
+        "job_summary": "Customer Success Manager role focused on driving ARR growth and guiding customers through technology adoption with a strong emphasis on strategic planning and relationship management.",
+        "required_skills": [
+          "Customer relationship management",
+          "Technical adoption planning",
+          "Strategic communication",
+          "Problem solving"
+        ],
+        "desired_skills": [
+          "Cross‑functional collaboration",
+          "Analytical skills"
+        ],
+        "experience_level": "Senior-level",
+        "education_requirement": "Bachelor's degree or equivalent",
+        "job_category": "Customer Success / Account Management",
+        "benefits_highlights": [
+          "401(k)",
+          "Medical/Dental/Vision",
+          "Vacation/PTO"
+        ],
+        "compensation_description": "Yearly salary between approximately $155K and $197K",
+        "employment_type": "Full-time",
+        "job_posting_age": "Recent posting",
+        "location_insight": "Minneapolis, MN with regional candidate requirements",
+        "company_culture": "Collaborative, innovative, and customer‑focused",
+        "training_provided": "Structured training in software adoption and customer success",
+        "potential_career_path": "Advancement into senior leadership in customer success",
+        "physical_requirements": "Minimal; office-based role",
+        "work_environment": "Hybrid environment with in‑office collaboration",
+        "scheduling_details": "Standard business hours",
+        "job_demand": "High",
+        "recruitment_priority": "High",
+        "remote_option": "Not available",
+        "work_life_balance": "Balanced with standard work hours",
+        "company_reputation": "Cisco is widely recognized for its innovation and customer-centric approach",
+        "application_deadline": "Closes on 12/20/2025",
+        "onboarding_process": "Structured onboarding with role-specific training",
+        "shift_information": "Daytime, standard hours",
+        "safety_requirements": "Standard office safety protocols",
+        "physical_workload": "Low",
+        "career_growth": "Strong growth potential in leadership roles",
+        "job_stability": "Stable within a mature organization",
+        "performance_metrics": "ARR growth, customer satisfaction, retention metrics",
+        "training_and_development": "Regular training sessions and professional development programs",
+        "work_tools": [
+          "CRM systems",
+          "Adoption analytics tools",
+          "Collaboration software"
+        ],
+        "communication_requirements": "Excellent interpersonal and presentation skills",
+        "industry_specific_terms": [
+          "ARR",
+          "Technical Adoption",
+          "Customer Success"
+        ],
+        "language_proficiency": "English required",
+        "hiring_incentives": "Competitive base salary with bonus opportunities",
+        "working_conditions": "Office-based with occasional remote work",
+        "additional_requirements": "Strong customer focus and proven success in technology adoption roles",
+        "company_overview": "Cisco is a global leader known for its innovative and inclusive work culture",
+        "environmental_conditions": "Modern office environment",
+        "job_risk": "Low",
+        "diversity_stats": "Committed to diversity and inclusion",
+        "travel_requirement": "Limited travel",
+        "industry_trend": "Increasing emphasis on digital transformation and customer success",
+        "future_technology_integration": "Ongoing digital integration in customer engagement",
+        "recruitment_channels": [
+          "Cisco Careers",
+          "Professional networks",
+          "LinkedIn"
+        ],
+        "evaluation_criteria": "Customer impact, leadership, and strategic thinking",
+        "augmented_data_quality": "High",
+        "augmentation_timestamp": "2025-02-04T12:00:00Z",
+        "llm_version": "GPT-4",
+        "ethics": {
+          "is_ghost_job": false,
+          "is_coherent": true,
+          "coherence_analysis": {
+            "title_vs_description": {
+              "is_coherent": true,
+              "proof": "The title reflects the central responsibility of guiding customer success and driving ARR."
+            },
+            "content_coherence": {
+              "transparency": {
+                "score": "High",
+                "proof": "Role expectations and benefits are clearly outlined."
+              },
+              "accuracy": {
+                "score": "High",
+                "proof": "Technical requirements and compensation details are accurate."
+              },
+              "completeness": {
+                "score": "Complete",
+                "proof": "The posting includes all necessary details on role, requirements, and benefits."
+              },
+              "fairness": {
+                "score": "Neutral",
+                "proof": "Language is objective and unbiased."
+              },
+              "inclusivity": {
+                "score": "Inclusive",
+                "proof": "Encourages applicants from diverse backgrounds."
+              }
+            },
+            "overall_coherence": {
+              "score": "High",
+              "proof": "The posting is comprehensive, well-structured, and ethically sound."
+            }
+          },
+          "reason": "The posting is highly transparent, consistent, and its title properly captures the role."
+        }
+      }
+    },
+    {
+      "id": "in-38ab52cceb3ccdf7",
+      "augmented": {
+        "job_summary": "Specialized engineering role focused on developing and verifying signal and power integrity for advanced ASIC packaging.",
+        "required_skills": [
+          "Signal integrity",
+          "Power integrity",
+          "Electromagnetics",
+          "EDA tools (Ansys, Cadence)"
+        ],
+        "desired_skills": [
+          "MATLAB/Python scripting",
+          "Experience with advanced ASIC packaging"
+        ],
+        "experience_level": "Experienced (7+ years)",
+        "education_requirement": "Bachelor's degree in Electrical Engineering or related field",
+        "job_category": "Semiconductor / Packaging",
+        "benefits_highlights": [
+          "401(k)",
+          "Health benefits",
+          "Paid time off"
+        ],
+        "compensation_description": "Yearly salary ranging approximately from $135K to $172K",
+        "employment_type": "Full-time",
+        "job_posting_age": "Recent posting",
+        "location_insight": "San Jose, CA with onsite requirements",
+        "company_culture": "High-performance and specialized engineering team",
+        "training_provided": "On-the-job training in advanced IC packaging",
+        "potential_career_path": "Growth into expert roles in chip packaging and design",
+        "physical_requirements": "Onsite presence required",
+        "work_environment": "Modern, technical lab environment",
+        "scheduling_details": "Standard daytime schedule",
+        "job_demand": "High for niche expertise",
+        "recruitment_priority": "High",
+        "remote_option": "Not available",
+        "work_life_balance": "Intensive but rewarding",
+        "company_reputation": "Cisco is known for technological leadership in ASIC design",
+        "application_deadline": "Closes on 01/05/2025",
+        "onboarding_process": "Structured onboarding with technical immersion",
+        "shift_information": "Day shift",
+        "safety_requirements": "Adherence to lab and onsite safety protocols",
+        "physical_workload": "Moderate physical demands in lab settings",
+        "career_growth": "Opportunities to become a subject matter expert",
+        "job_stability": "Stable, core role in ASIC packaging",
+        "performance_metrics": "Design accuracy, rule compliance, manufacturing quality",
+        "training_and_development": "Ongoing technical and professional development",
+        "work_tools": [
+          "Ansys EM",
+          "Cadence APD",
+          "Keysight ADS"
+        ],
+        "communication_requirements": "Effective technical communication with team members and partners",
+        "industry_specific_terms": [
+          "2.5D fanout",
+          "FCBGA",
+          "SERDES",
+          "SI/PI"
+        ],
+        "language_proficiency": "English required",
+        "hiring_incentives": "Competitive salary and benefits",
+        "working_conditions": "Onsite, technical lab environment",
+        "additional_requirements": "Strong analytical skills and attention to detail",
+        "company_overview": "Cisco leads in semiconductor and packaging innovation with a global reputation.",
+        "environmental_conditions": "Controlled lab environment",
+        "job_risk": "Low risk",
+        "diversity_stats": "Emphasis on an inclusive, high-tech workforce",
+        "travel_requirement": "None",
+        "industry_trend": "Increasing complexity in chip packaging",
+        "future_technology_integration": "Potential integration with emerging packaging technologies",
+        "recruitment_channels": [
+          "Cisco Careers",
+          "Industry recruiters"
+        ],
+        "evaluation_criteria": "Technical proficiency, problem-solving, and innovation",
+        "augmented_data_quality": "High",
+        "augmentation_timestamp": "2025-02-04T12:00:00Z",
+        "llm_version": "GPT-4",
+        "ethics": {
+          "is_ghost_job": false,
+          "is_coherent": true,
+          "coherence_analysis": {
+            "title_vs_description": {
+              "is_coherent": true,
+              "proof": "The title 'ASIC Package Signal/Power Integrity Engineer' matches the role's focus on packaging and integrity."
+            },
+            "content_coherence": {
+              "transparency": {
+                "score": "High",
+                "proof": "Clear listing of responsibilities and technical requirements."
+              },
+              "accuracy": {
+                "score": "High",
+                "proof": "All technical details and compensation are in line with industry standards."
+              },
+              "completeness": {
+                "score": "Complete",
+                "proof": "The posting covers all necessary role details."
+              },
+              "fairness": {
+                "score": "Neutral",
+                "proof": "Language is precise and non-discriminatory."
+              },
+              "inclusivity": {
+                "score": "Inclusive",
+                "proof": "Encourages candidates with specialized skills regardless of background."
+              }
+            },
+            "overall_coherence": {
+              "score": "High",
+              "proof": "The posting is detailed, coherent, and ethically robust."
+            }
+          },
+          "reason": "The posting is comprehensive and its title reflects the technical focus, meeting high ethical standards."
+        }
+      }
+    },
+    {
+      "id": "in-1c4d60904a6ec920",
+      "augmented": {
+        "job_summary": "Role focused on ensuring the reliability and performance of optical transceivers through rigorous test planning and data analysis.",
+        "required_skills": [
+          "Optical testing",
+          "Data analysis",
+          "Reliability engineering",
+          "Test planning"
+        ],
+        "desired_skills": [
+          "Silicon-photonics",
+          "Failure analysis",
+          "Debugging"
+        ],
+        "experience_level": "Mid to Senior-level",
+        "education_requirement": "Bachelor's degree in Electronics, Physics, or Material Science",
+        "job_category": "Optics / Reliability Engineering",
+        "benefits_highlights": [
+          "401(k)",
+          "Health, dental & vision",
+          "Paid time off"
+        ],
+        "compensation_description": "Yearly salary approximately between $131K and $167K",
+        "employment_type": "Full-time",
+        "job_posting_age": "Recent posting",
+        "location_insight": "Carlsbad, CA with onsite requirement (10+ days/month)",
+        "company_culture": "Innovative, research‑driven, and quality focused",
+        "training_provided": "On-the-job training in advanced optics testing",
+        "potential_career_path": "Growth into senior reliability or engineering leadership roles",
+        "physical_requirements": "Onsite presence required frequently",
+        "work_environment": "Laboratory and production settings",
+        "scheduling_details": "Standard work schedule with onsite commitments",
+        "job_demand": "High in technical research roles",
+        "recruitment_priority": "Medium to High",
+        "remote_option": "Not available",
+        "work_life_balance": "Challenging with significant onsite duties",
+        "company_reputation": "Cisco is known for leading-edge optics and reliability solutions",
+        "application_deadline": "Closes on January 21, 2025",
+        "onboarding_process": "Structured onboarding with lab orientation",
+        "shift_information": "Regular shifts with possible overtime during tests",
+        "safety_requirements": "Adherence to lab safety and regulatory standards",
+        "physical_workload": "Moderate; involves lab and test work",
+        "career_growth": "Opportunities for advancement in engineering roles",
+        "job_stability": "Stable role in a strategic technology group",
+        "performance_metrics": "Test accuracy, reliability improvements, and reporting quality",
+        "training_and_development": "Regular technical workshops and certifications",
+        "work_tools": [
+          "High-speed oscilloscopes",
+          "Analyzers",
+          "Data processing software"
+        ],
+        "communication_requirements": "Strong technical writing and presentation skills",
+        "industry_specific_terms": [
+          "Optical transceivers",
+          "ORT",
+          "PCN",
+          "Environmental stress testing"
+        ],
+        "language_proficiency": "English required",
+        "hiring_incentives": "Competitive salary and robust benefits",
+        "working_conditions": "Onsite laboratory and controlled environments",
+        "additional_requirements": "Attention to detail and strong analytical skills",
+        "company_overview": "Cisco is a leader in optical technologies and innovative engineering solutions",
+        "environmental_conditions": "Controlled lab environment with strict safety protocols",
+        "job_risk": "Low risk with standard lab hazards",
+        "diversity_stats": "Committed to inclusive hiring in technical roles",
+        "travel_requirement": "None",
+        "industry_trend": "Rising demand for high-performance optical systems",
+        "future_technology_integration": "Potential integration with next-gen optical testing platforms",
+        "recruitment_channels": [
+          "Cisco Careers",
+          "Technical job boards"
+        ],
+        "evaluation_criteria": "Reliability metrics, technical proficiency, and analytical skills",
+        "augmented_data_quality": "High",
+        "augmentation_timestamp": "2025-02-04T12:00:00Z",
+        "llm_version": "GPT-4",
+        "ethics": {
+          "is_ghost_job": false,
+          "is_coherent": true,
+          "coherence_analysis": {
+            "title_vs_description": {
+              "is_coherent": true,
+              "proof": "The title 'Optics Reliability Engineer' matches the role's focus on test planning and reliability."
+            },
+            "content_coherence": {
+              "transparency": {
+                "score": "High",
+                "proof": "Responsibilities and qualifications are clearly laid out."
+              },
+              "accuracy": {
+                "score": "High",
+                "proof": "Technical requirements and compensation details are accurate."
+              },
+              "completeness": {
+                "score": "Complete",
+                "proof": "The posting fully describes role, responsibilities, and benefits."
+              },
+              "fairness": {
+                "score": "Neutral",
+                "proof": "Language is factual and unbiased."
+              },
+              "inclusivity": {
+                "score": "Inclusive",
+                "proof": "Encourages diverse applicants meeting the technical criteria."
+              }
+            },
+            "overall_coherence": {
+              "score": "High",
+              "proof": "The posting is well-structured and ethically sound."
+            }
+          },
+          "reason": "The job posting clearly and comprehensively describes the role, meeting all ethical and coherence standards."
+        }
+      }
+    },
+    {
+      "id": "in-9e8051800569b23f",
+      "augmented": {
+        "job_summary": "Subject matter expert role focusing on optimizing network performance on UCS platforms with a blend of technical marketing and customer advisory responsibilities.",
+        "required_skills": [
+          "Technical marketing",
+          "Performance benchmarking",
+          "Networking protocols",
+          "White paper creation"
+        ],
+        "desired_skills": [
+          "Experience with UCS systems",
+          "Knowledge of virtualization and storage performance"
+        ],
+        "experience_level": "Mid to Senior-level",
+        "education_requirement": "Bachelor's degree in a technical field",
+        "job_category": "Technical Marketing / Performance Engineering",
+        "benefits_highlights": [
+          "401(k)",
+          "Health benefits",
+          "Paid time off"
+        ],
+        "compensation_description": "Yearly salary between approximately $171K and $216K",
+        "employment_type": "Full-time",
+        "job_posting_age": "Recent posting",
+        "location_insight": "San Jose, CA",
+        "company_culture": "Innovative, customer-focused, and collaborative",
+        "training_provided": "On-the-job mentoring and training in performance analytics",
+        "potential_career_path": "Growth into senior technical marketing or product strategy roles",
+        "physical_requirements": "Minimal; primarily office-based",
+        "work_environment": "Office-based, modern workspace",
+        "scheduling_details": "Standard work hours",
+        "job_demand": "High in competitive tech markets",
+        "recruitment_priority": "High",
+        "remote_option": "Not available",
+        "work_life_balance": "Balanced within standard hours",
+        "company_reputation": "Cisco is a market leader in technology solutions",
+        "application_deadline": "Closes on Nov 12, 2024",
+        "onboarding_process": "Structured onboarding with technical and marketing integration",
+        "shift_information": "Daytime, standard schedule",
+        "safety_requirements": "Standard office safety protocols",
+        "physical_workload": "Low",
+        "career_growth": "Opportunities for progression into strategic roles",
+        "job_stability": "Stable role in a growing business unit",
+        "performance_metrics": "Performance benchmarks, customer feedback, and collateral quality",
+        "training_and_development": "Regular professional development sessions",
+        "work_tools": [
+          "Performance benchmarking tools",
+          "Collaboration software"
+        ],
+        "communication_requirements": "Excellent technical and written communication",
+        "industry_specific_terms": [
+          "UCS",
+          "VIC",
+          "Fabric performance",
+          "Nutanix HCI"
+        ],
+        "language_proficiency": "English required",
+        "hiring_incentives": "Competitive base salary with bonus potential",
+        "working_conditions": "Office-based, modern workspace",
+        "additional_requirements": "Proven expertise in technical marketing and performance optimization",
+        "company_overview": "Cisco is renowned for its leadership in networking and integrated systems.",
+        "environmental_conditions": "Modern office environment",
+        "job_risk": "Low",
+        "diversity_stats": "Committed to inclusive hiring practices",
+        "travel_requirement": "Occasional travel may be required",
+        "industry_trend": "Growing emphasis on performance optimization in cloud and virtualization",
+        "future_technology_integration": "Evolving network performance tools and analytics integration",
+        "recruitment_channels": [
+          "Cisco Careers",
+          "Tech job boards",
+          "LinkedIn"
+        ],
+        "evaluation_criteria": "Technical proficiency, marketing impact, and performance results",
+        "augmented_data_quality": "High",
+        "augmentation_timestamp": "2025-02-04T12:00:00Z",
+        "llm_version": "GPT-4",
+        "ethics": {
+          "is_ghost_job": false,
+          "is_coherent": true,
+          "coherence_analysis": {
+            "title_vs_description": {
+              "is_coherent": true,
+              "proof": "The title 'Technical Marketing Engineer' reflects the dual focus on technical performance and marketing."
+            },
+            "content_coherence": {
+              "transparency": {
+                "score": "High",
+                "proof": "Role responsibilities, required skills, and benefits are clearly articulated."
+              },
+              "accuracy": {
+                "score": "High",
+                "proof": "The technical details and expectations align with industry standards."
+              },
+              "completeness": {
+                "score": "Complete",
+                "proof": "All necessary information is provided to understand the role."
+              },
+              "fairness": {
+                "score": "Neutral",
+                "proof": "The posting is objective and inclusive."
+              },
+              "inclusivity": {
+                "score": "Inclusive",
+                "proof": "The language and requirements are welcoming to a diverse audience."
+              }
+            },
+            "overall_coherence": {
+              "score": "High",
+              "proof": "The posting is well-structured and meets ethical standards."
+            }
+          },
+          "reason": "The posting is complete and transparent, with a title that accurately reflects its responsibilities."
+        }
+      }
+    },
+    {
+      "id": "in-0ade9c8c4742e05f",
+      "augmented": {
+        "job_summary": "Executive Assistant role supporting the SVP of Social Impact and Inclusion with high‑level calendar management, travel coordination, event planning, and confidential communications.",
+        "required_skills": [
+          "Calendar management",
+          "Event coordination",
+          "Confidentiality",
+          "Strong communication"
+        ],
+        "desired_skills": [
+          "Mentoring",
+          "Problem-solving",
+          "Interpersonal skills"
+        ],
+        "experience_level": "Mid-level to Senior-level administrative experience",
+        "education_requirement": "Minimum 5+ years in an administrative role; VP-level support experience preferred",
+        "job_category": "Administrative / Executive Support",
+        "benefits_highlights": [
+          "Comprehensive benefits",
+          "401(k)",
+          "Paid time off"
+        ],
+        "compensation_description": "Yearly salary ranging approximately from $99K to $126K",
+        "employment_type": "Full-time",
+        "job_posting_age": "Recent posting",
+        "location_insight": "San Jose, CA with hybrid onsite requirements",
+        "company_culture": "Collaborative, supportive, and inclusive",
+        "training_provided": "Onboarding and mentoring for executive support roles",
+        "potential_career_path": "Opportunities to advance to senior executive assistant or operations roles",
+        "physical_requirements": "Moderate; occasional onsite presence required",
+        "work_environment": "Fast-paced corporate environment",
+        "scheduling_details": "Hybrid schedule with flexible hours",
+        "job_demand": "High for experienced executive support professionals",
+        "recruitment_priority": "Medium to High",
+        "remote_option": "Hybrid work available",
+        "work_life_balance": "Balanced with flexible scheduling",
+        "company_reputation": "Cisco is renowned for its inclusive culture and commitment to social impact",
+        "application_deadline": "Closes on 1/13/2025",
+        "onboarding_process": "Structured onboarding with executive support training",
+        "shift_information": "Standard business hours with occasional flexibility",
+        "safety_requirements": "Standard office protocols apply",
+        "physical_workload": "Moderate",
+        "career_growth": "Opportunities for professional development and advancement",
+        "job_stability": "Stable role in a respected organization",
+        "performance_metrics": "Efficiency in scheduling, communication quality, and support effectiveness",
+        "training_and_development": "Regular training and cross‑functional mentoring",
+        "work_tools": [
+          "Calendar software",
+          "Communication tools",
+          "Travel management systems"
+        ],
+        "communication_requirements": "Excellent verbal and written communication skills",
+        "industry_specific_terms": [
+          "Executive support",
+          "Administrative coordination"
+        ],
+        "language_proficiency": "English required",
+        "hiring_incentives": "Competitive compensation with potential bonuses",
+        "working_conditions": "Hybrid work environment with occasional onsite presence",
+        "additional_requirements": "Strong discretion and ability to handle confidential information",
+        "company_overview": "Cisco is a global leader committed to social impact and inclusive practices.",
+        "environmental_conditions": "Modern office and remote work conditions",
+        "job_risk": "Low",
+        "diversity_stats": "Committed to diversity and inclusion",
+        "travel_requirement": "Occasional travel for events",
+        "industry_trend": "Increasing demand for high-level executive support in corporate environments",
+        "future_technology_integration": "Adoption of advanced scheduling and communication tools",
+        "recruitment_channels": [
+          "Cisco Careers",
+          "Executive networks",
+          "LinkedIn"
+        ],
+        "evaluation_criteria": "Efficiency, confidentiality, and support quality",
+        "augmented_data_quality": "High",
+        "augmentation_timestamp": "2025-02-04T12:00:00Z",
+        "llm_version": "GPT-4",
+        "ethics": {
+          "is_ghost_job": false,
+          "is_coherent": true,
+          "coherence_analysis": {
+            "title_vs_description": {
+              "is_coherent": true,
+              "proof": "The title clearly reflects the high‑level administrative support required for the SVP role."
+            },
+            "content_coherence": {
+              "transparency": {
+                "score": "High",
+                "proof": "Duties, requirements, and benefits are transparently described."
+              },
+              "accuracy": {
+                "score": "High",
+                "proof": "The role's responsibilities and qualifications are accurately detailed."
+              },
+              "completeness": {
+                "score": "Complete",
+                "proof": "All key elements of the executive assistant role are included."
+              },
+              "fairness": {
+                "score": "Neutral",
+                "proof": "The language is respectful and unbiased."
+              },
+              "inclusivity": {
+                "score": "Inclusive",
+                "proof": "The posting encourages applicants from diverse backgrounds."
+              }
+            },
+            "overall_coherence": {
+              "score": "High",
+              "proof": "The posting is comprehensive, well-structured, and ethically sound."
+            }
+          },
+          "reason": "The posting is detailed and its title aligns perfectly with the senior executive support responsibilities, meeting all ethical criteria."
+        }
+      }
+    },
+    {
+      "id": "in-c8115b7c1306822f",
+      "augmented": {
+        "job_summary": "Principal Hardware Engineer role responsible for driving the design, reliability, and quality of hyperscale products in a multi‑functional team environment.",
+        "required_skills": [
+          "Hardware design",
+          "Reliability engineering",
+          "Failure analysis",
+          "Signal integrity"
+        ],
+        "desired_skills": [
+          "Test automation",
+          "Vendor collaboration",
+          "Leadership"
+        ],
+        "experience_level": "Senior-level",
+        "education_requirement": "Bachelor's degree in Electrical/Computer Engineering",
+        "job_category": "Hardware Engineering",
+        "benefits_highlights": [
+          "401(k)",
+          "Health benefits",
+          "Paid time off"
+        ],
+        "compensation_description": "Yearly salary between approximately $194K and $246K",
+        "employment_type": "Full-time",
+        "job_posting_age": "Recent posting",
+        "location_insight": "Milpitas, CA with onsite responsibilities in San Jose",
+        "company_culture": "Innovative, quality‑driven, and collaborative",
+        "training_provided": "Continuous technical training and leadership development",
+        "potential_career_path": "Opportunities for advancement into executive engineering roles",
+        "physical_requirements": "Primarily office and lab work",
+        "work_environment": "Fast‑paced, technical, and collaborative",
+        "scheduling_details": "Standard work hours",
+        "job_demand": "High for experienced hardware engineers",
+        "recruitment_priority": "High",
+        "remote_option": "Not available",
+        "work_life_balance": "Challenging with high expectations",
+        "company_reputation": "Cisco is globally renowned for hardware and network innovation",
+        "application_deadline": "Based on recruitment cycle",
+        "onboarding_process": "Comprehensive onboarding with multi‑department exposure",
+        "shift_information": "Standard daytime schedule",
+        "safety_requirements": "Compliance with manufacturing and lab safety standards",
+        "physical_workload": "Moderate",
+        "career_growth": "Significant advancement potential",
+        "job_stability": "Stable core role in a critical business area",
+        "performance_metrics": "Product quality, reliability metrics, and timely delivery",
+        "training_and_development": "Regular technical training and leadership workshops",
+        "work_tools": [
+          "CAD tools",
+          "Simulation software",
+          "Test automation frameworks"
+        ],
+        "communication_requirements": "Strong technical and interpersonal communication skills",
+        "industry_specific_terms": [
+          "Hyperscale",
+          "ASIC",
+          "Signal integrity",
+          "Failure analysis"
+        ],
+        "language_proficiency": "English required",
+        "hiring_incentives": "Competitive salary with performance bonuses",
+        "working_conditions": "Onsite in a high-tech environment",
+        "additional_requirements": "Proven leadership and cross-functional collaboration skills",
+        "company_overview": "Cisco leads in hardware innovation with a strong commitment to quality and inclusion.",
+        "environmental_conditions": "Modern, safe lab and office environments",
+        "job_risk": "Low risk",
+        "diversity_stats": "Committed to diversity and inclusion in engineering",
+        "travel_requirement": "Limited travel",
+        "industry_trend": "Increasing demand for hyperscale data center technologies",
+        "future_technology_integration": "Ongoing adoption of advanced hardware solutions",
+        "recruitment_channels": [
+          "Cisco Careers",
+          "Industry conferences",
+          "LinkedIn"
+        ],
+        "evaluation_criteria": "Technical expertise, leadership, and cross-functional impact",
+        "augmented_data_quality": "High",
+        "augmentation_timestamp": "2025-02-04T12:00:00Z",
+        "llm_version": "GPT-4",
+        "ethics": {
+          "is_ghost_job": false,
+          "is_coherent": true,
+          "coherence_analysis": {
+            "title_vs_description": {
+              "is_coherent": true,
+              "proof": "The title 'Principal Hardware Engineer' accurately reflects the high-level hardware design and leadership responsibilities."
+            },
+            "content_coherence": {
+              "transparency": {
+                "score": "High",
+                "proof": "All essential aspects of the role are clearly detailed."
+              },
+              "accuracy": {
+                "score": "High",
+                "proof": "Role expectations and compensation details are precise."
+              },
+              "completeness": {
+                "score": "Complete",
+                "proof": "The posting is comprehensive in its description of responsibilities and requirements."
+              },
+              "fairness": {
+                "score": "Neutral",
+                "proof": "Language is professional and objective."
+              },
+              "inclusivity": {
+                "score": "Inclusive",
+                "proof": "Encourages a diverse pool of experienced engineers."
+              }
+            },
+            "overall_coherence": {
+              "score": "High",
+              "proof": "The posting is well-structured, detailed, and ethically sound."
+            }
+          },
+          "reason": "The posting is thorough and its title accurately represents the strategic hardware leadership role."
+        }
+      }
+    },
+    {
+      "id": "in-4c71b6186c3c8187",
+      "augmented": {
+        "job_summary": "Senior technical leader role responsible for overseeing the development, integration, and debugging of embedded software for UCS chassis management.",
+        "required_skills": [
+          "C programming",
+          "Embedded Linux",
+          "System‑level programming",
+          "Debugging"
+        ],
+        "desired_skills": [
+          "Kernel/driver development",
+          "Schematic reading",
+          "Leadership"
+        ],
+        "experience_level": "Senior-level",
+        "education_requirement": "Bachelor's degree in Computer Science or related field",
+        "job_category": "Software Engineering / Embedded Systems",
+        "benefits_highlights": [
+          "401(k)",
+          "Health insurance",
+          "Paid time off"
+        ],
+        "compensation_description": "Yearly salary between approximately $134K and $170K",
+        "employment_type": "Full-time",
+        "job_posting_age": "Posted until 09/30/2024",
+        "location_insight": "San Jose, CA",
+        "company_culture": "Collaborative, innovative, and quality‑focused",
+        "training_provided": "Extensive onboarding and continuous development programs",
+        "potential_career_path": "Opportunity for management and advanced technical leadership",
+        "physical_requirements": "Primarily desk‑based",
+        "work_environment": "High‑energy, collaborative engineering environment",
+        "scheduling_details": "Standard work hours",
+        "job_demand": "High among experienced embedded engineers",
+        "recruitment_priority": "High",
+        "remote_option": "Not available",
+        "work_life_balance": "Demanding but rewarding",
+        "company_reputation": "Cisco is a globally recognized leader in IT and networking solutions",
+        "application_deadline": "Closes on 09/30/2024",
+        "onboarding_process": "Structured, multi‑phase onboarding process",
+        "shift_information": "Daytime, standard schedule",
+        "safety_requirements": "Standard office safety practices",
+        "physical_workload": "Low",
+        "career_growth": "Significant growth potential into leadership roles",
+        "job_stability": "Stable role in a critical business area",
+        "performance_metrics": "Code quality, project delivery, and leadership effectiveness",
+        "training_and_development": "Regular technical and leadership training sessions",
+        "work_tools": [
+          "Embedded development tools",
+          "Collaboration software"
+        ],
+        "communication_requirements": "Excellent verbal and written communication skills",
+        "industry_specific_terms": [
+          "UCS",
+          "Chassis Management",
+          "Embedded software"
+        ],
+        "language_proficiency": "English required",
+        "hiring_incentives": "Competitive salary with performance incentives",
+        "working_conditions": "Office-based",
+        "additional_requirements": "Prior people management experience is a plus",
+        "company_overview": "Cisco is an industry leader committed to innovation and excellence in technology.",
+        "environmental_conditions": "Modern office environment",
+        "job_risk": "Low risk",
+        "diversity_stats": "Committed to a diverse and inclusive workforce",
+        "travel_requirement": "Minimal travel",
+        "industry_trend": "Growing emphasis on integrated IT solutions",
+        "future_technology_integration": "Ongoing innovation in embedded and cloud technologies",
+        "recruitment_channels": [
+          "Cisco Careers",
+          "Tech conferences",
+          "LinkedIn"
+        ],
+        "evaluation_criteria": "Technical innovation, leadership, and delivery excellence",
+        "augmented_data_quality": "High",
+        "augmentation_timestamp": "2025-02-04T12:00:00Z",
+        "llm_version": "GPT-4",
+        "ethics": {
+          "is_ghost_job": false,
+          "is_coherent": true,
+          "coherence_analysis": {
+            "title_vs_description": {
+              "is_coherent": true,
+              "proof": "The title clearly reflects the senior leadership and technical responsibilities detailed."
+            },
+            "content_coherence": {
+              "transparency": {
+                "score": "High",
+                "proof": "All key role requirements and expectations are clearly listed."
+              },
+              "accuracy": {
+                "score": "High",
+                "proof": "Details regarding responsibilities, skills, and compensation are precise."
+              },
+              "completeness": {
+                "score": "Complete",
+                "proof": "The posting comprehensively covers the technical and leadership aspects of the role."
+              },
+              "fairness": {
+                "score": "Neutral",
+                "proof": "Language is clear and free from bias."
+              },
+              "inclusivity": {
+                "score": "Inclusive",
+                "proof": "The posting welcomes diverse candidates for a senior technical role."
+              }
+            },
+            "overall_coherence": {
+              "score": "High",
+              "proof": "The posting is well-structured, detailed, and ethically sound."
+            }
+          },
+          "reason": "The posting provides clear, complete, and consistent details, and its title accurately represents a senior technical leadership role."
+        }
+      }
+    },
+    {
+      "id": "in-f73b20a6fb25d3a7",
+      "augmented": {
+        "job_summary": "Senior legal role providing transactional support for Cisco's Public Sector sales, focusing on complex agreements, compliance, and risk management.",
+        "required_skills": [
+          "Transactional law",
+          "Government contracting",
+          "Negotiation",
+          "Compliance"
+        ],
+        "desired_skills": [
+          "Data privacy",
+          "Cybersecurity law",
+          "Public sector expertise"
+        ],
+        "experience_level": "Senior-level",
+        "education_requirement": "Law degree and bar admission",
+        "job_category": "Legal / Corporate Counsel",
+        "benefits_highlights": [
+          "Comprehensive legal benefits",
+          "401(k)",
+          "Paid time off"
+        ],
+        "compensation_description": "Yearly salary ranging approximately from $218K to $277K",
+        "employment_type": "Full-time, Remote",
+        "job_posting_age": "Extended posting",
+        "location_insight": "Remote position serving US Public Sector (SLED)",
+        "company_culture": "Fast‑paced, innovative, and legally rigorous",
+        "training_provided": "Remote onboarding with legal and compliance training",
+        "potential_career_path": "Advancement into senior legal leadership",
+        "physical_requirements": "Minimal; remote work",
+        "work_environment": "Remote, collaborative legal department",
+        "scheduling_details": "Standard remote work hours",
+        "job_demand": "High for experienced legal professionals",
+        "recruitment_priority": "High",
+        "remote_option": "Fully remote",
+        "work_life_balance": "Flexible remote work",
+        "company_reputation": "Cisco is respected for its legal and business ethics",
+        "application_deadline": "Closes on 1/10/2025",
+        "onboarding_process": "Remote onboarding with integrated legal training",
+        "shift_information": "Flexible, remote schedule",
+        "safety_requirements": "Remote work standard",
+        "physical_workload": "Low",
+        "career_growth": "Opportunities to influence corporate legal strategy",
+        "job_stability": "Stable role in a critical legal function",
+        "performance_metrics": "Quality of legal work, risk mitigation, and deal success",
+        "training_and_development": "Continuous legal education and professional development",
+        "work_tools": [
+          "Legal research databases",
+          "Contract management software"
+        ],
+        "communication_requirements": "Excellent legal writing and negotiation skills",
+        "industry_specific_terms": [
+          "Government contracting",
+          "Data privacy",
+          "Cybersecurity"
+        ],
+        "language_proficiency": "English required",
+        "hiring_incentives": "Competitive salary with performance bonuses",
+        "working_conditions": "Remote, flexible working environment",
+        "additional_requirements": "Strong judgment and attention to detail",
+        "company_overview": "Cisco is committed to ethical business practices and legal excellence globally.",
+        "environmental_conditions": "Home office or equivalent",
+        "job_risk": "Low",
+        "diversity_stats": "Dedicated to diversity and inclusive legal practices",
+        "travel_requirement": "Occasional travel if required",
+        "industry_trend": "Evolving regulations in public sector contracting",
+        "future_technology_integration": "Integration of legal tech solutions in contract management",
+        "recruitment_channels": [
+          "Cisco Careers",
+          "Legal networks",
+          "LinkedIn"
+        ],
+        "evaluation_criteria": "Legal expertise, negotiation skills, and strategic impact",
+        "augmented_data_quality": "High",
+        "augmentation_timestamp": "2025-02-04T12:00:00Z",
+        "llm_version": "GPT-4",
+        "ethics": {
+          "is_ghost_job": false,
+          "is_coherent": true,
+          "coherence_analysis": {
+            "title_vs_description": {
+              "is_coherent": true,
+              "proof": "The title 'Senior Corporate Counsel: US Public Sector (SLED)' accurately reflects the complex legal and transactional responsibilities."
+            },
+            "content_coherence": {
+              "transparency": {
+                "score": "High",
+                "proof": "The posting details role expectations, required legal expertise, and compensation clearly."
+              },
+              "accuracy": {
+                "score": "High",
+                "proof": "The legal responsibilities and qualifications are precisely described."
+              },
+              "completeness": {
+                "score": "Complete",
+                "proof": "All critical aspects of the role are covered."
+              },
+              "fairness": {
+                "score": "Neutral",
+                "proof": "Language is objective and free from bias."
+              },
+              "inclusivity": {
+                "score": "Inclusive",
+                "proof": "Encourages applications from a diverse legal background."
+              }
+            },
+            "overall_coherence": {
+              "score": "High",
+              "proof": "The posting is comprehensive, coherent, and ethically aligned."
+            }
+          },
+          "reason": "The posting is detailed and transparent, with a title that accurately represents the role, meeting all ethical standards."
+        }
+      }
+    },
+    {
+      "id": "in-799f4637fc8b1706",
+      "augmented": {
+        "job_summary": "Software Developer role on the Cisco Identity team focusing on building scalable Java-based microservices in secure, FedRAMP/IL‑5 environments.",
+        "required_skills": [
+          "Java",
+          "Microservices",
+          "Docker",
+          "Kubernetes",
+          "Multi‑threading"
+        ],
+        "desired_skills": [
+          "FedRAMP experience",
+          "Cloud databases (Postgres, Cassandra)",
+          "Agile methodologies"
+        ],
+        "experience_level": "Early to Mid-level",
+        "education_requirement": "Bachelor's degree in Computer Science or related field",
+        "job_category": "Software Development / Cloud Engineering",
+        "benefits_highlights": [
+          "401(k)",
+          "Medical/Dental/Vision",
+          "Paid time off"
+        ],
+        "compensation_description": "Yearly salary between approximately $134K and $170K",
+        "employment_type": "Full-time",
+        "job_posting_age": "Recent posting",
+        "location_insight": "San Jose, CA with U.S. work restrictions",
+        "company_culture": "Innovative, agile, and security‑focused",
+        "training_provided": "On-the-job training in cloud and security technologies",
+        "potential_career_path": "Growth into advanced software or cloud engineering roles",
+        "physical_requirements": "Minimal; office‑based",
+        "work_environment": "Fast‑paced, agile development environment",
+        "scheduling_details": "Standard work hours",
+        "job_demand": "High in secure software development",
+        "recruitment_priority": "High",
+        "remote_option": "Not available due to U.S. work restrictions",
+        "work_life_balance": "Balanced within a structured development team",
+        "company_reputation": "Cisco is a leader in secure identity and networking solutions",
+        "application_deadline": "Closes on 01/17/2024",
+        "onboarding_process": "Comprehensive onboarding and orientation",
+        "shift_information": "Daytime, standard schedule",
+        "safety_requirements": "Standard office safety protocols",
+        "physical_workload": "Low",
+        "career_growth": "Opportunities for progression in cloud software development",
+        "job_stability": "Stable role in a core business function",
+        "performance_metrics": "Code quality, system performance, and security compliance",
+        "training_and_development": "Regular technical training and career development sessions",
+        "work_tools": [
+          "Java IDEs",
+          "Docker",
+          "Kubernetes",
+          "CI/CD pipelines"
+        ],
+        "communication_requirements": "Strong collaboration and documentation skills",
+        "industry_specific_terms": [
+          "FedRAMP",
+          "Identity management",
+          "Microservices"
+        ],
+        "language_proficiency": "English required",
+        "hiring_incentives": "Competitive base salary with bonus potential",
+        "working_conditions": "Office-based in a secure environment",
+        "additional_requirements": "Must be a U.S. Person as per FedRAMP requirements",
+        "company_overview": "Cisco is a pioneer in identity and security solutions with a strong commitment to excellence.",
+        "environmental_conditions": "Modern office with strict security protocols",
+        "job_risk": "Low",
+        "diversity_stats": "Committed to diverse and inclusive hiring practices",
+        "travel_requirement": "None",
+        "industry_trend": "Increasing need for secure cloud software solutions",
+        "future_technology_integration": "Ongoing evolution of microservices and containerization",
+        "recruitment_channels": [
+          "Cisco Careers",
+          "Tech job boards",
+          "LinkedIn"
+        ],
+        "evaluation_criteria": "Technical proficiency, security expertise, and innovation",
+        "augmented_data_quality": "High",
+        "augmentation_timestamp": "2025-02-04T12:00:00Z",
+        "llm_version": "GPT-4",
+        "ethics": {
+          "is_ghost_job": false,
+          "is_coherent": true,
+          "coherence_analysis": {
+            "title_vs_description": {
+              "is_coherent": true,
+              "proof": "The title 'Software Developer' clearly matches the focus on secure, cloud‑based microservices."
+            },
+            "content_coherence": {
+              "transparency": {
+                "score": "High",
+                "proof": "Role expectations and U.S. work restrictions are clearly outlined."
+              },
+              "accuracy": {
+                "score": "High",
+                "proof": "Technical requirements and compensation details are accurate."
+              },
+              "completeness": {
+                "score": "Complete",
+                "proof": "The posting fully describes role, responsibilities, and requirements."
+              },
+              "fairness": {
+                "score": "Neutral",
+                "proof": "Language is professional and objective."
+              },
+              "inclusivity": {
+                "score": "Inclusive",
+                "proof": "The posting welcomes candidates meeting the strict U.S. criteria."
+              }
+            },
+            "overall_coherence": {
+              "score": "High",
+              "proof": "The posting is well-structured, detailed, and ethically appropriate."
+            }
+          },
+          "reason": "The job posting is clear, complete, and ethically aligned with a title that accurately reflects its secure software development focus."
+        }
+      }
+    },
+    {
+      "id": "in-820e9aeb19786da2",
+      "augmented": {
+        "job_summary": "Technical leadership role focused on designing and automating test frameworks for high‑performance networking platforms, with an emphasis on analytics and machine learning integration.",
+        "required_skills": [
+          "Test automation",
+          "Python/GoLang",
+          "Networking protocols",
+          "Analytics"
+        ],
+        "desired_skills": [
+          "Machine learning integration",
+          "Web‑based GUI development",
+          "Agile methodologies"
+        ],
+        "experience_level": "Senior-level",
+        "education_requirement": "Bachelor's degree in a STEM field (or equivalent)",
+        "job_category": "Software Testing / Automation",
+        "benefits_highlights": [
+          "401(k)",
+          "Health benefits",
+          "Paid time off"
+        ],
+        "compensation_description": "Yearly salary between approximately $145K and $183K",
+        "employment_type": "Full-time",
+        "job_posting_age": "Recent posting",
+        "location_insight": "San Jose, CA",
+        "company_culture": "Collaborative, innovative, and high‑energy",
+        "training_provided": "Ongoing training in test automation and analytics",
+        "potential_career_path": "Growth into senior technical management roles",
+        "physical_requirements": "Minimal; office‑based role",
+        "work_environment": "Dynamic, team‑oriented environment",
+        "scheduling_details": "Standard work hours",
+        "job_demand": "High in the competitive networking industry",
+        "recruitment_priority": "High",
+        "remote_option": "Not available",
+        "work_life_balance": "Balanced within a fast‑paced environment",
+        "company_reputation": "Cisco is a leader in networking and innovative test automation solutions",
+        "application_deadline": "Closes on 02/03/2025",
+        "onboarding_process": "Structured onboarding with cross‑functional integration",
+        "shift_information": "Daytime, standard schedule",
+        "safety_requirements": "Standard office safety protocols",
+        "physical_workload": "Low",
+        "career_growth": "Opportunities to advance into higher leadership roles",
+        "job_stability": "Stable role within a critical business unit",
+        "performance_metrics": "Test coverage, automation efficiency, and defect resolution rate",
+        "training_and_development": "Regular technical workshops and leadership training",
+        "work_tools": [
+          "Automation frameworks",
+          "Analytics tools",
+          "CI/CD systems"
+        ],
+        "communication_requirements": "Excellent technical and interpersonal communication",
+        "industry_specific_terms": [
+          "IOS‑XR",
+          "ASR9K",
+          "NCS5500",
+          "Test automation"
+        ],
+        "language_proficiency": "English required",
+        "hiring_incentives": "Competitive compensation with performance incentives",
+        "working_conditions": "Office‑based in a collaborative setting",
+        "additional_requirements": "Experience in managing and mentoring teams",
+        "company_overview": "Cisco is a global leader in innovative networking and test automation solutions.",
+        "environmental_conditions": "Modern office environment",
+        "job_risk": "Low",
+        "diversity_stats": "Committed to diversity and inclusion",
+        "travel_requirement": "Limited travel",
+        "industry_trend": "Growing demand for automation in network testing",
+        "future_technology_integration": "High potential for AI/ML integration in testing",
+        "recruitment_channels": [
+          "Cisco Careers",
+          "Tech job boards",
+          "LinkedIn"
+        ],
+        "evaluation_criteria": "Automation proficiency, leadership, and innovation",
+        "augmented_data_quality": "High",
+        "augmentation_timestamp": "2025-02-04T12:00:00Z",
+        "llm_version": "GPT-4",
+        "ethics": {
+          "is_ghost_job": false,
+          "is_coherent": true,
+          "coherence_analysis": {
+            "title_vs_description": {
+              "is_coherent": true,
+              "proof": "The title 'Technical Leader - Test Automation' accurately captures the automation and leadership responsibilities."
+            },
+            "content_coherence": {
+              "transparency": {
+                "score": "High",
+                "proof": "Role expectations, technical skills, and benefits are clearly stated."
+              },
+              "accuracy": {
+                "score": "High",
+                "proof": "Technical details and compensation data are accurate."
+              },
+              "completeness": {
+                "score": "Complete",
+                "proof": "All necessary role components are described comprehensively."
+              },
+              "fairness": {
+                "score": "Neutral",
+                "proof": "Language is unbiased and professional."
+              },
+              "inclusivity": {
+                "score": "Inclusive",
+                "proof": "Encourages a diverse set of candidates to apply."
+              }
+            },
+            "overall_coherence": {
+              "score": "High",
+              "proof": "The posting is well-structured, detailed, and ethically sound."
+            }
+          },
+          "reason": "The posting is thorough, with a clear title and detailed responsibilities that meet ethical standards."
+        }
+      }
+    },
+    {
+      "id": "in-cb8daa4373c88481",
+      "augmented": {
+        "job_summary": "Senior Product Manager responsible for lifecycle management and strategic delivery of Cisco Secure Firewalls, with a focus on operations, forecasting, and market evangelism.",
+        "required_skills": [
+          "Product management",
+          "Roadmap development",
+          "Forecasting",
+          "Supply chain engagement"
+        ],
+        "desired_skills": [
+          "Presentation skills",
+          "Regulatory compliance",
+          "Cross‑functional leadership"
+        ],
+        "experience_level": "Senior-level",
+        "education_requirement": "Bachelor's degree or equivalent in a related field",
+        "job_category": "Product Management / Hardware Platforms",
+        "benefits_highlights": [
+          "401(k)",
+          "Health benefits",
+          "Paid time off"
+        ],
+        "compensation_description": "Yearly salary ranging approximately from $163K to $206K",
+        "employment_type": "Full-time",
+        "job_posting_age": "Recent posting",
+        "location_insight": "Preference for candidates local to Austin, TX or RTP, NC",
+        "company_culture": "Fast‑paced, innovative, and collaborative",
+        "training_provided": "Onboarding with cross‑functional product training",
+        "potential_career_path": "Opportunities for senior product leadership",
+        "physical_requirements": "Minimal; primarily office‑based",
+        "work_environment": "Dynamic and transformative",
+        "scheduling_details": "Standard work hours",
+        "job_demand": "High in competitive security markets",
+        "recruitment_priority": "High",
+        "remote_option": "Not available",
+        "work_life_balance": "Challenging yet rewarding",
+        "company_reputation": "Cisco is a global leader in security and innovation",
+        "application_deadline": "Closes on 1/17/2025",
+        "onboarding_process": "Structured onboarding with product and market integration",
+        "shift_information": "Daytime, standard schedule",
+        "safety_requirements": "Standard office protocols",
+        "physical_workload": "Low",
+        "career_growth": "Significant potential in product leadership",
+        "job_stability": "Stable role in a growing business unit",
+        "performance_metrics": "Market impact, product delivery, and customer satisfaction",
+        "training_and_development": "Ongoing professional development and leadership training",
+        "work_tools": [
+          "Product management tools",
+          "CRM systems",
+          "Forecasting software"
+        ],
+        "communication_requirements": "Excellent communication and interpersonal skills",
+        "industry_specific_terms": [
+          "Security Firewalls",
+          "Lifecycle management",
+          "Compliance"
+        ],
+        "language_proficiency": "English required",
+        "hiring_incentives": "Competitive salary with bonus potential",
+        "working_conditions": "Office-based in a high‑energy environment",
+        "additional_requirements": "Experience in security hardware is preferred",
+        "company_overview": "Cisco is renowned for its innovation in security solutions and a commitment to customer success.",
+        "environmental_conditions": "Modern office environment",
+        "job_risk": "Low",
+        "diversity_stats": "Strong commitment to diversity and inclusion",
+        "travel_requirement": "Minimal travel",
+        "industry_trend": "Growing demand for integrated security solutions",
+        "future_technology_integration": "Evolving integration of digital and hardware platforms",
+        "recruitment_channels": [
+          "Cisco Careers",
+          "Professional networks",
+          "LinkedIn"
+        ],
+        "evaluation_criteria": "Product strategy, leadership, and market impact",
+        "augmented_data_quality": "High",
+        "augmentation_timestamp": "2025-02-04T12:00:00Z",
+        "llm_version": "GPT-4",
+        "ethics": {
+          "is_ghost_job": false,
+          "is_coherent": true,
+          "coherence_analysis": {
+            "title_vs_description": {
+              "is_coherent": true,
+              "proof": "The title 'Senior Product Manager, Hardware Platforms' aligns with the role's focus on firewall lifecycle management and strategic delivery."
+            },
+            "content_coherence": {
+              "transparency": {
+                "score": "High",
+                "proof": "The posting provides detailed responsibilities and requirements."
+              },
+              "accuracy": {
+                "score": "High",
+                "proof": "All critical details are accurate and verifiable."
+              },
+              "completeness": {
+                "score": "Complete",
+                "proof": "The posting includes all aspects of the role, from strategy to operations."
+              },
+              "fairness": {
+                "score": "Neutral",
+                "proof": "The language is objective and unbiased."
+              },
+              "inclusivity": {
+                "score": "Inclusive",
+                "proof": "Encourages applications from a diverse candidate pool."
+              }
+            },
+            "overall_coherence": {
+              "score": "High",
+              "proof": "The posting is comprehensive, coherent, and ethically sound."
+            }
+          },
+          "reason": "The job posting is transparent, detailed, and the title accurately reflects its strategic product management focus."
+        }
+      }
+    }
+  ]
+}

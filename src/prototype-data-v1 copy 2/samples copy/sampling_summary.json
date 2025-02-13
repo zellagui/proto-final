@@ -1,0 +1,248 @@
+{
+  "generation_date": "2025-02-02 18:06:30",
+  "sample_size": 20,
+  "sectors": {
+    "Technology": {
+      "total_companies": 2,
+      "companies": {
+        "Microsoft": {
+          "sample_size": 20,
+          "total_jobs": 962,
+          "job_types": [
+            "Modern",
+            "[US",
+            "Integration",
+            "Principal",
+            "Critical",
+            "SOFTWARE",
+            "Architect",
+            "Finance",
+            "Director",
+            "Senior",
+            "Legal",
+            "Research",
+            "Data"
+          ]
+        },
+        "Cisco": {
+          "sample_size": 20,
+          "total_jobs": 257,
+          "job_types": [
+            "ASIC",
+            "Warehouse",
+            "Software",
+            "ESG",
+            "Principal",
+            "Solutions",
+            "Technical",
+            "Account",
+            "Executive",
+            "Customer",
+            "Business",
+            "Senior",
+            "Physical",
+            "Optics"
+          ]
+        }
+      }
+    },
+    "Financial_Services": {
+      "total_companies": 2,
+      "companies": {
+        "Capital_One": {
+          "sample_size": 20,
+          "total_jobs": 1058,
+          "job_types": [
+            "Applied",
+            "Relationship",
+            "Manager,",
+            "Director,",
+            "Principal",
+            "Agency",
+            "Audit",
+            "Senior",
+            "Lead",
+            "DART",
+            "Sr."
+          ]
+        },
+        "Bank_of_America": {
+          "sample_size": 20,
+          "total_jobs": 1091,
+          "job_types": [
+            "Relationship",
+            "Credit",
+            "Corporate",
+            "Wealth",
+            "Compliance",
+            "Cyber",
+            "Sr",
+            "Product",
+            "Merchant",
+            "Financial",
+            "Workplace",
+            "Merrill"
+          ]
+        }
+      }
+    },
+    "Healthcare": {
+      "total_companies": 2,
+      "companies": {
+        "Trinity_Health": {
+          "sample_size": 20,
+          "total_jobs": 1162,
+          "job_types": [
+            "Certified",
+            "Resident",
+            "Imaging",
+            "Office",
+            "Hospital",
+            "Security",
+            "Care",
+            "Billing",
+            "RN-",
+            "Patient",
+            "Plumber/Pipe",
+            "Business",
+            "Coding",
+            "Environmental",
+            "Community",
+            "Radiology"
+          ]
+        },
+        "Intermountain_Health": {
+          "sample_size": 20,
+          "total_jobs": 1267,
+          "job_types": [
+            "Lactation",
+            "Culinary",
+            "Adult",
+            "PRN",
+            "APP",
+            "EVS",
+            "Cook",
+            "Advanced",
+            "Enhanced",
+            "Urologist",
+            "Medical",
+            "St",
+            "Registered",
+            "Supervisor",
+            "Population",
+            "Sonographer",
+            "Radiation"
+          ]
+        }
+      }
+    },
+    "Retail_and_Apparel": {
+      "total_companies": 4,
+      "companies": {
+        "lululemon": {
+          "sample_size": 20,
+          "total_jobs": 429,
+          "job_types": [
+            "Retail",
+            "Visual",
+            "Educator",
+            "Contract",
+            "Guest",
+            "Product",
+            "Senior",
+            "Community",
+            "Assistant"
+          ]
+        },
+        "Skechers": {
+          "sample_size": 20,
+          "total_jobs": 855,
+          "job_types": [
+            "Part",
+            "Retail",
+            "District"
+          ]
+        },
+        "Nike": {
+          "sample_size": 20,
+          "total_jobs": 530,
+          "job_types": [
+            "Software",
+            "Director,",
+            "Retail",
+            "Senior,",
+            "Data",
+            "New",
+            "Senior",
+            "Lead",
+            "Distinguished",
+            "Design"
+          ]
+        },
+        "Family_Dollar": {
+          "sample_size": 20,
+          "total_jobs": 940,
+          "job_types": [
+            "ASSISTANT",
+            "CUSTOMER"
+          ]
+        }
+      }
+    },
+    "Telecommunications": {
+      "total_companies": 1,
+      "companies": {
+        "Verizon": {
+          "sample_size": 20,
+          "total_jobs": 384,
+          "job_types": [
+            "Retail",
+            "Employee",
+            "Principal",
+            "Network",
+            "IT",
+            "Digital",
+            "State",
+            "Business",
+            "Buildings",
+            "Senior",
+            "Experience",
+            "Client",
+            "Associate",
+            "Data"
+          ]
+        }
+      }
+    },
+    "Media_and_Entertainment": {
+      "total_companies": 1,
+      "companies": {
+        "NBCUniversal": {
+          "sample_size": 20,
+          "total_jobs": 349,
+          "job_types": [
+            "Producer,",
+            "Executive",
+            "Freelance",
+            "Project",
+            "Coordinator,",
+            "Reporter,",
+            "Universal",
+            "Manager,",
+            "Director,",
+            "Manager",
+            "Pastry",
+            "Supervisor",
+            "L2",
+            "Analyst,",
+            "Specialist,",
+            "Associate",
+            "Sr.",
+            "Dir,",
+            "Sr"
+          ]
+        }
+      }
+    }
+  }
+}

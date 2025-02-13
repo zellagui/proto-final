@@ -1,0 +1,788 @@
+{
+  "analysis_date": "2025-02-01",
+  "company_name": "NBCUniversal",
+  "summary": {
+    "headline_points": [
+      "Total 349 jobs analyzed for NBCUniversal",
+      "Mean min salary: $87394, mean max salary: $111142",
+      "Top location is Universal City, CA",
+      "Remote work percentage: ~13.18%",
+      "Strong culture emphasis on diversity, training, and benefits"
+    ]
+  },
+  "company_profile": {
+    "company_description": "",
+    "company_size": "Unknown",
+    "company_revenue": "Unknown"
+  },
+  "compensation": {
+    "min_salary_stats": {
+      "mean": 87393.7302052786,
+      "median": 85000.0,
+      "std": 42363.774402594914,
+      "quartiles": [
+        61812.0,
+        85000.0,
+        112786.0
+      ],
+      "iqr": 50974.0
+    },
+    "max_salary_stats": {
+      "mean": 111142.47800586511,
+      "median": 105000.0,
+      "std": 55307.06273016999,
+      "quartiles": [
+        75000.0,
+        105000.0,
+        140000.0
+      ],
+      "iqr": 65000.0
+    },
+    "salary_spread": {
+      "mean_spread": 23748.74780058651,
+      "median_spread": 20000.0
+    },
+    "bands": {
+      "entry_level": {
+        "range": [
+          18.0,
+          106678.66666666667
+        ],
+        "count": 426
+      },
+      "mid_level": {
+        "range": [
+          106678.66666666667,
+          213339.33333333334
+        ],
+        "count": 240
+      },
+      "senior_level": {
+        "range": [
+          213339.33333333334,
+          320000.0
+        ],
+        "count": 16
+      }
+    }
+  },
+  "location_analysis": {
+    "total_jobs": 349,
+    "top_locations": [
+      [
+        "Universal City, CA",
+        102
+      ],
+      [
+        "New York, NY",
+        90
+      ],
+      [
+        "Englewood Cliffs, NJ",
+        28
+      ],
+      [
+        "Stamford, CT",
+        19
+      ],
+      [
+        "Orlando, FL",
+        15
+      ]
+    ],
+    "state_distribution": {
+      "CA": 123,
+      "NY": 90,
+      "FL": 34,
+      "NJ": 29,
+      "CT": 22,
+      "CO": 11,
+      "TX": 7,
+      "PA": 6,
+      "DC": 5,
+      "GA": 4,
+      "AZ": 4,
+      "IL": 3,
+      "MA": 3,
+      "NV": 2,
+      "MN": 2,
+      "NM": 2,
+      "MI": 1,
+      "UT": 1
+    },
+    "remote_jobs": {
+      "percentage": 13.18051575931232
+    },
+    "location_diversity_score": 0.832571161156312
+  },
+  "job_categories": {
+    "marketing": {
+      "count": 346,
+      "percentage": 99.14040114613181,
+      "avg_salary_range": {
+        "min": 87183.05917159763,
+        "max": 110845.32544378698
+      },
+      "remote_percentage": 13.005780346820808,
+      "top_locations": [
+        [
+          "Universal City, CA",
+          101
+        ],
+        [
+          "New York, NY",
+          90
+        ],
+        [
+          "Englewood Cliffs, NJ",
+          28
+        ]
+      ]
+    },
+    "management": {
+      "count": 222,
+      "percentage": 63.61031518624641,
+      "avg_salary_range": {
+        "min": 97186.76923076923,
+        "max": 123737.17194570135
+      },
+      "remote_percentage": 14.414414414414415,
+      "top_locations": [
+        [
+          "Universal City, CA",
+          73
+        ],
+        [
+          "New York, NY",
+          69
+        ],
+        [
+          "Englewood Cliffs, NJ",
+          17
+        ]
+      ]
+    },
+    "operations": {
+      "count": 347,
+      "percentage": 99.42693409742121,
+      "avg_salary_range": {
+        "min": 87465.34513274336,
+        "max": 111236.0
+      },
+      "remote_percentage": 12.968299711815561,
+      "top_locations": [
+        [
+          "Universal City, CA",
+          102
+        ],
+        [
+          "New York, NY",
+          90
+        ],
+        [
+          "Englewood Cliffs, NJ",
+          28
+        ]
+      ]
+    },
+    "research": {
+      "count": 91,
+      "percentage": 26.07449856733524,
+      "avg_salary_range": {
+        "min": 85133.1511627907,
+        "max": 110156.6511627907
+      },
+      "remote_percentage": 7.6923076923076925,
+      "top_locations": [
+        [
+          "New York, NY",
+          31
+        ],
+        [
+          "Universal City, CA",
+          20
+        ],
+        [
+          "Englewood Cliffs, NJ",
+          6
+        ]
+      ]
+    },
+    "data_science": {
+      "count": 66,
+      "percentage": 18.911174785100286,
+      "avg_salary_range": {
+        "min": 99119.68181818182,
+        "max": 126129.01515151515
+      },
+      "remote_percentage": 16.666666666666664,
+      "top_locations": [
+        [
+          "New York, NY",
+          28
+        ],
+        [
+          "Universal City, CA",
+          15
+        ],
+        [
+          "Englewood Cliffs, NJ",
+          14
+        ]
+      ]
+    },
+    "product": {
+      "count": 12,
+      "percentage": 3.4383954154727796,
+      "avg_salary_range": {
+        "min": 106393.16666666667,
+        "max": 135340.75
+      },
+      "remote_percentage": 16.666666666666664,
+      "top_locations": [
+        [
+          "New York, NY",
+          5
+        ],
+        [
+          "Universal City, CA",
+          4
+        ],
+        [
+          "Stamford, CT",
+          1
+        ]
+      ]
+    },
+    "sales": {
+      "count": 77,
+      "percentage": 22.063037249283667,
+      "avg_salary_range": {
+        "min": 88850.51948051948,
+        "max": 111693.5974025974
+      },
+      "remote_percentage": 5.194805194805195,
+      "top_locations": [
+        [
+          "New York, NY",
+          28
+        ],
+        [
+          "Universal City, CA",
+          25
+        ],
+        [
+          "Stamford, CT",
+          4
+        ]
+      ]
+    },
+    "design": {
+      "count": 29,
+      "percentage": 8.30945558739255,
+      "avg_salary_range": {
+        "min": 93052.55172413793,
+        "max": 118840.37931034483
+      },
+      "remote_percentage": 10.344827586206897,
+      "top_locations": [
+        [
+          "New York, NY",
+          10
+        ],
+        [
+          "Universal City, CA",
+          10
+        ],
+        [
+          "Los Angeles, CA",
+          2
+        ]
+      ]
+    },
+    "engineering": {
+      "count": 96,
+      "percentage": 27.507163323782237,
+      "avg_salary_range": {
+        "min": 89257.52083333333,
+        "max": 113925.375
+      },
+      "remote_percentage": 30.208333333333332,
+      "top_locations": [
+        [
+          "Universal City, CA",
+          23
+        ],
+        [
+          "New York, NY",
+          15
+        ],
+        [
+          "Englewood Cliffs, NJ",
+          11
+        ]
+      ]
+    },
+    "security": {
+      "count": 51,
+      "percentage": 14.613180515759314,
+      "avg_salary_range": {
+        "min": 102220.54901960785,
+        "max": 129266.25490196078
+      },
+      "remote_percentage": 37.254901960784316,
+      "top_locations": [
+        [
+          "New York, NY",
+          17
+        ],
+        [
+          "Englewood Cliffs, NJ",
+          9
+        ],
+        [
+          "Universal City, CA",
+          8
+        ]
+      ]
+    }
+  },
+  "skills_and_requirements": {
+    "skill_categories": {},
+    "job_categories": {
+      "marketing": {
+        "count": 346,
+        "percentage": 99.14040114613181,
+        "avg_salary_range": {
+          "min": 87183.05917159763,
+          "max": 110845.32544378698
+        },
+        "remote_percentage": 13.005780346820808,
+        "top_locations": [
+          [
+            "Universal City, CA",
+            101
+          ],
+          [
+            "New York, NY",
+            90
+          ],
+          [
+            "Englewood Cliffs, NJ",
+            28
+          ]
+        ]
+      },
+      "management": {
+        "count": 222,
+        "percentage": 63.61031518624641,
+        "avg_salary_range": {
+          "min": 97186.76923076923,
+          "max": 123737.17194570135
+        },
+        "remote_percentage": 14.414414414414415,
+        "top_locations": [
+          [
+            "Universal City, CA",
+            73
+          ],
+          [
+            "New York, NY",
+            69
+          ],
+          [
+            "Englewood Cliffs, NJ",
+            17
+          ]
+        ]
+      },
+      "operations": {
+        "count": 347,
+        "percentage": 99.42693409742121,
+        "avg_salary_range": {
+          "min": 87465.34513274336,
+          "max": 111236.0
+        },
+        "remote_percentage": 12.968299711815561,
+        "top_locations": [
+          [
+            "Universal City, CA",
+            102
+          ],
+          [
+            "New York, NY",
+            90
+          ],
+          [
+            "Englewood Cliffs, NJ",
+            28
+          ]
+        ]
+      },
+      "research": {
+        "count": 91,
+        "percentage": 26.07449856733524,
+        "avg_salary_range": {
+          "min": 85133.1511627907,
+          "max": 110156.6511627907
+        },
+        "remote_percentage": 7.6923076923076925,
+        "top_locations": [
+          [
+            "New York, NY",
+            31
+          ],
+          [
+            "Universal City, CA",
+            20
+          ],
+          [
+            "Englewood Cliffs, NJ",
+            6
+          ]
+        ]
+      },
+      "data_science": {
+        "count": 66,
+        "percentage": 18.911174785100286,
+        "avg_salary_range": {
+          "min": 99119.68181818182,
+          "max": 126129.01515151515
+        },
+        "remote_percentage": 16.666666666666664,
+        "top_locations": [
+          [
+            "New York, NY",
+            28
+          ],
+          [
+            "Universal City, CA",
+            15
+          ],
+          [
+            "Englewood Cliffs, NJ",
+            14
+          ]
+        ]
+      },
+      "product": {
+        "count": 12,
+        "percentage": 3.4383954154727796,
+        "avg_salary_range": {
+          "min": 106393.16666666667,
+          "max": 135340.75
+        },
+        "remote_percentage": 16.666666666666664,
+        "top_locations": [
+          [
+            "New York, NY",
+            5
+          ],
+          [
+            "Universal City, CA",
+            4
+          ],
+          [
+            "Stamford, CT",
+            1
+          ]
+        ]
+      },
+      "sales": {
+        "count": 77,
+        "percentage": 22.063037249283667,
+        "avg_salary_range": {
+          "min": 88850.51948051948,
+          "max": 111693.5974025974
+        },
+        "remote_percentage": 5.194805194805195,
+        "top_locations": [
+          [
+            "New York, NY",
+            28
+          ],
+          [
+            "Universal City, CA",
+            25
+          ],
+          [
+            "Stamford, CT",
+            4
+          ]
+        ]
+      },
+      "design": {
+        "count": 29,
+        "percentage": 8.30945558739255,
+        "avg_salary_range": {
+          "min": 93052.55172413793,
+          "max": 118840.37931034483
+        },
+        "remote_percentage": 10.344827586206897,
+        "top_locations": [
+          [
+            "New York, NY",
+            10
+          ],
+          [
+            "Universal City, CA",
+            10
+          ],
+          [
+            "Los Angeles, CA",
+            2
+          ]
+        ]
+      },
+      "engineering": {
+        "count": 96,
+        "percentage": 27.507163323782237,
+        "avg_salary_range": {
+          "min": 89257.52083333333,
+          "max": 113925.375
+        },
+        "remote_percentage": 30.208333333333332,
+        "top_locations": [
+          [
+            "Universal City, CA",
+            23
+          ],
+          [
+            "New York, NY",
+            15
+          ],
+          [
+            "Englewood Cliffs, NJ",
+            11
+          ]
+        ]
+      },
+      "security": {
+        "count": 51,
+        "percentage": 14.613180515759314,
+        "avg_salary_range": {
+          "min": 102220.54901960785,
+          "max": 129266.25490196078
+        },
+        "remote_percentage": 37.254901960784316,
+        "top_locations": [
+          [
+            "New York, NY",
+            17
+          ],
+          [
+            "Englewood Cliffs, NJ",
+            9
+          ],
+          [
+            "Universal City, CA",
+            8
+          ]
+        ]
+      }
+    },
+    "career_requirements": {
+      "education": {
+        "bachelors": {
+          "count": 43,
+          "percentage": 12.320916905444127
+        },
+        "phd": {
+          "count": 4,
+          "percentage": 1.146131805157593
+        },
+        "masters": {
+          "count": 1,
+          "percentage": 0.28653295128939826
+        }
+      },
+      "experience": {
+        "avg_years": 8.019292604501608,
+        "min_years": 1,
+        "max_years": 18
+      }
+    }
+  },
+  "culture_and_benefits": {
+    "benefits_offered": {
+      "healthcare": {
+        "count": 346,
+        "percentage": 99.14040114613181
+      },
+      "retirement": {
+        "count": 230,
+        "percentage": 65.90257879656161
+      },
+      "disability": {
+        "count": 349,
+        "percentage": 100.0
+      },
+      "vacation": {
+        "count": 4,
+        "percentage": 1.146131805157593
+      }
+    },
+    "culture_emphasis": {
+      "diversity_inclusion": {
+        "count": 326,
+        "percentage": 93.40974212034384
+      },
+      "collaboration": {
+        "count": 139,
+        "percentage": 39.82808022922636
+      },
+      "innovation": {
+        "count": 84,
+        "percentage": 24.068767908309454
+      },
+      "growth_development": {
+        "count": 193,
+        "percentage": 55.30085959885387
+      }
+    },
+    "work_life_balance": {
+      "flexibility": {
+        "count": 94,
+        "percentage": 26.93409742120344
+      },
+      "remote_work": {
+        "count": 246,
+        "percentage": 70.48710601719198
+      }
+    }
+  },
+  "market_positioning": {
+    "salary_competitiveness": 0.5557123900293256,
+    "remote_leadership": 0.2636103151862464
+  },
+  "time_trends": {
+    "date_distribution": [
+      {
+        "date": "2023-11-20",
+        "count": 1
+      },
+      {
+        "date": "2024-07-08",
+        "count": 1
+      },
+      {
+        "date": "2024-10-16",
+        "count": 1
+      },
+      {
+        "date": "2024-12-09",
+        "count": 151
+      },
+      {
+        "date": "2024-12-10",
+        "count": 8
+      },
+      {
+        "date": "2024-12-11",
+        "count": 7
+      },
+      {
+        "date": "2024-12-12",
+        "count": 6
+      },
+      {
+        "date": "2024-12-13",
+        "count": 11
+      },
+      {
+        "date": "2024-12-16",
+        "count": 4
+      },
+      {
+        "date": "2024-12-17",
+        "count": 4
+      },
+      {
+        "date": "2024-12-18",
+        "count": 14
+      },
+      {
+        "date": "2024-12-19",
+        "count": 7
+      },
+      {
+        "date": "2024-12-20",
+        "count": 8
+      },
+      {
+        "date": "2024-12-23",
+        "count": 7
+      },
+      {
+        "date": "2024-12-24",
+        "count": 1
+      },
+      {
+        "date": "2024-12-26",
+        "count": 2
+      },
+      {
+        "date": "2024-12-27",
+        "count": 4
+      },
+      {
+        "date": "2024-12-30",
+        "count": 5
+      },
+      {
+        "date": "2024-12-31",
+        "count": 5
+      },
+      {
+        "date": "2025-01-02",
+        "count": 10
+      },
+      {
+        "date": "2025-01-03",
+        "count": 10
+      },
+      {
+        "date": "2025-01-06",
+        "count": 11
+      },
+      {
+        "date": "2025-01-07",
+        "count": 24
+      },
+      {
+        "date": "2025-01-08",
+        "count": 15
+      },
+      {
+        "date": "2025-01-09",
+        "count": 18
+      },
+      {
+        "date": "2025-01-10",
+        "count": 14
+      }
+    ],
+    "monthly_distribution": [
+      {
+        "month": "2023-11",
+        "count": 1
+      },
+      {
+        "month": "2024-07",
+        "count": 1
+      },
+      {
+        "month": "2024-10",
+        "count": 1
+      },
+      {
+        "month": "2024-12",
+        "count": 244
+      },
+      {
+        "month": "2025-01",
+        "count": 102
+      }
+    ]
+  }
+}

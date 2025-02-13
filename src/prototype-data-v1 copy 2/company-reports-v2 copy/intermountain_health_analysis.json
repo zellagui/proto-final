@@ -1,0 +1,814 @@
+{
+  "analysis_date": "2025-02-01",
+  "company_name": "Intermountain Health",
+  "summary": {
+    "headline_points": [
+      "Total 1267 jobs analyzed for Intermountain Health",
+      "Mean min salary: $29, mean max salary: $44",
+      "Top location is Denver, CO",
+      "Remote work percentage: ~4.10%",
+      "Strong culture emphasis on diversity, training, and benefits"
+    ]
+  },
+  "company_profile": {
+    "company_description": "As the largest nonprofit health system in the Mountain West, Intermountain Health is dedicated to helping people live the healthiest lives possible.",
+    "company_size": "Unknown",
+    "company_revenue": "$5B to $10B (USD)"
+  },
+  "compensation": {
+    "min_salary_stats": {
+      "mean": 29.299551569506725,
+      "median": 30.0,
+      "std": 10.343688085348564,
+      "quartiles": [
+        19.0,
+        30.0,
+        37.0
+      ],
+      "iqr": 18.0
+    },
+    "max_salary_stats": {
+      "mean": 43.96681614349776,
+      "median": 47.0,
+      "std": 17.02305933303068,
+      "quartiles": [
+        27.0,
+        47.0,
+        54.0
+      ],
+      "iqr": 27.0
+    },
+    "salary_spread": {
+      "mean_spread": 14.667264573991032,
+      "median_spread": 16.0
+    },
+    "bands": {
+      "entry_level": {
+        "range": [
+          14.0,
+          54.333333333333336
+        ],
+        "count": 1964
+      },
+      "mid_level": {
+        "range": [
+          54.333333333333336,
+          94.66666666666667
+        ],
+        "count": 263
+      },
+      "senior_level": {
+        "range": [
+          94.66666666666667,
+          135.0
+        ],
+        "count": 3
+      }
+    }
+  },
+  "location_analysis": {
+    "total_jobs": 1267,
+    "top_locations": [
+      [
+        "Denver, CO",
+        121
+      ],
+      [
+        "Murray, UT",
+        120
+      ],
+      [
+        "Grand Junction, CO",
+        112
+      ],
+      [
+        "Billings, MT",
+        101
+      ],
+      [
+        "Wheat Ridge, CO",
+        95
+      ]
+    ],
+    "state_distribution": {
+      "UT": 539,
+      "CO": 512,
+      "MT": 160,
+      "NV": 23,
+      "ID": 16,
+      "AZ": 6,
+      "TN": 3,
+      "NY": 3,
+      "WY": 2,
+      "LA": 1,
+      "SC": 1,
+      "KY": 1
+    },
+    "remote_jobs": {
+      "percentage": 4.1041831097079715
+    },
+    "location_diversity_score": 0.9452540944340864
+  },
+  "job_categories": {
+    "engineering": {
+      "count": 155,
+      "percentage": 12.233622730860299,
+      "avg_salary_range": {
+        "min": 22.098684210526315,
+        "max": 32.69736842105263
+      },
+      "remote_percentage": 11.612903225806452,
+      "top_locations": [
+        [
+          "Murray, UT",
+          17
+        ],
+        [
+          "Grand Junction, CO",
+          13
+        ],
+        [
+          "Salt Lake City, UT",
+          12
+        ]
+      ]
+    },
+    "management": {
+      "count": 322,
+      "percentage": 25.41436464088398,
+      "avg_salary_range": {
+        "min": 29.127035830618894,
+        "max": 43.527687296416936
+      },
+      "remote_percentage": 8.385093167701864,
+      "top_locations": [
+        [
+          "Denver, CO",
+          42
+        ],
+        [
+          "Grand Junction, CO",
+          36
+        ],
+        [
+          "Murray, UT",
+          35
+        ]
+      ]
+    },
+    "operations": {
+      "count": 1032,
+      "percentage": 81.45224940805052,
+      "avg_salary_range": {
+        "min": 30.493303571428573,
+        "max": 45.909598214285715
+      },
+      "remote_percentage": 3.5852713178294575,
+      "top_locations": [
+        [
+          "Denver, CO",
+          104
+        ],
+        [
+          "Murray, UT",
+          103
+        ],
+        [
+          "Grand Junction, CO",
+          87
+        ]
+      ]
+    },
+    "marketing": {
+      "count": 85,
+      "percentage": 6.708760852407261,
+      "avg_salary_range": {
+        "min": 28.76829268292683,
+        "max": 43.51219512195122
+      },
+      "remote_percentage": 5.88235294117647,
+      "top_locations": [
+        [
+          "Murray, UT",
+          17
+        ],
+        [
+          "Park City, UT",
+          10
+        ],
+        [
+          "Ogden, UT",
+          7
+        ]
+      ]
+    },
+    "design": {
+      "count": 43,
+      "percentage": 3.3938437253354383,
+      "avg_salary_range": {
+        "min": 20.767441860465116,
+        "max": 29.813953488372093
+      },
+      "remote_percentage": 6.976744186046512,
+      "top_locations": [
+        [
+          "Murray, UT",
+          9
+        ],
+        [
+          "Park City, UT",
+          8
+        ],
+        [
+          "Brighton, CO",
+          3
+        ]
+      ]
+    },
+    "research": {
+      "count": 167,
+      "percentage": 13.180741910023677,
+      "avg_salary_range": {
+        "min": 37.00961538461539,
+        "max": 57.25961538461539
+      },
+      "remote_percentage": 5.9880239520958085,
+      "top_locations": [
+        [
+          "Murray, UT",
+          28
+        ],
+        [
+          "Salt Lake City, UT",
+          16
+        ],
+        [
+          "Denver, CO",
+          14
+        ]
+      ]
+    },
+    "data_science": {
+      "count": 6,
+      "percentage": 0.4735595895816891,
+      "avg_salary_range": {
+        "min": 33.2,
+        "max": 52.4
+      },
+      "remote_percentage": 66.66666666666666,
+      "top_locations": [
+        [
+          "Midvale, UT",
+          2
+        ],
+        [
+          "Salt Lake City, UT",
+          1
+        ],
+        [
+          "West Valley City, UT",
+          1
+        ]
+      ]
+    },
+    "sales": {
+      "count": 8,
+      "percentage": 0.6314127861089187,
+      "avg_salary_range": {
+        "min": 39.857142857142854,
+        "max": 60.857142857142854
+      },
+      "remote_percentage": 50.0,
+      "top_locations": [
+        [
+          "Salt Lake City, UT",
+          2
+        ],
+        [
+          "Murray, UT",
+          2
+        ],
+        [
+          "Las Vegas, NV",
+          2
+        ]
+      ]
+    },
+    "security": {
+      "count": 19,
+      "percentage": 1.499605367008682,
+      "avg_salary_range": {
+        "min": 25.944444444444443,
+        "max": 38.888888888888886
+      },
+      "remote_percentage": 5.263157894736842,
+      "top_locations": [
+        [
+          "Grand Junction, CO",
+          3
+        ],
+        [
+          "Lafayette, CO",
+          3
+        ],
+        [
+          "Billings, MT",
+          2
+        ]
+      ]
+    },
+    "product": {
+      "count": 3,
+      "percentage": 0.23677979479084454,
+      "avg_salary_range": {
+        "min": 34.0,
+        "max": 52.333333333333336
+      },
+      "remote_percentage": 33.33333333333333,
+      "top_locations": [
+        [
+          "Murray, UT",
+          2
+        ],
+        [
+          "West Valley City, UT",
+          1
+        ]
+      ]
+    }
+  },
+  "skills_and_requirements": {
+    "skill_categories": {},
+    "job_categories": {
+      "engineering": {
+        "count": 155,
+        "percentage": 12.233622730860299,
+        "avg_salary_range": {
+          "min": 22.098684210526315,
+          "max": 32.69736842105263
+        },
+        "remote_percentage": 11.612903225806452,
+        "top_locations": [
+          [
+            "Murray, UT",
+            17
+          ],
+          [
+            "Grand Junction, CO",
+            13
+          ],
+          [
+            "Salt Lake City, UT",
+            12
+          ]
+        ]
+      },
+      "management": {
+        "count": 322,
+        "percentage": 25.41436464088398,
+        "avg_salary_range": {
+          "min": 29.127035830618894,
+          "max": 43.527687296416936
+        },
+        "remote_percentage": 8.385093167701864,
+        "top_locations": [
+          [
+            "Denver, CO",
+            42
+          ],
+          [
+            "Grand Junction, CO",
+            36
+          ],
+          [
+            "Murray, UT",
+            35
+          ]
+        ]
+      },
+      "operations": {
+        "count": 1032,
+        "percentage": 81.45224940805052,
+        "avg_salary_range": {
+          "min": 30.493303571428573,
+          "max": 45.909598214285715
+        },
+        "remote_percentage": 3.5852713178294575,
+        "top_locations": [
+          [
+            "Denver, CO",
+            104
+          ],
+          [
+            "Murray, UT",
+            103
+          ],
+          [
+            "Grand Junction, CO",
+            87
+          ]
+        ]
+      },
+      "marketing": {
+        "count": 85,
+        "percentage": 6.708760852407261,
+        "avg_salary_range": {
+          "min": 28.76829268292683,
+          "max": 43.51219512195122
+        },
+        "remote_percentage": 5.88235294117647,
+        "top_locations": [
+          [
+            "Murray, UT",
+            17
+          ],
+          [
+            "Park City, UT",
+            10
+          ],
+          [
+            "Ogden, UT",
+            7
+          ]
+        ]
+      },
+      "design": {
+        "count": 43,
+        "percentage": 3.3938437253354383,
+        "avg_salary_range": {
+          "min": 20.767441860465116,
+          "max": 29.813953488372093
+        },
+        "remote_percentage": 6.976744186046512,
+        "top_locations": [
+          [
+            "Murray, UT",
+            9
+          ],
+          [
+            "Park City, UT",
+            8
+          ],
+          [
+            "Brighton, CO",
+            3
+          ]
+        ]
+      },
+      "research": {
+        "count": 167,
+        "percentage": 13.180741910023677,
+        "avg_salary_range": {
+          "min": 37.00961538461539,
+          "max": 57.25961538461539
+        },
+        "remote_percentage": 5.9880239520958085,
+        "top_locations": [
+          [
+            "Murray, UT",
+            28
+          ],
+          [
+            "Salt Lake City, UT",
+            16
+          ],
+          [
+            "Denver, CO",
+            14
+          ]
+        ]
+      },
+      "data_science": {
+        "count": 6,
+        "percentage": 0.4735595895816891,
+        "avg_salary_range": {
+          "min": 33.2,
+          "max": 52.4
+        },
+        "remote_percentage": 66.66666666666666,
+        "top_locations": [
+          [
+            "Midvale, UT",
+            2
+          ],
+          [
+            "Salt Lake City, UT",
+            1
+          ],
+          [
+            "West Valley City, UT",
+            1
+          ]
+        ]
+      },
+      "sales": {
+        "count": 8,
+        "percentage": 0.6314127861089187,
+        "avg_salary_range": {
+          "min": 39.857142857142854,
+          "max": 60.857142857142854
+        },
+        "remote_percentage": 50.0,
+        "top_locations": [
+          [
+            "Salt Lake City, UT",
+            2
+          ],
+          [
+            "Murray, UT",
+            2
+          ],
+          [
+            "Las Vegas, NV",
+            2
+          ]
+        ]
+      },
+      "security": {
+        "count": 19,
+        "percentage": 1.499605367008682,
+        "avg_salary_range": {
+          "min": 25.944444444444443,
+          "max": 38.888888888888886
+        },
+        "remote_percentage": 5.263157894736842,
+        "top_locations": [
+          [
+            "Grand Junction, CO",
+            3
+          ],
+          [
+            "Lafayette, CO",
+            3
+          ],
+          [
+            "Billings, MT",
+            2
+          ]
+        ]
+      },
+      "product": {
+        "count": 3,
+        "percentage": 0.23677979479084454,
+        "avg_salary_range": {
+          "min": 34.0,
+          "max": 52.333333333333336
+        },
+        "remote_percentage": 33.33333333333333,
+        "top_locations": [
+          [
+            "Murray, UT",
+            2
+          ],
+          [
+            "West Valley City, UT",
+            1
+          ]
+        ]
+      }
+    },
+    "career_requirements": {
+      "education": {
+        "masters": {
+          "count": 65,
+          "percentage": 5.130228887134964
+        },
+        "phd": {
+          "count": 27,
+          "percentage": 2.131018153117601
+        },
+        "bachelors": {
+          "count": 174,
+          "percentage": 13.733228097868983
+        }
+      },
+      "experience": {
+        "avg_years": 20.517605633802816,
+        "min_years": 1,
+        "max_years": 125
+      }
+    }
+  },
+  "culture_and_benefits": {
+    "benefits_offered": {
+      "healthcare": {
+        "count": 1075,
+        "percentage": 84.84609313338595
+      },
+      "disability": {
+        "count": 1266,
+        "percentage": 99.92107340173638
+      },
+      "retirement": {
+        "count": 75,
+        "percentage": 5.919494869771113
+      },
+      "vacation": {
+        "count": 58,
+        "percentage": 4.577742699289661
+      }
+    },
+    "culture_emphasis": {
+      "diversity_inclusion": {
+        "count": 1253,
+        "percentage": 98.89502762430939
+      },
+      "growth_development": {
+        "count": 353,
+        "percentage": 27.861089187056038
+      },
+      "collaboration": {
+        "count": 283,
+        "percentage": 22.336227308603
+      },
+      "innovation": {
+        "count": 116,
+        "percentage": 9.155485398579321
+      }
+    },
+    "work_life_balance": {
+      "flexibility": {
+        "count": 125,
+        "percentage": 9.865824782951854
+      },
+      "remote_work": {
+        "count": 54,
+        "percentage": 4.262036306235202
+      },
+      "volunteer_time": {
+        "count": 120,
+        "percentage": 9.47119179163378
+      }
+    }
+  },
+  "market_positioning": {
+    "salary_competitiveness": 0.0002198340807174888,
+    "remote_leadership": 0.08208366219415943
+  },
+  "time_trends": {
+    "date_distribution": [
+      {
+        "date": "2021-05-13",
+        "count": 1
+      },
+      {
+        "date": "2024-12-05",
+        "count": 493
+      },
+      {
+        "date": "2024-12-06",
+        "count": 21
+      },
+      {
+        "date": "2024-12-07",
+        "count": 6
+      },
+      {
+        "date": "2024-12-09",
+        "count": 29
+      },
+      {
+        "date": "2024-12-10",
+        "count": 25
+      },
+      {
+        "date": "2024-12-11",
+        "count": 19
+      },
+      {
+        "date": "2024-12-12",
+        "count": 34
+      },
+      {
+        "date": "2024-12-13",
+        "count": 6
+      },
+      {
+        "date": "2024-12-14",
+        "count": 4
+      },
+      {
+        "date": "2024-12-15",
+        "count": 2
+      },
+      {
+        "date": "2024-12-16",
+        "count": 20
+      },
+      {
+        "date": "2024-12-17",
+        "count": 47
+      },
+      {
+        "date": "2024-12-18",
+        "count": 19
+      },
+      {
+        "date": "2024-12-19",
+        "count": 48
+      },
+      {
+        "date": "2024-12-20",
+        "count": 19
+      },
+      {
+        "date": "2024-12-21",
+        "count": 11
+      },
+      {
+        "date": "2024-12-22",
+        "count": 2
+      },
+      {
+        "date": "2024-12-23",
+        "count": 14
+      },
+      {
+        "date": "2024-12-24",
+        "count": 21
+      },
+      {
+        "date": "2024-12-25",
+        "count": 1
+      },
+      {
+        "date": "2024-12-26",
+        "count": 24
+      },
+      {
+        "date": "2024-12-27",
+        "count": 7
+      },
+      {
+        "date": "2024-12-28",
+        "count": 2
+      },
+      {
+        "date": "2024-12-29",
+        "count": 4
+      },
+      {
+        "date": "2024-12-30",
+        "count": 32
+      },
+      {
+        "date": "2024-12-31",
+        "count": 17
+      },
+      {
+        "date": "2025-01-01",
+        "count": 14
+      },
+      {
+        "date": "2025-01-02",
+        "count": 26
+      },
+      {
+        "date": "2025-01-03",
+        "count": 12
+      },
+      {
+        "date": "2025-01-04",
+        "count": 23
+      },
+      {
+        "date": "2025-01-05",
+        "count": 3
+      },
+      {
+        "date": "2025-01-06",
+        "count": 66
+      },
+      {
+        "date": "2025-01-07",
+        "count": 32
+      },
+      {
+        "date": "2025-01-08",
+        "count": 40
+      },
+      {
+        "date": "2025-01-09",
+        "count": 83
+      },
+      {
+        "date": "2025-01-10",
+        "count": 40
+      }
+    ],
+    "monthly_distribution": [
+      {
+        "month": "2021-05",
+        "count": 1
+      },
+      {
+        "month": "2024-12",
+        "count": 927
+      },
+      {
+        "month": "2025-01",
+        "count": 339
+      }
+    ]
+  }
+}

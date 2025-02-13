@@ -1,0 +1,101 @@
+{
+  "auth": {
+    "ghostjobsfront8226953e": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_ghostjobsfront8226953e_allowUnauthenticatedIdentities": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "ghostjobsfront8226953e"
+        }
+      ]
+    },
+    "AMPLIFY_auth_ghostjobsfront8226953e_authRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "ghostjobsfront8226953e"
+        }
+      ]
+    },
+    "AMPLIFY_auth_ghostjobsfront8226953e_authRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "ghostjobsfront8226953e"
+        }
+      ]
+    },
+    "AMPLIFY_auth_ghostjobsfront8226953e_identityPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "ghostjobsfront8226953e"
+        }
+      ]
+    },
+    "AMPLIFY_auth_ghostjobsfront8226953e_identityPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "ghostjobsfront8226953e"
+        }
+      ]
+    },
+    "AMPLIFY_auth_ghostjobsfront8226953e_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "ghostjobsfront8226953e"
+        }
+      ]
+    },
+    "AMPLIFY_auth_ghostjobsfront8226953e_unauthRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "ghostjobsfront8226953e"
+        }
+      ]
+    },
+    "AMPLIFY_auth_ghostjobsfront8226953e_unauthRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "ghostjobsfront8226953e"
+        }
+      ]
+    },
+    "AMPLIFY_auth_ghostjobsfront8226953e_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "ghostjobsfront8226953e"
+        }
+      ]
+    },
+    "AMPLIFY_auth_ghostjobsfront8226953e_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "ghostjobsfront8226953e"
+        }
+      ]
+    },
+    "AMPLIFY_auth_ghostjobsfront8226953e_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "ghostjobsfront8226953e"
+        }
+      ]
+    }
+  }
+}

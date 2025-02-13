@@ -1,0 +1,1118 @@
+{
+  "analysis_date": "2025-02-01",
+  "company_name": "Skechers",
+  "summary": {
+    "headline_points": [
+      "Total 855 jobs analyzed for Skechers",
+      "Mean min salary: $6900, mean max salary: $8769",
+      "Top location is Manhattan Beach, CA",
+      "Remote work percentage: ~0.12%",
+      "Strong culture emphasis on diversity, training, and benefits"
+    ]
+  },
+  "company_profile": {
+    "company_description": "Skechers is focused on designing products that deliver style, comfort, innovation, and quality at a reasonable price.",
+    "company_size": "Unknown",
+    "company_revenue": "$5B to $10B (USD)"
+  },
+  "compensation": {
+    "min_salary_stats": {
+      "mean": 6899.874677002584,
+      "median": 16.0,
+      "std": 26719.107494030854,
+      "quartiles": [
+        15.0,
+        16.0,
+        19.0
+      ],
+      "iqr": 4.0
+    },
+    "max_salary_stats": {
+      "mean": 8768.966408268734,
+      "median": 17.0,
+      "std": 34214.96905769501,
+      "quartiles": [
+        15.0,
+        17.0,
+        20.0
+      ],
+      "iqr": 5.0
+    },
+    "salary_spread": {
+      "mean_spread": 2569.5861456483126,
+      "median_spread": 1.0
+    },
+    "bands": {
+      "entry_level": {
+        "range": [
+          11.0,
+          76674.0
+        ],
+        "count": 1468
+      },
+      "mid_level": {
+        "range": [
+          76674.0,
+          153337.0
+        ],
+        "count": 61
+      },
+      "senior_level": {
+        "range": [
+          153337.0,
+          230000.0
+        ],
+        "count": 19
+      }
+    }
+  },
+  "location_analysis": {
+    "total_jobs": 855,
+    "top_locations": [
+      [
+        "Manhattan Beach, CA",
+        56
+      ],
+      [
+        "Las Vegas, NV",
+        13
+      ],
+      [
+        "Rancho Belago, CA",
+        8
+      ],
+      [
+        "Austin, TX",
+        7
+      ],
+      [
+        "San Antonio, TX",
+        7
+      ]
+    ],
+    "state_distribution": {
+      "CA": 199,
+      "TX": 89,
+      "FL": 66,
+      "NY": 42,
+      "AZ": 28,
+      "PA": 27,
+      "IL": 25,
+      "NJ": 25,
+      "MA": 25,
+      "CT": 20,
+      "OH": 19,
+      "UT": 18,
+      "GA": 18,
+      "WA": 17,
+      "NV": 16,
+      "MI": 16,
+      "MD": 15,
+      "PR": 15,
+      "WI": 13,
+      "OK": 13,
+      "TN": 13,
+      "NC": 12,
+      "MN": 10,
+      "CO": 10,
+      "NH": 10,
+      "AL": 8,
+      "IN": 8,
+      "LA": 8,
+      "NM": 7,
+      "HI": 7,
+      "NE": 6,
+      "SC": 5,
+      "RI": 5,
+      "VA": 5,
+      "AR": 4,
+      "MS": 4,
+      "MO": 4,
+      "DE": 3,
+      "MT": 3,
+      "KS": 3,
+      "IA": 3,
+      "ID": 2,
+      "ME": 2,
+      "KY": 2,
+      "AK": 2,
+      "ND": 2,
+      "SD": 1
+    },
+    "remote_jobs": {
+      "percentage": 0.11695906432748539
+    },
+    "location_diversity_score": 0.9928169351253379
+  },
+  "job_categories": {
+    "marketing": {
+      "count": 855,
+      "percentage": 100.0,
+      "avg_salary_range": {
+        "min": 6899.874677002584,
+        "max": 8768.966408268734
+      },
+      "remote_percentage": 0.11695906432748539,
+      "top_locations": [
+        [
+          "Manhattan Beach, CA",
+          56
+        ],
+        [
+          "Las Vegas, NV",
+          13
+        ],
+        [
+          "Rancho Belago, CA",
+          8
+        ]
+      ]
+    },
+    "security": {
+      "count": 79,
+      "percentage": 9.239766081871345,
+      "avg_salary_range": {
+        "min": 12340.951612903225,
+        "max": 16440.370967741936
+      },
+      "top_locations": [
+        [
+          "Manhattan Beach, CA",
+          6
+        ],
+        [
+          "Canoga Park, CA",
+          2
+        ],
+        [
+          "Gardena, CA",
+          2
+        ]
+      ]
+    },
+    "sales": {
+      "count": 811,
+      "percentage": 94.85380116959064,
+      "avg_salary_range": {
+        "min": 3569.891008174387,
+        "max": 4488.995912806539
+      },
+      "remote_percentage": 0.12330456226880394,
+      "top_locations": [
+        [
+          "Manhattan Beach, CA",
+          32
+        ],
+        [
+          "Las Vegas, NV",
+          13
+        ],
+        [
+          "Austin, TX",
+          7
+        ]
+      ]
+    },
+    "management": {
+      "count": 273,
+      "percentage": 31.929824561403507,
+      "avg_salary_range": {
+        "min": 17499.818565400845,
+        "max": 22370.392405063292
+      },
+      "remote_percentage": 0.3663003663003663,
+      "top_locations": [
+        [
+          "Manhattan Beach, CA",
+          40
+        ],
+        [
+          "Elmhurst, NY",
+          5
+        ],
+        [
+          "Albertville, MN",
+          4
+        ]
+      ]
+    },
+    "operations": {
+      "count": 831,
+      "percentage": 97.19298245614036,
+      "avg_salary_range": {
+        "min": 5064.480692410119,
+        "max": 6540.683089214381
+      },
+      "remote_percentage": 0.12033694344163659,
+      "top_locations": [
+        [
+          "Manhattan Beach, CA",
+          42
+        ],
+        [
+          "Las Vegas, NV",
+          13
+        ],
+        [
+          "Austin, TX",
+          7
+        ]
+      ]
+    },
+    "design": {
+      "count": 180,
+      "percentage": 21.052631578947366,
+      "avg_salary_range": {
+        "min": 9704.91823899371,
+        "max": 12281.094339622641
+      },
+      "top_locations": [
+        [
+          "Manhattan Beach, CA",
+          14
+        ],
+        [
+          "Albertville, MN",
+          4
+        ],
+        [
+          "Elmhurst, NY",
+          4
+        ]
+      ]
+    },
+    "engineering": {
+      "count": 10,
+      "percentage": 1.1695906432748537,
+      "avg_salary_range": {
+        "min": 92502.8,
+        "max": 121003.3
+      },
+      "top_locations": [
+        [
+          "Manhattan Beach, CA",
+          8
+        ],
+        [
+          "Rancho Belago, CA",
+          1
+        ],
+        [
+          "Hermosa Beach, CA",
+          1
+        ]
+      ]
+    },
+    "research": {
+      "count": 12,
+      "percentage": 1.4035087719298245,
+      "avg_salary_range": {
+        "min": 75170.16666666667,
+        "max": 98337.5
+      },
+      "top_locations": [
+        [
+          "Manhattan Beach, CA",
+          10
+        ],
+        [
+          "Rancho Belago, CA",
+          2
+        ]
+      ]
+    },
+    "data_science": {
+      "count": 10,
+      "percentage": 1.1695906432748537,
+      "avg_salary_range": {
+        "min": 111300.0,
+        "max": 140700.0
+      },
+      "remote_percentage": 10.0,
+      "top_locations": [
+        [
+          "Manhattan Beach, CA",
+          10
+        ]
+      ]
+    },
+    "product": {
+      "count": 9,
+      "percentage": 1.0526315789473684,
+      "avg_salary_range": {
+        "min": 41902.88888888889,
+        "max": 50570.88888888889
+      },
+      "top_locations": [
+        [
+          "Manhattan Beach, CA",
+          9
+        ]
+      ]
+    }
+  },
+  "skills_and_requirements": {
+    "skill_categories": {},
+    "job_categories": {
+      "marketing": {
+        "count": 855,
+        "percentage": 100.0,
+        "avg_salary_range": {
+          "min": 6899.874677002584,
+          "max": 8768.966408268734
+        },
+        "remote_percentage": 0.11695906432748539,
+        "top_locations": [
+          [
+            "Manhattan Beach, CA",
+            56
+          ],
+          [
+            "Las Vegas, NV",
+            13
+          ],
+          [
+            "Rancho Belago, CA",
+            8
+          ]
+        ]
+      },
+      "security": {
+        "count": 79,
+        "percentage": 9.239766081871345,
+        "avg_salary_range": {
+          "min": 12340.951612903225,
+          "max": 16440.370967741936
+        },
+        "top_locations": [
+          [
+            "Manhattan Beach, CA",
+            6
+          ],
+          [
+            "Canoga Park, CA",
+            2
+          ],
+          [
+            "Gardena, CA",
+            2
+          ]
+        ]
+      },
+      "sales": {
+        "count": 811,
+        "percentage": 94.85380116959064,
+        "avg_salary_range": {
+          "min": 3569.891008174387,
+          "max": 4488.995912806539
+        },
+        "remote_percentage": 0.12330456226880394,
+        "top_locations": [
+          [
+            "Manhattan Beach, CA",
+            32
+          ],
+          [
+            "Las Vegas, NV",
+            13
+          ],
+          [
+            "Austin, TX",
+            7
+          ]
+        ]
+      },
+      "management": {
+        "count": 273,
+        "percentage": 31.929824561403507,
+        "avg_salary_range": {
+          "min": 17499.818565400845,
+          "max": 22370.392405063292
+        },
+        "remote_percentage": 0.3663003663003663,
+        "top_locations": [
+          [
+            "Manhattan Beach, CA",
+            40
+          ],
+          [
+            "Elmhurst, NY",
+            5
+          ],
+          [
+            "Albertville, MN",
+            4
+          ]
+        ]
+      },
+      "operations": {
+        "count": 831,
+        "percentage": 97.19298245614036,
+        "avg_salary_range": {
+          "min": 5064.480692410119,
+          "max": 6540.683089214381
+        },
+        "remote_percentage": 0.12033694344163659,
+        "top_locations": [
+          [
+            "Manhattan Beach, CA",
+            42
+          ],
+          [
+            "Las Vegas, NV",
+            13
+          ],
+          [
+            "Austin, TX",
+            7
+          ]
+        ]
+      },
+      "design": {
+        "count": 180,
+        "percentage": 21.052631578947366,
+        "avg_salary_range": {
+          "min": 9704.91823899371,
+          "max": 12281.094339622641
+        },
+        "top_locations": [
+          [
+            "Manhattan Beach, CA",
+            14
+          ],
+          [
+            "Albertville, MN",
+            4
+          ],
+          [
+            "Elmhurst, NY",
+            4
+          ]
+        ]
+      },
+      "engineering": {
+        "count": 10,
+        "percentage": 1.1695906432748537,
+        "avg_salary_range": {
+          "min": 92502.8,
+          "max": 121003.3
+        },
+        "top_locations": [
+          [
+            "Manhattan Beach, CA",
+            8
+          ],
+          [
+            "Rancho Belago, CA",
+            1
+          ],
+          [
+            "Hermosa Beach, CA",
+            1
+          ]
+        ]
+      },
+      "research": {
+        "count": 12,
+        "percentage": 1.4035087719298245,
+        "avg_salary_range": {
+          "min": 75170.16666666667,
+          "max": 98337.5
+        },
+        "top_locations": [
+          [
+            "Manhattan Beach, CA",
+            10
+          ],
+          [
+            "Rancho Belago, CA",
+            2
+          ]
+        ]
+      },
+      "data_science": {
+        "count": 10,
+        "percentage": 1.1695906432748537,
+        "avg_salary_range": {
+          "min": 111300.0,
+          "max": 140700.0
+        },
+        "remote_percentage": 10.0,
+        "top_locations": [
+          [
+            "Manhattan Beach, CA",
+            10
+          ]
+        ]
+      },
+      "product": {
+        "count": 9,
+        "percentage": 1.0526315789473684,
+        "avg_salary_range": {
+          "min": 41902.88888888889,
+          "max": 50570.88888888889
+        },
+        "top_locations": [
+          [
+            "Manhattan Beach, CA",
+            9
+          ]
+        ]
+      }
+    },
+    "career_requirements": {
+      "education": {
+        "bachelors": {
+          "count": 10,
+          "percentage": 1.1695906432748537
+        },
+        "masters": {
+          "count": 1,
+          "percentage": 0.11695906432748539
+        }
+      },
+      "experience": {
+        "avg_years": 26.829931972789115,
+        "max_years": 30
+      }
+    }
+  },
+  "culture_and_benefits": {
+    "benefits_offered": {
+      "disability": {
+        "count": 855,
+        "percentage": 100.0
+      },
+      "healthcare": {
+        "count": 32,
+        "percentage": 3.7426900584795324
+      },
+      "retirement": {
+        "count": 6,
+        "percentage": 0.7017543859649122
+      },
+      "vacation": {
+        "count": 6,
+        "percentage": 0.7017543859649122
+      }
+    },
+    "culture_emphasis": {
+      "diversity_inclusion": {
+        "count": 855,
+        "percentage": 100.0
+      },
+      "innovation": {
+        "count": 855,
+        "percentage": 100.0
+      },
+      "growth_development": {
+        "count": 565,
+        "percentage": 66.08187134502924
+      },
+      "collaboration": {
+        "count": 302,
+        "percentage": 35.32163742690059
+      }
+    },
+    "work_life_balance": {
+      "flexibility": {
+        "count": 803,
+        "percentage": 93.91812865497076
+      },
+      "remote_work": {
+        "count": 2,
+        "percentage": 0.23391812865497078
+      }
+    }
+  },
+  "market_positioning": {
+    "salary_competitiveness": 0.04384483204134367,
+    "remote_leadership": 0.0023391812865497076
+  },
+  "time_trends": {
+    "date_distribution": [
+      {
+        "date": "2024-05-01",
+        "count": 109
+      },
+      {
+        "date": "2024-05-02",
+        "count": 1
+      },
+      {
+        "date": "2024-05-03",
+        "count": 3
+      },
+      {
+        "date": "2024-05-06",
+        "count": 1
+      },
+      {
+        "date": "2024-05-31",
+        "count": 1
+      },
+      {
+        "date": "2024-06-06",
+        "count": 1
+      },
+      {
+        "date": "2024-06-14",
+        "count": 1
+      },
+      {
+        "date": "2024-06-21",
+        "count": 1
+      },
+      {
+        "date": "2024-06-25",
+        "count": 1
+      },
+      {
+        "date": "2024-06-28",
+        "count": 1
+      },
+      {
+        "date": "2024-07-10",
+        "count": 1
+      },
+      {
+        "date": "2024-07-15",
+        "count": 1
+      },
+      {
+        "date": "2024-07-18",
+        "count": 13
+      },
+      {
+        "date": "2024-07-24",
+        "count": 1
+      },
+      {
+        "date": "2024-08-01",
+        "count": 1
+      },
+      {
+        "date": "2024-08-02",
+        "count": 2
+      },
+      {
+        "date": "2024-08-08",
+        "count": 1
+      },
+      {
+        "date": "2024-08-15",
+        "count": 1
+      },
+      {
+        "date": "2024-08-16",
+        "count": 2
+      },
+      {
+        "date": "2024-08-20",
+        "count": 1
+      },
+      {
+        "date": "2024-08-21",
+        "count": 2
+      },
+      {
+        "date": "2024-08-23",
+        "count": 42
+      },
+      {
+        "date": "2024-08-26",
+        "count": 2
+      },
+      {
+        "date": "2024-08-27",
+        "count": 1
+      },
+      {
+        "date": "2024-08-28",
+        "count": 1
+      },
+      {
+        "date": "2024-08-30",
+        "count": 3
+      },
+      {
+        "date": "2024-09-03",
+        "count": 3
+      },
+      {
+        "date": "2024-09-05",
+        "count": 2
+      },
+      {
+        "date": "2024-09-09",
+        "count": 2
+      },
+      {
+        "date": "2024-09-11",
+        "count": 1
+      },
+      {
+        "date": "2024-09-12",
+        "count": 1
+      },
+      {
+        "date": "2024-09-17",
+        "count": 1
+      },
+      {
+        "date": "2024-09-18",
+        "count": 1
+      },
+      {
+        "date": "2024-09-20",
+        "count": 2
+      },
+      {
+        "date": "2024-09-25",
+        "count": 1
+      },
+      {
+        "date": "2024-09-26",
+        "count": 1
+      },
+      {
+        "date": "2024-09-27",
+        "count": 1
+      },
+      {
+        "date": "2024-10-01",
+        "count": 14
+      },
+      {
+        "date": "2024-10-02",
+        "count": 9
+      },
+      {
+        "date": "2024-10-03",
+        "count": 6
+      },
+      {
+        "date": "2024-10-04",
+        "count": 1
+      },
+      {
+        "date": "2024-10-08",
+        "count": 23
+      },
+      {
+        "date": "2024-10-09",
+        "count": 1
+      },
+      {
+        "date": "2024-10-10",
+        "count": 6
+      },
+      {
+        "date": "2024-10-14",
+        "count": 7
+      },
+      {
+        "date": "2024-10-16",
+        "count": 15
+      },
+      {
+        "date": "2024-10-17",
+        "count": 3
+      },
+      {
+        "date": "2024-10-18",
+        "count": 4
+      },
+      {
+        "date": "2024-10-21",
+        "count": 11
+      },
+      {
+        "date": "2024-10-22",
+        "count": 11
+      },
+      {
+        "date": "2024-10-23",
+        "count": 10
+      },
+      {
+        "date": "2024-10-24",
+        "count": 8
+      },
+      {
+        "date": "2024-10-25",
+        "count": 1
+      },
+      {
+        "date": "2024-10-26",
+        "count": 2
+      },
+      {
+        "date": "2024-10-29",
+        "count": 4
+      },
+      {
+        "date": "2024-10-30",
+        "count": 7
+      },
+      {
+        "date": "2024-11-01",
+        "count": 5
+      },
+      {
+        "date": "2024-11-02",
+        "count": 2
+      },
+      {
+        "date": "2024-11-04",
+        "count": 4
+      },
+      {
+        "date": "2024-11-05",
+        "count": 2
+      },
+      {
+        "date": "2024-11-06",
+        "count": 4
+      },
+      {
+        "date": "2024-11-07",
+        "count": 3
+      },
+      {
+        "date": "2024-11-08",
+        "count": 1
+      },
+      {
+        "date": "2024-11-11",
+        "count": 1
+      },
+      {
+        "date": "2024-11-12",
+        "count": 3
+      },
+      {
+        "date": "2024-11-13",
+        "count": 2
+      },
+      {
+        "date": "2024-11-14",
+        "count": 10
+      },
+      {
+        "date": "2024-11-15",
+        "count": 4
+      },
+      {
+        "date": "2024-11-16",
+        "count": 2
+      },
+      {
+        "date": "2024-11-18",
+        "count": 1
+      },
+      {
+        "date": "2024-11-19",
+        "count": 2
+      },
+      {
+        "date": "2024-11-20",
+        "count": 2
+      },
+      {
+        "date": "2024-11-21",
+        "count": 1
+      },
+      {
+        "date": "2024-11-22",
+        "count": 2
+      },
+      {
+        "date": "2024-11-25",
+        "count": 1
+      },
+      {
+        "date": "2024-11-26",
+        "count": 2
+      },
+      {
+        "date": "2024-11-27",
+        "count": 2
+      },
+      {
+        "date": "2024-12-02",
+        "count": 2
+      },
+      {
+        "date": "2024-12-03",
+        "count": 3
+      },
+      {
+        "date": "2024-12-04",
+        "count": 1
+      },
+      {
+        "date": "2024-12-06",
+        "count": 1
+      },
+      {
+        "date": "2024-12-09",
+        "count": 5
+      },
+      {
+        "date": "2024-12-10",
+        "count": 6
+      },
+      {
+        "date": "2024-12-11",
+        "count": 11
+      },
+      {
+        "date": "2024-12-12",
+        "count": 22
+      },
+      {
+        "date": "2024-12-13",
+        "count": 24
+      },
+      {
+        "date": "2024-12-14",
+        "count": 4
+      },
+      {
+        "date": "2024-12-16",
+        "count": 7
+      },
+      {
+        "date": "2024-12-17",
+        "count": 15
+      },
+      {
+        "date": "2024-12-18",
+        "count": 27
+      },
+      {
+        "date": "2024-12-19",
+        "count": 10
+      },
+      {
+        "date": "2024-12-20",
+        "count": 13
+      },
+      {
+        "date": "2024-12-21",
+        "count": 2
+      },
+      {
+        "date": "2024-12-23",
+        "count": 20
+      },
+      {
+        "date": "2024-12-24",
+        "count": 3
+      },
+      {
+        "date": "2024-12-26",
+        "count": 5
+      },
+      {
+        "date": "2024-12-27",
+        "count": 13
+      },
+      {
+        "date": "2024-12-28",
+        "count": 2
+      },
+      {
+        "date": "2024-12-29",
+        "count": 3
+      },
+      {
+        "date": "2024-12-30",
+        "count": 54
+      },
+      {
+        "date": "2024-12-31",
+        "count": 9
+      },
+      {
+        "date": "2025-01-01",
+        "count": 3
+      },
+      {
+        "date": "2025-01-02",
+        "count": 23
+      },
+      {
+        "date": "2025-01-03",
+        "count": 20
+      },
+      {
+        "date": "2025-01-04",
+        "count": 2
+      },
+      {
+        "date": "2025-01-05",
+        "count": 4
+      },
+      {
+        "date": "2025-01-06",
+        "count": 20
+      },
+      {
+        "date": "2025-01-07",
+        "count": 16
+      },
+      {
+        "date": "2025-01-08",
+        "count": 23
+      },
+      {
+        "date": "2025-01-09",
+        "count": 55
+      },
+      {
+        "date": "2025-01-10",
+        "count": 17
+      }
+    ],
+    "monthly_distribution": [
+      {
+        "month": "2024-05",
+        "count": 115
+      },
+      {
+        "month": "2024-06",
+        "count": 5
+      },
+      {
+        "month": "2024-07",
+        "count": 16
+      },
+      {
+        "month": "2024-08",
+        "count": 59
+      },
+      {
+        "month": "2024-09",
+        "count": 16
+      },
+      {
+        "month": "2024-10",
+        "count": 143
+      },
+      {
+        "month": "2024-11",
+        "count": 56
+      },
+      {
+        "month": "2024-12",
+        "count": 262
+      },
+      {
+        "month": "2025-01",
+        "count": 183
+      }
+    ]
+  }
+}

@@ -1,0 +1,1199 @@
+{
+  "analysis_date": "2025-02-01",
+  "company_name": "lululemon",
+  "summary": {
+    "headline_points": [
+      "Total 429 jobs analyzed for lululemon",
+      "Mean min salary: $14126, mean max salary: $19990",
+      "Top location is New York, NY",
+      "Remote work percentage: ~7.23%",
+      "Strong culture emphasis on diversity, training, and benefits"
+    ]
+  },
+  "company_profile": {
+    "company_description": "lululemon is a technical activewear, loungewear and footwear company for all the ways you love to move.",
+    "company_size": "Unknown",
+    "company_revenue": "$5B to $10B (USD)"
+  },
+  "compensation": {
+    "min_salary_stats": {
+      "mean": 14125.65268065268,
+      "median": 20.0,
+      "std": 40291.526346915896,
+      "quartiles": [
+        18.0,
+        20.0,
+        23.0
+      ],
+      "iqr": 5.0
+    },
+    "max_salary_stats": {
+      "mean": 19990.277389277388,
+      "median": 24.0,
+      "std": 56067.01021477978,
+      "quartiles": [
+        22.0,
+        24.0,
+        30.0
+      ],
+      "iqr": 8.0
+    },
+    "salary_spread": {
+      "mean_spread": 5864.624708624709,
+      "median_spread": 5.0
+    },
+    "bands": {
+      "entry_level": {
+        "range": [
+          16.0,
+          83310.66666666667
+        ],
+        "count": 771
+      },
+      "mid_level": {
+        "range": [
+          83310.66666666667,
+          166605.33333333334
+        ],
+        "count": 57
+      },
+      "senior_level": {
+        "range": [
+          166605.33333333334,
+          249900.0
+        ],
+        "count": 30
+      }
+    }
+  },
+  "location_analysis": {
+    "total_jobs": 429,
+    "top_locations": [
+      [
+        "New York, NY",
+        23
+      ],
+      [
+        "Seattle, WA",
+        17
+      ],
+      [
+        "Los Angeles, CA",
+        11
+      ],
+      [
+        "Ontario, CA",
+        8
+      ],
+      [
+        "Columbus, OH",
+        8
+      ]
+    ],
+    "state_distribution": {
+      "CA": 66,
+      "NY": 35,
+      "TX": 34,
+      "WA": 30,
+      "FL": 28,
+      "VA": 20,
+      "MA": 20,
+      "MO": 19,
+      "OH": 16,
+      "CT": 13,
+      "IL": 11,
+      "OR": 9,
+      "MI": 9,
+      "TN": 9,
+      "HI": 8,
+      "CO": 8,
+      "NJ": 7,
+      "PA": 6,
+      "MD": 6,
+      "AZ": 6,
+      "WI": 6,
+      "MN": 5,
+      "WY": 5,
+      "GA": 5,
+      "NC": 5,
+      "NH": 5,
+      "AR": 4,
+      "AL": 4,
+      "VT": 4,
+      "UT": 3,
+      "NV": 3,
+      "KY": 2,
+      "LA": 2,
+      "IN": 2,
+      "MT": 2,
+      "ME": 2,
+      "SC": 1,
+      "RI": 1,
+      "ID": 1,
+      "DC": 1,
+      "SD": 1
+    },
+    "remote_jobs": {
+      "percentage": 7.226107226107226
+    },
+    "location_diversity_score": 0.9890530437878249
+  },
+  "job_categories": {
+    "security": {
+      "count": 15,
+      "percentage": 3.4965034965034967,
+      "avg_salary_range": {
+        "min": 156466.66666666666,
+        "max": 204726.66666666666
+      },
+      "remote_percentage": 86.66666666666667,
+      "top_locations": [
+        [
+          "Seattle, WA",
+          11
+        ],
+        [
+          "Los Angeles, CA",
+          2
+        ],
+        [
+          "Columbus, OH",
+          2
+        ]
+      ]
+    },
+    "management": {
+      "count": 227,
+      "percentage": 52.91375291375291,
+      "avg_salary_range": {
+        "min": 25557.806167400882,
+        "max": 36286.898678414094
+      },
+      "remote_percentage": 12.77533039647577,
+      "top_locations": [
+        [
+          "Seattle, WA",
+          16
+        ],
+        [
+          "New York, NY",
+          14
+        ],
+        [
+          "Los Angeles, CA",
+          8
+        ]
+      ]
+    },
+    "operations": {
+      "count": 429,
+      "percentage": 100.0,
+      "avg_salary_range": {
+        "min": 14125.65268065268,
+        "max": 19990.277389277388
+      },
+      "remote_percentage": 7.226107226107226,
+      "top_locations": [
+        [
+          "New York, NY",
+          23
+        ],
+        [
+          "Seattle, WA",
+          17
+        ],
+        [
+          "Los Angeles, CA",
+          11
+        ]
+      ]
+    },
+    "sales": {
+      "count": 352,
+      "percentage": 82.05128205128204,
+      "avg_salary_range": {
+        "min": 5109.193181818182,
+        "max": 8476.860795454546
+      },
+      "remote_percentage": 1.4204545454545454,
+      "top_locations": [
+        [
+          "New York, NY",
+          21
+        ],
+        [
+          "Los Angeles, CA",
+          8
+        ],
+        [
+          "Columbus, OH",
+          6
+        ]
+      ]
+    },
+    "marketing": {
+      "count": 159,
+      "percentage": 37.06293706293706,
+      "avg_salary_range": {
+        "min": 13855.119496855346,
+        "max": 22136.150943396227
+      },
+      "remote_percentage": 5.660377358490567,
+      "top_locations": [
+        [
+          "New York, NY",
+          11
+        ],
+        [
+          "Austin, TX",
+          4
+        ],
+        [
+          "Los Angeles, CA",
+          4
+        ]
+      ]
+    },
+    "design": {
+      "count": 127,
+      "percentage": 29.603729603729604,
+      "avg_salary_range": {
+        "min": 16742.6062992126,
+        "max": 25669.929133858266
+      },
+      "remote_percentage": 4.724409448818897,
+      "top_locations": [
+        [
+          "New York, NY",
+          10
+        ],
+        [
+          "Seattle, WA",
+          4
+        ],
+        [
+          "Austin, TX",
+          3
+        ]
+      ]
+    },
+    "engineering": {
+      "count": 16,
+      "percentage": 3.7296037296037294,
+      "avg_salary_range": {
+        "min": 132513.8125,
+        "max": 173557.6875
+      },
+      "remote_percentage": 81.25,
+      "top_locations": [
+        [
+          "Seattle, WA",
+          8
+        ],
+        [
+          "Los Angeles, CA",
+          3
+        ],
+        [
+          "Columbus, OH",
+          3
+        ]
+      ]
+    },
+    "data_science": {
+      "count": 6,
+      "percentage": 1.3986013986013985,
+      "avg_salary_range": {
+        "min": 135800.0,
+        "max": 177366.66666666666
+      },
+      "remote_percentage": 50.0,
+      "top_locations": [
+        [
+          "Seattle, WA",
+          3
+        ],
+        [
+          "Remote, Unknown",
+          2
+        ],
+        [
+          "Columbus, OH",
+          1
+        ]
+      ]
+    },
+    "research": {
+      "count": 8,
+      "percentage": 1.8648018648018647,
+      "avg_salary_range": {
+        "min": 117328.375,
+        "max": 155003.75
+      },
+      "remote_percentage": 87.5,
+      "top_locations": [
+        [
+          "Seattle, WA",
+          4
+        ],
+        [
+          "Ontario, CA",
+          1
+        ],
+        [
+          "Remote, Unknown",
+          1
+        ]
+      ]
+    },
+    "product": {
+      "count": 3,
+      "percentage": 0.6993006993006993,
+      "avg_salary_range": {
+        "min": 117833.33333333333,
+        "max": 154633.33333333334
+      },
+      "remote_percentage": 66.66666666666666,
+      "top_locations": [
+        [
+          "Seattle, WA",
+          2
+        ],
+        [
+          "Remote, Unknown",
+          1
+        ]
+      ]
+    }
+  },
+  "skills_and_requirements": {
+    "skill_categories": {},
+    "job_categories": {
+      "security": {
+        "count": 15,
+        "percentage": 3.4965034965034967,
+        "avg_salary_range": {
+          "min": 156466.66666666666,
+          "max": 204726.66666666666
+        },
+        "remote_percentage": 86.66666666666667,
+        "top_locations": [
+          [
+            "Seattle, WA",
+            11
+          ],
+          [
+            "Los Angeles, CA",
+            2
+          ],
+          [
+            "Columbus, OH",
+            2
+          ]
+        ]
+      },
+      "management": {
+        "count": 227,
+        "percentage": 52.91375291375291,
+        "avg_salary_range": {
+          "min": 25557.806167400882,
+          "max": 36286.898678414094
+        },
+        "remote_percentage": 12.77533039647577,
+        "top_locations": [
+          [
+            "Seattle, WA",
+            16
+          ],
+          [
+            "New York, NY",
+            14
+          ],
+          [
+            "Los Angeles, CA",
+            8
+          ]
+        ]
+      },
+      "operations": {
+        "count": 429,
+        "percentage": 100.0,
+        "avg_salary_range": {
+          "min": 14125.65268065268,
+          "max": 19990.277389277388
+        },
+        "remote_percentage": 7.226107226107226,
+        "top_locations": [
+          [
+            "New York, NY",
+            23
+          ],
+          [
+            "Seattle, WA",
+            17
+          ],
+          [
+            "Los Angeles, CA",
+            11
+          ]
+        ]
+      },
+      "sales": {
+        "count": 352,
+        "percentage": 82.05128205128204,
+        "avg_salary_range": {
+          "min": 5109.193181818182,
+          "max": 8476.860795454546
+        },
+        "remote_percentage": 1.4204545454545454,
+        "top_locations": [
+          [
+            "New York, NY",
+            21
+          ],
+          [
+            "Los Angeles, CA",
+            8
+          ],
+          [
+            "Columbus, OH",
+            6
+          ]
+        ]
+      },
+      "marketing": {
+        "count": 159,
+        "percentage": 37.06293706293706,
+        "avg_salary_range": {
+          "min": 13855.119496855346,
+          "max": 22136.150943396227
+        },
+        "remote_percentage": 5.660377358490567,
+        "top_locations": [
+          [
+            "New York, NY",
+            11
+          ],
+          [
+            "Austin, TX",
+            4
+          ],
+          [
+            "Los Angeles, CA",
+            4
+          ]
+        ]
+      },
+      "design": {
+        "count": 127,
+        "percentage": 29.603729603729604,
+        "avg_salary_range": {
+          "min": 16742.6062992126,
+          "max": 25669.929133858266
+        },
+        "remote_percentage": 4.724409448818897,
+        "top_locations": [
+          [
+            "New York, NY",
+            10
+          ],
+          [
+            "Seattle, WA",
+            4
+          ],
+          [
+            "Austin, TX",
+            3
+          ]
+        ]
+      },
+      "engineering": {
+        "count": 16,
+        "percentage": 3.7296037296037294,
+        "avg_salary_range": {
+          "min": 132513.8125,
+          "max": 173557.6875
+        },
+        "remote_percentage": 81.25,
+        "top_locations": [
+          [
+            "Seattle, WA",
+            8
+          ],
+          [
+            "Los Angeles, CA",
+            3
+          ],
+          [
+            "Columbus, OH",
+            3
+          ]
+        ]
+      },
+      "data_science": {
+        "count": 6,
+        "percentage": 1.3986013986013985,
+        "avg_salary_range": {
+          "min": 135800.0,
+          "max": 177366.66666666666
+        },
+        "remote_percentage": 50.0,
+        "top_locations": [
+          [
+            "Seattle, WA",
+            3
+          ],
+          [
+            "Remote, Unknown",
+            2
+          ],
+          [
+            "Columbus, OH",
+            1
+          ]
+        ]
+      },
+      "research": {
+        "count": 8,
+        "percentage": 1.8648018648018647,
+        "avg_salary_range": {
+          "min": 117328.375,
+          "max": 155003.75
+        },
+        "remote_percentage": 87.5,
+        "top_locations": [
+          [
+            "Seattle, WA",
+            4
+          ],
+          [
+            "Ontario, CA",
+            1
+          ],
+          [
+            "Remote, Unknown",
+            1
+          ]
+        ]
+      },
+      "product": {
+        "count": 3,
+        "percentage": 0.6993006993006993,
+        "avg_salary_range": {
+          "min": 117833.33333333333,
+          "max": 154633.33333333334
+        },
+        "remote_percentage": 66.66666666666666,
+        "top_locations": [
+          [
+            "Seattle, WA",
+            2
+          ],
+          [
+            "Remote, Unknown",
+            1
+          ]
+        ]
+      }
+    },
+    "career_requirements": {
+      "education": {
+        "bachelors": {
+          "count": 76,
+          "percentage": 17.715617715617714
+        },
+        "masters": {
+          "count": 1,
+          "percentage": 0.2331002331002331
+        },
+        "phd": {
+          "count": 2,
+          "percentage": 0.4662004662004662
+        }
+      },
+      "experience": {
+        "avg_years": 4.731182795698925,
+        "min_years": 1,
+        "max_years": 18
+      }
+    }
+  },
+  "culture_and_benefits": {
+    "benefits_offered": {
+      "healthcare": {
+        "count": 423,
+        "percentage": 98.6013986013986
+      },
+      "vacation": {
+        "count": 25,
+        "percentage": 5.827505827505827
+      },
+      "disability": {
+        "count": 1,
+        "percentage": 0.2331002331002331
+      },
+      "retirement": {
+        "count": 1,
+        "percentage": 0.2331002331002331
+      }
+    },
+    "culture_emphasis": {
+      "diversity_inclusion": {
+        "count": 429,
+        "percentage": 100.0
+      },
+      "innovation": {
+        "count": 427,
+        "percentage": 99.53379953379954
+      },
+      "collaboration": {
+        "count": 362,
+        "percentage": 84.38228438228438
+      },
+      "growth_development": {
+        "count": 429,
+        "percentage": 100.0
+      }
+    },
+    "work_life_balance": {
+      "remote_work": {
+        "count": 34,
+        "percentage": 7.925407925407925
+      },
+      "flexibility": {
+        "count": 139,
+        "percentage": 32.400932400932405
+      }
+    }
+  },
+  "market_positioning": {
+    "salary_competitiveness": 0.09995138694638694,
+    "remote_leadership": 0.1445221445221445
+  },
+  "time_trends": {
+    "date_distribution": [
+      {
+        "date": "2023-10-10",
+        "count": 1
+      },
+      {
+        "date": "2024-03-02",
+        "count": 1
+      },
+      {
+        "date": "2024-04-05",
+        "count": 1
+      },
+      {
+        "date": "2024-06-11",
+        "count": 1
+      },
+      {
+        "date": "2024-06-13",
+        "count": 2
+      },
+      {
+        "date": "2024-06-19",
+        "count": 2
+      },
+      {
+        "date": "2024-06-26",
+        "count": 1
+      },
+      {
+        "date": "2024-07-02",
+        "count": 2
+      },
+      {
+        "date": "2024-07-06",
+        "count": 1
+      },
+      {
+        "date": "2024-07-09",
+        "count": 1
+      },
+      {
+        "date": "2024-07-15",
+        "count": 1
+      },
+      {
+        "date": "2024-07-20",
+        "count": 1
+      },
+      {
+        "date": "2024-07-22",
+        "count": 1
+      },
+      {
+        "date": "2024-07-24",
+        "count": 1
+      },
+      {
+        "date": "2024-07-27",
+        "count": 1
+      },
+      {
+        "date": "2024-07-30",
+        "count": 1
+      },
+      {
+        "date": "2024-07-31",
+        "count": 2
+      },
+      {
+        "date": "2024-08-03",
+        "count": 1
+      },
+      {
+        "date": "2024-08-06",
+        "count": 2
+      },
+      {
+        "date": "2024-08-13",
+        "count": 2
+      },
+      {
+        "date": "2024-08-14",
+        "count": 2
+      },
+      {
+        "date": "2024-08-19",
+        "count": 1
+      },
+      {
+        "date": "2024-08-21",
+        "count": 1
+      },
+      {
+        "date": "2024-08-22",
+        "count": 3
+      },
+      {
+        "date": "2024-08-27",
+        "count": 5
+      },
+      {
+        "date": "2024-08-28",
+        "count": 10
+      },
+      {
+        "date": "2024-08-29",
+        "count": 2
+      },
+      {
+        "date": "2024-08-30",
+        "count": 1
+      },
+      {
+        "date": "2024-08-31",
+        "count": 2
+      },
+      {
+        "date": "2024-09-03",
+        "count": 2
+      },
+      {
+        "date": "2024-09-04",
+        "count": 1
+      },
+      {
+        "date": "2024-09-06",
+        "count": 3
+      },
+      {
+        "date": "2024-09-09",
+        "count": 1
+      },
+      {
+        "date": "2024-09-10",
+        "count": 2
+      },
+      {
+        "date": "2024-09-11",
+        "count": 4
+      },
+      {
+        "date": "2024-09-12",
+        "count": 2
+      },
+      {
+        "date": "2024-09-13",
+        "count": 4
+      },
+      {
+        "date": "2024-09-14",
+        "count": 1
+      },
+      {
+        "date": "2024-09-16",
+        "count": 3
+      },
+      {
+        "date": "2024-09-17",
+        "count": 2
+      },
+      {
+        "date": "2024-09-18",
+        "count": 4
+      },
+      {
+        "date": "2024-09-19",
+        "count": 1
+      },
+      {
+        "date": "2024-09-20",
+        "count": 3
+      },
+      {
+        "date": "2024-09-25",
+        "count": 2
+      },
+      {
+        "date": "2024-09-27",
+        "count": 5
+      },
+      {
+        "date": "2024-10-01",
+        "count": 4
+      },
+      {
+        "date": "2024-10-02",
+        "count": 3
+      },
+      {
+        "date": "2024-10-03",
+        "count": 1
+      },
+      {
+        "date": "2024-10-04",
+        "count": 3
+      },
+      {
+        "date": "2024-10-07",
+        "count": 3
+      },
+      {
+        "date": "2024-10-08",
+        "count": 2
+      },
+      {
+        "date": "2024-10-09",
+        "count": 1
+      },
+      {
+        "date": "2024-10-10",
+        "count": 2
+      },
+      {
+        "date": "2024-10-12",
+        "count": 1
+      },
+      {
+        "date": "2024-10-14",
+        "count": 1
+      },
+      {
+        "date": "2024-10-15",
+        "count": 1
+      },
+      {
+        "date": "2024-10-18",
+        "count": 2
+      },
+      {
+        "date": "2024-10-20",
+        "count": 1
+      },
+      {
+        "date": "2024-10-22",
+        "count": 2
+      },
+      {
+        "date": "2024-10-23",
+        "count": 2
+      },
+      {
+        "date": "2024-10-24",
+        "count": 1
+      },
+      {
+        "date": "2024-10-25",
+        "count": 1
+      },
+      {
+        "date": "2024-10-29",
+        "count": 3
+      },
+      {
+        "date": "2024-10-30",
+        "count": 2
+      },
+      {
+        "date": "2024-11-04",
+        "count": 1
+      },
+      {
+        "date": "2024-11-05",
+        "count": 5
+      },
+      {
+        "date": "2024-11-07",
+        "count": 4
+      },
+      {
+        "date": "2024-11-10",
+        "count": 2
+      },
+      {
+        "date": "2024-11-11",
+        "count": 1
+      },
+      {
+        "date": "2024-11-12",
+        "count": 3
+      },
+      {
+        "date": "2024-11-13",
+        "count": 3
+      },
+      {
+        "date": "2024-11-14",
+        "count": 5
+      },
+      {
+        "date": "2024-11-15",
+        "count": 2
+      },
+      {
+        "date": "2024-11-16",
+        "count": 1
+      },
+      {
+        "date": "2024-11-18",
+        "count": 2
+      },
+      {
+        "date": "2024-11-20",
+        "count": 1
+      },
+      {
+        "date": "2024-11-21",
+        "count": 1
+      },
+      {
+        "date": "2024-11-22",
+        "count": 5
+      },
+      {
+        "date": "2024-11-25",
+        "count": 4
+      },
+      {
+        "date": "2024-11-26",
+        "count": 2
+      },
+      {
+        "date": "2024-11-27",
+        "count": 1
+      },
+      {
+        "date": "2024-11-28",
+        "count": 1
+      },
+      {
+        "date": "2024-12-01",
+        "count": 2
+      },
+      {
+        "date": "2024-12-03",
+        "count": 5
+      },
+      {
+        "date": "2024-12-04",
+        "count": 3
+      },
+      {
+        "date": "2024-12-05",
+        "count": 2
+      },
+      {
+        "date": "2024-12-07",
+        "count": 1
+      },
+      {
+        "date": "2024-12-08",
+        "count": 1
+      },
+      {
+        "date": "2024-12-09",
+        "count": 2
+      },
+      {
+        "date": "2024-12-10",
+        "count": 5
+      },
+      {
+        "date": "2024-12-11",
+        "count": 5
+      },
+      {
+        "date": "2024-12-12",
+        "count": 8
+      },
+      {
+        "date": "2024-12-13",
+        "count": 4
+      },
+      {
+        "date": "2024-12-15",
+        "count": 1
+      },
+      {
+        "date": "2024-12-16",
+        "count": 2
+      },
+      {
+        "date": "2024-12-17",
+        "count": 2
+      },
+      {
+        "date": "2024-12-18",
+        "count": 6
+      },
+      {
+        "date": "2024-12-19",
+        "count": 5
+      },
+      {
+        "date": "2024-12-20",
+        "count": 4
+      },
+      {
+        "date": "2024-12-21",
+        "count": 2
+      },
+      {
+        "date": "2024-12-22",
+        "count": 2
+      },
+      {
+        "date": "2024-12-23",
+        "count": 5
+      },
+      {
+        "date": "2024-12-24",
+        "count": 1
+      },
+      {
+        "date": "2024-12-26",
+        "count": 5
+      },
+      {
+        "date": "2024-12-27",
+        "count": 11
+      },
+      {
+        "date": "2024-12-28",
+        "count": 5
+      },
+      {
+        "date": "2024-12-29",
+        "count": 3
+      },
+      {
+        "date": "2024-12-30",
+        "count": 8
+      },
+      {
+        "date": "2024-12-31",
+        "count": 17
+      },
+      {
+        "date": "2025-01-01",
+        "count": 16
+      },
+      {
+        "date": "2025-01-02",
+        "count": 23
+      },
+      {
+        "date": "2025-01-03",
+        "count": 14
+      },
+      {
+        "date": "2025-01-04",
+        "count": 7
+      },
+      {
+        "date": "2025-01-05",
+        "count": 4
+      },
+      {
+        "date": "2025-01-06",
+        "count": 20
+      },
+      {
+        "date": "2025-01-07",
+        "count": 18
+      },
+      {
+        "date": "2025-01-08",
+        "count": 14
+      },
+      {
+        "date": "2025-01-09",
+        "count": 16
+      },
+      {
+        "date": "2025-01-10",
+        "count": 7
+      }
+    ],
+    "monthly_distribution": [
+      {
+        "month": "2023-10",
+        "count": 1
+      },
+      {
+        "month": "2024-03",
+        "count": 1
+      },
+      {
+        "month": "2024-04",
+        "count": 1
+      },
+      {
+        "month": "2024-06",
+        "count": 6
+      },
+      {
+        "month": "2024-07",
+        "count": 12
+      },
+      {
+        "month": "2024-08",
+        "count": 32
+      },
+      {
+        "month": "2024-09",
+        "count": 40
+      },
+      {
+        "month": "2024-10",
+        "count": 36
+      },
+      {
+        "month": "2024-11",
+        "count": 44
+      },
+      {
+        "month": "2024-12",
+        "count": 117
+      },
+      {
+        "month": "2025-01",
+        "count": 139
+      }
+    ]
+  }
+}

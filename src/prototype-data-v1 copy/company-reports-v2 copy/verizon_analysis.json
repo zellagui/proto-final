@@ -1,0 +1,1110 @@
+{
+  "analysis_date": "2025-02-01",
+  "company_name": "Verizon",
+  "summary": {
+    "headline_points": [
+      "Total 384 jobs analyzed for Verizon",
+      "Mean min salary: $93870, mean max salary: $135445",
+      "Top location is Basking Ridge, NJ",
+      "Remote work percentage: ~60.94%",
+      "Strong culture emphasis on diversity, training, and benefits"
+    ]
+  },
+  "company_profile": {
+    "company_description": "Here, passion finds purpose and anyone who wants to make a difference can create impact. Dream it. Build it. Do it here.",
+    "company_size": "Unknown",
+    "company_revenue": "more than $10B (USD)"
+  },
+  "compensation": {
+    "min_salary_stats": {
+      "mean": 93870.29722222222,
+      "median": 96542.0,
+      "std": 44677.10499191819,
+      "quartiles": [
+        57228.25,
+        96542.0,
+        126964.75
+      ],
+      "iqr": 69736.5
+    },
+    "max_salary_stats": {
+      "mean": 135445.0888888889,
+      "median": 137580.5,
+      "std": 67637.33421128278,
+      "quartiles": [
+        84352.5,
+        137580.5,
+        183374.75
+      ],
+      "iqr": 99022.25
+    },
+    "salary_spread": {
+      "mean_spread": 41574.791666666664,
+      "median_spread": 33147.0
+    },
+    "bands": {
+      "entry_level": {
+        "range": [
+          14.0,
+          119342.66666666667
+        ],
+        "count": 388
+      },
+      "mid_level": {
+        "range": [
+          119342.66666666667,
+          238671.33333333334
+        ],
+        "count": 310
+      },
+      "senior_level": {
+        "range": [
+          238671.33333333334,
+          358000.0
+        ],
+        "count": 22
+      }
+    }
+  },
+  "location_analysis": {
+    "total_jobs": 384,
+    "top_locations": [
+      [
+        "Basking Ridge, NJ",
+        95
+      ],
+      [
+        "Irving, TX",
+        20
+      ],
+      [
+        "Ashburn, VA",
+        16
+      ],
+      [
+        "New York, NY",
+        15
+      ],
+      [
+        "Lake Mary, FL",
+        14
+      ]
+    ],
+    "state_distribution": {
+      "NJ": 106,
+      "NY": 34,
+      "TX": 31,
+      "CA": 24,
+      "FL": 24,
+      "VA": 19,
+      "GA": 16,
+      "MA": 14,
+      "PA": 14,
+      "IL": 11,
+      "OK": 10,
+      "OH": 8,
+      "CO": 7,
+      "NC": 6,
+      "AR": 5,
+      "OR": 5,
+      "DC": 5,
+      "MI": 4,
+      "AZ": 4,
+      "MD": 3,
+      "MN": 3,
+      "ME": 3,
+      "HI": 3,
+      "UT": 2,
+      "IN": 2,
+      "WA": 2,
+      "AL": 2,
+      "KS": 2,
+      "NH": 2,
+      "LA": 2,
+      "TN": 2,
+      "MO": 1,
+      "NE": 1,
+      "DE": 1,
+      "ID": 1,
+      "MT": 1,
+      "IA": 1,
+      "WI": 1,
+      "NV": 1,
+      "CT": 1
+    },
+    "remote_jobs": {
+      "percentage": 60.9375
+    },
+    "location_diversity_score": 0.9266086154513891
+  },
+  "job_categories": {
+    "management": {
+      "count": 378,
+      "percentage": 98.4375,
+      "avg_salary_range": {
+        "min": 95345.07062146893,
+        "max": 137589.83050847458
+      },
+      "remote_percentage": 61.904761904761905,
+      "top_locations": [
+        [
+          "Basking Ridge, NJ",
+          95
+        ],
+        [
+          "Irving, TX",
+          20
+        ],
+        [
+          "Ashburn, VA",
+          16
+        ]
+      ]
+    },
+    "operations": {
+      "count": 335,
+      "percentage": 87.23958333333334,
+      "avg_salary_range": {
+        "min": 93808.08360128617,
+        "max": 135408.35048231512
+      },
+      "remote_percentage": 61.19402985074627,
+      "top_locations": [
+        [
+          "Basking Ridge, NJ",
+          82
+        ],
+        [
+          "Irving, TX",
+          16
+        ],
+        [
+          "New York, NY",
+          15
+        ]
+      ]
+    },
+    "research": {
+      "count": 73,
+      "percentage": 19.010416666666664,
+      "avg_salary_range": {
+        "min": 110232.91780821918,
+        "max": 162942.23287671234
+      },
+      "remote_percentage": 91.78082191780823,
+      "top_locations": [
+        [
+          "Basking Ridge, NJ",
+          36
+        ],
+        [
+          "Irving, TX",
+          6
+        ],
+        [
+          "Tulsa, OK",
+          4
+        ]
+      ]
+    },
+    "security": {
+      "count": 71,
+      "percentage": 18.489583333333336,
+      "avg_salary_range": {
+        "min": 104132.57971014493,
+        "max": 145343.3768115942
+      },
+      "remote_percentage": 50.70422535211267,
+      "top_locations": [
+        [
+          "Basking Ridge, NJ",
+          12
+        ],
+        [
+          "Ashburn, VA",
+          8
+        ],
+        [
+          "Irving, TX",
+          5
+        ]
+      ]
+    },
+    "engineering": {
+      "count": 111,
+      "percentage": 28.90625,
+      "avg_salary_range": {
+        "min": 103190.61261261262,
+        "max": 147645.73873873873
+      },
+      "remote_percentage": 69.36936936936937,
+      "top_locations": [
+        [
+          "Basking Ridge, NJ",
+          23
+        ],
+        [
+          "Irving, TX",
+          13
+        ],
+        [
+          "Ashburn, VA",
+          8
+        ]
+      ]
+    },
+    "data_science": {
+      "count": 110,
+      "percentage": 28.645833333333332,
+      "avg_salary_range": {
+        "min": 110021.07272727272,
+        "max": 155828.6
+      },
+      "remote_percentage": 75.45454545454545,
+      "top_locations": [
+        [
+          "Basking Ridge, NJ",
+          33
+        ],
+        [
+          "Irving, TX",
+          12
+        ],
+        [
+          "Ashburn, VA",
+          7
+        ]
+      ]
+    },
+    "sales": {
+      "count": 167,
+      "percentage": 43.48958333333333,
+      "avg_salary_range": {
+        "min": 80866.93055555556,
+        "max": 118861.00694444444
+      },
+      "remote_percentage": 38.32335329341318,
+      "top_locations": [
+        [
+          "Basking Ridge, NJ",
+          24
+        ],
+        [
+          "Ashburn, VA",
+          6
+        ],
+        [
+          "Rolling Meadows, IL",
+          5
+        ]
+      ]
+    },
+    "design": {
+      "count": 27,
+      "percentage": 7.03125,
+      "avg_salary_range": {
+        "min": 122825.62962962964,
+        "max": 182676.33333333334
+      },
+      "remote_percentage": 85.18518518518519,
+      "top_locations": [
+        [
+          "Basking Ridge, NJ",
+          12
+        ],
+        [
+          "Ashburn, VA",
+          3
+        ],
+        [
+          "New York, NY",
+          3
+        ]
+      ]
+    },
+    "marketing": {
+      "count": 97,
+      "percentage": 25.260416666666668,
+      "avg_salary_range": {
+        "min": 108115.78947368421,
+        "max": 172250.04210526316
+      },
+      "remote_percentage": 87.62886597938144,
+      "top_locations": [
+        [
+          "Basking Ridge, NJ",
+          38
+        ],
+        [
+          "New York, NY",
+          11
+        ],
+        [
+          "Irving, TX",
+          7
+        ]
+      ]
+    },
+    "product": {
+      "count": 13,
+      "percentage": 3.3854166666666665,
+      "avg_salary_range": {
+        "min": 107246.76923076923,
+        "max": 167190.0
+      },
+      "remote_percentage": 100.0,
+      "top_locations": [
+        [
+          "Basking Ridge, NJ",
+          5
+        ],
+        [
+          "Lake Mary, FL",
+          3
+        ],
+        [
+          "Irving, TX",
+          1
+        ]
+      ]
+    }
+  },
+  "skills_and_requirements": {
+    "skill_categories": {},
+    "job_categories": {
+      "management": {
+        "count": 378,
+        "percentage": 98.4375,
+        "avg_salary_range": {
+          "min": 95345.07062146893,
+          "max": 137589.83050847458
+        },
+        "remote_percentage": 61.904761904761905,
+        "top_locations": [
+          [
+            "Basking Ridge, NJ",
+            95
+          ],
+          [
+            "Irving, TX",
+            20
+          ],
+          [
+            "Ashburn, VA",
+            16
+          ]
+        ]
+      },
+      "operations": {
+        "count": 335,
+        "percentage": 87.23958333333334,
+        "avg_salary_range": {
+          "min": 93808.08360128617,
+          "max": 135408.35048231512
+        },
+        "remote_percentage": 61.19402985074627,
+        "top_locations": [
+          [
+            "Basking Ridge, NJ",
+            82
+          ],
+          [
+            "Irving, TX",
+            16
+          ],
+          [
+            "New York, NY",
+            15
+          ]
+        ]
+      },
+      "research": {
+        "count": 73,
+        "percentage": 19.010416666666664,
+        "avg_salary_range": {
+          "min": 110232.91780821918,
+          "max": 162942.23287671234
+        },
+        "remote_percentage": 91.78082191780823,
+        "top_locations": [
+          [
+            "Basking Ridge, NJ",
+            36
+          ],
+          [
+            "Irving, TX",
+            6
+          ],
+          [
+            "Tulsa, OK",
+            4
+          ]
+        ]
+      },
+      "security": {
+        "count": 71,
+        "percentage": 18.489583333333336,
+        "avg_salary_range": {
+          "min": 104132.57971014493,
+          "max": 145343.3768115942
+        },
+        "remote_percentage": 50.70422535211267,
+        "top_locations": [
+          [
+            "Basking Ridge, NJ",
+            12
+          ],
+          [
+            "Ashburn, VA",
+            8
+          ],
+          [
+            "Irving, TX",
+            5
+          ]
+        ]
+      },
+      "engineering": {
+        "count": 111,
+        "percentage": 28.90625,
+        "avg_salary_range": {
+          "min": 103190.61261261262,
+          "max": 147645.73873873873
+        },
+        "remote_percentage": 69.36936936936937,
+        "top_locations": [
+          [
+            "Basking Ridge, NJ",
+            23
+          ],
+          [
+            "Irving, TX",
+            13
+          ],
+          [
+            "Ashburn, VA",
+            8
+          ]
+        ]
+      },
+      "data_science": {
+        "count": 110,
+        "percentage": 28.645833333333332,
+        "avg_salary_range": {
+          "min": 110021.07272727272,
+          "max": 155828.6
+        },
+        "remote_percentage": 75.45454545454545,
+        "top_locations": [
+          [
+            "Basking Ridge, NJ",
+            33
+          ],
+          [
+            "Irving, TX",
+            12
+          ],
+          [
+            "Ashburn, VA",
+            7
+          ]
+        ]
+      },
+      "sales": {
+        "count": 167,
+        "percentage": 43.48958333333333,
+        "avg_salary_range": {
+          "min": 80866.93055555556,
+          "max": 118861.00694444444
+        },
+        "remote_percentage": 38.32335329341318,
+        "top_locations": [
+          [
+            "Basking Ridge, NJ",
+            24
+          ],
+          [
+            "Ashburn, VA",
+            6
+          ],
+          [
+            "Rolling Meadows, IL",
+            5
+          ]
+        ]
+      },
+      "design": {
+        "count": 27,
+        "percentage": 7.03125,
+        "avg_salary_range": {
+          "min": 122825.62962962964,
+          "max": 182676.33333333334
+        },
+        "remote_percentage": 85.18518518518519,
+        "top_locations": [
+          [
+            "Basking Ridge, NJ",
+            12
+          ],
+          [
+            "Ashburn, VA",
+            3
+          ],
+          [
+            "New York, NY",
+            3
+          ]
+        ]
+      },
+      "marketing": {
+        "count": 97,
+        "percentage": 25.260416666666668,
+        "avg_salary_range": {
+          "min": 108115.78947368421,
+          "max": 172250.04210526316
+        },
+        "remote_percentage": 87.62886597938144,
+        "top_locations": [
+          [
+            "Basking Ridge, NJ",
+            38
+          ],
+          [
+            "New York, NY",
+            11
+          ],
+          [
+            "Irving, TX",
+            7
+          ]
+        ]
+      },
+      "product": {
+        "count": 13,
+        "percentage": 3.3854166666666665,
+        "avg_salary_range": {
+          "min": 107246.76923076923,
+          "max": 167190.0
+        },
+        "remote_percentage": 100.0,
+        "top_locations": [
+          [
+            "Basking Ridge, NJ",
+            5
+          ],
+          [
+            "Lake Mary, FL",
+            3
+          ],
+          [
+            "Irving, TX",
+            1
+          ]
+        ]
+      }
+    },
+    "career_requirements": {
+      "education": {
+        "bachelors": {
+          "count": 123,
+          "percentage": 32.03125
+        },
+        "masters": {
+          "count": 27,
+          "percentage": 7.03125
+        }
+      },
+      "experience": {
+        "avg_years": 15.0,
+        "min_years": 2,
+        "max_years": 30
+      }
+    }
+  },
+  "culture_and_benefits": {
+    "benefits_offered": {
+      "healthcare": {
+        "count": 162,
+        "percentage": 42.1875
+      },
+      "disability": {
+        "count": 374,
+        "percentage": 97.39583333333334
+      },
+      "retirement": {
+        "count": 188,
+        "percentage": 48.95833333333333
+      },
+      "vacation": {
+        "count": 83,
+        "percentage": 21.614583333333336
+      },
+      "life_insurance": {
+        "count": 3,
+        "percentage": 0.78125
+      }
+    },
+    "culture_emphasis": {
+      "diversity_inclusion": {
+        "count": 374,
+        "percentage": 97.39583333333334
+      },
+      "innovation": {
+        "count": 362,
+        "percentage": 94.27083333333334
+      },
+      "collaboration": {
+        "count": 374,
+        "percentage": 97.39583333333334
+      },
+      "growth_development": {
+        "count": 185,
+        "percentage": 48.17708333333333
+      }
+    },
+    "work_life_balance": {
+      "remote_work": {
+        "count": 245,
+        "percentage": 63.802083333333336
+      },
+      "flexibility": {
+        "count": 24,
+        "percentage": 6.25
+      },
+      "volunteer_time": {
+        "count": 3,
+        "percentage": 0.78125
+      }
+    }
+  },
+  "market_positioning": {
+    "salary_competitiveness": 0.6772254444444444,
+    "remote_leadership": 1.21875
+  },
+  "time_trends": {
+    "date_distribution": [
+      {
+        "date": "2017-11-02",
+        "count": 1
+      },
+      {
+        "date": "2021-09-08",
+        "count": 1
+      },
+      {
+        "date": "2022-12-15",
+        "count": 1
+      },
+      {
+        "date": "2023-06-05",
+        "count": 1
+      },
+      {
+        "date": "2023-06-29",
+        "count": 1
+      },
+      {
+        "date": "2023-08-30",
+        "count": 2
+      },
+      {
+        "date": "2024-03-13",
+        "count": 5
+      },
+      {
+        "date": "2024-04-16",
+        "count": 1
+      },
+      {
+        "date": "2024-04-30",
+        "count": 2
+      },
+      {
+        "date": "2024-06-12",
+        "count": 1
+      },
+      {
+        "date": "2024-07-11",
+        "count": 1
+      },
+      {
+        "date": "2024-08-12",
+        "count": 1
+      },
+      {
+        "date": "2024-08-20",
+        "count": 1
+      },
+      {
+        "date": "2024-08-22",
+        "count": 1
+      },
+      {
+        "date": "2024-08-23",
+        "count": 1
+      },
+      {
+        "date": "2024-08-28",
+        "count": 1
+      },
+      {
+        "date": "2024-09-03",
+        "count": 1
+      },
+      {
+        "date": "2024-09-06",
+        "count": 2
+      },
+      {
+        "date": "2024-09-10",
+        "count": 2
+      },
+      {
+        "date": "2024-09-13",
+        "count": 2
+      },
+      {
+        "date": "2024-09-17",
+        "count": 2
+      },
+      {
+        "date": "2024-09-18",
+        "count": 1
+      },
+      {
+        "date": "2024-09-19",
+        "count": 2
+      },
+      {
+        "date": "2024-09-24",
+        "count": 1
+      },
+      {
+        "date": "2024-09-26",
+        "count": 1
+      },
+      {
+        "date": "2024-09-27",
+        "count": 1
+      },
+      {
+        "date": "2024-09-30",
+        "count": 2
+      },
+      {
+        "date": "2024-10-01",
+        "count": 2
+      },
+      {
+        "date": "2024-10-02",
+        "count": 5
+      },
+      {
+        "date": "2024-10-04",
+        "count": 1
+      },
+      {
+        "date": "2024-10-11",
+        "count": 3
+      },
+      {
+        "date": "2024-10-14",
+        "count": 2
+      },
+      {
+        "date": "2024-10-16",
+        "count": 3
+      },
+      {
+        "date": "2024-10-17",
+        "count": 1
+      },
+      {
+        "date": "2024-10-18",
+        "count": 1
+      },
+      {
+        "date": "2024-10-21",
+        "count": 2
+      },
+      {
+        "date": "2024-10-22",
+        "count": 2
+      },
+      {
+        "date": "2024-10-23",
+        "count": 3
+      },
+      {
+        "date": "2024-10-24",
+        "count": 2
+      },
+      {
+        "date": "2024-10-25",
+        "count": 1
+      },
+      {
+        "date": "2024-10-27",
+        "count": 1
+      },
+      {
+        "date": "2024-10-28",
+        "count": 3
+      },
+      {
+        "date": "2024-10-29",
+        "count": 3
+      },
+      {
+        "date": "2024-11-01",
+        "count": 2
+      },
+      {
+        "date": "2024-11-04",
+        "count": 2
+      },
+      {
+        "date": "2024-11-05",
+        "count": 2
+      },
+      {
+        "date": "2024-11-06",
+        "count": 4
+      },
+      {
+        "date": "2024-11-07",
+        "count": 1
+      },
+      {
+        "date": "2024-11-08",
+        "count": 1
+      },
+      {
+        "date": "2024-11-11",
+        "count": 2
+      },
+      {
+        "date": "2024-11-12",
+        "count": 2
+      },
+      {
+        "date": "2024-11-13",
+        "count": 1
+      },
+      {
+        "date": "2024-11-14",
+        "count": 6
+      },
+      {
+        "date": "2024-11-15",
+        "count": 3
+      },
+      {
+        "date": "2024-11-18",
+        "count": 4
+      },
+      {
+        "date": "2024-11-19",
+        "count": 1
+      },
+      {
+        "date": "2024-11-20",
+        "count": 3
+      },
+      {
+        "date": "2024-11-21",
+        "count": 3
+      },
+      {
+        "date": "2024-11-22",
+        "count": 3
+      },
+      {
+        "date": "2024-11-23",
+        "count": 3
+      },
+      {
+        "date": "2024-11-26",
+        "count": 1
+      },
+      {
+        "date": "2024-11-27",
+        "count": 2
+      },
+      {
+        "date": "2024-12-02",
+        "count": 4
+      },
+      {
+        "date": "2024-12-03",
+        "count": 2
+      },
+      {
+        "date": "2024-12-04",
+        "count": 1
+      },
+      {
+        "date": "2024-12-06",
+        "count": 7
+      },
+      {
+        "date": "2024-12-09",
+        "count": 4
+      },
+      {
+        "date": "2024-12-10",
+        "count": 6
+      },
+      {
+        "date": "2024-12-11",
+        "count": 7
+      },
+      {
+        "date": "2024-12-12",
+        "count": 10
+      },
+      {
+        "date": "2024-12-13",
+        "count": 7
+      },
+      {
+        "date": "2024-12-16",
+        "count": 11
+      },
+      {
+        "date": "2024-12-17",
+        "count": 10
+      },
+      {
+        "date": "2024-12-18",
+        "count": 11
+      },
+      {
+        "date": "2024-12-19",
+        "count": 11
+      },
+      {
+        "date": "2024-12-20",
+        "count": 11
+      },
+      {
+        "date": "2024-12-23",
+        "count": 9
+      },
+      {
+        "date": "2024-12-24",
+        "count": 6
+      },
+      {
+        "date": "2024-12-26",
+        "count": 5
+      },
+      {
+        "date": "2024-12-27",
+        "count": 3
+      },
+      {
+        "date": "2024-12-30",
+        "count": 2
+      },
+      {
+        "date": "2024-12-31",
+        "count": 2
+      },
+      {
+        "date": "2025-01-01",
+        "count": 1
+      },
+      {
+        "date": "2025-01-02",
+        "count": 8
+      },
+      {
+        "date": "2025-01-03",
+        "count": 3
+      },
+      {
+        "date": "2025-01-06",
+        "count": 13
+      },
+      {
+        "date": "2025-01-07",
+        "count": 18
+      },
+      {
+        "date": "2025-01-08",
+        "count": 24
+      },
+      {
+        "date": "2025-01-09",
+        "count": 42
+      },
+      {
+        "date": "2025-01-10",
+        "count": 26
+      }
+    ],
+    "monthly_distribution": [
+      {
+        "month": "2017-11",
+        "count": 1
+      },
+      {
+        "month": "2021-09",
+        "count": 1
+      },
+      {
+        "month": "2022-12",
+        "count": 1
+      },
+      {
+        "month": "2023-06",
+        "count": 2
+      },
+      {
+        "month": "2023-08",
+        "count": 2
+      },
+      {
+        "month": "2024-03",
+        "count": 5
+      },
+      {
+        "month": "2024-04",
+        "count": 3
+      },
+      {
+        "month": "2024-06",
+        "count": 1
+      },
+      {
+        "month": "2024-07",
+        "count": 1
+      },
+      {
+        "month": "2024-08",
+        "count": 5
+      },
+      {
+        "month": "2024-09",
+        "count": 17
+      },
+      {
+        "month": "2024-10",
+        "count": 35
+      },
+      {
+        "month": "2024-11",
+        "count": 46
+      },
+      {
+        "month": "2024-12",
+        "count": 129
+      },
+      {
+        "month": "2025-01",
+        "count": 135
+      }
+    ]
+  }
+}

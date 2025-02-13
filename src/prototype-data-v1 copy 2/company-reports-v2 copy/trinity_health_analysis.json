@@ -1,0 +1,1541 @@
+{
+  "analysis_date": "2025-02-01",
+  "company_name": "Trinity Health",
+  "summary": {
+    "headline_points": [
+      "Total 1162 jobs analyzed for Trinity Health",
+      "Mean min salary: $55281, mean max salary: $70471",
+      "Top location is Ann Arbor, MI",
+      "Remote work percentage: ~7.49%",
+      "Strong culture emphasis on diversity, training, and benefits"
+    ]
+  },
+  "company_profile": {
+    "company_description": "Trinity Health is one of the largest multi-institutional Catholic health care delivery systems in the nation, serving diverse communities that include more than 30 million people across 25 states.",
+    "company_size": "Unknown",
+    "company_revenue": "more than $10B (USD)"
+  },
+  "compensation": {
+    "min_salary_stats": {
+      "mean": 55280.68824065634,
+      "median": 51868.0,
+      "std": 30932.334906190794,
+      "quartiles": [
+        33471.0,
+        51868.0,
+        68517.0
+      ],
+      "iqr": 35046.0
+    },
+    "max_salary_stats": {
+      "mean": 70471.34457611668,
+      "median": 65677.0,
+      "std": 40006.86506143075,
+      "quartiles": [
+        42382.0,
+        65677.0,
+        86758.0
+      ],
+      "iqr": 44376.0
+    },
+    "salary_spread": {
+      "mean_spread": 15190.656335460346,
+      "median_spread": 13809.0
+    },
+    "bands": {
+      "entry_level": {
+        "range": [
+          14.0,
+          95326.33333333333
+        ],
+        "count": 1915
+      },
+      "mid_level": {
+        "range": [
+          95326.33333333333,
+          190638.66666666666
+        ],
+        "count": 260
+      },
+      "senior_level": {
+        "range": [
+          190638.66666666666,
+          285951.0
+        ],
+        "count": 19
+      }
+    }
+  },
+  "location_analysis": {
+    "total_jobs": 1162,
+    "top_locations": [
+      [
+        "Ann Arbor, MI",
+        167
+      ],
+      [
+        "Livonia, MI",
+        146
+      ],
+      [
+        "Langhorne, PA",
+        89
+      ],
+      [
+        "Muskegon, MI",
+        74
+      ],
+      [
+        "Pontiac, MI",
+        68
+      ]
+    ],
+    "state_distribution": {
+      "MI": 686,
+      "PA": 254,
+      "DE": 56,
+      "IA": 34,
+      "IN": 33,
+      "CT": 17,
+      "MA": 16,
+      "NC": 14,
+      "MD": 13,
+      "FL": 8,
+      "IL": 7,
+      "NJ": 5,
+      "GA": 5,
+      "ID": 4,
+      "NY": 3,
+      "AL": 2,
+      "LA": 2,
+      "OH": 2,
+      "OR": 1
+    },
+    "remote_jobs": {
+      "percentage": 7.487091222030981
+    },
+    "location_diversity_score": 0.937035084029257
+  },
+  "job_categories": {
+    "management": {
+      "count": 424,
+      "percentage": 36.48881239242685,
+      "avg_salary_range": {
+        "min": 57687.06067961165,
+        "max": 74144.31796116506
+      },
+      "remote_percentage": 10.377358490566039,
+      "top_locations": [
+        [
+          "Livonia, MI",
+          79
+        ],
+        [
+          "Ann Arbor, MI",
+          62
+        ],
+        [
+          "Langhorne, PA",
+          25
+        ]
+      ]
+    },
+    "operations": {
+      "count": 564,
+      "percentage": 48.53700516351119,
+      "avg_salary_range": {
+        "min": 55105.98130841122,
+        "max": 70763.50654205607
+      },
+      "remote_percentage": 13.297872340425531,
+      "top_locations": [
+        [
+          "Livonia, MI",
+          97
+        ],
+        [
+          "Ann Arbor, MI",
+          86
+        ],
+        [
+          "Pontiac, MI",
+          55
+        ]
+      ]
+    },
+    "sales": {
+      "count": 21,
+      "percentage": 1.8072289156626504,
+      "avg_salary_range": {
+        "min": 52577.47368421053,
+        "max": 66575.68421052632
+      },
+      "remote_percentage": 14.285714285714285,
+      "top_locations": [
+        [
+          "Philadelphia, PA",
+          6
+        ],
+        [
+          "Livonia, MI",
+          3
+        ],
+        [
+          "Howell, MI",
+          2
+        ]
+      ]
+    },
+    "research": {
+      "count": 87,
+      "percentage": 7.487091222030981,
+      "avg_salary_range": {
+        "min": 64430.180722891564,
+        "max": 84723.18072289157
+      },
+      "remote_percentage": 36.7816091954023,
+      "top_locations": [
+        [
+          "Livonia, MI",
+          35
+        ],
+        [
+          "Ann Arbor, MI",
+          15
+        ],
+        [
+          "Pontiac, MI",
+          7
+        ]
+      ]
+    },
+    "design": {
+      "count": 27,
+      "percentage": 2.323580034423408,
+      "avg_salary_range": {
+        "min": 61125.16,
+        "max": 79904.28
+      },
+      "remote_percentage": 55.55555555555556,
+      "top_locations": [
+        [
+          "Livonia, MI",
+          11
+        ],
+        [
+          "Ann Arbor, MI",
+          7
+        ],
+        [
+          "Silver Spring, MD",
+          3
+        ]
+      ]
+    },
+    "marketing": {
+      "count": 41,
+      "percentage": 3.5283993115318415,
+      "avg_salary_range": {
+        "min": 70883.65,
+        "max": 93230.05
+      },
+      "remote_percentage": 26.82926829268293,
+      "top_locations": [
+        [
+          "Livonia, MI",
+          13
+        ],
+        [
+          "Philadelphia, PA",
+          6
+        ],
+        [
+          "Ann Arbor, MI",
+          5
+        ]
+      ]
+    },
+    "engineering": {
+      "count": 104,
+      "percentage": 8.950086058519794,
+      "avg_salary_range": {
+        "min": 54609.12621359223,
+        "max": 72117.5145631068
+      },
+      "remote_percentage": 29.807692307692307,
+      "top_locations": [
+        [
+          "Livonia, MI",
+          32
+        ],
+        [
+          "Ann Arbor, MI",
+          12
+        ],
+        [
+          "Grand Rapids, MI",
+          9
+        ]
+      ]
+    },
+    "security": {
+      "count": 54,
+      "percentage": 4.647160068846816,
+      "avg_salary_range": {
+        "min": 46809.57407407407,
+        "max": 63506.2037037037
+      },
+      "remote_percentage": 24.074074074074073,
+      "top_locations": [
+        [
+          "Livonia, MI",
+          17
+        ],
+        [
+          "Ann Arbor, MI",
+          6
+        ],
+        [
+          "Darby, PA",
+          5
+        ]
+      ]
+    },
+    "data_science": {
+      "count": 14,
+      "percentage": 1.2048192771084338,
+      "avg_salary_range": {
+        "min": 87744.5,
+        "max": 114417.66666666667
+      },
+      "remote_percentage": 64.28571428571429,
+      "top_locations": [
+        [
+          "Livonia, MI",
+          11
+        ],
+        [
+          "Clive, IA",
+          1
+        ],
+        [
+          "Boise, ID",
+          1
+        ]
+      ]
+    },
+    "product": {
+      "count": 3,
+      "percentage": 0.25817555938037867,
+      "avg_salary_range": {
+        "min": 73905.0,
+        "max": 121942.0
+      },
+      "remote_percentage": 100.0,
+      "top_locations": [
+        [
+          "Livonia, MI",
+          3
+        ]
+      ]
+    }
+  },
+  "skills_and_requirements": {
+    "skill_categories": {},
+    "job_categories": {
+      "management": {
+        "count": 424,
+        "percentage": 36.48881239242685,
+        "avg_salary_range": {
+          "min": 57687.06067961165,
+          "max": 74144.31796116506
+        },
+        "remote_percentage": 10.377358490566039,
+        "top_locations": [
+          [
+            "Livonia, MI",
+            79
+          ],
+          [
+            "Ann Arbor, MI",
+            62
+          ],
+          [
+            "Langhorne, PA",
+            25
+          ]
+        ]
+      },
+      "operations": {
+        "count": 564,
+        "percentage": 48.53700516351119,
+        "avg_salary_range": {
+          "min": 55105.98130841122,
+          "max": 70763.50654205607
+        },
+        "remote_percentage": 13.297872340425531,
+        "top_locations": [
+          [
+            "Livonia, MI",
+            97
+          ],
+          [
+            "Ann Arbor, MI",
+            86
+          ],
+          [
+            "Pontiac, MI",
+            55
+          ]
+        ]
+      },
+      "sales": {
+        "count": 21,
+        "percentage": 1.8072289156626504,
+        "avg_salary_range": {
+          "min": 52577.47368421053,
+          "max": 66575.68421052632
+        },
+        "remote_percentage": 14.285714285714285,
+        "top_locations": [
+          [
+            "Philadelphia, PA",
+            6
+          ],
+          [
+            "Livonia, MI",
+            3
+          ],
+          [
+            "Howell, MI",
+            2
+          ]
+        ]
+      },
+      "research": {
+        "count": 87,
+        "percentage": 7.487091222030981,
+        "avg_salary_range": {
+          "min": 64430.180722891564,
+          "max": 84723.18072289157
+        },
+        "remote_percentage": 36.7816091954023,
+        "top_locations": [
+          [
+            "Livonia, MI",
+            35
+          ],
+          [
+            "Ann Arbor, MI",
+            15
+          ],
+          [
+            "Pontiac, MI",
+            7
+          ]
+        ]
+      },
+      "design": {
+        "count": 27,
+        "percentage": 2.323580034423408,
+        "avg_salary_range": {
+          "min": 61125.16,
+          "max": 79904.28
+        },
+        "remote_percentage": 55.55555555555556,
+        "top_locations": [
+          [
+            "Livonia, MI",
+            11
+          ],
+          [
+            "Ann Arbor, MI",
+            7
+          ],
+          [
+            "Silver Spring, MD",
+            3
+          ]
+        ]
+      },
+      "marketing": {
+        "count": 41,
+        "percentage": 3.5283993115318415,
+        "avg_salary_range": {
+          "min": 70883.65,
+          "max": 93230.05
+        },
+        "remote_percentage": 26.82926829268293,
+        "top_locations": [
+          [
+            "Livonia, MI",
+            13
+          ],
+          [
+            "Philadelphia, PA",
+            6
+          ],
+          [
+            "Ann Arbor, MI",
+            5
+          ]
+        ]
+      },
+      "engineering": {
+        "count": 104,
+        "percentage": 8.950086058519794,
+        "avg_salary_range": {
+          "min": 54609.12621359223,
+          "max": 72117.5145631068
+        },
+        "remote_percentage": 29.807692307692307,
+        "top_locations": [
+          [
+            "Livonia, MI",
+            32
+          ],
+          [
+            "Ann Arbor, MI",
+            12
+          ],
+          [
+            "Grand Rapids, MI",
+            9
+          ]
+        ]
+      },
+      "security": {
+        "count": 54,
+        "percentage": 4.647160068846816,
+        "avg_salary_range": {
+          "min": 46809.57407407407,
+          "max": 63506.2037037037
+        },
+        "remote_percentage": 24.074074074074073,
+        "top_locations": [
+          [
+            "Livonia, MI",
+            17
+          ],
+          [
+            "Ann Arbor, MI",
+            6
+          ],
+          [
+            "Darby, PA",
+            5
+          ]
+        ]
+      },
+      "data_science": {
+        "count": 14,
+        "percentage": 1.2048192771084338,
+        "avg_salary_range": {
+          "min": 87744.5,
+          "max": 114417.66666666667
+        },
+        "remote_percentage": 64.28571428571429,
+        "top_locations": [
+          [
+            "Livonia, MI",
+            11
+          ],
+          [
+            "Clive, IA",
+            1
+          ],
+          [
+            "Boise, ID",
+            1
+          ]
+        ]
+      },
+      "product": {
+        "count": 3,
+        "percentage": 0.25817555938037867,
+        "avg_salary_range": {
+          "min": 73905.0,
+          "max": 121942.0
+        },
+        "remote_percentage": 100.0,
+        "top_locations": [
+          [
+            "Livonia, MI",
+            3
+          ]
+        ]
+      }
+    },
+    "career_requirements": {
+      "education": {
+        "phd": {
+          "count": 21,
+          "percentage": 1.8072289156626504
+        },
+        "masters": {
+          "count": 35,
+          "percentage": 3.0120481927710845
+        },
+        "bachelors": {
+          "count": 64,
+          "percentage": 5.507745266781412
+        }
+      },
+      "experience": {
+        "avg_years": 16.006993006993007,
+        "min_years": 1,
+        "max_years": 130
+      }
+    }
+  },
+  "culture_and_benefits": {
+    "benefits_offered": {
+      "healthcare": {
+        "count": 977,
+        "percentage": 84.07917383820998
+      },
+      "vacation": {
+        "count": 363,
+        "percentage": 31.23924268502582
+      },
+      "disability": {
+        "count": 1149,
+        "percentage": 98.88123924268503
+      },
+      "life_insurance": {
+        "count": 186,
+        "percentage": 16.00688468158348
+      },
+      "retirement": {
+        "count": 3,
+        "percentage": 0.25817555938037867
+      }
+    },
+    "culture_emphasis": {
+      "diversity_inclusion": {
+        "count": 1161,
+        "percentage": 99.91394148020653
+      },
+      "growth_development": {
+        "count": 610,
+        "percentage": 52.49569707401033
+      },
+      "collaboration": {
+        "count": 314,
+        "percentage": 27.022375215146297
+      },
+      "innovation": {
+        "count": 136,
+        "percentage": 11.703958691910499
+      }
+    },
+    "work_life_balance": {
+      "flexibility": {
+        "count": 142,
+        "percentage": 12.220309810671257
+      },
+      "remote_work": {
+        "count": 74,
+        "percentage": 6.368330464716007
+      },
+      "volunteer_time": {
+        "count": 26,
+        "percentage": 2.2375215146299485
+      }
+    }
+  },
+  "market_positioning": {
+    "salary_competitiveness": 0.3523567228805834,
+    "remote_leadership": 0.14974182444061962
+  },
+  "time_trends": {
+    "date_distribution": [
+      {
+        "date": "2022-02-23",
+        "count": 1
+      },
+      {
+        "date": "2022-03-04",
+        "count": 1
+      },
+      {
+        "date": "2022-03-14",
+        "count": 1
+      },
+      {
+        "date": "2022-03-15",
+        "count": 1
+      },
+      {
+        "date": "2022-10-05",
+        "count": 1
+      },
+      {
+        "date": "2023-01-22",
+        "count": 1
+      },
+      {
+        "date": "2023-01-30",
+        "count": 1
+      },
+      {
+        "date": "2023-01-31",
+        "count": 1
+      },
+      {
+        "date": "2023-03-28",
+        "count": 1
+      },
+      {
+        "date": "2023-04-04",
+        "count": 1
+      },
+      {
+        "date": "2023-04-10",
+        "count": 1
+      },
+      {
+        "date": "2023-07-10",
+        "count": 1
+      },
+      {
+        "date": "2023-07-27",
+        "count": 1
+      },
+      {
+        "date": "2023-08-02",
+        "count": 1
+      },
+      {
+        "date": "2023-08-16",
+        "count": 1
+      },
+      {
+        "date": "2023-09-13",
+        "count": 1
+      },
+      {
+        "date": "2023-09-27",
+        "count": 1
+      },
+      {
+        "date": "2023-09-29",
+        "count": 1
+      },
+      {
+        "date": "2023-10-12",
+        "count": 1
+      },
+      {
+        "date": "2023-11-01",
+        "count": 1
+      },
+      {
+        "date": "2023-11-09",
+        "count": 1
+      },
+      {
+        "date": "2023-11-21",
+        "count": 1
+      },
+      {
+        "date": "2023-11-27",
+        "count": 1
+      },
+      {
+        "date": "2023-12-01",
+        "count": 1
+      },
+      {
+        "date": "2023-12-04",
+        "count": 1
+      },
+      {
+        "date": "2023-12-07",
+        "count": 1
+      },
+      {
+        "date": "2023-12-13",
+        "count": 1
+      },
+      {
+        "date": "2023-12-19",
+        "count": 1
+      },
+      {
+        "date": "2024-01-03",
+        "count": 1
+      },
+      {
+        "date": "2024-01-09",
+        "count": 1
+      },
+      {
+        "date": "2024-01-23",
+        "count": 1
+      },
+      {
+        "date": "2024-02-07",
+        "count": 2
+      },
+      {
+        "date": "2024-02-14",
+        "count": 1
+      },
+      {
+        "date": "2024-02-16",
+        "count": 1
+      },
+      {
+        "date": "2024-02-21",
+        "count": 1
+      },
+      {
+        "date": "2024-02-28",
+        "count": 1
+      },
+      {
+        "date": "2024-02-29",
+        "count": 1
+      },
+      {
+        "date": "2024-03-04",
+        "count": 1
+      },
+      {
+        "date": "2024-03-07",
+        "count": 1
+      },
+      {
+        "date": "2024-03-26",
+        "count": 2
+      },
+      {
+        "date": "2024-03-28",
+        "count": 1
+      },
+      {
+        "date": "2024-04-04",
+        "count": 1
+      },
+      {
+        "date": "2024-04-10",
+        "count": 1
+      },
+      {
+        "date": "2024-04-11",
+        "count": 1
+      },
+      {
+        "date": "2024-04-12",
+        "count": 1
+      },
+      {
+        "date": "2024-04-18",
+        "count": 2
+      },
+      {
+        "date": "2024-04-22",
+        "count": 1
+      },
+      {
+        "date": "2024-04-30",
+        "count": 1
+      },
+      {
+        "date": "2024-05-02",
+        "count": 2
+      },
+      {
+        "date": "2024-05-03",
+        "count": 3
+      },
+      {
+        "date": "2024-05-07",
+        "count": 1
+      },
+      {
+        "date": "2024-05-08",
+        "count": 3
+      },
+      {
+        "date": "2024-05-14",
+        "count": 4
+      },
+      {
+        "date": "2024-05-15",
+        "count": 2
+      },
+      {
+        "date": "2024-05-21",
+        "count": 1
+      },
+      {
+        "date": "2024-05-23",
+        "count": 2
+      },
+      {
+        "date": "2024-05-28",
+        "count": 1
+      },
+      {
+        "date": "2024-05-29",
+        "count": 3
+      },
+      {
+        "date": "2024-05-31",
+        "count": 2
+      },
+      {
+        "date": "2024-06-03",
+        "count": 1
+      },
+      {
+        "date": "2024-06-04",
+        "count": 4
+      },
+      {
+        "date": "2024-06-05",
+        "count": 2
+      },
+      {
+        "date": "2024-06-06",
+        "count": 1
+      },
+      {
+        "date": "2024-06-07",
+        "count": 2
+      },
+      {
+        "date": "2024-06-10",
+        "count": 4
+      },
+      {
+        "date": "2024-06-11",
+        "count": 2
+      },
+      {
+        "date": "2024-06-18",
+        "count": 2
+      },
+      {
+        "date": "2024-06-21",
+        "count": 1
+      },
+      {
+        "date": "2024-06-25",
+        "count": 2
+      },
+      {
+        "date": "2024-06-26",
+        "count": 3
+      },
+      {
+        "date": "2024-06-27",
+        "count": 3
+      },
+      {
+        "date": "2024-06-28",
+        "count": 1
+      },
+      {
+        "date": "2024-07-01",
+        "count": 2
+      },
+      {
+        "date": "2024-07-03",
+        "count": 1
+      },
+      {
+        "date": "2024-07-05",
+        "count": 2
+      },
+      {
+        "date": "2024-07-08",
+        "count": 4
+      },
+      {
+        "date": "2024-07-09",
+        "count": 2
+      },
+      {
+        "date": "2024-07-10",
+        "count": 1
+      },
+      {
+        "date": "2024-07-11",
+        "count": 4
+      },
+      {
+        "date": "2024-07-15",
+        "count": 2
+      },
+      {
+        "date": "2024-07-16",
+        "count": 1
+      },
+      {
+        "date": "2024-07-19",
+        "count": 3
+      },
+      {
+        "date": "2024-07-22",
+        "count": 1
+      },
+      {
+        "date": "2024-07-23",
+        "count": 3
+      },
+      {
+        "date": "2024-07-24",
+        "count": 2
+      },
+      {
+        "date": "2024-07-25",
+        "count": 2
+      },
+      {
+        "date": "2024-07-29",
+        "count": 4
+      },
+      {
+        "date": "2024-08-01",
+        "count": 2
+      },
+      {
+        "date": "2024-08-06",
+        "count": 3
+      },
+      {
+        "date": "2024-08-07",
+        "count": 1
+      },
+      {
+        "date": "2024-08-12",
+        "count": 6
+      },
+      {
+        "date": "2024-08-13",
+        "count": 2
+      },
+      {
+        "date": "2024-08-14",
+        "count": 1
+      },
+      {
+        "date": "2024-08-16",
+        "count": 3
+      },
+      {
+        "date": "2024-08-19",
+        "count": 2
+      },
+      {
+        "date": "2024-08-21",
+        "count": 1
+      },
+      {
+        "date": "2024-08-22",
+        "count": 4
+      },
+      {
+        "date": "2024-08-23",
+        "count": 1
+      },
+      {
+        "date": "2024-08-26",
+        "count": 7
+      },
+      {
+        "date": "2024-08-27",
+        "count": 3
+      },
+      {
+        "date": "2024-08-28",
+        "count": 2
+      },
+      {
+        "date": "2024-08-30",
+        "count": 2
+      },
+      {
+        "date": "2024-09-03",
+        "count": 5
+      },
+      {
+        "date": "2024-09-04",
+        "count": 3
+      },
+      {
+        "date": "2024-09-05",
+        "count": 1
+      },
+      {
+        "date": "2024-09-06",
+        "count": 3
+      },
+      {
+        "date": "2024-09-10",
+        "count": 4
+      },
+      {
+        "date": "2024-09-11",
+        "count": 3
+      },
+      {
+        "date": "2024-09-12",
+        "count": 4
+      },
+      {
+        "date": "2024-09-13",
+        "count": 1
+      },
+      {
+        "date": "2024-09-16",
+        "count": 2
+      },
+      {
+        "date": "2024-09-17",
+        "count": 1
+      },
+      {
+        "date": "2024-09-18",
+        "count": 2
+      },
+      {
+        "date": "2024-09-19",
+        "count": 4
+      },
+      {
+        "date": "2024-09-20",
+        "count": 3
+      },
+      {
+        "date": "2024-09-23",
+        "count": 2
+      },
+      {
+        "date": "2024-09-24",
+        "count": 11
+      },
+      {
+        "date": "2024-09-25",
+        "count": 2
+      },
+      {
+        "date": "2024-09-26",
+        "count": 2
+      },
+      {
+        "date": "2024-09-27",
+        "count": 1
+      },
+      {
+        "date": "2024-09-30",
+        "count": 4
+      },
+      {
+        "date": "2024-10-01",
+        "count": 4
+      },
+      {
+        "date": "2024-10-02",
+        "count": 2
+      },
+      {
+        "date": "2024-10-03",
+        "count": 2
+      },
+      {
+        "date": "2024-10-04",
+        "count": 1
+      },
+      {
+        "date": "2024-10-08",
+        "count": 13
+      },
+      {
+        "date": "2024-10-09",
+        "count": 8
+      },
+      {
+        "date": "2024-10-10",
+        "count": 3
+      },
+      {
+        "date": "2024-10-14",
+        "count": 4
+      },
+      {
+        "date": "2024-10-15",
+        "count": 5
+      },
+      {
+        "date": "2024-10-16",
+        "count": 4
+      },
+      {
+        "date": "2024-10-17",
+        "count": 4
+      },
+      {
+        "date": "2024-10-18",
+        "count": 3
+      },
+      {
+        "date": "2024-10-21",
+        "count": 9
+      },
+      {
+        "date": "2024-10-22",
+        "count": 1
+      },
+      {
+        "date": "2024-10-23",
+        "count": 6
+      },
+      {
+        "date": "2024-10-24",
+        "count": 1
+      },
+      {
+        "date": "2024-10-25",
+        "count": 6
+      },
+      {
+        "date": "2024-10-28",
+        "count": 15
+      },
+      {
+        "date": "2024-10-29",
+        "count": 10
+      },
+      {
+        "date": "2024-10-30",
+        "count": 15
+      },
+      {
+        "date": "2024-10-31",
+        "count": 14
+      },
+      {
+        "date": "2024-11-01",
+        "count": 13
+      },
+      {
+        "date": "2024-11-04",
+        "count": 10
+      },
+      {
+        "date": "2024-11-05",
+        "count": 4
+      },
+      {
+        "date": "2024-11-06",
+        "count": 2
+      },
+      {
+        "date": "2024-11-07",
+        "count": 5
+      },
+      {
+        "date": "2024-11-08",
+        "count": 8
+      },
+      {
+        "date": "2024-11-10",
+        "count": 1
+      },
+      {
+        "date": "2024-11-11",
+        "count": 8
+      },
+      {
+        "date": "2024-11-12",
+        "count": 4
+      },
+      {
+        "date": "2024-11-13",
+        "count": 3
+      },
+      {
+        "date": "2024-11-14",
+        "count": 14
+      },
+      {
+        "date": "2024-11-15",
+        "count": 6
+      },
+      {
+        "date": "2024-11-18",
+        "count": 13
+      },
+      {
+        "date": "2024-11-19",
+        "count": 8
+      },
+      {
+        "date": "2024-11-20",
+        "count": 14
+      },
+      {
+        "date": "2024-11-21",
+        "count": 7
+      },
+      {
+        "date": "2024-11-22",
+        "count": 10
+      },
+      {
+        "date": "2024-11-25",
+        "count": 19
+      },
+      {
+        "date": "2024-11-26",
+        "count": 11
+      },
+      {
+        "date": "2024-11-27",
+        "count": 10
+      },
+      {
+        "date": "2024-11-29",
+        "count": 1
+      },
+      {
+        "date": "2024-11-30",
+        "count": 1
+      },
+      {
+        "date": "2024-12-02",
+        "count": 18
+      },
+      {
+        "date": "2024-12-03",
+        "count": 5
+      },
+      {
+        "date": "2024-12-04",
+        "count": 8
+      },
+      {
+        "date": "2024-12-05",
+        "count": 16
+      },
+      {
+        "date": "2024-12-06",
+        "count": 20
+      },
+      {
+        "date": "2024-12-07",
+        "count": 1
+      },
+      {
+        "date": "2024-12-09",
+        "count": 14
+      },
+      {
+        "date": "2024-12-10",
+        "count": 25
+      },
+      {
+        "date": "2024-12-11",
+        "count": 14
+      },
+      {
+        "date": "2024-12-12",
+        "count": 22
+      },
+      {
+        "date": "2024-12-13",
+        "count": 45
+      },
+      {
+        "date": "2024-12-16",
+        "count": 26
+      },
+      {
+        "date": "2024-12-17",
+        "count": 18
+      },
+      {
+        "date": "2024-12-18",
+        "count": 19
+      },
+      {
+        "date": "2024-12-19",
+        "count": 28
+      },
+      {
+        "date": "2024-12-20",
+        "count": 43
+      },
+      {
+        "date": "2024-12-22",
+        "count": 1
+      },
+      {
+        "date": "2024-12-23",
+        "count": 24
+      },
+      {
+        "date": "2024-12-24",
+        "count": 13
+      },
+      {
+        "date": "2024-12-26",
+        "count": 3
+      },
+      {
+        "date": "2024-12-27",
+        "count": 16
+      },
+      {
+        "date": "2024-12-30",
+        "count": 12
+      },
+      {
+        "date": "2024-12-31",
+        "count": 9
+      },
+      {
+        "date": "2025-01-01",
+        "count": 1
+      },
+      {
+        "date": "2025-01-02",
+        "count": 22
+      },
+      {
+        "date": "2025-01-03",
+        "count": 25
+      },
+      {
+        "date": "2025-01-04",
+        "count": 2
+      },
+      {
+        "date": "2025-01-06",
+        "count": 21
+      },
+      {
+        "date": "2025-01-07",
+        "count": 27
+      },
+      {
+        "date": "2025-01-08",
+        "count": 44
+      },
+      {
+        "date": "2025-01-09",
+        "count": 47
+      },
+      {
+        "date": "2025-01-10",
+        "count": 36
+      }
+    ],
+    "monthly_distribution": [
+      {
+        "month": "2022-02",
+        "count": 1
+      },
+      {
+        "month": "2022-03",
+        "count": 3
+      },
+      {
+        "month": "2022-10",
+        "count": 1
+      },
+      {
+        "month": "2023-01",
+        "count": 3
+      },
+      {
+        "month": "2023-03",
+        "count": 1
+      },
+      {
+        "month": "2023-04",
+        "count": 2
+      },
+      {
+        "month": "2023-07",
+        "count": 2
+      },
+      {
+        "month": "2023-08",
+        "count": 2
+      },
+      {
+        "month": "2023-09",
+        "count": 3
+      },
+      {
+        "month": "2023-10",
+        "count": 1
+      },
+      {
+        "month": "2023-11",
+        "count": 4
+      },
+      {
+        "month": "2023-12",
+        "count": 5
+      },
+      {
+        "month": "2024-01",
+        "count": 3
+      },
+      {
+        "month": "2024-02",
+        "count": 7
+      },
+      {
+        "month": "2024-03",
+        "count": 5
+      },
+      {
+        "month": "2024-04",
+        "count": 8
+      },
+      {
+        "month": "2024-05",
+        "count": 24
+      },
+      {
+        "month": "2024-06",
+        "count": 28
+      },
+      {
+        "month": "2024-07",
+        "count": 34
+      },
+      {
+        "month": "2024-08",
+        "count": 40
+      },
+      {
+        "month": "2024-09",
+        "count": 58
+      },
+      {
+        "month": "2024-10",
+        "count": 130
+      },
+      {
+        "month": "2024-11",
+        "count": 172
+      },
+      {
+        "month": "2024-12",
+        "count": 400
+      },
+      {
+        "month": "2025-01",
+        "count": 225
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ghostjobsfront-dev-7759e-authRole",
+      "UnauthRoleArn": "arn:aws:iam::816069164076:role/amplify-ghostjobsfront-dev-7759e-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::816069164076:role/amplify-ghostjobsfront-dev-7759e-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ghostjobsfront-dev-7759e-deployment",
+      "UnauthRoleName": "amplify-ghostjobsfront-dev-7759e-unauthRole",
+      "StackName": "amplify-ghostjobsfront-dev-7759e",
+      "StackId": "arn:aws:cloudformation:us-east-1:816069164076:stack/amplify-ghostjobsfront-dev-7759e/07ab1d60-a77d-11ef-a362-0e090fb1fcfd",
+      "AmplifyAppId": "d3i5b75fv7gevh"
+    },
+    "categories": {
+      "auth": {
+        "ghostjobsfront8226953e": {
+          "userPoolId": "us-east-1_oDjqVnS5y",
+          "userPoolName": "NewGhostJobsUserPool3",
+          "webClientId": "4h90dm0c6olaeuq5n1qcnb223l",
+          "nativeClientId": "4h90dm0c6olaeuq5n1qcnb223l",
+          "identityPoolId": "us-east-1:8b894e33-7fef-4901-bf21-806d2f89ea1e",
+          "identityPoolName": "IdentityPool_IY953plF4kt8",
+          "allowUnauthenticatedIdentities": false,
+          "authRoleArn": "arn:aws:iam::816069164076:role/GhostJobsBackendStack-CognitoAuthRole7B7E27C0-l7Xns5LQzUyY",
+          "authRoleName": "GhostJobsBackendStack-CognitoAuthRole7B7E27C0-l7Xns5LQzUyY",
+          "unauthRoleArn": "arn:aws:iam::816069164076:role/GhostJobsBackendStack-CognitoUnauthRole859FBDF2-pyODpCxvp7LD",
+          "unauthRoleName": "GhostJobsBackendStack-CognitoUnauthRole859FBDF2-pyODpCxvp7LD"
+        }
+      }
+    }
+  }
+}

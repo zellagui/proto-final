@@ -1,0 +1,261 @@
+<route lang="yaml">
+  meta:
+    footer:
+      enabled: false
+  </route>
+
+  <script setup lang="ts">
+  import { customerLogos } from '/@src/data/pages/logos'
+  import {
+
+    jobCategories,
+
+  } from '/@src/data/pages/jobs'
+  import { socialLinks } from '/@src/data/blocks/advanced/social'
+  import { baseFeatures } from '/@src/data/blocks/advanced/features'
+
+
+  import {
+      businessSolutions,
+
+      } from '/@src/data/pages/banking'
+
+
+
+
+
+  </script>
+
+<template>
+  <div>
+    <HeroX />
+
+    <!-- <LogoMarquee
+    :logos="customerLogos"
+    compact
+  /> -->
+
+    <Section color="grey">
+      <Container>
+        <Container>
+          <LogoStats
+            title="40% of companies"
+            subtitle="have posted fake job listings in 2024"
+            heading="Join us and grow"
+            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis negat? Fortemne possumus dicere eundem illum Torquatum? De illis, cum volemus."
+            :logos="customerLogos"
+          />
+
+          <!-- <ValuesSection :values="values" /> -->
+        </Container>
+        <br>
+        <br>
+        <SectionTitle
+          title="How to Spot Suspicious Job Postings"
+          subtitle="Did you know?"
+        />
+
+        <FeatureBlockA
+          alignment="centered"
+          :features="jobCategories"
+          :columns="3"
+          :limit="8"
+          size="medium"
+          links
+        />
+
+        <div class="my-4">
+          <Buttons alignment="centered">
+            <Button
+              color="primary"
+              :long="3"
+              raised
+              bold
+              to="blog"
+            >
+              See More
+            </Button>
+          </Buttons>
+        </div>
+      </Container>
+    </Section>
+
+
+    <Section
+      id="job-offers"
+      wave="wave-1"
+    >
+      <Container>
+        <SectionTitle
+          title="Coming soon"
+          subtitle="Your new ally helping the community fight ghost jobs"
+        />
+        <br>
+
+        <AppSection
+          :features="baseFeatures"
+          image="/images/chrome_store.png"
+          dark-image="/images/chrome_store.png"
+          blob
+        />
+
+
+        <!-- <FullJobSearch /> -->
+        <!-- <Countdown date="Sep 30, 2024" /> -->
+
+        <br>
+
+
+
+        <Container>
+          <SectionTitle
+            title="How to support the movement"
+            subtitle=" "
+          />
+
+          <PulseCards
+            :features="businessSolutions"
+            links
+            animated
+          />
+        </Container>
+        <br>
+        <br>
+
+        <Container>
+          <SectionTitle
+            title="Empower the / MOVEMENT"
+            subtitle="Ready to join us?"
+          />
+
+          <!--Subscribe-->
+          <SubscriptionCompactBlock
+            text=""
+            label="Subscribe"
+            placeholder="Enter your email"
+          />
+        </Container>
+      </container>
+    </Section>
+
+
+
+
+
+    <FooterA
+      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Negare
+                non possum. Apparet statim, quae sint officia, quae actiones."
+      color="gray"
+      :social-links="socialLinks"
+    />
+  </div>
+</template>
+
+<!-- <route lang="yaml">
+  meta:
+    footer:
+      enabled: false
+  </route>
+
+  <script setup lang="ts">
+  import { customerLogos } from '/@src/data/pages/logos'
+  import {
+    insuranceFeatures,
+    values,
+    testimonials,
+  } from '/@src/data/pages/insurance'
+  import { socialLinks } from '/@src/data/blocks/advanced/social'
+  import {
+  marketingProcess,
+  marketingStats,
+  testimonialsMarquee,
+} from '/@src/data/pages/marketing'
+
+import { genericFaq } from '/@src/data/blocks/advanced/faq'
+import { features5 } from '/@src/data/blocks/features'
+
+import {
+
+  faq,
+} from '/@src/data/pages/commerce'
+
+import {marketingIconFeatures} from '/@src/data/pages/marketing'
+
+  </script>
+
+<template>
+  <div>
+    <HeroA />
+
+
+
+
+    <Section color="grey">
+      <Container>
+        <LogoStats
+          title="40% of companies"
+          subtitle="have posted fake job listings in 2024"
+          heading="Join us and grow"
+          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis negat? Fortemne possumus dicere eundem illum Torquatum? De illis, cum volemus."
+          :logos="customerLogos"
+        />
+
+        <ValuesSection :values="values" />
+      </Container>
+    </Section>
+
+
+
+    <Section color="white">
+      <Container>
+        <Container>
+          <SectionTitle
+            title="Your solution to cut through the noise"
+            subtitle="Your solution to cut through the noise"
+          />
+
+          <IconSection :features="marketingIconFeatures" />
+        </Container>
+      </Container>
+    </Section>
+
+
+
+    <Section color="grey">
+      <Container>
+        <SectionTitle
+          title="Be our beta user &#8212; It's Free"
+          subtitle="Ready to join us?"
+        />
+
+        <SubscriptionCompactBlock
+          text="Early user get a private access to the Discord, where your idea's are part of the solution."
+          label="Subscribe"
+          placeholder="Enter your email"
+        />
+      </Container>
+    </Section>
+
+    <Section color="grey">
+      <Container>
+        <SectionTitle
+          subtitle="Frequently Asked"
+        />
+
+        <DoubleFaqCollapse
+          :left="faq.left"
+          :right="faq.right"
+          chevrons
+        />
+      </Container>
+    </Section>
+
+    <FooterA
+      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Negare
+              non possum. Apparet statim, quae sint officia, quae actiones."
+      color="grey"
+      :social-links="socialLinks"
+    />
+  </div>
+</template> -->
+
