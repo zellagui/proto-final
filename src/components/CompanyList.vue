@@ -94,7 +94,7 @@ function formatCompanyNameForFile(name: string): string {
 async function loadCompanyAnalysis(companyName: string) {
   try {
     const formattedName = formatCompanyNameForFile(companyName);
-    console.log('Loading analysis for:', formattedName);
+    console.log('Loading analysis for the company:', formattedName);
 
     const response = await fetch(`/src/data/prototype-data-v1 copy 2/company-reports-v2 copy/${formattedName}_analysis.json`);
     if (response.ok) {
