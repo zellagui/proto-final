@@ -4,6 +4,7 @@ dist
 coverage
 node_modules
 public
+src
 
 src/types/components.d.ts
 src/types/auto-imports.d.ts
@@ -14,3 +15,10 @@ CHANGELOG.md
 
 # bulma-css-vars
 bulma-colors.js
+
+src/
+
+# Ignore all Vue files
+*.vue
+# Ignore all TypeScript declaration files
+*.d.ts

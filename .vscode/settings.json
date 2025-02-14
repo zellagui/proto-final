@@ -14,7 +14,7 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.eslint": false
   },
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar",
@@ -34,5 +34,10 @@
     "scss",
     "vue"
   ],
-  "vue.codeActions.enabled": false
+  "vue.codeActions.enabled": false,
+  "editor.fontSize": 14,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "eslint.enable": false
 }

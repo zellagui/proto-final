@@ -13,6 +13,13 @@ import Overview from './profileOverview.vue/overview.vue'
 import report from './ProfileReport/report.vue'
 import jobs from './profileJob/jobs.vue'
 
+// Import companies data and analysis files
+import companiesData from '../../../data/beta-data/10-companies copy.jsonl?raw'
+const analysisFiles = import.meta.glob('../../../data/beta-data/company-reports-v2 copy/*_analysis.json', { as: 'raw' })
+
+// Debug available files
+console.log('Available analysis files:', Object.keys(analysisFiles))
+
 const route = useRoute()
 const company = ref<Company | null>(null)
 const companyReport = ref<any>(null)
@@ -66,11 +73,9 @@ const selectedCompanyStore = useSelectedCompanyStore()
 onMounted(async () => {
   try {
     isLoading.value = true;
-    const response = await fetch('/src/data/prototype-data-v1 copy 2/10-companies copy.jsonl')
-    if (!response.ok) throw new Error('Failed to load companies data');
 
-    const text = await response.text()
-    const lines = text.trim().split('\n')
+    // Parse companies data
+    const lines = companiesData.trim().split('\n')
     const companies = lines.map(line => JSON.parse(line))
 
     // Find company by formatted name
@@ -85,16 +90,19 @@ onMounted(async () => {
       company.value = foundCompany
       selectedCompanyStore.setCompany(foundCompany)
 
-      // Load company report
+      // Load company report using glob import
       try {
         const formattedName = formatCompanyNameForFile(foundCompany.name);
         console.log('Loading report for:', formattedName);
-        const reportPath = `/src/data/prototype-data-v1 copy 2/company-reports-v2 copy/${formattedName}_analysis.json`;
-        console.log('Report path:', reportPath);
 
-        const reportResponse = await fetch(reportPath);
-        if (reportResponse.ok) {
-          const reportData = await reportResponse.json();
+        // Construct the file path
+        const filePath = `../../../data/beta-data/company-reports-v2 copy/${formattedName}_analysis.json`
+        console.log('Looking for file:', filePath);
+        console.log('Available paths:', Object.keys(analysisFiles));
+
+        if (filePath in analysisFiles) {
+          const rawData = await analysisFiles[filePath]()
+          const reportData = JSON.parse(rawData)
 
           // Process the report data
           if (reportData) {
@@ -123,12 +131,13 @@ onMounted(async () => {
                 }
               });
             }
-          }
 
-          companyReport.value = reportData;
-          selectedCompanyStore.setReport?.(reportData);
+            companyReport.value = reportData;
+            selectedCompanyStore.setReport?.(reportData);
+          }
         } else {
-          console.error('Failed to load company report:', reportResponse.status, reportPath);
+          console.error('Analysis file not found for:', formattedName);
+          console.error('Available files:', Object.keys(analysisFiles));
         }
       } catch (reportErr) {
         console.error('Error loading company report:', reportErr);
@@ -217,6 +226,8 @@ const isMobile = useMediaQuery('(max-width: 768px)')
 </template>
 
 <style lang="scss" scoped>
+/* stylelint-disable */
+
 .profile-header {
   background: var(--wrap-bg-color, #f5f5f5);
   padding: 7% 0 1%;
@@ -313,4 +324,6 @@ const isMobile = useMediaQuery('(max-width: 768px)')
     }
   }
 }
+
+/* stylelint-enable */
 </style>

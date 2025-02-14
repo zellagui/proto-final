@@ -155,6 +155,12 @@ const formatCompanyNameForFile = (name: string): string => {
   return nameMap[normalized] || normalized;
 };
 
+// Import sample files
+const sampleFiles = import.meta.glob('../../../data/beta-data/samples copy/*_sample.json', { as: 'raw' })
+
+// Debug available files
+console.log('Available sample files:', Object.keys(sampleFiles))
+
 // Load jobs from sample file
 const loadJobsData = async () => {
   if (!props.companyReport?.company_name) return;
@@ -162,17 +168,25 @@ const loadJobsData = async () => {
   try {
     isLoading.value = true;
     const formattedName = formatCompanyNameForFile(props.companyReport.company_name);
-    const response = await fetch(`/src/data/prototype-data-v1 copy 2/samples copy/${formattedName}_sample.json`);
+    console.log('Loading jobs for:', formattedName);
 
-    if (!response.ok) {
+    // Construct the file path
+    const filePath = `../../../data/beta-data/samples copy/${formattedName}_sample.json`
+    console.log('Looking for file:', filePath);
+    console.log('Available paths:', Object.keys(sampleFiles));
+
+    if (filePath in sampleFiles) {
+      const rawData = await sampleFiles[filePath]()
+      const data = JSON.parse(rawData)
+      jobsData.value = data;
+
+      if (!data.jobs || !Array.isArray(data.jobs)) {
+        throw new Error('Invalid jobs data format');
+      }
+    } else {
+      console.error('Jobs file not found for:', formattedName);
+      console.error('Available files:', Object.keys(sampleFiles));
       throw new Error(`Jobs data not found for ${formattedName}`);
-    }
-
-    const data = await response.json();
-    jobsData.value = data;
-
-    if (!data.jobs || !Array.isArray(data.jobs)) {
-      throw new Error('Invalid jobs data format');
     }
   } catch (err) {
     console.error('Error loading jobs data:', err);

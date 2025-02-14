@@ -19,6 +19,12 @@ import BenefitsOverview from './benefits_overview.vue';
 import JobBoards from './job_boards.vue';
 import JobsList from '../jobs_list.vue'
 
+// Import analysis files
+const analysisFiles = import.meta.glob('../../../../data/beta-data/company-reports-v2 copy/*_analysis.json', { as: 'raw' })
+
+// Debug available files
+console.log('Available analysis files:', Object.keys(analysisFiles))
+
 const selectedCompanyStore = useSelectedCompanyStore();
 const router = useRouter();
 const companyReport = ref<any>(null);
@@ -67,7 +73,31 @@ interface ProfileExperience {
 
 // Function to format company name for file path
 const formatCompanyNameForFile = (name: string): string => {
-  return name.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '');
+  const normalized = name
+    .toLowerCase()
+    .trim()
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/g, '_')
+    .replace(/^_+|_+$/g, '')
+    .toLowerCase();
+
+  // Map special cases to their correct file names
+  const nameMap: { [key: string]: string } = {
+    'bank_of_america': 'bank_of_america',
+    'capital_one': 'capital_one',
+    'cisco': 'cisco',
+    'family_dollar': 'family_dollar',
+    'intermountain_health': 'intermountain_health',
+    'lululemon': 'lululemon',
+    'microsoft': 'microsoft',
+    'nbcuniversal': 'nbcuniversal',
+    'nike': 'nike',
+    'skechers': 'skechers',
+    'trinity_health': 'trinity_health',
+    'verizon': 'verizon'
+  };
+
+  return nameMap[normalized] || normalized;
 };
 
 // Load company report
@@ -76,9 +106,22 @@ const loadCompanyReport = async () => {
 
   try {
     const formattedName = formatCompanyNameForFile(company.value.name);
-    const response = await fetch(`/src/data/prototype-data-v1 copy 2/company-reports-v2 copy/${formattedName}_analysis.json`);
-    if (!response.ok) throw new Error('Report not found');
-    companyReport.value = await response.json();
+    console.log('Loading report for:', formattedName);
+
+    // Construct the file path
+    const filePath = `../../../../data/beta-data/company-reports-v2 copy/${formattedName}_analysis.json`
+    console.log('Looking for file:', filePath);
+    console.log('Available paths:', Object.keys(analysisFiles));
+
+    if (filePath in analysisFiles) {
+      const rawData = await analysisFiles[filePath]()
+      const data = JSON.parse(rawData)
+      companyReport.value = data;
+    } else {
+      console.error('Analysis file not found for:', formattedName);
+      console.error('Available files:', Object.keys(analysisFiles));
+      companyReport.value = null;
+    }
   } catch (error) {
     console.error('Error loading company report:', error);
     companyReport.value = null;
@@ -147,6 +190,7 @@ const averageSalaryRange = computed(() => {
 
   return { min: 'N/A', max: 'N/A' };
 });
+
 
 const salaryBands = computed(() => {
   if (!companyReport.value?.compensation?.bands) return null;

@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import type { Company } from '/@src/types/company'
+import companiesData from '../data/10-companies.jsonl?raw'
+// import {10-companies} from '/beta-data/10-companies.jsonl'
 // The employee table data is still imported if needed elsewhere.
 // import { table } from '/@src/data/blocks/table'
 
@@ -62,6 +64,9 @@ const companyAnalysis = ref<Record<string, CompanyAnalysis>>({})
 const isLoading = ref(true)
 const error = ref<string | null>(null)
 
+// Import all analysis files
+const analysisFiles = import.meta.glob('../data/beta-data/company-reports-v2 copy/*_analysis.json', { as: 'raw' })
+
 // Function to format company name for file path
 function formatCompanyNameForFile(name: string): string {
   const normalized = name
@@ -96,19 +101,25 @@ async function loadCompanyAnalysis(companyName: string) {
     const formattedName = formatCompanyNameForFile(companyName);
     console.log('Loading analysis for the company:', formattedName);
 
-    const response = await fetch(`/src/data/prototype-data-v1 copy 2/company-reports-v2 copy/${formattedName}_analysis.json`);
-    if (response.ok) {
-      const data = await response.json();
-      if (data?.location_analysis?.total_jobs) {
-        companyAnalysis.value[companyName] = {
-          company_name: companyName,
-          location_analysis: {
-            total_jobs: parseInt(data.location_analysis.total_jobs)
-          }
-        };
+    const filePath = `../data/beta-data/company-reports-v2 copy/${formattedName}_analysis.json`
+    if (filePath in analysisFiles) {
+      try {
+        const rawData = await analysisFiles[filePath]()
+        const data = JSON.parse(rawData)
+
+        if (data?.location_analysis?.total_jobs) {
+          companyAnalysis.value[companyName] = {
+            company_name: companyName,
+            location_analysis: {
+              total_jobs: parseInt(data.location_analysis.total_jobs)
+            }
+          };
+        }
+      } catch (parseError) {
+        console.error('Failed to parse analysis data for:', formattedName, parseError);
       }
     } else {
-      console.error('Failed to load analysis for:', formattedName);
+      console.error('Analysis file not found for:', formattedName);
     }
   } catch (err) {
     console.error('Error loading company analysis:', err);
@@ -117,13 +128,7 @@ async function loadCompanyAnalysis(companyName: string) {
 
 onMounted(async () => {
   try {
-    const response = await fetch('src/data/10-companies.jsonl')
-    if (!response.ok) {
-      throw new Error('Failed to fetch companies data')
-    }
-
-    const text = await response.text()
-    const lines = text.trim().split('\n')
+    const lines = companiesData.trim().split('\n')
     console.log('Number of companies in file:', lines.length)
 
     const parsedCompanies = lines

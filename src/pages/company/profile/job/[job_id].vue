@@ -8,33 +8,28 @@ import { ref, onMounted } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { useSelectedCompanyStore } from '/@src/stores/selectedCompany';
 import JobDetails from '../job_details.vue';
+import companiesData from '../../../../data/beta-data/10-companies copy.jsonl?raw'
 
 const route = useRoute();
 const router = useRouter();
 const selectedCompanyStore = useSelectedCompanyStore();
 const jobId = route.params.job_id as string;
+
+// Import sample files and augmented files
+const sampleFiles = import.meta.glob('../../../../data/beta-data/samples copy/*_sample.json', { as: 'raw' })
+const augmentedFiles = import.meta.glob('../../../../data/beta-data/augmented_jobs.py/*_augmented.json', { as: 'raw' })
+
+// Debug available files
+console.log('Available sample files:', Object.keys(sampleFiles))
+console.log('Available augmented files:', Object.keys(augmentedFiles))
+
+// get job data
 const job = ref<any>(null);
 const isLoading = ref(true);
 const error = ref<string | null>(null);
 
 // Function to format company name for file path
-function formatCompanyNameForFile(name: string): string {
-  // Map special cases to their correct file names
-  const nameMap: { [key: string]: string } = {
-    'bank_of_america': 'bank_of_america',
-    'capital_one': 'capital_one',
-    'cisco': 'cisco',
-    'family_dollar': 'family_dollar',
-    'intermountain_health': 'intermountain_health',
-    'lululemon': 'lululemon',
-    'microsoft': 'microsoft',
-    'nbcuniversal': 'nbcuniversal',
-    'nike': 'nike',
-    'skechers': 'skechers',
-    'trinity_health': 'trinity_health',
-    'verizon': 'verizon'
-  };
-
+const formatCompanyNameForFile = (name: string): string => {
   // First normalize the name
   const normalized = name
     .toLowerCase()
@@ -44,14 +39,28 @@ function formatCompanyNameForFile(name: string): string {
     .replace(/^_+|_+$/g, '')
     .toLowerCase();
 
-  // Return mapped name if it exists, otherwise return normalized name
-  return nameMap[normalized] || normalized;
-}
+  // Map special cases to their correct file names
+  const nameMap: { [key: string]: string } = {
+    'bank_of_america': 'Bank_of_America',
+    'capital_one': 'Capital_One',
+    'cisco': 'Cisco',
+    'family_dollar': 'Family_Dollar',
+    'intermountain_health': 'Intermountain_Health',
+    'lululemon': 'lululemon',
+    'microsoft': 'Microsoft',
+    'nbcuniversal': 'NBCUniversal',
+    'nike': 'Nike',
+    'skechers': 'Skechers',
+    'trinity_health': 'Trinity_Health',
+    'verizon': 'Verizon'
+  };
 
-onMounted(async () => {
+  return nameMap[normalized] || normalized;
+};
+
+async function fetchJob() {
   try {
     isLoading.value = true;
-
     // Get company name from URL or query parameter
     const companyName = decodeURIComponent(route.query.company as string);
     if (!companyName) {
@@ -61,15 +70,10 @@ onMounted(async () => {
     // Load company data if not already loaded
     if (!selectedCompanyStore.company || selectedCompanyStore.company.name !== companyName) {
       // Load company data from the JSONL file
-      const companiesResponse = await fetch('/src/data/prototype-data-v1 copy 2/10-companies copy.jsonl');
-      if (!companiesResponse.ok) throw new Error('Failed to load companies data');
-
-      const text = await companiesResponse.text();
-      const companies = text.trim().split('\n').map(line => JSON.parse(line));
-
+      const lines = companiesData.trim().split('\n');
+      const companies = lines.map(line => JSON.parse(line));
       const company = companies.find(c => c.name === companyName);
       if (!company) throw new Error(`Company not found: ${companyName}`);
-
       selectedCompanyStore.setCompany(company);
     }
 
@@ -78,56 +82,67 @@ onMounted(async () => {
     console.log('Loading jobs for company:', formattedName);
     console.log('Looking for job ID:', jobId);
 
-    // Load both regular job data and augmented data
-    const [jobsResponse, augmentedResponse] = await Promise.all([
-      fetch(`/src/data/prototype-data-v1 copy 2/samples copy/${formattedName}_sample.json`),
-      fetch(`/src/data/prototype-data-v1 copy 2/augmented_jobs.py/${formattedName === 'cisco' ? 'cicso' : formattedName}_augmented.json`)
-    ]);
+    // Construct the file paths
+    const sampleFilePath = `../../../../data/beta-data/samples copy/${formattedName}_sample.json`
+    console.log('Looking for sample file:', sampleFilePath);
 
-    if (!jobsResponse.ok) {
-      throw new Error(`Jobs data not found for company: ${formattedName}`);
-    }
+    if (sampleFilePath in sampleFiles) {
+      const rawData = await sampleFiles[sampleFilePath]()
+      const jobsData = JSON.parse(rawData)
+      console.log('Found jobs:', jobsData.jobs.length);
 
-    const jobsData = await jobsResponse.json();
-    console.log('Found jobs:', jobsData.jobs.length);
+      let foundJob = jobsData.jobs.find((j: any) => j.id.toString() === jobId.toString());
 
-    let foundJob = jobsData.jobs.find((j: any) => j.id.toString() === jobId.toString());
+      if (!foundJob) {
+        console.error('Available job IDs:', jobsData.jobs.map((j: any) => j.id));
+        throw new Error(`Job ${jobId} not found for company: ${formattedName}`);
+      }
 
-    if (!foundJob) {
-      console.error('Available job IDs:', jobsData.jobs.map((j: any) => j.id));
-      throw new Error(`Job ${jobId} not found for company: ${formattedName}`);
-    }
-
-    // If augmented data is available, merge it with the job data
-    if (augmentedResponse.ok) {
+      // Try to load augmented data if available
       try {
-        const augmentedData = await augmentedResponse.json();
-        const augmentedJob = augmentedData.augmented_jobs?.find(
-          (j: any) => j.id.toString() === jobId.toString()
-        );
+        const augmentedName = formattedName === 'Cisco' ? 'cicso' : formattedName.toLowerCase();
+        const augmentedFilePath = `../../../../data/beta-data/augmented_jobs.py/${augmentedName}_augmented.json`;
+        console.log('Looking for augmented file:', augmentedFilePath);
 
-        if (augmentedJob) {
-          foundJob = {
-            ...foundJob,
-            augmented: augmentedJob.augmented
-          };
+        if (augmentedFilePath in augmentedFiles) {
+          const augmentedRawData = await augmentedFiles[augmentedFilePath]();
+          const augmentedData = JSON.parse(augmentedRawData);
+          const augmentedJob = augmentedData.augmented_jobs?.find(
+            (j: any) => j.id.toString() === jobId.toString()
+          );
+
+          if (augmentedJob) {
+            console.log('Found augmented data for job:', jobId);
+            foundJob = {
+              ...foundJob,
+              augmented: augmentedJob.augmented
+            };
+          } else {
+            console.log('No augmented data found for job:', jobId);
+          }
+        } else {
+          console.log('No augmented file available for:', formattedName);
         }
       } catch (augmentedError) {
-        console.warn('Failed to parse augmented data:', augmentedError);
+        console.warn('Failed to load augmented data:', augmentedError);
         // Continue without augmented data
       }
-    } else {
-      console.warn('Augmented data not available for:', formattedName);
-    }
 
-    job.value = foundJob;
-  } catch (err) {
-    console.error('Error loading job:', err);
-    error.value = err instanceof Error ? err.message : 'Failed to load job details';
+      job.value = foundJob;
+    } else {
+      console.error('Jobs file not found for:', formattedName);
+      console.error('Available files:', Object.keys(sampleFiles));
+      throw new Error(`Jobs data not found for ${formattedName}`);
+    }
+  } catch (error) {
+    console.error('Error loading job:', error);
+    router.replace('/');
   } finally {
     isLoading.value = false;
   }
-});
+}
+
+onMounted(fetchJob);
 </script>
 
 <template>

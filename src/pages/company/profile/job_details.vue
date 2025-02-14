@@ -77,17 +77,17 @@
               content: metric.proof,
             }))
         ]" :right="[
-            ...Object.entries(job.augmented?.ethics?.coherence_analysis?.content_coherence || {})
-              .filter((_, index) => index % 2 === 1)
-              .map(([key, metric]) => ({
-                title: `${formatMetricName(key)} [${metric.score}]`,
-                content: metric.proof,
-              })),
-            {
-              title: `Overall Assessment [${job.augmented?.ethics?.coherence_analysis?.overall_coherence?.score}]`,
-              content: job.augmented?.ethics?.coherence_analysis?.overall_coherence?.proof,
-            }
-          ]" chevrons />
+          ...Object.entries(job.augmented?.ethics?.coherence_analysis?.content_coherence || {})
+            .filter((_, index) => index % 2 === 1)
+            .map(([key, metric]) => ({
+              title: `${formatMetricName(key)} [${metric.score}]`,
+              content: metric.proof,
+            })),
+          {
+            title: `Overall Assessment [${job.augmented?.ethics?.coherence_analysis?.overall_coherence?.score}]`,
+            content: job.augmented?.ethics?.coherence_analysis?.overall_coherence?.proof,
+          }
+        ]" chevrons />
       </div>
 
       <div class="job-details-row">
@@ -723,6 +723,12 @@ const formatCompanyNameForFile = (name: string): string => {
   return nameMap[normalized] || normalized;
 };
 
+// Import sample files
+const sampleFiles = import.meta.glob('../../../data/beta-data/samples copy/*_sample.json', { as: 'raw' })
+
+// Debug available files
+console.log('Available sample files:', Object.keys(sampleFiles))
+
 // Load similar jobs from sample file
 const loadSimilarJobs = async () => {
   if (!companyName.value) return;
@@ -731,22 +737,30 @@ const loadSimilarJobs = async () => {
     isLoadingSimilarJobs.value = true;
     const formattedName = formatCompanyNameForFile(companyName.value);
     console.log('Loading similar jobs for:', formattedName);
-    const response = await fetch(`/src/data/prototype-data-v1 copy 2/samples copy/${formattedName}_sample.json`);
 
-    if (!response.ok) {
+    // Construct the file path
+    const filePath = `../../../data/beta-data/samples copy/${formattedName}_sample.json`
+    console.log('Looking for file:', filePath);
+    console.log('Available paths:', Object.keys(sampleFiles));
+
+    if (filePath in sampleFiles) {
+      const rawData = await sampleFiles[filePath]()
+      const data = JSON.parse(rawData)
+
+      if (!data.jobs || !Array.isArray(data.jobs)) {
+        throw new Error('Invalid jobs data format');
+      }
+
+      // Filter out current job and limit to 3 jobs
+      similarJobs.value = data.jobs
+        .filter(j => j.id !== props.job.id)
+        .slice(0, 3);
+
+    } else {
+      console.error('Jobs file not found for:', formattedName);
+      console.error('Available files:', Object.keys(sampleFiles));
       throw new Error(`Jobs data not found for ${formattedName}`);
     }
-
-    const data = await response.json();
-    if (!data.jobs || !Array.isArray(data.jobs)) {
-      throw new Error('Invalid jobs data format');
-    }
-
-    // Filter out current job and limit to 3 jobs
-    similarJobs.value = data.jobs
-      .filter(j => j.id !== props.job.id)
-      .slice(0, 3);
-
   } catch (err) {
     console.error('Error loading similar jobs:', err);
     similarJobsError.value = err instanceof Error ? err.message : 'Failed to load similar jobs';

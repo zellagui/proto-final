@@ -24,18 +24,18 @@ const formatCompanyNameForFile = (name: string): string => {
 
   // Map special cases to their correct file names
   const nameMap: { [key: string]: string } = {
-    'bank_of_america': 'Bank_of_America',
-    'capital_one': 'Capital_One',
-    'cisco': 'Cisco',
-    'family_dollar': 'Family_Dollar',
-    'intermountain_health': 'Intermountain_Health',
+    'bank_of_america': 'bank_of_america',
+    'capital_one': 'capital_one',
+    'cisco': 'cisco',
+    'family_dollar': 'family_dollar',
+    'intermountain_health': 'intermountain_health',
     'lululemon': 'lululemon',
-    'microsoft': 'Microsoft',
-    'nbcuniversal': 'NBCUniversal',
-    'nike': 'Nike',
-    'skechers': 'Skechers',
-    'trinity_health': 'Trinity_Health',
-    'verizon': 'Verizon'
+    'microsoft': 'microsoft',
+    'nbcuniversal': 'nbcuniversal',
+    'nike': 'nike',
+    'skechers': 'skechers',
+    'trinity_health': 'trinity_health',
+    'verizon': 'verizon'
   };
 
   return nameMap[normalized] || normalized;
@@ -47,12 +47,40 @@ const loadSimilarJobs = async () => {
 
   try {
     isLoading.value = true;
-    const formattedName = formatCompanyNameForFile(props.companyName);
+
+    // Normalize the company name first
+    const normalizedName = props.companyName
+      .toLowerCase()
+      .trim()
+      .replace(/&/g, 'and')
+      .replace(/[^a-z0-9]+/g, '_')
+      .replace(/^_+|_+$/g, '')
+      .toLowerCase();
+
+    const formattedName = formatCompanyNameForFile(normalizedName);
     console.log('Loading similar jobs for:', formattedName);
-    const response = await fetch(`/src/data/prototype-data-v1 copy 2/samples copy/${formattedName}_sample.json`);
+    console.log('Original company name:', props.companyName);
+    console.log('Normalized name:', normalizedName);
+
+    // Construct and encode the URL properly
+    const sampleUrl = encodeURI(`/public/prototype-data-v1 copy 2/samples copy/${formattedName}_sample.json`);
+    console.log('Fetching from URL:', sampleUrl);
+
+    const response = await fetch(sampleUrl);
 
     if (!response.ok) {
-      throw new Error(`Jobs data not found for ${formattedName}`);
+      console.error('Failed to fetch:', response.status, response.statusText);
+      const responseText = await response.text();
+      console.error('Response text:', responseText);
+      throw new Error(`Jobs data not found for ${formattedName} (Status: ${response.status})`);
+    }
+
+    const contentType = response.headers.get('content-type');
+    if (!contentType || !contentType.includes('application/json')) {
+      console.error('Invalid content type:', contentType);
+      const responseText = await response.text();
+      console.error('Response text:', responseText);
+      throw new Error('Invalid response type - expected JSON');
     }
 
     const data = await response.json();
@@ -60,10 +88,15 @@ const loadSimilarJobs = async () => {
       throw new Error('Invalid jobs data format');
     }
 
+    console.log('Found total jobs:', data.jobs.length);
+    console.log('Current job ID:', props.currentJobId);
+
     // Filter out current job and limit to 3 jobs
     similarJobs.value = data.jobs
-      .filter(job => job.id !== props.currentJobId)
+      .filter(job => job.id.toString() !== props.currentJobId?.toString())
       .slice(0, 3); // Limit to 3 similar jobs
+
+    console.log('Selected similar jobs:', similarJobs.value.length);
 
   } catch (err) {
     console.error('Error loading similar jobs:', err);
