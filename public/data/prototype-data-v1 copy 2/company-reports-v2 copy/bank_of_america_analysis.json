@@ -1,0 +1,1343 @@
+{
+  "analysis_date": "2025-02-01",
+  "company_name": "Bank of America",
+  "summary": {
+    "headline_points": [
+      "Total 1091 jobs analyzed for Bank of America",
+      "Mean min salary: $79406, mean max salary: $106353",
+      "Top location is Charlotte, NC",
+      "Remote work percentage: ~1.19%",
+      "Strong culture emphasis on diversity, training, and benefits"
+    ]
+  },
+  "company_profile": {
+    "company_description": "Headquartered in Charlotte, North Carolina, Bank of America is the second largest banking corporation in the United States.",
+    "company_size": "Unknown",
+    "company_revenue": "Decline to state"
+  },
+  "compensation": {
+    "min_salary_stats": {
+      "mean": 79406.26788990825,
+      "median": 70000.0,
+      "std": 33761.981154174595,
+      "quartiles": [
+        51982.5,
+        70000.0,
+        98481.0
+      ],
+      "iqr": 46498.5
+    },
+    "max_salary_stats": {
+      "mean": 106353.17889908257,
+      "median": 85441.5,
+      "std": 51913.965189630784,
+      "quartiles": [
+        65949.0,
+        85441.5,
+        136400.0
+      ],
+      "iqr": 70451.0
+    },
+    "salary_spread": {
+      "mean_spread": 26946.911009174313,
+      "median_spread": 17941.0
+    },
+    "bands": {
+      "entry_level": {
+        "range": [
+          37861.0,
+          140440.6666666667
+        ],
+        "count": 1851
+      },
+      "mid_level": {
+        "range": [
+          140440.6666666667,
+          243020.33333333334
+        ],
+        "count": 305
+      },
+      "senior_level": {
+        "range": [
+          243020.33333333334,
+          345600.0
+        ],
+        "count": 24
+      }
+    }
+  },
+  "location_analysis": {
+    "total_jobs": 1091,
+    "top_locations": [
+      [
+        "Charlotte, NC",
+        138
+      ],
+      [
+        "New York, NY",
+        84
+      ],
+      [
+        "Chicago, IL",
+        30
+      ],
+      [
+        "Washington, DC",
+        20
+      ],
+      [
+        "Fort Worth, TX",
+        18
+      ]
+    ],
+    "state_distribution": {
+      "NC": 159,
+      "CA": 115,
+      "TX": 102,
+      "FL": 86,
+      "NY": 84,
+      "NJ": 62,
+      "IL": 44,
+      "VA": 44,
+      "AZ": 42,
+      "PA": 26,
+      "MA": 25,
+      "OH": 25,
+      "MD": 23,
+      "CO": 22,
+      "WA": 21,
+      "DC": 20,
+      "GA": 15,
+      "CT": 14,
+      "MO": 14,
+      "TN": 14,
+      "RI": 13,
+      "MI": 13,
+      "OR": 12,
+      "NV": 11,
+      "ID": 10,
+      "AR": 8,
+      "IN": 7,
+      "DE": 6,
+      "KY": 6,
+      "NM": 6,
+      "SC": 6,
+      "UT": 5,
+      "KS": 5,
+      "OK": 5,
+      "MN": 3,
+      "NH": 3,
+      "ME": 3,
+      "WI": 2,
+      "HI": 2,
+      "LA": 2,
+      "AL": 2,
+      "IA": 1,
+      "AK": 1,
+      "NE": 1,
+      "MT": 1
+    },
+    "remote_jobs": {
+      "percentage": 1.1915673693858846
+    },
+    "location_diversity_score": 0.9727450912851673
+  },
+  "job_categories": {
+    "sales": {
+      "count": 754,
+      "percentage": 69.11090742438131,
+      "avg_salary_range": {
+        "min": 68727.406374502,
+        "max": 89656.38778220452
+      },
+      "remote_percentage": 1.1936339522546418,
+      "top_locations": [
+        [
+          "New York, NY",
+          39
+        ],
+        [
+          "Charlotte, NC",
+          23
+        ],
+        [
+          "Chicago, IL",
+          16
+        ]
+      ]
+    },
+    "operations": {
+      "count": 977,
+      "percentage": 89.55087076076994,
+      "avg_salary_range": {
+        "min": 81199.97745901639,
+        "max": 108921.28176229508
+      },
+      "remote_percentage": 1.3306038894575232,
+      "top_locations": [
+        [
+          "Charlotte, NC",
+          135
+        ],
+        [
+          "New York, NY",
+          75
+        ],
+        [
+          "Chicago, IL",
+          30
+        ]
+      ]
+    },
+    "management": {
+      "count": 451,
+      "percentage": 41.338221814848765,
+      "avg_salary_range": {
+        "min": 94299.33259423503,
+        "max": 127661.95343680709
+      },
+      "remote_percentage": 2.6607538802660753,
+      "top_locations": [
+        [
+          "Charlotte, NC",
+          76
+        ],
+        [
+          "New York, NY",
+          55
+        ],
+        [
+          "Chicago, IL",
+          13
+        ]
+      ]
+    },
+    "marketing": {
+      "count": 156,
+      "percentage": 14.298808432630613,
+      "avg_salary_range": {
+        "min": 81828.9935897436,
+        "max": 104394.60897435897
+      },
+      "top_locations": [
+        [
+          "New York, NY",
+          15
+        ],
+        [
+          "Charlotte, NC",
+          7
+        ],
+        [
+          "San Jose, CA",
+          3
+        ]
+      ]
+    },
+    "security": {
+      "count": 126,
+      "percentage": 11.54903758020165,
+      "avg_salary_range": {
+        "min": 98865.88095238095,
+        "max": 139277.89682539683
+      },
+      "remote_percentage": 1.5873015873015872,
+      "top_locations": [
+        [
+          "Denver, CO",
+          15
+        ],
+        [
+          "Washington, DC",
+          13
+        ],
+        [
+          "Charlotte, NC",
+          11
+        ]
+      ]
+    },
+    "research": {
+      "count": 146,
+      "percentage": 13.382218148487626,
+      "avg_salary_range": {
+        "min": 91489.14383561644,
+        "max": 127922.95205479451
+      },
+      "remote_percentage": 5.47945205479452,
+      "top_locations": [
+        [
+          "Charlotte, NC",
+          48
+        ],
+        [
+          "New York, NY",
+          22
+        ],
+        [
+          "Fort Worth, TX",
+          9
+        ]
+      ]
+    },
+    "data_science": {
+      "count": 103,
+      "percentage": 9.440879926672777,
+      "avg_salary_range": {
+        "min": 110534.90291262136,
+        "max": 160243.28155339806
+      },
+      "top_locations": [
+        [
+          "Charlotte, NC",
+          42
+        ],
+        [
+          "New York, NY",
+          22
+        ],
+        [
+          "Richmond, VA",
+          7
+        ]
+      ]
+    },
+    "engineering": {
+      "count": 104,
+      "percentage": 9.532538955087077,
+      "avg_salary_range": {
+        "min": 112187.30769230769,
+        "max": 159585.72115384616
+      },
+      "remote_percentage": 1.9230769230769231,
+      "top_locations": [
+        [
+          "Charlotte, NC",
+          24
+        ],
+        [
+          "Plano, TX",
+          11
+        ],
+        [
+          "Chicago, IL",
+          10
+        ]
+      ]
+    },
+    "product": {
+      "count": 17,
+      "percentage": 1.5582034830430798,
+      "avg_salary_range": {
+        "min": 110218.58823529411,
+        "max": 170775.82352941178
+      },
+      "top_locations": [
+        [
+          "Charlotte, NC",
+          6
+        ],
+        [
+          "New York, NY",
+          4
+        ],
+        [
+          "Jersey City, NJ",
+          2
+        ]
+      ]
+    },
+    "design": {
+      "count": 8,
+      "percentage": 0.7332722273143905,
+      "avg_salary_range": {
+        "min": 118517.375,
+        "max": 164714.75
+      },
+      "top_locations": [
+        [
+          "Charlotte, NC",
+          3
+        ],
+        [
+          "Chicago, IL",
+          1
+        ],
+        [
+          "Pennington, NJ",
+          1
+        ]
+      ]
+    }
+  },
+  "skills_and_requirements": {
+    "skill_categories": {},
+    "job_categories": {
+      "sales": {
+        "count": 754,
+        "percentage": 69.11090742438131,
+        "avg_salary_range": {
+          "min": 68727.406374502,
+          "max": 89656.38778220452
+        },
+        "remote_percentage": 1.1936339522546418,
+        "top_locations": [
+          [
+            "New York, NY",
+            39
+          ],
+          [
+            "Charlotte, NC",
+            23
+          ],
+          [
+            "Chicago, IL",
+            16
+          ]
+        ]
+      },
+      "operations": {
+        "count": 977,
+        "percentage": 89.55087076076994,
+        "avg_salary_range": {
+          "min": 81199.97745901639,
+          "max": 108921.28176229508
+        },
+        "remote_percentage": 1.3306038894575232,
+        "top_locations": [
+          [
+            "Charlotte, NC",
+            135
+          ],
+          [
+            "New York, NY",
+            75
+          ],
+          [
+            "Chicago, IL",
+            30
+          ]
+        ]
+      },
+      "management": {
+        "count": 451,
+        "percentage": 41.338221814848765,
+        "avg_salary_range": {
+          "min": 94299.33259423503,
+          "max": 127661.95343680709
+        },
+        "remote_percentage": 2.6607538802660753,
+        "top_locations": [
+          [
+            "Charlotte, NC",
+            76
+          ],
+          [
+            "New York, NY",
+            55
+          ],
+          [
+            "Chicago, IL",
+            13
+          ]
+        ]
+      },
+      "marketing": {
+        "count": 156,
+        "percentage": 14.298808432630613,
+        "avg_salary_range": {
+          "min": 81828.9935897436,
+          "max": 104394.60897435897
+        },
+        "top_locations": [
+          [
+            "New York, NY",
+            15
+          ],
+          [
+            "Charlotte, NC",
+            7
+          ],
+          [
+            "San Jose, CA",
+            3
+          ]
+        ]
+      },
+      "security": {
+        "count": 126,
+        "percentage": 11.54903758020165,
+        "avg_salary_range": {
+          "min": 98865.88095238095,
+          "max": 139277.89682539683
+        },
+        "remote_percentage": 1.5873015873015872,
+        "top_locations": [
+          [
+            "Denver, CO",
+            15
+          ],
+          [
+            "Washington, DC",
+            13
+          ],
+          [
+            "Charlotte, NC",
+            11
+          ]
+        ]
+      },
+      "research": {
+        "count": 146,
+        "percentage": 13.382218148487626,
+        "avg_salary_range": {
+          "min": 91489.14383561644,
+          "max": 127922.95205479451
+        },
+        "remote_percentage": 5.47945205479452,
+        "top_locations": [
+          [
+            "Charlotte, NC",
+            48
+          ],
+          [
+            "New York, NY",
+            22
+          ],
+          [
+            "Fort Worth, TX",
+            9
+          ]
+        ]
+      },
+      "data_science": {
+        "count": 103,
+        "percentage": 9.440879926672777,
+        "avg_salary_range": {
+          "min": 110534.90291262136,
+          "max": 160243.28155339806
+        },
+        "top_locations": [
+          [
+            "Charlotte, NC",
+            42
+          ],
+          [
+            "New York, NY",
+            22
+          ],
+          [
+            "Richmond, VA",
+            7
+          ]
+        ]
+      },
+      "engineering": {
+        "count": 104,
+        "percentage": 9.532538955087077,
+        "avg_salary_range": {
+          "min": 112187.30769230769,
+          "max": 159585.72115384616
+        },
+        "remote_percentage": 1.9230769230769231,
+        "top_locations": [
+          [
+            "Charlotte, NC",
+            24
+          ],
+          [
+            "Plano, TX",
+            11
+          ],
+          [
+            "Chicago, IL",
+            10
+          ]
+        ]
+      },
+      "product": {
+        "count": 17,
+        "percentage": 1.5582034830430798,
+        "avg_salary_range": {
+          "min": 110218.58823529411,
+          "max": 170775.82352941178
+        },
+        "top_locations": [
+          [
+            "Charlotte, NC",
+            6
+          ],
+          [
+            "New York, NY",
+            4
+          ],
+          [
+            "Jersey City, NJ",
+            2
+          ]
+        ]
+      },
+      "design": {
+        "count": 8,
+        "percentage": 0.7332722273143905,
+        "avg_salary_range": {
+          "min": 118517.375,
+          "max": 164714.75
+        },
+        "top_locations": [
+          [
+            "Charlotte, NC",
+            3
+          ],
+          [
+            "Chicago, IL",
+            1
+          ],
+          [
+            "Pennington, NJ",
+            1
+          ]
+        ]
+      }
+    },
+    "career_requirements": {
+      "education": {
+        "bachelors": {
+          "count": 327,
+          "percentage": 29.97250229147571
+        },
+        "phd": {
+          "count": 13,
+          "percentage": 1.1915673693858846
+        },
+        "masters": {
+          "count": 6,
+          "percentage": 0.5499541704857929
+        }
+      },
+      "experience": {
+        "avg_years": 4.714285714285714,
+        "min_years": 1,
+        "max_years": 15
+      }
+    }
+  },
+  "culture_and_benefits": {
+    "benefits_offered": {
+      "vacation": {
+        "count": 45,
+        "percentage": 4.124656278643447
+      },
+      "healthcare": {
+        "count": 274,
+        "percentage": 25.114573785517873
+      }
+    },
+    "culture_emphasis": {
+      "diversity_inclusion": {
+        "count": 1067,
+        "percentage": 97.80018331805684
+      },
+      "growth_development": {
+        "count": 1081,
+        "percentage": 99.083409715857
+      },
+      "collaboration": {
+        "count": 300,
+        "percentage": 27.497708524289642
+      },
+      "innovation": {
+        "count": 140,
+        "percentage": 12.832263978001833
+      }
+    },
+    "work_life_balance": {
+      "flexibility": {
+        "count": 749,
+        "percentage": 68.6526122823098
+      },
+      "remote_work": {
+        "count": 19,
+        "percentage": 1.7415215398716772
+      },
+      "volunteer_time": {
+        "count": 1,
+        "percentage": 0.09165902841429881
+      }
+    }
+  },
+  "market_positioning": {
+    "salary_competitiveness": 0.5317658944954129,
+    "remote_leadership": 0.02383134738771769
+  },
+  "time_trends": {
+    "date_distribution": [
+      {
+        "date": "2023-07-13",
+        "count": 1
+      },
+      {
+        "date": "2023-11-14",
+        "count": 1
+      },
+      {
+        "date": "2023-11-17",
+        "count": 1
+      },
+      {
+        "date": "2024-02-29",
+        "count": 1
+      },
+      {
+        "date": "2024-03-14",
+        "count": 1
+      },
+      {
+        "date": "2024-03-18",
+        "count": 1
+      },
+      {
+        "date": "2024-03-19",
+        "count": 2
+      },
+      {
+        "date": "2024-04-10",
+        "count": 1
+      },
+      {
+        "date": "2024-04-15",
+        "count": 1
+      },
+      {
+        "date": "2024-04-22",
+        "count": 1
+      },
+      {
+        "date": "2024-05-06",
+        "count": 1
+      },
+      {
+        "date": "2024-05-07",
+        "count": 1
+      },
+      {
+        "date": "2024-05-24",
+        "count": 1
+      },
+      {
+        "date": "2024-05-28",
+        "count": 1
+      },
+      {
+        "date": "2024-06-03",
+        "count": 1
+      },
+      {
+        "date": "2024-06-06",
+        "count": 1
+      },
+      {
+        "date": "2024-06-10",
+        "count": 2
+      },
+      {
+        "date": "2024-06-11",
+        "count": 1
+      },
+      {
+        "date": "2024-06-12",
+        "count": 1
+      },
+      {
+        "date": "2024-06-13",
+        "count": 1
+      },
+      {
+        "date": "2024-06-14",
+        "count": 3
+      },
+      {
+        "date": "2024-06-17",
+        "count": 2
+      },
+      {
+        "date": "2024-06-26",
+        "count": 2
+      },
+      {
+        "date": "2024-06-27",
+        "count": 2
+      },
+      {
+        "date": "2024-06-28",
+        "count": 1
+      },
+      {
+        "date": "2024-07-01",
+        "count": 2
+      },
+      {
+        "date": "2024-07-02",
+        "count": 1
+      },
+      {
+        "date": "2024-07-08",
+        "count": 1
+      },
+      {
+        "date": "2024-07-11",
+        "count": 1
+      },
+      {
+        "date": "2024-07-12",
+        "count": 2
+      },
+      {
+        "date": "2024-07-15",
+        "count": 5
+      },
+      {
+        "date": "2024-07-16",
+        "count": 3
+      },
+      {
+        "date": "2024-07-19",
+        "count": 2
+      },
+      {
+        "date": "2024-07-22",
+        "count": 2
+      },
+      {
+        "date": "2024-07-25",
+        "count": 2
+      },
+      {
+        "date": "2024-07-26",
+        "count": 2
+      },
+      {
+        "date": "2024-07-29",
+        "count": 4
+      },
+      {
+        "date": "2024-07-30",
+        "count": 2
+      },
+      {
+        "date": "2024-07-31",
+        "count": 2
+      },
+      {
+        "date": "2024-08-01",
+        "count": 3
+      },
+      {
+        "date": "2024-08-02",
+        "count": 1
+      },
+      {
+        "date": "2024-08-05",
+        "count": 2
+      },
+      {
+        "date": "2024-08-06",
+        "count": 3
+      },
+      {
+        "date": "2024-08-07",
+        "count": 2
+      },
+      {
+        "date": "2024-08-08",
+        "count": 1
+      },
+      {
+        "date": "2024-08-09",
+        "count": 1
+      },
+      {
+        "date": "2024-08-12",
+        "count": 3
+      },
+      {
+        "date": "2024-08-13",
+        "count": 2
+      },
+      {
+        "date": "2024-08-14",
+        "count": 1
+      },
+      {
+        "date": "2024-08-15",
+        "count": 5
+      },
+      {
+        "date": "2024-08-19",
+        "count": 1
+      },
+      {
+        "date": "2024-08-20",
+        "count": 2
+      },
+      {
+        "date": "2024-08-21",
+        "count": 3
+      },
+      {
+        "date": "2024-08-22",
+        "count": 2
+      },
+      {
+        "date": "2024-08-27",
+        "count": 4
+      },
+      {
+        "date": "2024-08-28",
+        "count": 1
+      },
+      {
+        "date": "2024-08-29",
+        "count": 3
+      },
+      {
+        "date": "2024-08-30",
+        "count": 5
+      },
+      {
+        "date": "2024-09-03",
+        "count": 2
+      },
+      {
+        "date": "2024-09-04",
+        "count": 4
+      },
+      {
+        "date": "2024-09-05",
+        "count": 2
+      },
+      {
+        "date": "2024-09-06",
+        "count": 1
+      },
+      {
+        "date": "2024-09-10",
+        "count": 5
+      },
+      {
+        "date": "2024-09-11",
+        "count": 2
+      },
+      {
+        "date": "2024-09-12",
+        "count": 1
+      },
+      {
+        "date": "2024-09-13",
+        "count": 4
+      },
+      {
+        "date": "2024-09-16",
+        "count": 3
+      },
+      {
+        "date": "2024-09-17",
+        "count": 3
+      },
+      {
+        "date": "2024-09-18",
+        "count": 1
+      },
+      {
+        "date": "2024-09-19",
+        "count": 3
+      },
+      {
+        "date": "2024-09-20",
+        "count": 3
+      },
+      {
+        "date": "2024-09-23",
+        "count": 7
+      },
+      {
+        "date": "2024-09-24",
+        "count": 6
+      },
+      {
+        "date": "2024-09-25",
+        "count": 4
+      },
+      {
+        "date": "2024-09-26",
+        "count": 4
+      },
+      {
+        "date": "2024-09-27",
+        "count": 2
+      },
+      {
+        "date": "2024-09-30",
+        "count": 2
+      },
+      {
+        "date": "2024-10-01",
+        "count": 2
+      },
+      {
+        "date": "2024-10-02",
+        "count": 2
+      },
+      {
+        "date": "2024-10-03",
+        "count": 9
+      },
+      {
+        "date": "2024-10-04",
+        "count": 5
+      },
+      {
+        "date": "2024-10-07",
+        "count": 3
+      },
+      {
+        "date": "2024-10-08",
+        "count": 4
+      },
+      {
+        "date": "2024-10-09",
+        "count": 4
+      },
+      {
+        "date": "2024-10-10",
+        "count": 1
+      },
+      {
+        "date": "2024-10-11",
+        "count": 3
+      },
+      {
+        "date": "2024-10-14",
+        "count": 2
+      },
+      {
+        "date": "2024-10-16",
+        "count": 3
+      },
+      {
+        "date": "2024-10-17",
+        "count": 5
+      },
+      {
+        "date": "2024-10-18",
+        "count": 5
+      },
+      {
+        "date": "2024-10-21",
+        "count": 6
+      },
+      {
+        "date": "2024-10-22",
+        "count": 4
+      },
+      {
+        "date": "2024-10-23",
+        "count": 5
+      },
+      {
+        "date": "2024-10-24",
+        "count": 1
+      },
+      {
+        "date": "2024-10-25",
+        "count": 7
+      },
+      {
+        "date": "2024-10-28",
+        "count": 17
+      },
+      {
+        "date": "2024-10-29",
+        "count": 5
+      },
+      {
+        "date": "2024-10-30",
+        "count": 3
+      },
+      {
+        "date": "2024-10-31",
+        "count": 8
+      },
+      {
+        "date": "2024-11-01",
+        "count": 10
+      },
+      {
+        "date": "2024-11-04",
+        "count": 4
+      },
+      {
+        "date": "2024-11-05",
+        "count": 6
+      },
+      {
+        "date": "2024-11-06",
+        "count": 15
+      },
+      {
+        "date": "2024-11-07",
+        "count": 17
+      },
+      {
+        "date": "2024-11-08",
+        "count": 10
+      },
+      {
+        "date": "2024-11-11",
+        "count": 6
+      },
+      {
+        "date": "2024-11-12",
+        "count": 13
+      },
+      {
+        "date": "2024-11-13",
+        "count": 16
+      },
+      {
+        "date": "2024-11-14",
+        "count": 17
+      },
+      {
+        "date": "2024-11-15",
+        "count": 9
+      },
+      {
+        "date": "2024-11-17",
+        "count": 1
+      },
+      {
+        "date": "2024-11-18",
+        "count": 13
+      },
+      {
+        "date": "2024-11-19",
+        "count": 7
+      },
+      {
+        "date": "2024-11-20",
+        "count": 14
+      },
+      {
+        "date": "2024-11-21",
+        "count": 17
+      },
+      {
+        "date": "2024-11-22",
+        "count": 17
+      },
+      {
+        "date": "2024-11-24",
+        "count": 1
+      },
+      {
+        "date": "2024-11-25",
+        "count": 16
+      },
+      {
+        "date": "2024-11-26",
+        "count": 14
+      },
+      {
+        "date": "2024-11-27",
+        "count": 13
+      },
+      {
+        "date": "2024-11-29",
+        "count": 3
+      },
+      {
+        "date": "2024-12-02",
+        "count": 7
+      },
+      {
+        "date": "2024-12-03",
+        "count": 19
+      },
+      {
+        "date": "2024-12-04",
+        "count": 17
+      },
+      {
+        "date": "2024-12-05",
+        "count": 17
+      },
+      {
+        "date": "2024-12-06",
+        "count": 17
+      },
+      {
+        "date": "2024-12-07",
+        "count": 1
+      },
+      {
+        "date": "2024-12-09",
+        "count": 19
+      },
+      {
+        "date": "2024-12-10",
+        "count": 26
+      },
+      {
+        "date": "2024-12-11",
+        "count": 7
+      },
+      {
+        "date": "2024-12-12",
+        "count": 10
+      },
+      {
+        "date": "2024-12-13",
+        "count": 16
+      },
+      {
+        "date": "2024-12-16",
+        "count": 19
+      },
+      {
+        "date": "2024-12-17",
+        "count": 27
+      },
+      {
+        "date": "2024-12-18",
+        "count": 18
+      },
+      {
+        "date": "2024-12-19",
+        "count": 12
+      },
+      {
+        "date": "2024-12-20",
+        "count": 28
+      },
+      {
+        "date": "2024-12-23",
+        "count": 11
+      },
+      {
+        "date": "2024-12-24",
+        "count": 4
+      },
+      {
+        "date": "2024-12-26",
+        "count": 5
+      },
+      {
+        "date": "2024-12-27",
+        "count": 10
+      },
+      {
+        "date": "2024-12-29",
+        "count": 1
+      },
+      {
+        "date": "2024-12-30",
+        "count": 10
+      },
+      {
+        "date": "2024-12-31",
+        "count": 15
+      },
+      {
+        "date": "2025-01-02",
+        "count": 38
+      },
+      {
+        "date": "2025-01-03",
+        "count": 51
+      },
+      {
+        "date": "2025-01-04",
+        "count": 2
+      },
+      {
+        "date": "2025-01-06",
+        "count": 59
+      },
+      {
+        "date": "2025-01-07",
+        "count": 20
+      },
+      {
+        "date": "2025-01-08",
+        "count": 22
+      },
+      {
+        "date": "2025-01-09",
+        "count": 43
+      },
+      {
+        "date": "2025-01-10",
+        "count": 30
+      }
+    ],
+    "monthly_distribution": [
+      {
+        "month": "2023-07",
+        "count": 1
+      },
+      {
+        "month": "2023-11",
+        "count": 2
+      },
+      {
+        "month": "2024-02",
+        "count": 1
+      },
+      {
+        "month": "2024-03",
+        "count": 4
+      },
+      {
+        "month": "2024-04",
+        "count": 3
+      },
+      {
+        "month": "2024-05",
+        "count": 4
+      },
+      {
+        "month": "2024-06",
+        "count": 17
+      },
+      {
+        "month": "2024-07",
+        "count": 31
+      },
+      {
+        "month": "2024-08",
+        "count": 45
+      },
+      {
+        "month": "2024-09",
+        "count": 59
+      },
+      {
+        "month": "2024-10",
+        "count": 104
+      },
+      {
+        "month": "2024-11",
+        "count": 239
+      },
+      {
+        "month": "2024-12",
+        "count": 316
+      },
+      {
+        "month": "2025-01",
+        "count": 265
+      }
+    ]
+  }
+}

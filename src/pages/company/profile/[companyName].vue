@@ -1,6 +1,6 @@
 # route lang="yaml"
 meta:
-  layout: default
+layout: default
 ---
 
 <script setup lang="ts">
@@ -66,7 +66,7 @@ const selectedCompanyStore = useSelectedCompanyStore()
 onMounted(async () => {
   try {
     isLoading.value = true;
-    const response = await fetch('/src/prototype-data-v1 copy/10-companies copy.jsonl')
+    const response = await fetch('/src/data/prototype-data-v1 copy 2/10-companies copy.jsonl')
     if (!response.ok) throw new Error('Failed to load companies data');
 
     const text = await response.text()
@@ -89,7 +89,7 @@ onMounted(async () => {
       try {
         const formattedName = formatCompanyNameForFile(foundCompany.name);
         console.log('Loading report for:', formattedName);
-        const reportPath = `/src/prototype-data-v1 copy/company-reports-v2 copy/${formattedName}_analysis.json`;
+        const reportPath = `/src/data/prototype-data-v1 copy 2/company-reports-v2 copy/${formattedName}_analysis.json`;
         console.log('Report path:', reportPath);
 
         const reportResponse = await fetch(reportPath);
@@ -165,11 +165,7 @@ const isMobile = useMediaQuery('(max-width: 768px)')
     <div class="profile-header">
       <div class="profile-header-inner">
         <div class="profile-avatar">
-          <img
-            :src="company.logo || '/placeholder-logo.png'"
-            :alt="company.name + ' logo'"
-            class="avatar"
-          >
+          <img :src="company.logo || '/placeholder-logo.png'" :alt="company.name + ' logo'" class="avatar">
           <h2 class="company-name">
             {{ company.name }}
           </h2>
@@ -182,18 +178,11 @@ const isMobile = useMediaQuery('(max-width: 768px)')
 
     <div class="profile-content">
       <!-- Tabs -->
-      <Tabs
-        v-model:selected="activeTab"
-        :tabs="tabs"
-        alignment="centered"
-      >
+      <Tabs v-model:selected="activeTab" :tabs="tabs" alignment="centered">
         <template #tab="{ activeValue }">
           <!-- Overview Content -->
           <div v-if="activeValue === 'overview'">
-            <Overview
-              :company="company"
-              :company-report="companyReport"
-            />
+            <Overview :company="company" :company-report="companyReport" />
           </div>
 
           <!-- Reports Content -->
@@ -202,18 +191,12 @@ const isMobile = useMediaQuery('(max-width: 768px)')
           </div>
 
           <!-- Jobs Content -->
-          <div
-            v-else-if="activeValue === 'jobs'"
-            class="jobs-section"
-          >
+          <div v-else-if="activeValue === 'jobs'" class="jobs-section">
             <jobs :company="company" />
           </div>
 
           <!-- Discussion Content -->
-          <div
-            v-else-if="activeValue === 'discussion'"
-            class="discussion-section"
-          >
+          <div v-else-if="activeValue === 'discussion'" class="discussion-section">
             <div class="placeholder-content">
               <h3>Discussion Coming Soon</h3>
               <p>This feature will be available in a future update.</p>
@@ -224,17 +207,11 @@ const isMobile = useMediaQuery('(max-width: 768px)')
     </div>
   </div>
 
-  <div
-    v-else-if="error"
-    class="error-state"
-  >
+  <div v-else-if="error" class="error-state">
     <p>{{ error }}</p>
   </div>
 
-  <div
-    v-else
-    class="loading-state"
-  >
+  <div v-else class="loading-state">
     <p>Loading company details...</p>
   </div>
 </template>

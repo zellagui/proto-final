@@ -96,7 +96,7 @@ async function loadCompanyAnalysis(companyName: string) {
     const formattedName = formatCompanyNameForFile(companyName);
     console.log('Loading analysis for:', formattedName);
 
-    const response = await fetch(`/src/prototype-data-v1 copy/company-reports-v2 copy/${formattedName}_analysis.json`);
+    const response = await fetch(`/src/data/prototype-data-v1 copy 2/company-reports-v2 copy/${formattedName}_analysis.json`);
     if (response.ok) {
       const data = await response.json();
       if (data?.location_analysis?.total_jobs) {
@@ -117,7 +117,7 @@ async function loadCompanyAnalysis(companyName: string) {
 
 onMounted(async () => {
   try {
-    const response = await fetch('/src/prototype-data-v1 copy/10-companies copy.jsonl')
+    const response = await fetch('src/data/10-companies.jsonl')
     if (!response.ok) {
       throw new Error('Failed to fetch companies data')
     }
@@ -160,16 +160,10 @@ onMounted(async () => {
 
 <template>
   <div class="py-6">
-    <div
-      v-if="isLoading"
-      class="has-text-centered py-4"
-    >
+    <div v-if="isLoading" class="has-text-centered py-4">
       Loading companies...
     </div>
-    <div
-      v-else-if="error"
-      class="has-text-centered py-4 has-text-danger"
-    >
+    <div v-else-if="error" class="has-text-centered py-4 has-text-danger">
       {{ error }}
     </div>
     <div v-else>
@@ -184,27 +178,15 @@ onMounted(async () => {
           <SimpleTableHeader>Action</SimpleTableHeader>
         </SimpleTableRow>
 
-        <SimpleTableRow
-          v-for="company in companies.slice(0, props.limit)"
-          :key="company.company_id"
-        >
+        <SimpleTableRow v-for="company in companies.slice(0, props.limit)" :key="company.company_id">
           <!-- Company Column (Logo, Name, Sphere) -->
           <SimpleTableCell>
             <SimpleTableCellFlex>
               <template #media>
-                <img
-                  :src="company.logo"
-                  :alt="company.name"
-                  class="company-logo-small"
-                >
+                <img :src="company.logo" :alt="company.name" class="company-logo-small">
               </template>
               <template #content>
-                <Title
-                  tag="h3"
-                  :size="7"
-                  weight="semi"
-                  narrow
-                >
+                <Title tag="h3" :size="7" weight="semi" narrow>
                   {{ company.name }}
                 </Title>
                 <p class="paragraph rem-75">
@@ -223,10 +205,8 @@ onMounted(async () => {
 
           <!-- Hiring Status Column -->
           <SimpleTableCell>
-            <span
-              class="tag"
-              :class="companyAnalysis[company.name]?.location_analysis?.total_jobs > 0 ? 'is-success' : 'is-danger'"
-            >
+            <span class="tag"
+              :class="companyAnalysis[company.name]?.location_analysis?.total_jobs > 0 ? 'is-success' : 'is-danger'">
               {{ companyAnalysis[company.name]?.location_analysis?.total_jobs > 0 ? 'Hiring' : 'Not Hiring' }}
             </span>
           </SimpleTableCell>
@@ -240,20 +220,13 @@ onMounted(async () => {
 
           <!-- Job Boards Column -->
           <SimpleTableCell class="job-boards-cell">
-            <AvatarGroup
-              size="small"
-              :avatars="getActiveJobBoards(company.name)"
-              :limit="5"
-              compact
-            />
+            <AvatarGroup size="small" :avatars="getActiveJobBoards(company.name)" :limit="5" compact />
           </SimpleTableCell>
 
           <!-- Action Column -->
           <SimpleTableCell>
-            <RouterLink
-              :to="`/company/profile/${formatCompanyNameForFile(company.name)}`"
-              class="link has-underline is-reversed rem-90"
-            >
+            <RouterLink :to="`/company/profile/${formatCompanyNameForFile(company.name)}`"
+              class="link has-underline is-reversed rem-90">
               View Profile
             </RouterLink>
           </SimpleTableCell>
@@ -291,7 +264,8 @@ onMounted(async () => {
       min-width: 150px; // Ensure job board icons have enough space
     }
 
-    td, th {
+    td,
+    th {
       padding: 0.75rem 0.5rem;
     }
   }
@@ -303,7 +277,8 @@ onMounted(async () => {
       font-size: 1rem;
     }
 
-    td, th {
+    td,
+    th {
       padding: 0.5rem 0.25rem;
     }
   }

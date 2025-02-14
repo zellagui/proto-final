@@ -1,32 +1,19 @@
 <template>
   <div class="job-wrapper">
     <div class="job-content">
-      <RouterLink
-        :to="`/company/profile/${companyName}`"
-        class="back-link"
-      >
-        <i
-          class="iconify"
-          aria-hidden="true"
-          data-icon="ph:arrow-left-duotone"
-        />
+      <RouterLink :to="`/company/profile/${companyName}`" class="back-link">
+        <i class="iconify" aria-hidden="true" data-icon="ph:arrow-left-duotone" />
         <span>Back to jobs</span>
       </RouterLink>
 
       <div class="job-header">
         <div class="left">
           <div class="job-icon">
-            <img
-              :src="company?.logo || '/img/company/default.svg'"
-              :alt="company?.name"
-            >
+            <img :src="company?.logo || '/img/company/default.svg'" :alt="company?.name">
           </div>
           <div class="meta">
             <div class="company-name">
-              <i
-                class="iconify"
-                data-icon="ph:buildings-duotone"
-              />
+              <i class="iconify" data-icon="ph:buildings-duotone" />
               {{ company?.name }}
             </div>
             <h3 class="job-title">
@@ -34,54 +21,32 @@
             </h3>
             <div class="job-meta">
               <div class="meta-item location">
-                <i
-                  class="iconify"
-                  data-icon="ph:map-pin-duotone"
-                />
+                <i class="iconify" data-icon="ph:map-pin-duotone" />
                 {{ job.location?.city }}, {{ job.location?.state }}
                 <template v-if="job.is_remote">
                   <span class="remote-badge">
-                    <i
-                      class="iconify"
-                      data-icon="ph:house-duotone"
-                    /> Remote
+                    <i class="iconify" data-icon="ph:house-duotone" /> Remote
                   </span>
                 </template>
               </div>
-              <div
-                v-if="job.compensation"
-                class="meta-item salary"
-              >
-                <i
-                  class="iconify"
-                  data-icon="ph:money-duotone"
-                />
+              <div v-if="job.compensation" class="meta-item salary">
+                <i class="iconify" data-icon="ph:money-duotone" />
                 {{ formatSalary(job.compensation) }}
               </div>
               <div class="meta-item posted">
-                <i
-                  class="iconify"
-                  data-icon="ph:calendar-duotone"
-                />
+                <i class="iconify" data-icon="ph:calendar-duotone" />
                 Posted {{ formatDate(job.date_posted) }}
               </div>
               <div class="meta-item reports">
-                <i
-                  class="iconify"
-                  data-icon="ph:flag-duotone"
-                />
+                <i class="iconify" data-icon="ph:flag-duotone" />
                 <span class="reports-count">0</span> Reports
               </div>
             </div>
           </div>
         </div>
         <div class="right">
-          <a
-            :href="job.job_url"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="button is-primary is-outlined is-raised"
-          >
+          <a :href="job.job_url" target="_blank" rel="noopener noreferrer"
+            class="button is-primary is-outlined is-raised">
             Apply Now
           </a>
         </div>
@@ -90,14 +55,9 @@
       <!-- Ethics Analysis Section -->
       <div class="ethics-analysis">
         <div class="ethics-header">
-          <div
-            class="status-badge"
-            :class="{ 'is-ghost': job.augmented?.ethics?.is_ghost_job }"
-          >
-            <i
-              class="iconify"
-              :data-icon="job.augmented?.ethics?.is_ghost_job ? 'ph:warning-duotone' : 'ph:check-circle-duotone'"
-            />
+          <div class="status-badge" :class="{ 'is-ghost': job.augmented?.ethics?.is_ghost_job }">
+            <i class="iconify"
+              :data-icon="job.augmented?.ethics?.is_ghost_job ? 'ph:warning-duotone' : 'ph:check-circle-duotone'" />
             {{ job.augmented?.ethics?.is_ghost_job ? 'Ghost Job Warning' : 'Legitimate Job' }}
           </div>
           <p class="status-reason">
@@ -105,20 +65,18 @@
           </p>
         </div>
 
-        <DoubleFaqCollapse
-          :left="[
-            {
-              title: `Title Match ${job.augmented?.ethics?.coherence_analysis?.title_vs_description?.is_coherent ? '✓' : '✗'}`,
-              content: job.augmented?.ethics?.coherence_analysis?.title_vs_description?.proof,
-            },
-            ...Object.entries(job.augmented?.ethics?.coherence_analysis?.content_coherence || {})
-              .filter((_, index) => index % 2 === 0)
-              .map(([key, metric]) => ({
-                title: `${formatMetricName(key)} [${metric.score}]`,
-                content: metric.proof,
-              }))
-          ]"
-          :right="[
+        <DoubleFaqCollapse :left="[
+          {
+            title: `Title Match ${job.augmented?.ethics?.coherence_analysis?.title_vs_description?.is_coherent ? '✓' : '✗'}`,
+            content: job.augmented?.ethics?.coherence_analysis?.title_vs_description?.proof,
+          },
+          ...Object.entries(job.augmented?.ethics?.coherence_analysis?.content_coherence || {})
+            .filter((_, index) => index % 2 === 0)
+            .map(([key, metric]) => ({
+              title: `${formatMetricName(key)} [${metric.score}]`,
+              content: metric.proof,
+            }))
+        ]" :right="[
             ...Object.entries(job.augmented?.ethics?.coherence_analysis?.content_coherence || {})
               .filter((_, index) => index % 2 === 1)
               .map(([key, metric]) => ({
@@ -129,31 +87,20 @@
               title: `Overall Assessment [${job.augmented?.ethics?.coherence_analysis?.overall_coherence?.score}]`,
               content: job.augmented?.ethics?.coherence_analysis?.overall_coherence?.proof,
             }
-          ]"
-          chevrons
-        />
+          ]" chevrons />
       </div>
 
       <div class="job-details-row">
         <div class="detail-item">
-          <i
-            class="iconify"
-            data-icon="ph:buildings-duotone"
-          />
+          <i class="iconify" data-icon="ph:buildings-duotone" />
           <div class="detail-content">
             <span class="label">Company</span>
             <span class="value">{{ company?.name }}</span>
           </div>
         </div>
 
-        <div
-          v-if="job.compensation"
-          class="detail-item"
-        >
-          <i
-            class="iconify"
-            data-icon="ph:money-duotone"
-          />
+        <div v-if="job.compensation" class="detail-item">
+          <i class="iconify" data-icon="ph:money-duotone" />
           <div class="detail-content">
             <span class="label">Salary Range</span>
             <span class="value">{{ formatSalary(job.compensation) }}</span>
@@ -161,10 +108,7 @@
         </div>
 
         <div class="detail-item">
-          <i
-            class="iconify"
-            data-icon="ph:calendar-duotone"
-          />
+          <i class="iconify" data-icon="ph:calendar-duotone" />
           <div class="detail-content">
             <span class="label">Posted</span>
             <span class="value">{{ formatDate(job.date_posted) }}</span>
@@ -172,10 +116,7 @@
         </div>
 
         <div class="detail-item">
-          <i
-            class="iconify"
-            data-icon="ph:map-pin-duotone"
-          />
+          <i class="iconify" data-icon="ph:map-pin-duotone" />
           <div class="detail-content">
             <span class="label">Location</span>
             <span class="value">
@@ -193,18 +134,12 @@
           <div class="column is-8">
             <div class="content-card">
               <!-- Augmented Job Information (Cisco only) -->
-              <div
-                v-if="job.augmented"
-                class="augmented-info-section"
-              >
+              <div v-if="job.augmented" class="augmented-info-section">
                 <!-- Job Overview Section -->
                 <div class="augmented-block overview-section">
                   <div class="section-header">
                     <h3>
-                      <i
-                        class="iconify"
-                        data-icon="ph:info-duotone"
-                      />
+                      <i class="iconify" data-icon="ph:info-duotone" />
                       Job Overview
                     </h3>
                   </div>
@@ -213,15 +148,8 @@
                     <!-- Key Details Card -->
                     <div class="overview-card primary">
                       <div class="card-header">
-                        <IconBox
-                          size="small"
-                          color="primary"
-                          rounded
-                        >
-                          <i
-                            class="iconify"
-                            data-icon="ph:briefcase-duotone"
-                          />
+                        <IconBox size="small" color="primary" rounded>
+                          <i class="iconify" data-icon="ph:briefcase-duotone" />
                         </IconBox>
                         <h4>Key Details</h4>
                       </div>
@@ -241,10 +169,7 @@
                           </div>
                           <div class="info-item">
                             <span class="label">Priority</span>
-                            <span
-                              class="value highlight"
-                              :class="getPriorityClass(job.augmented.recruitment_priority)"
-                            >
+                            <span class="value highlight" :class="getPriorityClass(job.augmented.recruitment_priority)">
                               {{ job.augmented.recruitment_priority }}
                             </span>
                           </div>
@@ -255,15 +180,8 @@
                     <!-- Work Environment Card -->
                     <div class="overview-card">
                       <div class="card-header">
-                        <IconBox
-                          size="small"
-                          color="info"
-                          rounded
-                        >
-                          <i
-                            class="iconify"
-                            data-icon="ph:buildings-duotone"
-                          />
+                        <IconBox size="small" color="info" rounded>
+                          <i class="iconify" data-icon="ph:buildings-duotone" />
                         </IconBox>
                         <h4>Work Environment</h4>
                       </div>
@@ -274,35 +192,23 @@
                           </div>
                           <div class="environment-stats">
                             <div class="stat-item">
-                              <i
-                                class="iconify"
-                                data-icon="ph:clock-duotone"
-                              />
+                              <i class="iconify" data-icon="ph:clock-duotone" />
                               <div class="content">
                                 <span class="label">Schedule</span>
                                 <span class="value">{{ job.augmented.scheduling_details }}</span>
                               </div>
                             </div>
                             <div class="stat-item">
-                              <i
-                                class="iconify"
-                                data-icon="ph:house-duotone"
-                              />
+                              <i class="iconify" data-icon="ph:house-duotone" />
                               <div class="content">
                                 <span class="label">Remote Work</span>
-                                <span
-                                  class="value"
-                                  :class="getRemoteStatusClass(job.augmented.remote_option)"
-                                >
+                                <span class="value" :class="getRemoteStatusClass(job.augmented.remote_option)">
                                   {{ job.augmented.remote_option }}
                                 </span>
                               </div>
                             </div>
                             <div class="stat-item">
-                              <i
-                                class="iconify"
-                                data-icon="ph:scales-duotone"
-                              />
+                              <i class="iconify" data-icon="ph:scales-duotone" />
                               <div class="content">
                                 <span class="label">Work-Life Balance</span>
                                 <span class="value">{{ job.augmented.work_life_balance }}</span>
@@ -316,15 +222,8 @@
                     <!-- Career Growth Card -->
                     <div class="overview-card">
                       <div class="card-header">
-                        <IconBox
-                          size="small"
-                          color="success"
-                          rounded
-                        >
-                          <i
-                            class="iconify"
-                            data-icon="ph:trend-up-duotone"
-                          />
+                        <IconBox size="small" color="success" rounded>
+                          <i class="iconify" data-icon="ph:trend-up-duotone" />
                         </IconBox>
                         <h4>Career Growth</h4>
                       </div>
@@ -332,10 +231,7 @@
                         <div class="career-path">
                           <div class="path-stage current">
                             <div class="stage-marker">
-                              <i
-                                class="iconify"
-                                data-icon="ph:star-duotone"
-                              />
+                              <i class="iconify" data-icon="ph:star-duotone" />
                             </div>
                             <div class="stage-content">
                               <h5>Current Role</h5>
@@ -344,10 +240,7 @@
                           </div>
                           <div class="path-stage future">
                             <div class="stage-marker">
-                              <i
-                                class="iconify"
-                                data-icon="ph:arrow-up-right-duotone"
-                              />
+                              <i class="iconify" data-icon="ph:arrow-up-right-duotone" />
                             </div>
                             <div class="stage-content">
                               <h5>Growth Opportunity</h5>
@@ -356,20 +249,14 @@
                           </div>
                           <div class="growth-metrics">
                             <div class="metric-item">
-                              <i
-                                class="iconify"
-                                data-icon="ph:chart-line-up-duotone"
-                              />
+                              <i class="iconify" data-icon="ph:chart-line-up-duotone" />
                               <div class="content">
                                 <span class="label">Job Demand</span>
                                 <span class="value">{{ job.augmented.job_demand }}</span>
                               </div>
                             </div>
                             <div class="metric-item">
-                              <i
-                                class="iconify"
-                                data-icon="ph:target-duotone"
-                              />
+                              <i class="iconify" data-icon="ph:target-duotone" />
                               <div class="content">
                                 <span class="label">Performance Metrics</span>
                                 <span class="value">{{ job.augmented.performance_metrics }}</span>
@@ -383,15 +270,8 @@
                     <!-- Company Culture Card -->
                     <div class="overview-card">
                       <div class="card-header">
-                        <IconBox
-                          size="small"
-                          color="warning"
-                          rounded
-                        >
-                          <i
-                            class="iconify"
-                            data-icon="ph:users-duotone"
-                          />
+                        <IconBox size="small" color="warning" rounded>
+                          <i class="iconify" data-icon="ph:users-duotone" />
                         </IconBox>
                         <h4>Company Culture</h4>
                       </div>
@@ -402,20 +282,14 @@
                           </div>
                           <div class="culture-highlights">
                             <div class="highlight-item">
-                              <i
-                                class="iconify"
-                                data-icon="ph:handshake-duotone"
-                              />
+                              <i class="iconify" data-icon="ph:handshake-duotone" />
                               <div class="content">
                                 <span class="label">Diversity</span>
                                 <span class="value">{{ job.augmented.diversity_stats }}</span>
                               </div>
                             </div>
                             <div class="highlight-item">
-                              <i
-                                class="iconify"
-                                data-icon="ph:trophy-duotone"
-                              />
+                              <i class="iconify" data-icon="ph:trophy-duotone" />
                               <div class="content">
                                 <span class="label">Reputation</span>
                                 <span class="value">{{ job.augmented.company_reputation }}</span>
@@ -431,10 +305,7 @@
                 <!-- Skills & Qualifications Section -->
                 <div class="augmented-block skills-section">
                   <h3>
-                    <i
-                      class="iconify"
-                      data-icon="ph:code-duotone"
-                    />
+                    <i class="iconify" data-icon="ph:code-duotone" />
                     Skills & Qualifications
                   </h3>
 
@@ -444,87 +315,42 @@
                       <!-- Required Skills -->
                       <div class="skills-group">
                         <div class="skills-header">
-                          <IconBox
-                            size="small"
-                            color="primary"
-                            rounded
-                          >
-                            <i
-                              class="iconify"
-                              data-icon="ph:star-duotone"
-                            />
+                          <IconBox size="small" color="primary" rounded>
+                            <i class="iconify" data-icon="ph:star-duotone" />
                           </IconBox>
                           <h4>Required Skills</h4>
                         </div>
                         <div class="skills-list">
-                          <Tag
-                            v-for="skill in job.augmented.required_skills"
-                            :key="skill"
-                            :label="skill"
-                            color="primary"
-                            shape="rounded"
-                            elevated
-                          />
+                          <Tag v-for="skill in job.augmented.required_skills" :key="skill" :label="skill"
+                            color="primary" shape="rounded" elevated />
                         </div>
                       </div>
 
                       <!-- Desired Skills -->
-                      <div
-                        v-if="job.augmented.desired_skills?.length"
-                        class="skills-group"
-                      >
+                      <div v-if="job.augmented.desired_skills?.length" class="skills-group">
                         <div class="skills-header">
-                          <IconBox
-                            size="small"
-                            color="info"
-                            rounded
-                          >
-                            <i
-                              class="iconify"
-                              data-icon="ph:plus-circle-duotone"
-                            />
+                          <IconBox size="small" color="info" rounded>
+                            <i class="iconify" data-icon="ph:plus-circle-duotone" />
                           </IconBox>
                           <h4>Desired Skills</h4>
                         </div>
                         <div class="skills-list">
-                          <Tag
-                            v-for="skill in job.augmented.desired_skills"
-                            :key="skill"
-                            :label="skill"
-                            color="info"
-                            shape="rounded"
-                            elevated
-                          />
+                          <Tag v-for="skill in job.augmented.desired_skills" :key="skill" :label="skill" color="info"
+                            shape="rounded" elevated />
                         </div>
                       </div>
 
                       <!-- Tools & Technologies -->
-                      <div
-                        v-if="job.augmented.work_tools?.length"
-                        class="skills-group"
-                      >
+                      <div v-if="job.augmented.work_tools?.length" class="skills-group">
                         <div class="skills-header">
-                          <IconBox
-                            size="small"
-                            color="success"
-                            rounded
-                          >
-                            <i
-                              class="iconify"
-                              data-icon="ph:wrench-duotone"
-                            />
+                          <IconBox size="small" color="success" rounded>
+                            <i class="iconify" data-icon="ph:wrench-duotone" />
                           </IconBox>
                           <h4>Tools & Technologies</h4>
                         </div>
                         <div class="skills-list">
-                          <Tag
-                            v-for="tool in job.augmented.work_tools"
-                            :key="tool"
-                            :label="tool"
-                            color="success"
-                            shape="rounded"
-                            elevated
-                          />
+                          <Tag v-for="tool in job.augmented.work_tools" :key="tool" :label="tool" color="success"
+                            shape="rounded" elevated />
                         </div>
                       </div>
                     </div>
@@ -533,19 +359,9 @@
                     <div class="requirements-column">
                       <div class="requirements-list">
                         <!-- Education -->
-                        <div
-                          v-if="job.augmented.education_requirement"
-                          class="requirement-item"
-                        >
-                          <IconBox
-                            size="small"
-                            color="warning"
-                            rounded
-                          >
-                            <i
-                              class="iconify"
-                              data-icon="ph:student-duotone"
-                            />
+                        <div v-if="job.augmented.education_requirement" class="requirement-item">
+                          <IconBox size="small" color="warning" rounded>
+                            <i class="iconify" data-icon="ph:student-duotone" />
                           </IconBox>
                           <div class="requirement-content">
                             <h4>Education</h4>
@@ -554,19 +370,9 @@
                         </div>
 
                         <!-- Experience Level -->
-                        <div
-                          v-if="job.augmented.experience_level"
-                          class="requirement-item"
-                        >
-                          <IconBox
-                            size="small"
-                            color="info"
-                            rounded
-                          >
-                            <i
-                              class="iconify"
-                              data-icon="ph:briefcase-duotone"
-                            />
+                        <div v-if="job.augmented.experience_level" class="requirement-item">
+                          <IconBox size="small" color="info" rounded>
+                            <i class="iconify" data-icon="ph:briefcase-duotone" />
                           </IconBox>
                           <div class="requirement-content">
                             <h4>Experience Level</h4>
@@ -575,19 +381,9 @@
                         </div>
 
                         <!-- Additional Requirements -->
-                        <div
-                          v-if="job.augmented.additional_requirements"
-                          class="requirement-item"
-                        >
-                          <IconBox
-                            size="small"
-                            color="primary"
-                            rounded
-                          >
-                            <i
-                              class="iconify"
-                              data-icon="ph:list-checks-duotone"
-                            />
+                        <div v-if="job.augmented.additional_requirements" class="requirement-item">
+                          <IconBox size="small" color="primary" rounded>
+                            <i class="iconify" data-icon="ph:list-checks-duotone" />
                           </IconBox>
                           <div class="requirement-content">
                             <h4>Additional Requirements</h4>
@@ -603,10 +399,7 @@
                 <div class="augmented-block insights-section">
                   <div class="section-header">
                     <h3>
-                      <i
-                        class="iconify"
-                        data-icon="ph:trending-up-duotone"
-                      />
+                      <i class="iconify" data-icon="ph:trending-up-duotone" />
                       Company Insights & Growth
                     </h3>
                   </div>
@@ -615,15 +408,8 @@
                     <!-- Industry Trends Card -->
                     <div class="insight-card">
                       <div class="card-header">
-                        <IconBox
-                          size="small"
-                          color="primary"
-                          rounded
-                        >
-                          <i
-                            class="iconify"
-                            data-icon="ph:chart-line-up-duotone"
-                          />
+                        <IconBox size="small" color="primary" rounded>
+                          <i class="iconify" data-icon="ph:chart-line-up-duotone" />
                         </IconBox>
                         <h4>Industry Trends</h4>
                       </div>
@@ -634,25 +420,16 @@
                           </div>
                           <div class="trend-indicators">
                             <div class="indicator-item">
-                              <i
-                                class="iconify"
-                                data-icon="ph:chart-bar-duotone"
-                              />
+                              <i class="iconify" data-icon="ph:chart-bar-duotone" />
                               <div class="content">
                                 <span class="label">Job Demand</span>
-                                <span
-                                  class="value"
-                                  :class="getDemandClass(job.augmented.job_demand)"
-                                >
+                                <span class="value" :class="getDemandClass(job.augmented.job_demand)">
                                   {{ job.augmented.job_demand }}
                                 </span>
                               </div>
                             </div>
                             <div class="indicator-item">
-                              <i
-                                class="iconify"
-                                data-icon="ph:robot-duotone"
-                              />
+                              <i class="iconify" data-icon="ph:robot-duotone" />
                               <div class="content">
                                 <span class="label">Future Technology</span>
                                 <span class="value">{{ job.augmented.future_technology_integration }}</span>
@@ -666,15 +443,8 @@
                     <!-- Work Culture Card -->
                     <div class="insight-card">
                       <div class="card-header">
-                        <IconBox
-                          size="small"
-                          color="info"
-                          rounded
-                        >
-                          <i
-                            class="iconify"
-                            data-icon="ph:users-three-duotone"
-                          />
+                        <IconBox size="small" color="info" rounded>
+                          <i class="iconify" data-icon="ph:users-three-duotone" />
                         </IconBox>
                         <h4>Work Culture</h4>
                       </div>
@@ -682,29 +452,20 @@
                         <div class="culture-analysis">
                           <div class="culture-highlights">
                             <div class="highlight-box">
-                              <i
-                                class="iconify"
-                                data-icon="ph:heart-duotone"
-                              />
+                              <i class="iconify" data-icon="ph:heart-duotone" />
                               <p>{{ job.augmented.company_culture }}</p>
                             </div>
                           </div>
                           <div class="culture-metrics">
                             <div class="metric-item">
-                              <i
-                                class="iconify"
-                                data-icon="ph:scales-duotone"
-                              />
+                              <i class="iconify" data-icon="ph:scales-duotone" />
                               <div class="content">
                                 <span class="label">Work-Life Balance</span>
                                 <span class="value">{{ job.augmented.work_life_balance }}</span>
                               </div>
                             </div>
                             <div class="metric-item">
-                              <i
-                                class="iconify"
-                                data-icon="ph:users-duotone"
-                              />
+                              <i class="iconify" data-icon="ph:users-duotone" />
                               <div class="content">
                                 <span class="label">Diversity & Inclusion</span>
                                 <span class="value">{{ job.augmented.diversity_stats }}</span>
@@ -718,15 +479,8 @@
                     <!-- Career Development Card -->
                     <div class="insight-card">
                       <div class="card-header">
-                        <IconBox
-                          size="small"
-                          color="success"
-                          rounded
-                        >
-                          <i
-                            class="iconify"
-                            data-icon="ph:graduation-cap-duotone"
-                          />
+                        <IconBox size="small" color="success" rounded>
+                          <i class="iconify" data-icon="ph:graduation-cap-duotone" />
                         </IconBox>
                         <h4>Career Development</h4>
                       </div>
@@ -734,20 +488,14 @@
                         <div class="development-paths">
                           <div class="training-info">
                             <div class="info-header">
-                              <i
-                                class="iconify"
-                                data-icon="ph:book-duotone"
-                              />
+                              <i class="iconify" data-icon="ph:book-duotone" />
                               <h5>Training & Development</h5>
                             </div>
                             <p>{{ job.augmented.training_provided }}</p>
                           </div>
                           <div class="career-progression">
                             <div class="progression-header">
-                              <i
-                                class="iconify"
-                                data-icon="ph:ladder-duotone"
-                              />
+                              <i class="iconify" data-icon="ph:ladder-duotone" />
                               <h5>Career Path</h5>
                             </div>
                             <div class="progression-steps">
@@ -756,10 +504,7 @@
                                 <p>{{ job.augmented.experience_level }}</p>
                               </div>
                               <div class="step-arrow">
-                                <i
-                                  class="iconify"
-                                  data-icon="ph:arrow-right-duotone"
-                                />
+                                <i class="iconify" data-icon="ph:arrow-right-duotone" />
                               </div>
                               <div class="step future">
                                 <span class="step-marker">Future</span>
@@ -774,15 +519,8 @@
                     <!-- Company Performance Card -->
                     <div class="insight-card">
                       <div class="card-header">
-                        <IconBox
-                          size="small"
-                          color="warning"
-                          rounded
-                        >
-                          <i
-                            class="iconify"
-                            data-icon="ph:trophy-duotone"
-                          />
+                        <IconBox size="small" color="warning" rounded>
+                          <i class="iconify" data-icon="ph:trophy-duotone" />
                         </IconBox>
                         <h4>Company Performance</h4>
                       </div>
@@ -790,30 +528,21 @@
                         <div class="performance-metrics">
                           <div class="company-reputation">
                             <div class="reputation-header">
-                              <i
-                                class="iconify"
-                                data-icon="ph:star-duotone"
-                              />
+                              <i class="iconify" data-icon="ph:star-duotone" />
                               <h5>Company Reputation</h5>
                             </div>
                             <p>{{ job.augmented.company_reputation }}</p>
                           </div>
                           <div class="key-metrics">
                             <div class="metric-item">
-                              <i
-                                class="iconify"
-                                data-icon="ph:target-duotone"
-                              />
+                              <i class="iconify" data-icon="ph:target-duotone" />
                               <div class="content">
                                 <span class="label">Performance Metrics</span>
                                 <span class="value">{{ job.augmented.performance_metrics }}</span>
                               </div>
                             </div>
                             <div class="metric-item">
-                              <i
-                                class="iconify"
-                                data-icon="ph:chart-pie-duotone"
-                              />
+                              <i class="iconify" data-icon="ph:chart-pie-duotone" />
                               <div class="content">
                                 <span class="label">Job Stability</span>
                                 <span class="value">{{ job.augmented.job_stability }}</span>
@@ -830,22 +559,12 @@
               <!-- Job Description -->
               <div class="description-section">
                 <h3>
-                  <i
-                    class="iconify"
-                    data-icon="ph:text-align-left-duotone"
-                  />
+                  <i class="iconify" data-icon="ph:text-align-left-duotone" />
                   Full Job Description
                 </h3>
-                <div
-                  class="content"
-                  :class="{ 'is-truncated': !showFullDescription }"
-                  v-html="formattedDescription"
-                />
-                <button
-                  v-if="hasLongDescription"
-                  class="button is-primary is-light is-small"
-                  @click="showFullDescription = !showFullDescription"
-                >
+                <div class="content" :class="{ 'is-truncated': !showFullDescription }" v-html="formattedDescription" />
+                <button v-if="hasLongDescription" class="button is-primary is-light is-small"
+                  @click="showFullDescription = !showFullDescription">
                   {{ showFullDescription ? 'Show Less' : 'View More' }}
                 </button>
               </div>
@@ -856,78 +575,44 @@
             <!-- Similar Jobs -->
             <div class="side-card similar-jobs-card">
               <h3>
-                <i
-                  class="iconify"
-                  data-icon="ph:briefcase-duotone"
-                />
+                <i class="iconify" data-icon="ph:briefcase-duotone" />
                 More Jobs at {{ company?.name }}
               </h3>
               <div class="similar-jobs-list">
-                <div
-                  v-if="isLoadingSimilarJobs"
-                  class="loading-state"
-                >
+                <div v-if="isLoadingSimilarJobs" class="loading-state">
                   <p>Loading similar jobs...</p>
                 </div>
 
-                <div
-                  v-else-if="similarJobsError"
-                  class="error-state"
-                >
+                <div v-else-if="similarJobsError" class="error-state">
                   <p>{{ similarJobsError }}</p>
                 </div>
 
                 <template v-else>
-                  <div
-                    v-for="similarJob in similarJobs"
-                    :key="similarJob.id"
-                    class="similar-job-item"
-                  >
+                  <div v-for="similarJob in similarJobs" :key="similarJob.id" class="similar-job-item">
                     <div class="job-info">
                       <h4>{{ similarJob.title }}</h4>
                       <div class="job-meta">
                         <span class="location">
-                          <i
-                            class="iconify"
-                            data-icon="ph:map-pin-duotone"
-                          />
+                          <i class="iconify" data-icon="ph:map-pin-duotone" />
                           {{ similarJob.location?.city }}, {{ similarJob.location?.state }}
                         </span>
-                        <span
-                          v-if="similarJob.compensation"
-                          class="salary"
-                        >
-                          <i
-                            class="iconify"
-                            data-icon="ph:money-duotone"
-                          />
+                        <span v-if="similarJob.compensation" class="salary">
+                          <i class="iconify" data-icon="ph:money-duotone" />
                           {{ formatSalary(similarJob.compensation) }}
                         </span>
                       </div>
                     </div>
                     <div class="job-action">
-                      <a
-                        :href="`/company/profile/job/${similarJob.id}?company=${encodeURIComponent(companyName)}`"
-                        class="button"
-                        title="View Job Details"
-                      >
-                        <i
-                          class="iconify"
-                          data-icon="ph:arrow-right-duotone"
-                        />
+                      <a :href="`/company/profile/job/${similarJob.id}?company=${encodeURIComponent(companyName)}`"
+                        class="button" title="View Job Details">
+                        <i class="iconify" data-icon="ph:arrow-right-duotone" />
                       </a>
                     </div>
                   </div>
 
-                  <a
-                    :href="`/company/profile/jobs?company=${encodeURIComponent(companyName)}`"
-                    class="view-all-link"
-                  >
+                  <a :href="`/company/profile/jobs?company=${encodeURIComponent(companyName)}`" class="view-all-link">
                     View All Jobs
-                    <i
-                      class="iconify"
-                      data-icon="ph:arrow-right-duotone"
-                    />
+                    <i class="iconify" data-icon="ph:arrow-right-duotone" />
                   </a>
                 </template>
               </div>
@@ -1045,7 +730,8 @@ const loadSimilarJobs = async () => {
   try {
     isLoadingSimilarJobs.value = true;
     const formattedName = formatCompanyNameForFile(companyName.value);
-    const response = await fetch(`/src/prototype-data-v1 copy/samples copy/${formattedName}_sample.json`);
+    console.log('Loading similar jobs for:', formattedName);
+    const response = await fetch(`/src/data/prototype-data-v1 copy 2/samples copy/${formattedName}_sample.json`);
 
     if (!response.ok) {
       throw new Error(`Jobs data not found for ${formattedName}`);
@@ -1166,6 +852,7 @@ const showProof = (key: string, data: any) => {
 
     &:hover {
       background: var(--white);
+
       .iconify {
         transform: translateX(-4px);
       }
@@ -1361,6 +1048,7 @@ const showProof = (key: string, data: any) => {
   }
 
   .job-body {
+
     .content-card,
     .side-card {
       background: var(--white);
@@ -1774,6 +1462,7 @@ const showProof = (key: string, data: any) => {
     }
 
     .job-body {
+
       .content-card,
       .side-card {
         padding: 1.25rem;
@@ -2210,7 +1899,9 @@ const showProof = (key: string, data: any) => {
   }
 
   .development-paths {
-    .training-info, .career-progression {
+
+    .training-info,
+    .career-progression {
       margin-bottom: 1rem;
       padding-bottom: 1rem;
       border-bottom: 1px solid var(--border-color);
@@ -2221,7 +1912,8 @@ const showProof = (key: string, data: any) => {
         border-bottom: none;
       }
 
-      .info-header, .progression-header {
+      .info-header,
+      .progression-header {
         display: flex;
         align-items: center;
         gap: 0.5rem;
@@ -2561,4 +2253,3 @@ const showProof = (key: string, data: any) => {
   }
 }
 </style>
-

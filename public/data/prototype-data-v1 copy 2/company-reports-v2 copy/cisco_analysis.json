@@ -1,0 +1,1065 @@
+{
+  "analysis_date": "2025-02-01",
+  "company_name": "Cisco",
+  "summary": {
+    "headline_points": [
+      "Total 257 jobs analyzed for Cisco",
+      "Mean min salary: $148357, mean max salary: $189020",
+      "Top location is San Jose, CA",
+      "Remote work percentage: ~43.97%",
+      "Strong culture emphasis on diversity, training, and benefits"
+    ]
+  },
+  "company_profile": {
+    "company_description": "Cisco wants you to bring your uniqueness, join teams to solve challenges, and work together to build an inclusive future for all with our technology. Be you, with us! #WeAreCisco!",
+    "company_size": "Unknown",
+    "company_revenue": "more than $10B (USD)"
+  },
+  "compensation": {
+    "min_salary_stats": {
+      "mean": 148357.33073929962,
+      "median": 151537.0,
+      "std": 29402.190705781974,
+      "quartiles": [
+        136642.0,
+        151537.0,
+        163512.0
+      ],
+      "iqr": 26870.0
+    },
+    "max_salary_stats": {
+      "mean": 189019.94163424126,
+      "median": 193547.0,
+      "std": 38073.714768701284,
+      "quartiles": [
+        173903.0,
+        193547.0,
+        207328.0
+      ],
+      "iqr": 33425.0
+    },
+    "salary_spread": {
+      "mean_spread": 40821.44921875,
+      "median_spread": 41178.0
+    },
+    "bands": {
+      "entry_level": {
+        "range": [
+          18.0,
+          107845.33333333333
+        ],
+        "count": 33
+      },
+      "mid_level": {
+        "range": [
+          107845.33333333333,
+          215672.66666666666
+        ],
+        "count": 435
+      },
+      "senior_level": {
+        "range": [
+          215672.66666666666,
+          323500.0
+        ],
+        "count": 46
+      }
+    }
+  },
+  "location_analysis": {
+    "total_jobs": 257,
+    "top_locations": [
+      [
+        "San Jose, CA",
+        147
+      ],
+      [
+        "Research Triangle Park, NC",
+        28
+      ],
+      [
+        "Austin, TX",
+        6
+      ],
+      [
+        "San Francisco, CA",
+        6
+      ],
+      [
+        "Irvine, CA",
+        4
+      ]
+    ],
+    "state_distribution": {
+      "CA": 165,
+      "NC": 29,
+      "TX": 11,
+      "MA": 7,
+      "MD": 5,
+      "GA": 4,
+      "NJ": 4,
+      "IL": 4,
+      "WA": 4,
+      "VA": 3,
+      "MO": 3,
+      "DC": 3,
+      "CO": 2,
+      "OR": 2,
+      "AZ": 2,
+      "MN": 2,
+      "TN": 1,
+      "IN": 1,
+      "NE": 1,
+      "SC": 1,
+      "WI": 1,
+      "MI": 1,
+      "OH": 1
+    },
+    "remote_jobs": {
+      "percentage": 43.96887159533074
+    },
+    "location_diversity_score": 0.6570576390255713
+  },
+  "job_categories": {
+    "engineering": {
+      "count": 221,
+      "percentage": 85.99221789883269,
+      "avg_salary_range": {
+        "min": 149105.41628959277,
+        "max": 190029.87330316743
+      },
+      "remote_percentage": 43.43891402714932,
+      "top_locations": [
+        [
+          "San Jose, CA",
+          131
+        ],
+        [
+          "Research Triangle Park, NC",
+          22
+        ],
+        [
+          "San Francisco, CA",
+          6
+        ]
+      ]
+    },
+    "data_science": {
+      "count": 106,
+      "percentage": 41.245136186770424,
+      "avg_salary_range": {
+        "min": 155882.679245283,
+        "max": 199304.30188679244
+      },
+      "remote_percentage": 54.71698113207547,
+      "top_locations": [
+        [
+          "San Jose, CA",
+          60
+        ],
+        [
+          "Research Triangle Park, NC",
+          15
+        ],
+        [
+          "Dallas, TX",
+          3
+        ]
+      ]
+    },
+    "sales": {
+      "count": 254,
+      "percentage": 98.83268482490273,
+      "avg_salary_range": {
+        "min": 149122.89763779528,
+        "max": 189781.52362204724
+      },
+      "remote_percentage": 44.09448818897638,
+      "top_locations": [
+        [
+          "San Jose, CA",
+          145
+        ],
+        [
+          "Research Triangle Park, NC",
+          28
+        ],
+        [
+          "Austin, TX",
+          6
+        ]
+      ]
+    },
+    "management": {
+      "count": 142,
+      "percentage": 55.252918287937746,
+      "avg_salary_range": {
+        "min": 155658.2676056338,
+        "max": 198731.01408450704
+      },
+      "remote_percentage": 39.436619718309856,
+      "top_locations": [
+        [
+          "San Jose, CA",
+          80
+        ],
+        [
+          "Research Triangle Park, NC",
+          20
+        ],
+        [
+          "Austin, TX",
+          3
+        ]
+      ]
+    },
+    "operations": {
+      "count": 256,
+      "percentage": 99.61089494163424,
+      "avg_salary_range": {
+        "min": 148936.78125,
+        "max": 189758.23046875
+      },
+      "remote_percentage": 44.140625,
+      "top_locations": [
+        [
+          "San Jose, CA",
+          147
+        ],
+        [
+          "Research Triangle Park, NC",
+          28
+        ],
+        [
+          "Austin, TX",
+          6
+        ]
+      ]
+    },
+    "security": {
+      "count": 120,
+      "percentage": 46.69260700389105,
+      "avg_salary_range": {
+        "min": 146182.5,
+        "max": 187128.74166666667
+      },
+      "remote_percentage": 31.666666666666664,
+      "top_locations": [
+        [
+          "San Jose, CA",
+          63
+        ],
+        [
+          "Research Triangle Park, NC",
+          17
+        ],
+        [
+          "San Francisco, CA",
+          6
+        ]
+      ]
+    },
+    "research": {
+      "count": 51,
+      "percentage": 19.844357976653697,
+      "avg_salary_range": {
+        "min": 151870.66666666666,
+        "max": 195245.54901960783
+      },
+      "remote_percentage": 43.13725490196079,
+      "top_locations": [
+        [
+          "San Jose, CA",
+          22
+        ],
+        [
+          "Research Triangle Park, NC",
+          6
+        ],
+        [
+          "Maynard, MA",
+          3
+        ]
+      ]
+    },
+    "marketing": {
+      "count": 47,
+      "percentage": 18.28793774319066,
+      "avg_salary_range": {
+        "min": 145938.8085106383,
+        "max": 184791.12765957447
+      },
+      "remote_percentage": 48.93617021276596,
+      "top_locations": [
+        [
+          "San Jose, CA",
+          23
+        ],
+        [
+          "Research Triangle Park, NC",
+          7
+        ],
+        [
+          "Herndon, VA",
+          2
+        ]
+      ]
+    },
+    "design": {
+      "count": 17,
+      "percentage": 6.614785992217899,
+      "avg_salary_range": {
+        "min": 157424.29411764705,
+        "max": 203711.23529411765
+      },
+      "remote_percentage": 47.05882352941176,
+      "top_locations": [
+        [
+          "San Jose, CA",
+          15
+        ],
+        [
+          "San Francisco, CA",
+          1
+        ],
+        [
+          "Austin, TX",
+          1
+        ]
+      ]
+    },
+    "product": {
+      "count": 12,
+      "percentage": 4.669260700389105,
+      "avg_salary_range": {
+        "min": 150995.58333333334,
+        "max": 193539.25
+      },
+      "remote_percentage": 33.33333333333333,
+      "top_locations": [
+        [
+          "San Jose, CA",
+          10
+        ],
+        [
+          "San Francisco, CA",
+          1
+        ],
+        [
+          "Research Triangle Park, NC",
+          1
+        ]
+      ]
+    }
+  },
+  "skills_and_requirements": {
+    "skill_categories": {},
+    "job_categories": {
+      "engineering": {
+        "count": 221,
+        "percentage": 85.99221789883269,
+        "avg_salary_range": {
+          "min": 149105.41628959277,
+          "max": 190029.87330316743
+        },
+        "remote_percentage": 43.43891402714932,
+        "top_locations": [
+          [
+            "San Jose, CA",
+            131
+          ],
+          [
+            "Research Triangle Park, NC",
+            22
+          ],
+          [
+            "San Francisco, CA",
+            6
+          ]
+        ]
+      },
+      "data_science": {
+        "count": 106,
+        "percentage": 41.245136186770424,
+        "avg_salary_range": {
+          "min": 155882.679245283,
+          "max": 199304.30188679244
+        },
+        "remote_percentage": 54.71698113207547,
+        "top_locations": [
+          [
+            "San Jose, CA",
+            60
+          ],
+          [
+            "Research Triangle Park, NC",
+            15
+          ],
+          [
+            "Dallas, TX",
+            3
+          ]
+        ]
+      },
+      "sales": {
+        "count": 254,
+        "percentage": 98.83268482490273,
+        "avg_salary_range": {
+          "min": 149122.89763779528,
+          "max": 189781.52362204724
+        },
+        "remote_percentage": 44.09448818897638,
+        "top_locations": [
+          [
+            "San Jose, CA",
+            145
+          ],
+          [
+            "Research Triangle Park, NC",
+            28
+          ],
+          [
+            "Austin, TX",
+            6
+          ]
+        ]
+      },
+      "management": {
+        "count": 142,
+        "percentage": 55.252918287937746,
+        "avg_salary_range": {
+          "min": 155658.2676056338,
+          "max": 198731.01408450704
+        },
+        "remote_percentage": 39.436619718309856,
+        "top_locations": [
+          [
+            "San Jose, CA",
+            80
+          ],
+          [
+            "Research Triangle Park, NC",
+            20
+          ],
+          [
+            "Austin, TX",
+            3
+          ]
+        ]
+      },
+      "operations": {
+        "count": 256,
+        "percentage": 99.61089494163424,
+        "avg_salary_range": {
+          "min": 148936.78125,
+          "max": 189758.23046875
+        },
+        "remote_percentage": 44.140625,
+        "top_locations": [
+          [
+            "San Jose, CA",
+            147
+          ],
+          [
+            "Research Triangle Park, NC",
+            28
+          ],
+          [
+            "Austin, TX",
+            6
+          ]
+        ]
+      },
+      "security": {
+        "count": 120,
+        "percentage": 46.69260700389105,
+        "avg_salary_range": {
+          "min": 146182.5,
+          "max": 187128.74166666667
+        },
+        "remote_percentage": 31.666666666666664,
+        "top_locations": [
+          [
+            "San Jose, CA",
+            63
+          ],
+          [
+            "Research Triangle Park, NC",
+            17
+          ],
+          [
+            "San Francisco, CA",
+            6
+          ]
+        ]
+      },
+      "research": {
+        "count": 51,
+        "percentage": 19.844357976653697,
+        "avg_salary_range": {
+          "min": 151870.66666666666,
+          "max": 195245.54901960783
+        },
+        "remote_percentage": 43.13725490196079,
+        "top_locations": [
+          [
+            "San Jose, CA",
+            22
+          ],
+          [
+            "Research Triangle Park, NC",
+            6
+          ],
+          [
+            "Maynard, MA",
+            3
+          ]
+        ]
+      },
+      "marketing": {
+        "count": 47,
+        "percentage": 18.28793774319066,
+        "avg_salary_range": {
+          "min": 145938.8085106383,
+          "max": 184791.12765957447
+        },
+        "remote_percentage": 48.93617021276596,
+        "top_locations": [
+          [
+            "San Jose, CA",
+            23
+          ],
+          [
+            "Research Triangle Park, NC",
+            7
+          ],
+          [
+            "Herndon, VA",
+            2
+          ]
+        ]
+      },
+      "design": {
+        "count": 17,
+        "percentage": 6.614785992217899,
+        "avg_salary_range": {
+          "min": 157424.29411764705,
+          "max": 203711.23529411765
+        },
+        "remote_percentage": 47.05882352941176,
+        "top_locations": [
+          [
+            "San Jose, CA",
+            15
+          ],
+          [
+            "San Francisco, CA",
+            1
+          ],
+          [
+            "Austin, TX",
+            1
+          ]
+        ]
+      },
+      "product": {
+        "count": 12,
+        "percentage": 4.669260700389105,
+        "avg_salary_range": {
+          "min": 150995.58333333334,
+          "max": 193539.25
+        },
+        "remote_percentage": 33.33333333333333,
+        "top_locations": [
+          [
+            "San Jose, CA",
+            10
+          ],
+          [
+            "San Francisco, CA",
+            1
+          ],
+          [
+            "Research Triangle Park, NC",
+            1
+          ]
+        ]
+      }
+    },
+    "career_requirements": {
+      "education": {
+        "bachelors": {
+          "count": 42,
+          "percentage": 16.342412451361866
+        },
+        "phd": {
+          "count": 23,
+          "percentage": 8.949416342412452
+        },
+        "masters": {
+          "count": 20,
+          "percentage": 7.782101167315175
+        }
+      },
+      "experience": {
+        "avg_years": 13.892086330935252,
+        "min_years": 1,
+        "max_years": 40
+      }
+    }
+  },
+  "culture_and_benefits": {
+    "benefits_offered": {
+      "healthcare": {
+        "count": 256,
+        "percentage": 99.61089494163424
+      },
+      "retirement": {
+        "count": 254,
+        "percentage": 98.83268482490273
+      },
+      "vacation": {
+        "count": 253,
+        "percentage": 98.44357976653697
+      },
+      "disability": {
+        "count": 253,
+        "percentage": 98.44357976653697
+      },
+      "life_insurance": {
+        "count": 253,
+        "percentage": 98.44357976653697
+      }
+    },
+    "culture_emphasis": {
+      "diversity_inclusion": {
+        "count": 249,
+        "percentage": 96.88715953307393
+      },
+      "innovation": {
+        "count": 202,
+        "percentage": 78.59922178988327
+      },
+      "collaboration": {
+        "count": 145,
+        "percentage": 56.42023346303502
+      },
+      "growth_development": {
+        "count": 229,
+        "percentage": 89.10505836575877
+      }
+    },
+    "work_life_balance": {
+      "flexibility": {
+        "count": 245,
+        "percentage": 95.3307392996109
+      },
+      "remote_work": {
+        "count": 190,
+        "percentage": 73.92996108949417
+      },
+      "volunteer_time": {
+        "count": 253,
+        "percentage": 98.44357976653697
+      }
+    }
+  },
+  "market_positioning": {
+    "salary_competitiveness": 0.9450997081712063,
+    "remote_leadership": 0.8793774319066148
+  },
+  "time_trends": {
+    "date_distribution": [
+      {
+        "date": "2024-01-25",
+        "count": 1
+      },
+      {
+        "date": "2024-01-29",
+        "count": 3
+      },
+      {
+        "date": "2024-02-15",
+        "count": 1
+      },
+      {
+        "date": "2024-02-27",
+        "count": 1
+      },
+      {
+        "date": "2024-03-15",
+        "count": 4
+      },
+      {
+        "date": "2024-06-28",
+        "count": 2
+      },
+      {
+        "date": "2024-07-16",
+        "count": 1
+      },
+      {
+        "date": "2024-07-22",
+        "count": 1
+      },
+      {
+        "date": "2024-07-25",
+        "count": 1
+      },
+      {
+        "date": "2024-08-05",
+        "count": 1
+      },
+      {
+        "date": "2024-08-07",
+        "count": 1
+      },
+      {
+        "date": "2024-08-15",
+        "count": 2
+      },
+      {
+        "date": "2024-08-22",
+        "count": 1
+      },
+      {
+        "date": "2024-08-27",
+        "count": 1
+      },
+      {
+        "date": "2024-08-29",
+        "count": 3
+      },
+      {
+        "date": "2024-08-30",
+        "count": 1
+      },
+      {
+        "date": "2024-09-03",
+        "count": 4
+      },
+      {
+        "date": "2024-09-04",
+        "count": 1
+      },
+      {
+        "date": "2024-09-05",
+        "count": 1
+      },
+      {
+        "date": "2024-09-06",
+        "count": 1
+      },
+      {
+        "date": "2024-09-10",
+        "count": 2
+      },
+      {
+        "date": "2024-09-16",
+        "count": 1
+      },
+      {
+        "date": "2024-09-19",
+        "count": 2
+      },
+      {
+        "date": "2024-09-23",
+        "count": 1
+      },
+      {
+        "date": "2024-09-24",
+        "count": 1
+      },
+      {
+        "date": "2024-09-25",
+        "count": 1
+      },
+      {
+        "date": "2024-09-30",
+        "count": 2
+      },
+      {
+        "date": "2024-10-02",
+        "count": 2
+      },
+      {
+        "date": "2024-10-04",
+        "count": 2
+      },
+      {
+        "date": "2024-10-07",
+        "count": 1
+      },
+      {
+        "date": "2024-10-08",
+        "count": 2
+      },
+      {
+        "date": "2024-10-10",
+        "count": 1
+      },
+      {
+        "date": "2024-10-11",
+        "count": 1
+      },
+      {
+        "date": "2024-10-12",
+        "count": 1
+      },
+      {
+        "date": "2024-10-14",
+        "count": 1
+      },
+      {
+        "date": "2024-10-16",
+        "count": 1
+      },
+      {
+        "date": "2024-10-17",
+        "count": 1
+      },
+      {
+        "date": "2024-10-18",
+        "count": 2
+      },
+      {
+        "date": "2024-10-21",
+        "count": 2
+      },
+      {
+        "date": "2024-10-22",
+        "count": 2
+      },
+      {
+        "date": "2024-10-23",
+        "count": 1
+      },
+      {
+        "date": "2024-10-24",
+        "count": 4
+      },
+      {
+        "date": "2024-10-25",
+        "count": 2
+      },
+      {
+        "date": "2024-10-28",
+        "count": 1
+      },
+      {
+        "date": "2024-10-29",
+        "count": 2
+      },
+      {
+        "date": "2024-10-30",
+        "count": 5
+      },
+      {
+        "date": "2024-10-31",
+        "count": 4
+      },
+      {
+        "date": "2024-11-01",
+        "count": 2
+      },
+      {
+        "date": "2024-11-04",
+        "count": 2
+      },
+      {
+        "date": "2024-11-08",
+        "count": 2
+      },
+      {
+        "date": "2024-11-09",
+        "count": 2
+      },
+      {
+        "date": "2024-11-12",
+        "count": 2
+      },
+      {
+        "date": "2024-11-13",
+        "count": 3
+      },
+      {
+        "date": "2024-11-14",
+        "count": 2
+      },
+      {
+        "date": "2024-11-15",
+        "count": 1
+      },
+      {
+        "date": "2024-11-17",
+        "count": 1
+      },
+      {
+        "date": "2024-11-18",
+        "count": 1
+      },
+      {
+        "date": "2024-11-19",
+        "count": 5
+      },
+      {
+        "date": "2024-11-20",
+        "count": 2
+      },
+      {
+        "date": "2024-11-25",
+        "count": 1
+      },
+      {
+        "date": "2024-11-26",
+        "count": 2
+      },
+      {
+        "date": "2024-11-27",
+        "count": 4
+      },
+      {
+        "date": "2024-12-02",
+        "count": 5
+      },
+      {
+        "date": "2024-12-03",
+        "count": 7
+      },
+      {
+        "date": "2024-12-04",
+        "count": 11
+      },
+      {
+        "date": "2024-12-05",
+        "count": 2
+      },
+      {
+        "date": "2024-12-06",
+        "count": 3
+      },
+      {
+        "date": "2024-12-09",
+        "count": 8
+      },
+      {
+        "date": "2024-12-10",
+        "count": 5
+      },
+      {
+        "date": "2024-12-11",
+        "count": 6
+      },
+      {
+        "date": "2024-12-12",
+        "count": 6
+      },
+      {
+        "date": "2024-12-13",
+        "count": 6
+      },
+      {
+        "date": "2024-12-16",
+        "count": 9
+      },
+      {
+        "date": "2024-12-17",
+        "count": 4
+      },
+      {
+        "date": "2024-12-18",
+        "count": 5
+      },
+      {
+        "date": "2024-12-19",
+        "count": 8
+      },
+      {
+        "date": "2024-12-20",
+        "count": 8
+      },
+      {
+        "date": "2024-12-21",
+        "count": 1
+      },
+      {
+        "date": "2024-12-23",
+        "count": 2
+      },
+      {
+        "date": "2025-01-02",
+        "count": 3
+      },
+      {
+        "date": "2025-01-03",
+        "count": 3
+      },
+      {
+        "date": "2025-01-06",
+        "count": 18
+      },
+      {
+        "date": "2025-01-07",
+        "count": 6
+      },
+      {
+        "date": "2025-01-08",
+        "count": 7
+      },
+      {
+        "date": "2025-01-09",
+        "count": 4
+      },
+      {
+        "date": "2025-01-10",
+        "count": 8
+      }
+    ],
+    "monthly_distribution": [
+      {
+        "month": "2024-01",
+        "count": 4
+      },
+      {
+        "month": "2024-02",
+        "count": 2
+      },
+      {
+        "month": "2024-03",
+        "count": 4
+      },
+      {
+        "month": "2024-06",
+        "count": 2
+      },
+      {
+        "month": "2024-07",
+        "count": 3
+      },
+      {
+        "month": "2024-08",
+        "count": 10
+      },
+      {
+        "month": "2024-09",
+        "count": 17
+      },
+      {
+        "month": "2024-10",
+        "count": 38
+      },
+      {
+        "month": "2024-11",
+        "count": 32
+      },
+      {
+        "month": "2024-12",
+        "count": 96
+      },
+      {
+        "month": "2025-01",
+        "count": 49
+      }
+    ]
+  }
+}

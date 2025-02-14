@@ -1,0 +1,1149 @@
+{
+  "analysis_date": "2025-02-01",
+  "company_name": "Microsoft",
+  "summary": {
+    "headline_points": [
+      "Total 962 jobs analyzed for Microsoft",
+      "Mean min salary: $95295, mean max salary: $200651",
+      "Top location is Redmond, WA",
+      "Remote work percentage: ~9.98%",
+      "Strong culture emphasis on diversity, training, and benefits"
+    ]
+  },
+  "company_profile": {
+    "company_description": "Our mission is to empower every person and every organization on the planet to achieve more.",
+    "company_size": "Unknown",
+    "company_revenue": "more than $10B (USD)"
+  },
+  "compensation": {
+    "min_salary_stats": {
+      "mean": 95295.14345114345,
+      "median": 115000.0,
+      "std": 44605.32677668309,
+      "quartiles": [
+        83875.0,
+        115000.0,
+        117200.0
+      ],
+      "iqr": 33325.0
+    },
+    "max_salary_stats": {
+      "mean": 200651.12785862785,
+      "median": 219200.0,
+      "std": 94213.0984326595,
+      "quartiles": [
+        183000.0,
+        219200.0,
+        250200.0
+      ],
+      "iqr": 67200.0
+    },
+    "salary_spread": {
+      "mean_spread": 105355.9844074844,
+      "median_spread": 115400.0
+    },
+    "bands": {
+      "entry_level": {
+        "range": [
+          19.0,
+          118412.66666666667
+        ],
+        "count": 917
+      },
+      "mid_level": {
+        "range": [
+          118412.66666666667,
+          236806.33333333334
+        ],
+        "count": 545
+      },
+      "senior_level": {
+        "range": [
+          236806.33333333334,
+          355200.0
+        ],
+        "count": 462
+      }
+    }
+  },
+  "location_analysis": {
+    "total_jobs": 962,
+    "top_locations": [
+      [
+        "Redmond, WA",
+        536
+      ],
+      [
+        "Mountain View, CA",
+        49
+      ],
+      [
+        "New York, NY",
+        29
+      ],
+      [
+        "Reston, VA",
+        19
+      ],
+      [
+        "Atlanta, GA",
+        18
+      ]
+    ],
+    "state_distribution": {
+      "WA": 546,
+      "CA": 55,
+      "VA": 39,
+      "NY": 29,
+      "TX": 22,
+      "GA": 18,
+      "AZ": 15,
+      "WI": 13,
+      "NC": 11,
+      "MA": 11,
+      "WV": 10,
+      "DC": 5,
+      "OR": 4,
+      "IL": 3,
+      "CO": 3,
+      "SC": 3,
+      "IA": 2,
+      "ND": 2,
+      "MI": 2,
+      "MD": 2,
+      "PR": 1,
+      "MO": 1,
+      "NE": 1,
+      "FL": 1,
+      "NV": 1,
+      "IN": 1,
+      "MN": 1
+    },
+    "remote_jobs": {
+      "percentage": 9.97920997920998
+    },
+    "location_diversity_score": 0.5455936219302115
+  },
+  "job_categories": {
+    "security": {
+      "count": 635,
+      "percentage": 66.008316008316,
+      "avg_salary_range": {
+        "min": 107017.97952755906,
+        "max": 225156.44566929134
+      },
+      "remote_percentage": 13.700787401574804,
+      "top_locations": [
+        [
+          "Redmond, WA",
+          332
+        ],
+        [
+          "Unknown, Unknown",
+          113
+        ],
+        [
+          "Mountain View, CA",
+          23
+        ]
+      ]
+    },
+    "management": {
+      "count": 577,
+      "percentage": 59.97920997920998,
+      "avg_salary_range": {
+        "min": 91309.41941074523,
+        "max": 190364.17157712305
+      },
+      "remote_percentage": 10.74523396880416,
+      "top_locations": [
+        [
+          "Redmond, WA",
+          321
+        ],
+        [
+          "Unknown, Unknown",
+          106
+        ],
+        [
+          "Mountain View, CA",
+          21
+        ]
+      ]
+    },
+    "operations": {
+      "count": 762,
+      "percentage": 79.20997920997921,
+      "avg_salary_range": {
+        "min": 100839.32414698163,
+        "max": 211775.02887139108
+      },
+      "remote_percentage": 11.548556430446194,
+      "top_locations": [
+        [
+          "Redmond, WA",
+          401
+        ],
+        [
+          "Unknown, Unknown",
+          134
+        ],
+        [
+          "Mountain View, CA",
+          38
+        ]
+      ]
+    },
+    "engineering": {
+      "count": 614,
+      "percentage": 63.82536382536382,
+      "avg_salary_range": {
+        "min": 104781.30618892508,
+        "max": 222551.8990228013
+      },
+      "remote_percentage": 10.586319218241043,
+      "top_locations": [
+        [
+          "Redmond, WA",
+          370
+        ],
+        [
+          "Unknown, Unknown",
+          103
+        ],
+        [
+          "Mountain View, CA",
+          39
+        ]
+      ]
+    },
+    "sales": {
+      "count": 135,
+      "percentage": 14.033264033264034,
+      "avg_salary_range": {
+        "min": 101580.3111111111,
+        "max": 210125.7037037037
+      },
+      "remote_percentage": 5.9259259259259265,
+      "top_locations": [
+        [
+          "Unknown, Unknown",
+          54
+        ],
+        [
+          "Redmond, WA",
+          42
+        ],
+        [
+          "New York, NY",
+          8
+        ]
+      ]
+    },
+    "marketing": {
+      "count": 169,
+      "percentage": 17.56756756756757,
+      "avg_salary_range": {
+        "min": 101101.37869822486,
+        "max": 210516.89940828402
+      },
+      "remote_percentage": 10.650887573964498,
+      "top_locations": [
+        [
+          "Redmond, WA",
+          84
+        ],
+        [
+          "Unknown, Unknown",
+          48
+        ],
+        [
+          "Mountain View, CA",
+          8
+        ]
+      ]
+    },
+    "product": {
+      "count": 135,
+      "percentage": 14.033264033264034,
+      "avg_salary_range": {
+        "min": 109603.58518518519,
+        "max": 227221.2074074074
+      },
+      "remote_percentage": 8.88888888888889,
+      "top_locations": [
+        [
+          "Redmond, WA",
+          75
+        ],
+        [
+          "Unknown, Unknown",
+          29
+        ],
+        [
+          "Mountain View, CA",
+          6
+        ]
+      ]
+    },
+    "data_science": {
+      "count": 530,
+      "percentage": 55.09355509355509,
+      "avg_salary_range": {
+        "min": 93959.46981132076,
+        "max": 198316.85849056602
+      },
+      "remote_percentage": 6.981132075471698,
+      "top_locations": [
+        [
+          "Redmond, WA",
+          325
+        ],
+        [
+          "Unknown, Unknown",
+          79
+        ],
+        [
+          "Mountain View, CA",
+          42
+        ]
+      ]
+    },
+    "design": {
+      "count": 138,
+      "percentage": 14.345114345114347,
+      "avg_salary_range": {
+        "min": 89861.81884057971,
+        "max": 195394.115942029
+      },
+      "remote_percentage": 10.144927536231885,
+      "top_locations": [
+        [
+          "Redmond, WA",
+          71
+        ],
+        [
+          "Mountain View, CA",
+          23
+        ],
+        [
+          "Unknown, Unknown",
+          9
+        ]
+      ]
+    },
+    "research": {
+      "count": 312,
+      "percentage": 32.432432432432435,
+      "avg_salary_range": {
+        "min": 77925.91666666667,
+        "max": 167605.03205128206
+      },
+      "remote_percentage": 5.448717948717949,
+      "top_locations": [
+        [
+          "Redmond, WA",
+          198
+        ],
+        [
+          "Unknown, Unknown",
+          41
+        ],
+        [
+          "Mountain View, CA",
+          33
+        ]
+      ]
+    }
+  },
+  "skills_and_requirements": {
+    "skill_categories": {},
+    "job_categories": {
+      "security": {
+        "count": 635,
+        "percentage": 66.008316008316,
+        "avg_salary_range": {
+          "min": 107017.97952755906,
+          "max": 225156.44566929134
+        },
+        "remote_percentage": 13.700787401574804,
+        "top_locations": [
+          [
+            "Redmond, WA",
+            332
+          ],
+          [
+            "Unknown, Unknown",
+            113
+          ],
+          [
+            "Mountain View, CA",
+            23
+          ]
+        ]
+      },
+      "management": {
+        "count": 577,
+        "percentage": 59.97920997920998,
+        "avg_salary_range": {
+          "min": 91309.41941074523,
+          "max": 190364.17157712305
+        },
+        "remote_percentage": 10.74523396880416,
+        "top_locations": [
+          [
+            "Redmond, WA",
+            321
+          ],
+          [
+            "Unknown, Unknown",
+            106
+          ],
+          [
+            "Mountain View, CA",
+            21
+          ]
+        ]
+      },
+      "operations": {
+        "count": 762,
+        "percentage": 79.20997920997921,
+        "avg_salary_range": {
+          "min": 100839.32414698163,
+          "max": 211775.02887139108
+        },
+        "remote_percentage": 11.548556430446194,
+        "top_locations": [
+          [
+            "Redmond, WA",
+            401
+          ],
+          [
+            "Unknown, Unknown",
+            134
+          ],
+          [
+            "Mountain View, CA",
+            38
+          ]
+        ]
+      },
+      "engineering": {
+        "count": 614,
+        "percentage": 63.82536382536382,
+        "avg_salary_range": {
+          "min": 104781.30618892508,
+          "max": 222551.8990228013
+        },
+        "remote_percentage": 10.586319218241043,
+        "top_locations": [
+          [
+            "Redmond, WA",
+            370
+          ],
+          [
+            "Unknown, Unknown",
+            103
+          ],
+          [
+            "Mountain View, CA",
+            39
+          ]
+        ]
+      },
+      "sales": {
+        "count": 135,
+        "percentage": 14.033264033264034,
+        "avg_salary_range": {
+          "min": 101580.3111111111,
+          "max": 210125.7037037037
+        },
+        "remote_percentage": 5.9259259259259265,
+        "top_locations": [
+          [
+            "Unknown, Unknown",
+            54
+          ],
+          [
+            "Redmond, WA",
+            42
+          ],
+          [
+            "New York, NY",
+            8
+          ]
+        ]
+      },
+      "marketing": {
+        "count": 169,
+        "percentage": 17.56756756756757,
+        "avg_salary_range": {
+          "min": 101101.37869822486,
+          "max": 210516.89940828402
+        },
+        "remote_percentage": 10.650887573964498,
+        "top_locations": [
+          [
+            "Redmond, WA",
+            84
+          ],
+          [
+            "Unknown, Unknown",
+            48
+          ],
+          [
+            "Mountain View, CA",
+            8
+          ]
+        ]
+      },
+      "product": {
+        "count": 135,
+        "percentage": 14.033264033264034,
+        "avg_salary_range": {
+          "min": 109603.58518518519,
+          "max": 227221.2074074074
+        },
+        "remote_percentage": 8.88888888888889,
+        "top_locations": [
+          [
+            "Redmond, WA",
+            75
+          ],
+          [
+            "Unknown, Unknown",
+            29
+          ],
+          [
+            "Mountain View, CA",
+            6
+          ]
+        ]
+      },
+      "data_science": {
+        "count": 530,
+        "percentage": 55.09355509355509,
+        "avg_salary_range": {
+          "min": 93959.46981132076,
+          "max": 198316.85849056602
+        },
+        "remote_percentage": 6.981132075471698,
+        "top_locations": [
+          [
+            "Redmond, WA",
+            325
+          ],
+          [
+            "Unknown, Unknown",
+            79
+          ],
+          [
+            "Mountain View, CA",
+            42
+          ]
+        ]
+      },
+      "design": {
+        "count": 138,
+        "percentage": 14.345114345114347,
+        "avg_salary_range": {
+          "min": 89861.81884057971,
+          "max": 195394.115942029
+        },
+        "remote_percentage": 10.144927536231885,
+        "top_locations": [
+          [
+            "Redmond, WA",
+            71
+          ],
+          [
+            "Mountain View, CA",
+            23
+          ],
+          [
+            "Unknown, Unknown",
+            9
+          ]
+        ]
+      },
+      "research": {
+        "count": 312,
+        "percentage": 32.432432432432435,
+        "avg_salary_range": {
+          "min": 77925.91666666667,
+          "max": 167605.03205128206
+        },
+        "remote_percentage": 5.448717948717949,
+        "top_locations": [
+          [
+            "Redmond, WA",
+            198
+          ],
+          [
+            "Unknown, Unknown",
+            41
+          ],
+          [
+            "Mountain View, CA",
+            33
+          ]
+        ]
+      }
+    },
+    "career_requirements": {
+      "education": {
+        "bachelors": {
+          "count": 715,
+          "percentage": 74.32432432432432
+        },
+        "masters": {
+          "count": 391,
+          "percentage": 40.644490644490645
+        },
+        "phd": {
+          "count": 197,
+          "percentage": 20.47817047817048
+        }
+      },
+      "experience": {
+        "avg_years": 2.2837837837837838,
+        "min_years": 1,
+        "max_years": 10
+      }
+    }
+  },
+  "culture_and_benefits": {
+    "benefits_offered": {
+      "healthcare": {
+        "count": 962,
+        "percentage": 100.0
+      },
+      "disability": {
+        "count": 962,
+        "percentage": 100.0
+      },
+      "vacation": {
+        "count": 21,
+        "percentage": 2.182952182952183
+      }
+    },
+    "culture_emphasis": {
+      "diversity_inclusion": {
+        "count": 398,
+        "percentage": 41.37214137214137
+      },
+      "innovation": {
+        "count": 649,
+        "percentage": 67.46361746361747
+      },
+      "collaboration": {
+        "count": 537,
+        "percentage": 55.82120582120582
+      },
+      "growth_development": {
+        "count": 949,
+        "percentage": 98.64864864864865
+      }
+    },
+    "work_life_balance": {
+      "remote_work": {
+        "count": 127,
+        "percentage": 13.201663201663202
+      },
+      "flexibility": {
+        "count": 111,
+        "percentage": 11.538461538461538
+      },
+      "volunteer_time": {
+        "count": 1,
+        "percentage": 0.10395010395010396
+      }
+    }
+  },
+  "market_positioning": {
+    "salary_competitiveness": 1.0032556392931393,
+    "remote_leadership": 0.1995841995841996
+  },
+  "time_trends": {
+    "date_distribution": [
+      {
+        "date": "2023-10-23",
+        "count": 1
+      },
+      {
+        "date": "2024-04-17",
+        "count": 2
+      },
+      {
+        "date": "2024-04-19",
+        "count": 1
+      },
+      {
+        "date": "2024-04-24",
+        "count": 1
+      },
+      {
+        "date": "2024-06-20",
+        "count": 1
+      },
+      {
+        "date": "2024-06-28",
+        "count": 1
+      },
+      {
+        "date": "2024-07-02",
+        "count": 1
+      },
+      {
+        "date": "2024-07-15",
+        "count": 2
+      },
+      {
+        "date": "2024-07-18",
+        "count": 1
+      },
+      {
+        "date": "2024-07-22",
+        "count": 1
+      },
+      {
+        "date": "2024-07-23",
+        "count": 1
+      },
+      {
+        "date": "2024-07-24",
+        "count": 1
+      },
+      {
+        "date": "2024-07-26",
+        "count": 1
+      },
+      {
+        "date": "2024-07-29",
+        "count": 1
+      },
+      {
+        "date": "2024-07-31",
+        "count": 2
+      },
+      {
+        "date": "2024-08-01",
+        "count": 1
+      },
+      {
+        "date": "2024-08-07",
+        "count": 1
+      },
+      {
+        "date": "2024-08-09",
+        "count": 2
+      },
+      {
+        "date": "2024-08-15",
+        "count": 2
+      },
+      {
+        "date": "2024-08-19",
+        "count": 2
+      },
+      {
+        "date": "2024-08-21",
+        "count": 3
+      },
+      {
+        "date": "2024-08-23",
+        "count": 6
+      },
+      {
+        "date": "2024-08-27",
+        "count": 3
+      },
+      {
+        "date": "2024-08-29",
+        "count": 1
+      },
+      {
+        "date": "2024-08-30",
+        "count": 9
+      },
+      {
+        "date": "2024-09-05",
+        "count": 2
+      },
+      {
+        "date": "2024-09-06",
+        "count": 1
+      },
+      {
+        "date": "2024-09-12",
+        "count": 2
+      },
+      {
+        "date": "2024-09-13",
+        "count": 2
+      },
+      {
+        "date": "2024-09-16",
+        "count": 2
+      },
+      {
+        "date": "2024-09-19",
+        "count": 1
+      },
+      {
+        "date": "2024-09-20",
+        "count": 1
+      },
+      {
+        "date": "2024-09-25",
+        "count": 1
+      },
+      {
+        "date": "2024-09-27",
+        "count": 1
+      },
+      {
+        "date": "2024-09-30",
+        "count": 1
+      },
+      {
+        "date": "2024-10-01",
+        "count": 2
+      },
+      {
+        "date": "2024-10-02",
+        "count": 4
+      },
+      {
+        "date": "2024-10-03",
+        "count": 2
+      },
+      {
+        "date": "2024-10-04",
+        "count": 4
+      },
+      {
+        "date": "2024-10-07",
+        "count": 2
+      },
+      {
+        "date": "2024-10-08",
+        "count": 2
+      },
+      {
+        "date": "2024-10-10",
+        "count": 1
+      },
+      {
+        "date": "2024-10-11",
+        "count": 7
+      },
+      {
+        "date": "2024-10-14",
+        "count": 4
+      },
+      {
+        "date": "2024-10-15",
+        "count": 1
+      },
+      {
+        "date": "2024-10-16",
+        "count": 4
+      },
+      {
+        "date": "2024-10-17",
+        "count": 2
+      },
+      {
+        "date": "2024-10-18",
+        "count": 5
+      },
+      {
+        "date": "2024-10-21",
+        "count": 3
+      },
+      {
+        "date": "2024-10-22",
+        "count": 3
+      },
+      {
+        "date": "2024-10-23",
+        "count": 14
+      },
+      {
+        "date": "2024-10-24",
+        "count": 3
+      },
+      {
+        "date": "2024-10-25",
+        "count": 7
+      },
+      {
+        "date": "2024-10-28",
+        "count": 11
+      },
+      {
+        "date": "2024-10-29",
+        "count": 2
+      },
+      {
+        "date": "2024-10-30",
+        "count": 7
+      },
+      {
+        "date": "2024-10-31",
+        "count": 8
+      },
+      {
+        "date": "2024-11-01",
+        "count": 6
+      },
+      {
+        "date": "2024-11-04",
+        "count": 5
+      },
+      {
+        "date": "2024-11-05",
+        "count": 12
+      },
+      {
+        "date": "2024-11-06",
+        "count": 6
+      },
+      {
+        "date": "2024-11-07",
+        "count": 8
+      },
+      {
+        "date": "2024-11-08",
+        "count": 8
+      },
+      {
+        "date": "2024-11-11",
+        "count": 6
+      },
+      {
+        "date": "2024-11-12",
+        "count": 8
+      },
+      {
+        "date": "2024-11-13",
+        "count": 14
+      },
+      {
+        "date": "2024-11-14",
+        "count": 10
+      },
+      {
+        "date": "2024-11-15",
+        "count": 5
+      },
+      {
+        "date": "2024-11-18",
+        "count": 6
+      },
+      {
+        "date": "2024-11-19",
+        "count": 9
+      },
+      {
+        "date": "2024-11-20",
+        "count": 7
+      },
+      {
+        "date": "2024-11-21",
+        "count": 12
+      },
+      {
+        "date": "2024-11-22",
+        "count": 12
+      },
+      {
+        "date": "2024-11-25",
+        "count": 3
+      },
+      {
+        "date": "2024-11-26",
+        "count": 6
+      },
+      {
+        "date": "2024-11-27",
+        "count": 3
+      },
+      {
+        "date": "2024-11-28",
+        "count": 1
+      },
+      {
+        "date": "2024-12-02",
+        "count": 9
+      },
+      {
+        "date": "2024-12-03",
+        "count": 4
+      },
+      {
+        "date": "2024-12-04",
+        "count": 10
+      },
+      {
+        "date": "2024-12-05",
+        "count": 13
+      },
+      {
+        "date": "2024-12-06",
+        "count": 21
+      },
+      {
+        "date": "2024-12-07",
+        "count": 1
+      },
+      {
+        "date": "2024-12-09",
+        "count": 16
+      },
+      {
+        "date": "2024-12-10",
+        "count": 15
+      },
+      {
+        "date": "2024-12-11",
+        "count": 14
+      },
+      {
+        "date": "2024-12-12",
+        "count": 21
+      },
+      {
+        "date": "2024-12-13",
+        "count": 26
+      },
+      {
+        "date": "2024-12-16",
+        "count": 14
+      },
+      {
+        "date": "2024-12-17",
+        "count": 16
+      },
+      {
+        "date": "2024-12-18",
+        "count": 22
+      },
+      {
+        "date": "2024-12-19",
+        "count": 45
+      },
+      {
+        "date": "2024-12-20",
+        "count": 58
+      },
+      {
+        "date": "2024-12-21",
+        "count": 1
+      },
+      {
+        "date": "2024-12-22",
+        "count": 1
+      },
+      {
+        "date": "2024-12-23",
+        "count": 15
+      },
+      {
+        "date": "2024-12-24",
+        "count": 2
+      },
+      {
+        "date": "2024-12-26",
+        "count": 13
+      },
+      {
+        "date": "2024-12-27",
+        "count": 2
+      },
+      {
+        "date": "2024-12-30",
+        "count": 5
+      },
+      {
+        "date": "2024-12-31",
+        "count": 9
+      },
+      {
+        "date": "2025-01-01",
+        "count": 11
+      },
+      {
+        "date": "2025-01-02",
+        "count": 13
+      },
+      {
+        "date": "2025-01-03",
+        "count": 14
+      },
+      {
+        "date": "2025-01-06",
+        "count": 32
+      },
+      {
+        "date": "2025-01-07",
+        "count": 50
+      },
+      {
+        "date": "2025-01-08",
+        "count": 63
+      },
+      {
+        "date": "2025-01-09",
+        "count": 67
+      },
+      {
+        "date": "2025-01-10",
+        "count": 52
+      }
+    ],
+    "monthly_distribution": [
+      {
+        "month": "2023-10",
+        "count": 1
+      },
+      {
+        "month": "2024-04",
+        "count": 4
+      },
+      {
+        "month": "2024-06",
+        "count": 2
+      },
+      {
+        "month": "2024-07",
+        "count": 11
+      },
+      {
+        "month": "2024-08",
+        "count": 30
+      },
+      {
+        "month": "2024-09",
+        "count": 14
+      },
+      {
+        "month": "2024-10",
+        "count": 98
+      },
+      {
+        "month": "2024-11",
+        "count": 147
+      },
+      {
+        "month": "2024-12",
+        "count": 353
+      },
+      {
+        "month": "2025-01",
+        "count": 302
+      }
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, computed } from 'vue';
+import { ref, onMounted } from 'vue';
 import type { Job } from '/@src/types';
 
 const props = defineProps<{
@@ -48,7 +48,8 @@ const loadSimilarJobs = async () => {
   try {
     isLoading.value = true;
     const formattedName = formatCompanyNameForFile(props.companyName);
-    const response = await fetch(`/src/prototype-data-v1 copy/samples copy/${formattedName}_sample.json`);
+    console.log('Loading similar jobs for:', formattedName);
+    const response = await fetch(`/src/data/prototype-data-v1 copy 2/samples copy/${formattedName}_sample.json`);
 
     if (!response.ok) {
       throw new Error(`Jobs data not found for ${formattedName}`);
@@ -61,7 +62,8 @@ const loadSimilarJobs = async () => {
 
     // Filter out current job and limit to 3 jobs
     similarJobs.value = data.jobs
-      .filter(job => job.id !== props.currentJobId);
+      .filter(job => job.id !== props.currentJobId)
+      .slice(0, 3); // Limit to 3 similar jobs
 
   } catch (err) {
     console.error('Error loading similar jobs:', err);
@@ -101,88 +103,49 @@ onMounted(() => {
 <template>
   <div class="side-card similar-jobs-card">
     <h3>
-      <i
-        class="iconify"
-        data-icon="ph:briefcase-duotone"
-      />
+      <i class="iconify" data-icon="ph:briefcase-duotone" />
       More Jobs at {{ props.companyName }}
     </h3>
 
     <div class="similar-jobs-list">
-      <div
-        v-if="isLoading"
-        class="loading-state"
-      >
+      <div v-if="isLoading" class="loading-state">
         <p>Loading similar jobs...</p>
       </div>
 
-      <div
-        v-else-if="error"
-        class="error-state"
-      >
+      <div v-else-if="error" class="error-state">
         <p>{{ error }}</p>
       </div>
 
-      <div
-        v-else
-        class="jobs-scroll-container"
-      >
-        <div
-          v-for="job in similarJobs"
-          :key="job.id"
-          class="similar-job-card"
-        >
+      <div v-else class="jobs-scroll-container">
+        <div v-for="job in similarJobs" :key="job.id" class="similar-job-card">
           <div class="job-info">
             <h4 class="job-title">
               {{ job.title }}
             </h4>
             <div class="job-meta">
-              <span
-                v-if="job.location"
-                class="location"
-              >
-                <i
-                  class="iconify"
-                  data-icon="ph:map-pin-duotone"
-                />
+              <span v-if="job.location" class="location">
+                <i class="iconify" data-icon="ph:map-pin-duotone" />
                 {{ job.location?.city }}, {{ job.location?.state }}
               </span>
-              <span
-                v-if="job.compensation"
-                class="salary"
-              >
-                <i
-                  class="iconify"
-                  data-icon="ph:money-duotone"
-                />
+              <span v-if="job.compensation" class="salary">
+                <i class="iconify" data-icon="ph:money-duotone" />
                 {{ formatSalary(job.compensation) }}
               </span>
             </div>
           </div>
           <div class="job-action">
-            <a
-              :href="`/company/profile/job/${job.id}?company=${encodeURIComponent(props.companyName)}`"
-              class="button is-primary is-small is-rounded"
-            >
+            <a :href="`/company/profile/job/${job.id}?company=${encodeURIComponent(props.companyName)}`"
+              class="button is-primary is-small is-rounded">
               View
-              <i
-                class="iconify"
-                data-icon="ph:arrow-right-duotone"
-              />
+              <i class="iconify" data-icon="ph:arrow-right-duotone" />
             </a>
           </div>
         </div>
       </div>
 
-      <a
-        :href="`/company/profile/jobs?company=${encodeURIComponent(props.companyName)}`"
-        class="view-all-link"
-      >
+      <a :href="`/company/profile/jobs?company=${encodeURIComponent(props.companyName)}`" class="view-all-link">
         View All Jobs
-        <i
-          class="iconify"
-          data-icon="ph:arrow-right-duotone"
-        />
+        <i class="iconify" data-icon="ph:arrow-right-duotone" />
       </a>
     </div>
   </div>

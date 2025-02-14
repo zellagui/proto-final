@@ -76,7 +76,7 @@ const loadCompanyReport = async () => {
 
   try {
     const formattedName = formatCompanyNameForFile(company.value.name);
-    const response = await fetch(`/src/prototype-data-v1 copy/company-reports-v2 copy/${formattedName}_analysis.json`);
+    const response = await fetch(`/src/data/prototype-data-v1 copy 2/company-reports-v2 copy/${formattedName}_analysis.json`);
     if (!response.ok) throw new Error('Report not found');
     companyReport.value = await response.json();
   } catch (error) {
@@ -94,7 +94,7 @@ const remoteJobsPercentage = computed(() => {
   if (!companyReport.value?.location_analysis) return 0;
 
   const remoteJobs = companyReport.value.location_analysis.remote_jobs?.percentage ||
-                    companyReport.value.location_analysis.remote_jobs || 0;
+    companyReport.value.location_analysis.remote_jobs || 0;
 
   // If it's already a percentage (between 0 and 100)
   if (remoteJobs <= 100) {
@@ -111,7 +111,7 @@ const averageSalaryRange = computed(() => {
 
   // Try to get from min/max salary stats first
   if (companyReport.value.compensation.min_salary_stats?.mean &&
-      companyReport.value.compensation.max_salary_stats?.mean) {
+    companyReport.value.compensation.max_salary_stats?.mean) {
     return {
       min: `$${Math.round(companyReport.value.compensation.min_salary_stats.mean).toLocaleString()}`,
       max: `$${Math.round(companyReport.value.compensation.max_salary_stats.mean).toLocaleString()}`
@@ -123,8 +123,8 @@ const averageSalaryRange = computed(() => {
     const meanSpread = companyReport.value.compensation.salary_spread.mean_spread;
     const midPoint = companyReport.value.compensation.min_salary_stats?.mean || 0;
     return {
-      min: `$${Math.round(midPoint - (meanSpread/2)).toLocaleString()}`,
-      max: `$${Math.round(midPoint + (meanSpread/2)).toLocaleString()}`
+      min: `$${Math.round(midPoint - (meanSpread / 2)).toLocaleString()}`,
+      max: `$${Math.round(midPoint + (meanSpread / 2)).toLocaleString()}`
     };
   }
 
@@ -182,10 +182,7 @@ onMounted(() => {
 
 <template>
   <Section color="grey">
-    <div
-      v-if="company"
-      class="profile-wrapper"
-    >
+    <div v-if="company" class="profile-wrapper">
       <!-- Profile Bio (About Box) -->
       <Card class="bio-card">
         <div class="bio-card-head">
@@ -195,23 +192,18 @@ onMounted(() => {
           <!-- Company Description -->
           <div class="about-field company-description">
             <strong class="field-label">Description:</strong>
-            <p>{{ companyReport?.company_profile?.company_description || company.about || 'No description available' }}</p>
+            <p>{{ companyReport?.company_profile?.company_description || company.about || 'No description available' }}
+            </p>
           </div>
 
           <!-- Job Boards Overview -->
-          <JobBoards
-            v-if="companyReport"
-            :company-report="companyReport"
-          />
+          <JobBoards v-if="companyReport" :company-report="companyReport" />
 
           <!-- Company Stats Grid -->
           <div class="stats-grid">
             <!-- Active Jobs -->
             <div class="stat-box">
-              <i
-                class="iconify"
-                data-icon="ph:briefcase-duotone"
-              />
+              <i class="iconify" data-icon="ph:briefcase-duotone" />
               <div class="stat-content">
                 <span class="stat-value">{{ jobsCount }}</span>
                 <span class="stat-label">Active Jobs</span>
@@ -220,22 +212,17 @@ onMounted(() => {
 
             <!-- Remote Work -->
             <div class="stat-box">
-              <i
-                class="iconify"
-                data-icon="ph:house-duotone"
-              />
+              <i class="iconify" data-icon="ph:house-duotone" />
               <div class="stat-content">
-                <span class="stat-value">{{ remoteJobsPercentage }}{{ remoteJobsPercentage !== 'N/A' ? '%' : '' }}</span>
+                <span class="stat-value">{{ remoteJobsPercentage }}{{ remoteJobsPercentage !== 'N/A' ? '%' : ''
+                  }}</span>
                 <span class="stat-label">Remote Jobs</span>
               </div>
             </div>
 
             <!-- Average Salary -->
             <div class="stat-box">
-              <i
-                class="iconify"
-                data-icon="ph:money-duotone"
-              />
+              <i class="iconify" data-icon="ph:money-duotone" />
               <div class="stat-content">
                 <span class="stat-value">{{ averageSalaryRange.min }} - {{ averageSalaryRange.max }}</span>
                 <span class="stat-label">Avg. Salary Range</span>
@@ -244,10 +231,7 @@ onMounted(() => {
 
             <!-- Main Location -->
             <div class="stat-box">
-              <i
-                class="iconify"
-                data-icon="ph:map-pin-duotone"
-              />
+              <i class="iconify" data-icon="ph:map-pin-duotone" />
               <div class="stat-content">
                 <span class="stat-value">{{ company.headquarters || 'N/A' }}</span>
                 <span class="stat-label">Headquarters</span>
@@ -256,10 +240,7 @@ onMounted(() => {
 
             <!-- Company Size -->
             <div class="stat-box">
-              <i
-                class="iconify"
-                data-icon="ph:users-duotone"
-              />
+              <i class="iconify" data-icon="ph:users-duotone" />
               <div class="stat-content">
                 <span class="stat-value">{{ company.employeesAmountInLinkedin || 'N/A' }}</span>
                 <span class="stat-label">Employees</span>
@@ -268,10 +249,7 @@ onMounted(() => {
 
             <!-- Company Type -->
             <div class="stat-box">
-              <i
-                class="iconify"
-                data-icon="ph:buildings-duotone"
-              />
+              <i class="iconify" data-icon="ph:buildings-duotone" />
               <div class="stat-content">
                 <span class="stat-value">{{ company.type || 'N/A' }}</span>
                 <span class="stat-label">Company Type</span>
@@ -280,17 +258,10 @@ onMounted(() => {
           </div>
 
           <!-- Job Categories -->
-          <div
-            v-if="jobCategories.length > 0"
-            class="about-field"
-          >
+          <div v-if="jobCategories.length > 0" class="about-field">
             <strong class="field-label">Top Job Categories:</strong>
             <div class="categories-grid">
-              <div
-                v-for="category in jobCategories"
-                :key="category.name"
-                class="category-box"
-              >
+              <div v-for="category in jobCategories" :key="category.name" class="category-box">
                 <span class="category-name">{{ category.name }}</span>
                 <div class="category-stats">
                   <span class="category-value">{{ category.percentage }}%</span>
@@ -301,21 +272,11 @@ onMounted(() => {
           </div>
 
           <!-- Culture & Benefits -->
-          <div
-            v-if="Object.keys(benefits).length > 0"
-            class="about-field"
-          >
+          <div v-if="Object.keys(benefits).length > 0" class="about-field">
             <strong class="field-label">Culture & Benefits:</strong>
             <div class="benefits-grid">
-              <div
-                v-for="(value, key) in benefits"
-                :key="key"
-                class="benefit-box"
-              >
-                <i
-                  class="iconify"
-                  data-icon="ph:heart-duotone"
-                />
+              <div v-for="(value, key) in benefits" :key="key" class="benefit-box">
+                <i class="iconify" data-icon="ph:heart-duotone" />
                 <span>{{ key }}</span>
               </div>
             </div>
@@ -324,40 +285,22 @@ onMounted(() => {
       </Card>
 
       <!-- Job Posting Trends -->
-      <JobTrends
-        v-if="companyReport"
-        :company-report="companyReport"
-      />
+      <JobTrends v-if="companyReport" :company-report="companyReport" />
 
       <!-- Education Requirements -->
-      <EducationRequirements
-        v-if="companyReport"
-        :company-report="companyReport"
-      />
+      <EducationRequirements v-if="companyReport" :company-report="companyReport" />
 
       <!-- Benefits Overview -->
-      <BenefitsOverview
-        v-if="companyReport"
-        :company-report="companyReport"
-      />
+      <BenefitsOverview v-if="companyReport" :company-report="companyReport" />
 
       <!-- Salary Overview -->
-      <SalaryOverview
-        v-if="companyReport"
-        :company-report="companyReport"
-      />
+      <SalaryOverview v-if="companyReport" :company-report="companyReport" />
 
       <!-- Location Overview -->
-      <LocationOverview
-        v-if="companyReport"
-        :company-report="companyReport"
-      />
+      <LocationOverview v-if="companyReport" :company-report="companyReport" />
 
       <!-- Jobs List -->
-      <JobsList
-        v-if="companyReport"
-        :company-report="companyReport"
-      />
+      <JobsList v-if="companyReport" :company-report="companyReport" />
 
       <!-- Commenting out unused sections -->
       <!-- Profile Skills -->
@@ -366,10 +309,7 @@ onMounted(() => {
       <!-- Profile Experience -->
       <!-- <Card class="experience-card">...</Card> -->
     </div>
-    <div
-      v-else
-      class="profile-wrapper"
-    >
+    <div v-else class="profile-wrapper">
       <Card class="bio-card">
         <div class="bio-card-body">
           <p>Loading company information...</p>
@@ -407,7 +347,7 @@ onMounted(() => {
   }
 
   .bio-card-body {
-    > p {
+    >p {
       color: var(--light-text);
     }
 
@@ -479,7 +419,7 @@ onMounted(() => {
       color: var(--title-color);
     }
 
-    > a {
+    >a {
       font-size: 0.9rem;
       font-family: var(--font);
       font-weight: 500;
@@ -546,7 +486,7 @@ onMounted(() => {
       color: var(--title-color);
     }
 
-    > a {
+    >a {
       font-size: 0.9rem;
       font-family: var(--font);
       font-weight: 500;
@@ -560,13 +500,13 @@ onMounted(() => {
         display: flex;
         align-items: flex-start;
 
-        + .experience {
+        +.experience {
           margin-top: 1.5rem;
           padding-top: 1rem;
           border-top: 1px solid var(--wrap-border-color);
         }
 
-        > img {
+        >img {
           display: block;
           height: 44px;
           width: 44px;
@@ -599,7 +539,8 @@ onMounted(() => {
   }
 }
 
-.stats-list, .categories-list {
+.stats-list,
+.categories-list {
   list-style: none;
   padding: 0;
   margin: 0.5rem 0;

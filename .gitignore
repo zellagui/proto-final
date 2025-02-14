@@ -211,3 +211,4 @@ pnpm-lock.yaml
 dist
 .temp
 .DS_Store
+.vercel

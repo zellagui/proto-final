@@ -1,0 +1,1171 @@
+{
+  "analysis_date": "2025-02-01",
+  "company_name": "NIKE",
+  "summary": {
+    "headline_points": [
+      "Total 530 jobs analyzed for NIKE",
+      "Mean min salary: $80237, mean max salary: $180944",
+      "Top location is Beaverton, OR",
+      "Remote work percentage: ~11.32%",
+      "Strong culture emphasis on diversity, training, and benefits"
+    ]
+  },
+  "company_profile": {
+    "company_description": "NIKE, Inc. is the world\u2019s leading designer, marketer and distributor of authentic athletic footwear, apparel, equipment and accessories for a wide variety of sports and fitness activities.",
+    "company_size": "Unknown",
+    "company_revenue": "more than $10B (USD)"
+  },
+  "compensation": {
+    "min_salary_stats": {
+      "mean": 80236.87755102041,
+      "median": 97200.0,
+      "std": 65715.90218435241,
+      "quartiles": [
+        22.0,
+        97200.0,
+        138400.0
+      ],
+      "iqr": 138378.0
+    },
+    "max_salary_stats": {
+      "mean": 180943.91836734695,
+      "median": 217700.0,
+      "std": 152349.18872704657,
+      "quartiles": [
+        33.0,
+        217700.0,
+        327200.0
+      ],
+      "iqr": 327167.0
+    },
+    "salary_spread": {
+      "mean_spread": 100707.04081632652,
+      "median_spread": 120500.0
+    },
+    "bands": {
+      "entry_level": {
+        "range": [
+          17.0,
+          157044.66666666666
+        ],
+        "count": 63
+      },
+      "mid_level": {
+        "range": [
+          157044.66666666666,
+          314072.3333333333
+        ],
+        "count": 21
+      },
+      "senior_level": {
+        "range": [
+          314072.3333333333,
+          471100.0
+        ],
+        "count": 14
+      }
+    }
+  },
+  "location_analysis": {
+    "total_jobs": 530,
+    "top_locations": [
+      [
+        "Beaverton, OR",
+        249
+      ],
+      [
+        "Memphis, TN",
+        10
+      ],
+      [
+        "Orlando, FL",
+        6
+      ],
+      [
+        "Foothill Ranch, CA",
+        5
+      ],
+      [
+        "Bellevue, WA",
+        5
+      ]
+    ],
+    "state_distribution": {
+      "OR": 254,
+      "CA": 44,
+      "FL": 25,
+      "TX": 22,
+      "NY": 19,
+      "TN": 14,
+      "MI": 11,
+      "GA": 11,
+      "MD": 9,
+      "WA": 8,
+      "PA": 7,
+      "SC": 7,
+      "MO": 6,
+      "KY": 6,
+      "NJ": 6,
+      "NC": 6,
+      "VA": 5,
+      "IN": 5,
+      "AZ": 5,
+      "CT": 5,
+      "MA": 5,
+      "IA": 5,
+      "WI": 5,
+      "NV": 4,
+      "OK": 4,
+      "OH": 4,
+      "CO": 4,
+      "MN": 4,
+      "MS": 3,
+      "UT": 3,
+      "KS": 3,
+      "ME": 2,
+      "LA": 2,
+      "DE": 1,
+      "AL": 1
+    },
+    "remote_jobs": {
+      "percentage": 11.320754716981133
+    },
+    "location_diversity_score": 0.7724698412698423
+  },
+  "job_categories": {
+    "sales": {
+      "count": 63,
+      "percentage": 11.88679245283019,
+      "avg_salary_range": {
+        "min": 21585.833333333332,
+        "max": 37780.833333333336
+      },
+      "remote_percentage": 1.5873015873015872,
+      "top_locations": [
+        [
+          "Beaverton, OR",
+          46
+        ],
+        [
+          "Lincoln City, OR",
+          1
+        ],
+        [
+          "Nashville, TN",
+          1
+        ]
+      ]
+    },
+    "marketing": {
+      "count": 530,
+      "percentage": 100.0,
+      "avg_salary_range": {
+        "min": 80236.87755102041,
+        "max": 180943.91836734695
+      },
+      "remote_percentage": 11.320754716981133,
+      "top_locations": [
+        [
+          "Beaverton, OR",
+          249
+        ],
+        [
+          "Memphis, TN",
+          10
+        ],
+        [
+          "Orlando, FL",
+          6
+        ]
+      ]
+    },
+    "management": {
+      "count": 251,
+      "percentage": 47.35849056603774,
+      "avg_salary_range": {
+        "min": 94632.23684210527,
+        "max": 215743.13157894736
+      },
+      "remote_percentage": 18.725099601593627,
+      "top_locations": [
+        [
+          "Beaverton, OR",
+          194
+        ],
+        [
+          "Memphis, TN",
+          6
+        ],
+        [
+          "Los Angeles, CA",
+          4
+        ]
+      ]
+    },
+    "operations": {
+      "count": 530,
+      "percentage": 100.0,
+      "avg_salary_range": {
+        "min": 80236.87755102041,
+        "max": 180943.91836734695
+      },
+      "remote_percentage": 11.320754716981133,
+      "top_locations": [
+        [
+          "Beaverton, OR",
+          249
+        ],
+        [
+          "Memphis, TN",
+          10
+        ],
+        [
+          "Orlando, FL",
+          6
+        ]
+      ]
+    },
+    "design": {
+      "count": 321,
+      "percentage": 60.56603773584905,
+      "avg_salary_range": {
+        "min": 51965.555555555555,
+        "max": 111958.11111111111
+      },
+      "remote_percentage": 3.115264797507788,
+      "top_locations": [
+        [
+          "Beaverton, OR",
+          72
+        ],
+        [
+          "Orlando, FL",
+          6
+        ],
+        [
+          "Bellevue, WA",
+          5
+        ]
+      ]
+    },
+    "engineering": {
+      "count": 114,
+      "percentage": 21.50943396226415,
+      "avg_salary_range": {
+        "min": 141400.0,
+        "max": 330550.0
+      },
+      "remote_percentage": 38.59649122807017,
+      "top_locations": [
+        [
+          "Beaverton, OR",
+          107
+        ],
+        [
+          "Atlanta, GA",
+          2
+        ],
+        [
+          "Memphis, TN",
+          2
+        ]
+      ]
+    },
+    "security": {
+      "count": 29,
+      "percentage": 5.471698113207547,
+      "avg_salary_range": {
+        "min": 113988.85714285714,
+        "max": 265647.0
+      },
+      "remote_percentage": 41.37931034482759,
+      "top_locations": [
+        [
+          "Beaverton, OR",
+          24
+        ],
+        [
+          "Santa Clarita, CA",
+          1
+        ],
+        [
+          "Atlanta, GA",
+          1
+        ]
+      ]
+    },
+    "research": {
+      "count": 63,
+      "percentage": 11.88679245283019,
+      "avg_salary_range": {
+        "min": 136546.57142857142,
+        "max": 294785.71428571426
+      },
+      "remote_percentage": 20.634920634920633,
+      "top_locations": [
+        [
+          "Beaverton, OR",
+          59
+        ],
+        [
+          "New York, NY",
+          1
+        ],
+        [
+          "Memphis, TN",
+          1
+        ]
+      ]
+    },
+    "data_science": {
+      "count": 80,
+      "percentage": 15.09433962264151,
+      "avg_salary_range": {
+        "min": 142193.33333333334,
+        "max": 331260.0
+      },
+      "remote_percentage": 36.25,
+      "top_locations": [
+        [
+          "Beaverton, OR",
+          78
+        ],
+        [
+          "San Francisco, CA",
+          1
+        ],
+        [
+          "Atlanta, GA",
+          1
+        ]
+      ]
+    },
+    "product": {
+      "count": 18,
+      "percentage": 3.3962264150943398,
+      "avg_salary_range": {},
+      "remote_percentage": 22.22222222222222,
+      "top_locations": [
+        [
+          "Beaverton, OR",
+          18
+        ]
+      ]
+    }
+  },
+  "skills_and_requirements": {
+    "skill_categories": {},
+    "job_categories": {
+      "sales": {
+        "count": 63,
+        "percentage": 11.88679245283019,
+        "avg_salary_range": {
+          "min": 21585.833333333332,
+          "max": 37780.833333333336
+        },
+        "remote_percentage": 1.5873015873015872,
+        "top_locations": [
+          [
+            "Beaverton, OR",
+            46
+          ],
+          [
+            "Lincoln City, OR",
+            1
+          ],
+          [
+            "Nashville, TN",
+            1
+          ]
+        ]
+      },
+      "marketing": {
+        "count": 530,
+        "percentage": 100.0,
+        "avg_salary_range": {
+          "min": 80236.87755102041,
+          "max": 180943.91836734695
+        },
+        "remote_percentage": 11.320754716981133,
+        "top_locations": [
+          [
+            "Beaverton, OR",
+            249
+          ],
+          [
+            "Memphis, TN",
+            10
+          ],
+          [
+            "Orlando, FL",
+            6
+          ]
+        ]
+      },
+      "management": {
+        "count": 251,
+        "percentage": 47.35849056603774,
+        "avg_salary_range": {
+          "min": 94632.23684210527,
+          "max": 215743.13157894736
+        },
+        "remote_percentage": 18.725099601593627,
+        "top_locations": [
+          [
+            "Beaverton, OR",
+            194
+          ],
+          [
+            "Memphis, TN",
+            6
+          ],
+          [
+            "Los Angeles, CA",
+            4
+          ]
+        ]
+      },
+      "operations": {
+        "count": 530,
+        "percentage": 100.0,
+        "avg_salary_range": {
+          "min": 80236.87755102041,
+          "max": 180943.91836734695
+        },
+        "remote_percentage": 11.320754716981133,
+        "top_locations": [
+          [
+            "Beaverton, OR",
+            249
+          ],
+          [
+            "Memphis, TN",
+            10
+          ],
+          [
+            "Orlando, FL",
+            6
+          ]
+        ]
+      },
+      "design": {
+        "count": 321,
+        "percentage": 60.56603773584905,
+        "avg_salary_range": {
+          "min": 51965.555555555555,
+          "max": 111958.11111111111
+        },
+        "remote_percentage": 3.115264797507788,
+        "top_locations": [
+          [
+            "Beaverton, OR",
+            72
+          ],
+          [
+            "Orlando, FL",
+            6
+          ],
+          [
+            "Bellevue, WA",
+            5
+          ]
+        ]
+      },
+      "engineering": {
+        "count": 114,
+        "percentage": 21.50943396226415,
+        "avg_salary_range": {
+          "min": 141400.0,
+          "max": 330550.0
+        },
+        "remote_percentage": 38.59649122807017,
+        "top_locations": [
+          [
+            "Beaverton, OR",
+            107
+          ],
+          [
+            "Atlanta, GA",
+            2
+          ],
+          [
+            "Memphis, TN",
+            2
+          ]
+        ]
+      },
+      "security": {
+        "count": 29,
+        "percentage": 5.471698113207547,
+        "avg_salary_range": {
+          "min": 113988.85714285714,
+          "max": 265647.0
+        },
+        "remote_percentage": 41.37931034482759,
+        "top_locations": [
+          [
+            "Beaverton, OR",
+            24
+          ],
+          [
+            "Santa Clarita, CA",
+            1
+          ],
+          [
+            "Atlanta, GA",
+            1
+          ]
+        ]
+      },
+      "research": {
+        "count": 63,
+        "percentage": 11.88679245283019,
+        "avg_salary_range": {
+          "min": 136546.57142857142,
+          "max": 294785.71428571426
+        },
+        "remote_percentage": 20.634920634920633,
+        "top_locations": [
+          [
+            "Beaverton, OR",
+            59
+          ],
+          [
+            "New York, NY",
+            1
+          ],
+          [
+            "Memphis, TN",
+            1
+          ]
+        ]
+      },
+      "data_science": {
+        "count": 80,
+        "percentage": 15.09433962264151,
+        "avg_salary_range": {
+          "min": 142193.33333333334,
+          "max": 331260.0
+        },
+        "remote_percentage": 36.25,
+        "top_locations": [
+          [
+            "Beaverton, OR",
+            78
+          ],
+          [
+            "San Francisco, CA",
+            1
+          ],
+          [
+            "Atlanta, GA",
+            1
+          ]
+        ]
+      },
+      "product": {
+        "count": 18,
+        "percentage": 3.3962264150943398,
+        "avg_salary_range": {},
+        "remote_percentage": 22.22222222222222,
+        "top_locations": [
+          [
+            "Beaverton, OR",
+            18
+          ]
+        ]
+      }
+    },
+    "career_requirements": {
+      "education": {
+        "bachelors": {
+          "count": 204,
+          "percentage": 38.49056603773585
+        },
+        "masters": {
+          "count": 42,
+          "percentage": 7.9245283018867925
+        },
+        "phd": {
+          "count": 4,
+          "percentage": 0.7547169811320755
+        }
+      },
+      "experience": {
+        "avg_years": 4.524752475247524,
+        "min_years": 1,
+        "max_years": 18
+      }
+    }
+  },
+  "culture_and_benefits": {
+    "benefits_offered": {
+      "healthcare": {
+        "count": 530,
+        "percentage": 100.0
+      },
+      "retirement": {
+        "count": 246,
+        "percentage": 46.41509433962264
+      },
+      "disability": {
+        "count": 530,
+        "percentage": 100.0
+      },
+      "vacation": {
+        "count": 2,
+        "percentage": 0.37735849056603776
+      }
+    },
+    "culture_emphasis": {
+      "diversity_inclusion": {
+        "count": 530,
+        "percentage": 100.0
+      },
+      "innovation": {
+        "count": 530,
+        "percentage": 100.0
+      },
+      "growth_development": {
+        "count": 530,
+        "percentage": 100.0
+      },
+      "collaboration": {
+        "count": 194,
+        "percentage": 36.60377358490566
+      }
+    },
+    "work_life_balance": {
+      "flexibility": {
+        "count": 266,
+        "percentage": 50.18867924528302
+      },
+      "remote_work": {
+        "count": 30,
+        "percentage": 5.660377358490567
+      }
+    }
+  },
+  "market_positioning": {
+    "salary_competitiveness": 0.9047195918367348,
+    "remote_leadership": 0.22641509433962267
+  },
+  "time_trends": {
+    "date_distribution": [
+      {
+        "date": "2023-11-06",
+        "count": 1
+      },
+      {
+        "date": "2024-05-31",
+        "count": 1
+      },
+      {
+        "date": "2024-06-13",
+        "count": 1
+      },
+      {
+        "date": "2024-06-26",
+        "count": 1
+      },
+      {
+        "date": "2024-06-27",
+        "count": 1
+      },
+      {
+        "date": "2024-06-29",
+        "count": 1
+      },
+      {
+        "date": "2024-07-12",
+        "count": 1
+      },
+      {
+        "date": "2024-07-21",
+        "count": 6
+      },
+      {
+        "date": "2024-07-22",
+        "count": 12
+      },
+      {
+        "date": "2024-07-23",
+        "count": 9
+      },
+      {
+        "date": "2024-07-24",
+        "count": 4
+      },
+      {
+        "date": "2024-07-25",
+        "count": 4
+      },
+      {
+        "date": "2024-07-26",
+        "count": 2
+      },
+      {
+        "date": "2024-07-29",
+        "count": 3
+      },
+      {
+        "date": "2024-07-31",
+        "count": 5
+      },
+      {
+        "date": "2024-08-01",
+        "count": 3
+      },
+      {
+        "date": "2024-08-03",
+        "count": 1
+      },
+      {
+        "date": "2024-08-05",
+        "count": 1
+      },
+      {
+        "date": "2024-08-06",
+        "count": 3
+      },
+      {
+        "date": "2024-08-10",
+        "count": 2
+      },
+      {
+        "date": "2024-08-12",
+        "count": 2
+      },
+      {
+        "date": "2024-08-15",
+        "count": 1
+      },
+      {
+        "date": "2024-08-16",
+        "count": 3
+      },
+      {
+        "date": "2024-08-19",
+        "count": 2
+      },
+      {
+        "date": "2024-08-20",
+        "count": 1
+      },
+      {
+        "date": "2024-08-25",
+        "count": 1
+      },
+      {
+        "date": "2024-08-28",
+        "count": 1
+      },
+      {
+        "date": "2024-08-29",
+        "count": 2
+      },
+      {
+        "date": "2024-08-31",
+        "count": 2
+      },
+      {
+        "date": "2024-09-05",
+        "count": 3
+      },
+      {
+        "date": "2024-09-09",
+        "count": 2
+      },
+      {
+        "date": "2024-09-10",
+        "count": 1
+      },
+      {
+        "date": "2024-09-11",
+        "count": 3
+      },
+      {
+        "date": "2024-09-12",
+        "count": 1
+      },
+      {
+        "date": "2024-09-13",
+        "count": 2
+      },
+      {
+        "date": "2024-09-14",
+        "count": 1
+      },
+      {
+        "date": "2024-09-16",
+        "count": 1
+      },
+      {
+        "date": "2024-09-19",
+        "count": 3
+      },
+      {
+        "date": "2024-09-20",
+        "count": 1
+      },
+      {
+        "date": "2024-09-21",
+        "count": 1
+      },
+      {
+        "date": "2024-09-23",
+        "count": 2
+      },
+      {
+        "date": "2024-09-24",
+        "count": 7
+      },
+      {
+        "date": "2024-09-25",
+        "count": 2
+      },
+      {
+        "date": "2024-09-26",
+        "count": 1
+      },
+      {
+        "date": "2024-09-27",
+        "count": 1
+      },
+      {
+        "date": "2024-09-30",
+        "count": 1
+      },
+      {
+        "date": "2024-10-01",
+        "count": 6
+      },
+      {
+        "date": "2024-10-02",
+        "count": 4
+      },
+      {
+        "date": "2024-10-04",
+        "count": 3
+      },
+      {
+        "date": "2024-10-07",
+        "count": 2
+      },
+      {
+        "date": "2024-10-08",
+        "count": 6
+      },
+      {
+        "date": "2024-10-10",
+        "count": 4
+      },
+      {
+        "date": "2024-10-11",
+        "count": 2
+      },
+      {
+        "date": "2024-10-12",
+        "count": 1
+      },
+      {
+        "date": "2024-10-13",
+        "count": 2
+      },
+      {
+        "date": "2024-10-14",
+        "count": 1
+      },
+      {
+        "date": "2024-10-15",
+        "count": 2
+      },
+      {
+        "date": "2024-10-16",
+        "count": 2
+      },
+      {
+        "date": "2024-10-17",
+        "count": 3
+      },
+      {
+        "date": "2024-10-18",
+        "count": 3
+      },
+      {
+        "date": "2024-10-22",
+        "count": 1
+      },
+      {
+        "date": "2024-10-23",
+        "count": 2
+      },
+      {
+        "date": "2024-10-25",
+        "count": 4
+      },
+      {
+        "date": "2024-10-28",
+        "count": 4
+      },
+      {
+        "date": "2024-10-29",
+        "count": 3
+      },
+      {
+        "date": "2024-10-30",
+        "count": 2
+      },
+      {
+        "date": "2024-11-01",
+        "count": 12
+      },
+      {
+        "date": "2024-11-04",
+        "count": 2
+      },
+      {
+        "date": "2024-11-05",
+        "count": 3
+      },
+      {
+        "date": "2024-11-06",
+        "count": 2
+      },
+      {
+        "date": "2024-11-07",
+        "count": 2
+      },
+      {
+        "date": "2024-11-08",
+        "count": 3
+      },
+      {
+        "date": "2024-11-10",
+        "count": 1
+      },
+      {
+        "date": "2024-11-12",
+        "count": 3
+      },
+      {
+        "date": "2024-11-13",
+        "count": 3
+      },
+      {
+        "date": "2024-11-14",
+        "count": 17
+      },
+      {
+        "date": "2024-11-15",
+        "count": 2
+      },
+      {
+        "date": "2024-11-16",
+        "count": 9
+      },
+      {
+        "date": "2024-11-18",
+        "count": 4
+      },
+      {
+        "date": "2024-11-19",
+        "count": 5
+      },
+      {
+        "date": "2024-11-20",
+        "count": 1
+      },
+      {
+        "date": "2024-11-21",
+        "count": 8
+      },
+      {
+        "date": "2024-11-22",
+        "count": 9
+      },
+      {
+        "date": "2024-11-23",
+        "count": 5
+      },
+      {
+        "date": "2024-11-25",
+        "count": 3
+      },
+      {
+        "date": "2024-11-27",
+        "count": 2
+      },
+      {
+        "date": "2024-11-30",
+        "count": 18
+      },
+      {
+        "date": "2024-12-01",
+        "count": 1
+      },
+      {
+        "date": "2024-12-02",
+        "count": 5
+      },
+      {
+        "date": "2024-12-03",
+        "count": 3
+      },
+      {
+        "date": "2024-12-04",
+        "count": 9
+      },
+      {
+        "date": "2024-12-05",
+        "count": 1
+      },
+      {
+        "date": "2024-12-13",
+        "count": 44
+      },
+      {
+        "date": "2024-12-15",
+        "count": 14
+      },
+      {
+        "date": "2024-12-16",
+        "count": 3
+      },
+      {
+        "date": "2024-12-17",
+        "count": 12
+      },
+      {
+        "date": "2024-12-18",
+        "count": 9
+      },
+      {
+        "date": "2024-12-19",
+        "count": 12
+      },
+      {
+        "date": "2024-12-20",
+        "count": 23
+      },
+      {
+        "date": "2024-12-21",
+        "count": 1
+      },
+      {
+        "date": "2024-12-23",
+        "count": 4
+      },
+      {
+        "date": "2024-12-24",
+        "count": 2
+      },
+      {
+        "date": "2024-12-26",
+        "count": 1
+      },
+      {
+        "date": "2024-12-27",
+        "count": 4
+      },
+      {
+        "date": "2024-12-28",
+        "count": 2
+      },
+      {
+        "date": "2024-12-29",
+        "count": 1
+      },
+      {
+        "date": "2024-12-30",
+        "count": 13
+      },
+      {
+        "date": "2024-12-31",
+        "count": 5
+      },
+      {
+        "date": "2025-01-01",
+        "count": 11
+      },
+      {
+        "date": "2025-01-02",
+        "count": 8
+      },
+      {
+        "date": "2025-01-03",
+        "count": 1
+      },
+      {
+        "date": "2025-01-04",
+        "count": 1
+      },
+      {
+        "date": "2025-01-05",
+        "count": 2
+      },
+      {
+        "date": "2025-01-06",
+        "count": 12
+      },
+      {
+        "date": "2025-01-07",
+        "count": 15
+      },
+      {
+        "date": "2025-01-08",
+        "count": 2
+      },
+      {
+        "date": "2025-01-09",
+        "count": 10
+      },
+      {
+        "date": "2025-01-10",
+        "count": 18
+      }
+    ],
+    "monthly_distribution": [
+      {
+        "month": "2023-11",
+        "count": 1
+      },
+      {
+        "month": "2024-05",
+        "count": 1
+      },
+      {
+        "month": "2024-06",
+        "count": 4
+      },
+      {
+        "month": "2024-07",
+        "count": 46
+      },
+      {
+        "month": "2024-08",
+        "count": 25
+      },
+      {
+        "month": "2024-09",
+        "count": 33
+      },
+      {
+        "month": "2024-10",
+        "count": 57
+      },
+      {
+        "month": "2024-11",
+        "count": 114
+      },
+      {
+        "month": "2024-12",
+        "count": 169
+      },
+      {
+        "month": "2025-01",
+        "count": 80
+      }
+    ]
+  }
+}

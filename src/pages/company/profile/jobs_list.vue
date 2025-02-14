@@ -10,17 +10,11 @@
     </div>
 
     <div class="jobs-list-card-body">
-      <div
-        v-if="isLoading"
-        class="loading-state"
-      >
+      <div v-if="isLoading" class="loading-state">
         <p>Loading jobs...</p>
       </div>
 
-      <div
-        v-else-if="error"
-        class="error-state"
-      >
+      <div v-else-if="error" class="error-state">
         <p>{{ error }}</p>
       </div>
 
@@ -36,34 +30,19 @@
             <SimpleTableHeader>Action</SimpleTableHeader>
           </SimpleTableRow>
 
-          <SimpleTableRow
-            v-for="(job, index) in displayedJobs"
-            :key="job.id || index"
-          >
+          <SimpleTableRow v-for="(job, index) in displayedJobs" :key="job.id || index">
             <!-- Position Column -->
             <SimpleTableCell>
               <SimpleTableCellFlex>
                 <template #media>
-                  <img
-                    :src="job.company_logo || company?.logo || '/img/company/default.svg'"
-                    :alt="company?.name"
-                    class="company-logo-small"
-                  >
+                  <img :src="job.company_logo || company?.logo || '/img/company/default.svg'" :alt="company?.name"
+                    class="company-logo-small">
                 </template>
                 <template #content>
-                  <Title
-                    tag="h3"
-                    :size="7"
-                    weight="semi"
-                    narrow
-                    class="job-title"
-                  >
+                  <Title tag="h3" :size="7" weight="semi" narrow class="job-title">
                     {{ job.title }}
                   </Title>
-                  <span
-                    v-if="job.job_level"
-                    class="tag is-rounded is-primary is-light level-tag"
-                  >
+                  <span v-if="job.job_level" class="tag is-rounded is-primary is-light level-tag">
                     {{ job.job_level }}
                   </span>
                 </template>
@@ -74,14 +53,8 @@
             <SimpleTableCell>
               <div class="location-info">
                 <span class="location">{{ job.location?.city }}, {{ job.location?.state }}</span>
-                <span
-                  v-if="job.is_remote"
-                  class="remote-badge"
-                >
-                  <i
-                    class="iconify"
-                    data-icon="ph:house-duotone"
-                  />
+                <span v-if="job.is_remote" class="remote-badge">
+                  <i class="iconify" data-icon="ph:house-duotone" />
                   Remote
                 </span>
               </div>
@@ -89,10 +62,7 @@
 
             <!-- Job Type Column -->
             <SimpleTableCell>
-              <span
-                v-if="job.job_type?.length"
-                class="tag is-rounded"
-              >
+              <span v-if="job.job_type?.length" class="tag is-rounded">
                 {{ formatJobType(job.job_type[0]) }}
               </span>
             </SimpleTableCell>
@@ -113,10 +83,8 @@
 
             <!-- Action Column -->
             <SimpleTableCell>
-              <RouterLink
-                :to="`/company/profile/job/${job.id}?company=${encodeURIComponent(company?.name || '')}`"
-                class="link has-underline is-reversed rem-90"
-              >
+              <RouterLink :to="`/company/profile/job/${job.id}?company=${encodeURIComponent(company?.name || '')}`"
+                class="link has-underline is-reversed rem-90">
                 View Details
               </RouterLink>
             </SimpleTableCell>
@@ -124,19 +92,10 @@
         </SimpleTable>
 
         <!-- See More Button -->
-        <div
-          v-if="hasMoreJobs && !showAllJobs"
-          class="see-more-action"
-        >
-          <button
-            class="button is-primary is-outlined is-rounded"
-            @click="showAllJobs = true"
-          >
+        <div v-if="hasMoreJobs && !showAllJobs" class="see-more-action">
+          <button class="button is-primary is-outlined is-rounded" @click="showAllJobs = true">
             See More Jobs
-            <i
-              class="iconify"
-              data-icon="ph:arrow-down-duotone"
-            />
+            <i class="iconify" data-icon="ph:arrow-down-duotone" />
           </button>
         </div>
       </template>
@@ -203,7 +162,7 @@ const loadJobsData = async () => {
   try {
     isLoading.value = true;
     const formattedName = formatCompanyNameForFile(props.companyReport.company_name);
-    const response = await fetch(`/src/prototype-data-v1 copy/samples copy/${formattedName}_sample.json`);
+    const response = await fetch(`/src/data/prototype-data-v1 copy 2/samples copy/${formattedName}_sample.json`);
 
     if (!response.ok) {
       throw new Error(`Jobs data not found for ${formattedName}`);

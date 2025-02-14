@@ -1,6 +1,6 @@
 # route lang="yaml"
 meta:
-  layout: default
+layout: default
 ---
 
 <script setup lang="ts">
@@ -61,7 +61,7 @@ onMounted(async () => {
     // Load company data if not already loaded
     if (!selectedCompanyStore.company || selectedCompanyStore.company.name !== companyName) {
       // Load company data from the JSONL file
-      const companiesResponse = await fetch('/src/prototype-data-v1 copy/10-companies copy.jsonl');
+      const companiesResponse = await fetch('/src/data/prototype-data-v1 copy 2/10-companies copy.jsonl');
       if (!companiesResponse.ok) throw new Error('Failed to load companies data');
 
       const text = await companiesResponse.text();
@@ -80,8 +80,8 @@ onMounted(async () => {
 
     // Load both regular job data and augmented data
     const [jobsResponse, augmentedResponse] = await Promise.all([
-      fetch(`/src/prototype-data-v1 copy/samples copy/${formattedName}_sample.json`),
-      fetch(`/src/prototype-data-v1 copy/augmented_jobs.py/${formattedName === 'cisco' ? 'cicso' : formattedName}_augmented.json`)
+      fetch(`/src/data/prototype-data-v1 copy 2/samples copy/${formattedName}_sample.json`),
+      fetch(`/src/data/prototype-data-v1 copy 2/augmented_jobs.py/${formattedName === 'cisco' ? 'cicso' : formattedName}_augmented.json`)
     ]);
 
     if (!jobsResponse.ok) {
@@ -142,20 +142,13 @@ onMounted(async () => {
         <p class="has-text-danger">
           {{ error }}
         </p>
-        <button
-          class="button is-primary mt-4"
-          @click="router.back()"
-        >
+        <button class="button is-primary mt-4" @click="router.back()">
           Go Back
         </button>
       </div>
     </div>
     <div v-else-if="job">
-      <JobDetails
-        :job="job"
-        :loading="isLoading"
-        :error="error"
-      />
+      <JobDetails :job="job" :loading="isLoading" :error="error" />
     </div>
   </div>
 </template>
