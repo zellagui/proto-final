@@ -58,6 +58,10 @@ export default {
             to: '/',
           },
           {
+            label: 'Launch',
+            to: 'launch',
+          },
+          {
             label: 'Job hacks',
             to: 'blog',
           },

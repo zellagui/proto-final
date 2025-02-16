@@ -1,99 +1,143 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { Icon } from '@iconify/vue';
+</script>
 
 <template>
-  <div class="timeline-conversation">
-    <!--Message-->
-    <div class="conversation-message">
-      <div class="message-text">
-        <div class="message-box primary">
-          <p>
-            Here’s my deploy preview for the app update:
-            https://shop-git-new-checkout.vercel.app
-          </p>
-        </div>
-        <span class="meta">Anna (Frontend Team)</span>
+  <div class="transparency-showcase">
+    <div class="showcase-item">
+      <div class="item-icon">
+        <Icon icon="ph:shield-check-duotone" class="privacy-icon" />
       </div>
-      <AvatarSimple
-        picture="data:image/gif;base64,replace_with_your_image"
-        size="medium"
-      />
+      <div class="item-content">
+        <h3>No Personal Data for Sale</h3>
+        <p>Your data stays yours. We never sell or trade personal information.</p>
+      </div>
+      <div class="item-indicator"></div>
     </div>
-    <!--Message-->
-    <div class="conversation-message">
-      <div class="message-text">
-        <div class="message-box primary">
-          <p>
-            This looks good. Can you double check that those issues we discussed
-            were finally fixed?
-          </p>
-        </div>
-        <span class="meta">Jay (UX Team)</span>
+
+    <div class="showcase-item">
+      <div class="item-icon">
+        <Icon icon="ph:lock-key-duotone" class="privacy-icon" />
       </div>
-      <AvatarSimple
-        picture="data:image/gif;base64,replace_with_your_image"
-        size="medium"
-      />
+      <div class="item-content">
+        <h3>Zero Third-Party Sharing</h3>
+        <p>Direct connection. No intermediaries. No external data sharing.</p>
+      </div>
+      <div class="item-indicator"></div>
     </div>
-    <!--Message-->
-    <div class="conversation-message">
-      <div class="message-text">
-        <div class="message-box secondary">
-          <p>For my part, it's ready to go live!</p>
-        </div>
-        <span class="meta">Christina (Backend Team)</span>
+
+    <div class="showcase-item">
+      <div class="item-icon">
+        <Icon icon="ph:brain-duotone" class="privacy-icon" />
       </div>
-      <AvatarSimple
-        picture="data:image/gif;base64,replace_with_your_image"
-        size="medium"
-      />
+      <div class="item-content">
+        <h3>Independent AI Analysis</h3>
+        <p>Our AI works with public data only. No purchased datasets.</p>
+      </div>
+      <div class="item-indicator"></div>
     </div>
   </div>
 </template>
 
 <style scoped lang="scss">
-.timeline-conversation {
-  .conversation-message {
+.transparency-showcase {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.showcase-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem;
+  background: var(--wrap-muted-color);
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateX(0.5rem);
+    background: var(--card-bg-color);
+
+    .item-indicator {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .privacy-icon {
+      color: var(--primary);
+      transform: scale(1.1);
+    }
+  }
+
+  .item-icon {
+    flex-shrink: 0;
+    width: 3rem;
+    height: 3rem;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+    background: var(--card-bg-color);
+    border-radius: 0.75rem;
 
-    :deep(.avatar) {
-      margin-top: auto;
+    .privacy-icon {
+      font-size: 1.5rem;
+      color: var(--light-text);
+      transition: all 0.3s ease;
+    }
+  }
+
+  .item-content {
+    flex-grow: 1;
+
+    h3 {
+      font-family: var(--font);
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--dark-text);
+      margin-bottom: 0.25rem;
     }
 
-    .message-text {
-      margin-right: 2rem;
+    p {
+      font-family: var(--font);
+      font-size: 0.9rem;
+      color: var(--light-text);
+      line-height: 1.4;
+    }
+  }
 
-      .message-box {
-        padding: 1rem;
-        border-radius: 1rem 1rem 0;
-        font-family: var(--font);
-        font-size: 0.9rem;
-        line-height: 1.3;
-        margin-bottom: 0.25rem;
+  .item-indicator {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0.25rem;
+    height: 100%;
+    background: var(--primary);
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.3s ease;
+  }
 
-        &.primary {
-          background: var(--primary);
-          color: var(--white-smoke);
-        }
-
-        &.secondary {
-          background: var(--secondary);
-          color: var(--white-smoke);
-        }
-      }
-
-      .meta {
-        display: block;
-        text-align: right;
-        margin-left: auto;
-        font-family: var(--font);
-        font-size: 0.9rem;
-        color: var(--light-text);
-      }
+  &:nth-child(2) {
+    .item-indicator {
+      background: var(--info);
     }
 
-    &:not(:last-child) {
-      margin-bottom: 2rem;
+    &:hover .privacy-icon {
+      color: var(--info);
+    }
+  }
+
+  &:nth-child(3) {
+    .item-indicator {
+      background: var(--success);
+    }
+
+    &:hover .privacy-icon {
+      color: var(--success);
     }
   }
 }

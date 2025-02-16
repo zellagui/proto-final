@@ -1,96 +1,118 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="code-window">
-    <div class="window-head">
-      <div class="dots">
-        <div class="dot bg-danger" />
-        <div class="dot bg-yellow" />
-        <div class="dot bg-success" />
-      </div>
-      <div class="lang">
-        Bash
-      </div>
-    </div>
-    <div class="window-body">
-      <div class="code-content">
-        <div class="code-content-line">
-          <span class="bold mr-2">@john:~$</span>
-          my-application/ git push
-        </div>
+  <div class="search-fields-container">
+    <div class="search-fields">
+      <div class="field-list">
+        <div class="field physical">Physical Requirements</div>
+        <div class="field culture">Company Culture</div>
+        <div class="field training">Training Provided</div>
+        <div class="field career">Potential Career Path</div>
+        <div class="field environment">Work Environment</div>
+        <div class="field schedule">Scheduling Details</div>
+        <div class="field demand">Job Demand</div>
+        <div class="field priority">Recruitment Priority</div>
+        <div class="field balance">Work-Life Balance</div>
+        <div class="field future">Future Technology</div>
       </div>
     </div>
   </div>
 </template>
 
 <style scoped lang="scss">
-.code-window {
-  position: relative;
+.search-fields-container {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 1rem;
+  background: var(--wrap-muted-color);
+  padding: 0.5rem;
+}
+
+.search-fields {
   width: 100%;
-  height: 180px;
-  background: var(--card-bg-color);
-  border: 1px solid var(--card-border-color);
-  border-radius: 0.5rem;
-  box-shadow: var(--spread-shadow);
+  height: 100%;
   overflow: hidden;
+  border-radius: 0.75rem;
+}
 
-  .window-head {
-    display: flex;
-    align-items: center;
-    height: 2.75rem;
-    background: var(--card-bg-color);
-    border-bottom: 1px solid var(--card-border-color);
-    padding: 0 0.5rem;
+.field-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  animation: scrollFields 30s linear infinite;
 
-    .dots {
-      .dot {
-        border-radius: 50%;
-        display: inline-block;
-        width: 12px;
-        height: 12px;
-        margin-left: 0.5rem;
-      }
-    }
+  &:hover {
+    animation-play-state: paused;
+  }
+}
 
-    .lang {
-      font-family: var(--font);
-      font-size: 0.9rem;
-      color: var(--title-color);
-      margin-left: 1rem;
-    }
+.field {
+  font-size: 0.85rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  color: var(--dark-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   }
 
-  .window-body {
-    height: calc(180px - 2.75rem);
-    display: flex;
-    align-items: stretch;
+  &.physical {
+    background: #f0f7ff;
+  }
 
-    .code-content {
-      height: 100%;
-      width: 100%;
-      padding: 1rem;
-    }
+  &.culture {
+    background: #fff0f7;
+  }
 
-    .code-content-line {
-      display: flex;
-      align-items: center;
-      height: 1.75rem;
-      font-size: 0.9rem;
-      font-family: monospace;
-      color: var(--title-color);
+  &.training {
+    background: #f0fff7;
+  }
 
-      &.indented-1 {
-        margin-left: 1.5rem;
-      }
+  &.career {
+    background: #fff7f0;
+  }
 
-      &.indented-2 {
-        margin-left: 3rem;
-      }
+  &.environment {
+    background: #f7f0ff;
+  }
 
-      .bold {
-        font-weight: 600;
-      }
-    }
+  &.schedule {
+    background: #f0fff0;
+  }
+
+  &.demand {
+    background: #fff0f0;
+  }
+
+  &.priority {
+    background: #f0f0ff;
+  }
+
+  &.balance {
+    background: #fffff0;
+  }
+
+  &.future {
+    background: #f7fff0;
+  }
+}
+
+@keyframes scrollFields {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-100%);
   }
 }
 </style>

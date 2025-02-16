@@ -29,37 +29,18 @@ const testimonialClasses = computed(() => [props.color && `is-${props.color}`])
 </script>
 
 <template>
-  <div
-    class="marquee-testimonials"
-    :class="testimonialClasses"
-  >
-    <MarqueeText
-      :repeat="10"
-      :duration="40"
-    >
+  <div class="marquee-testimonials" :class="testimonialClasses">
+    <MarqueeText :repeat="10" :duration="40">
       <div class="marquee-testimonials-inner">
         <div class="row">
-          <div
-            v-for="(testimonial, index) in props.testimonials"
-            :key="index"
-            class="box"
-          >
+          <div v-for="(testimonial, index) in props.testimonials" :key="index" class="box">
             <div class="head">
-              <AvatarSimple
-                :picture="testimonial.customer.photo"
-                size="medium"
-              />
+              <AvatarSimple :picture="testimonial.customer.photo" size="medium" />
               <div class="meta">
                 <span>{{ testimonial.customer.name }}</span>
                 <span>{{ testimonial.customer.position }}</span>
               </div>
-              <img
-                class="logo"
-                :src="testimonial.logo"
-                alt="Testimonial logo"
-                width="90"
-                height="38"
-              >
+
             </div>
             <div class="body">
               <p>{{ testimonial.content }}</p>
@@ -69,34 +50,14 @@ const testimonialClasses = computed(() => [props.color && `is-${props.color}`])
       </div>
     </MarqueeText>
 
-    <div
-      v-if="!compact"
-      class="buttons is-centered is-relative z-1 py-6"
-    >
-      <Button
-        color="primary"
-        :long="2"
-        elevated
-        bold
-        custom
-      >
+    <div v-if="!compact" class="buttons is-centered is-relative z-1 py-6">
+      <Button color="primary" :long="2" elevated bold custom>
         Free Trial
       </Button>
-      <Button
-        :long="2"
-        outlined-light
-        bold
-        custom
-      >
+      <Button :long="2" outlined-light bold custom>
         Let's Talk
       </Button>
-      <img
-        class="text"
-        src="/assets/illustrations/text/text.svg"
-        alt="No credit card"
-        width="440"
-        height="150"
-      >
+      <img class="text" src="/assets/illustrations/text/text.svg" alt="No credit card" width="440" height="150">
     </div>
   </div>
 </template>
@@ -104,11 +65,9 @@ const testimonialClasses = computed(() => [props.color && `is-${props.color}`])
 <style lang="scss" scoped>
 @mixin section-gradient {
   background: var(--primary);
-  background: linear-gradient(
-    to right,
-    var(--primary),
-    var(--primary-dark-22)
-  ) !important;
+  background: linear-gradient(to right,
+      var(--primary),
+      var(--primary-dark-22)) !important;
 }
 
 .marquee-testimonials {

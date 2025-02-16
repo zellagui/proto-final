@@ -39,42 +39,21 @@ const stepClasses = computed(() => [
 
 <template>
   <div>
-    <div
-      class="has-text-centered"
-      :class="blockClasses"
-    >
-      <p
-        v-if="props.minititle"
-        class="paragraph text-upper rem-80 weight-6 has-text-centered"
-      >
+    <div class="has-text-centered" :class="blockClasses">
+      <p v-if="props.minititle" class="paragraph text-upper rem-80 weight-6 has-text-centered">
         {{ props.minititle }}
       </p>
       <slot name="subheading" />
-      <div
-        class="line"
-        :class="lineClasses"
-      />
-      <div
-        class="step"
-        :class="stepClasses"
-      >
+      <div class="line" :class="lineClasses" />
+      <div class="step" :class="stepClasses">
         <span>{{ props.step }}</span>
       </div>
-      <Subtitle
-        tag="h3"
-        :size="3"
-        weight="bold"
-      >
+      <Subtitle tag="h3" :size="3" weight="bold">
         <span :class="subtitleClasses">
           <slot name="subtitle">{{ props.subtitle }}</slot>
         </span>
       </Subtitle>
-      <Title
-        tag="h2"
-        :size="8"
-        weight="bold"
-        :class="titleClasses"
-      >
+      <Title tag="h2" :size="8" weight="bold" :class="titleClasses">
         <span>
           <slot>{{ props.title }}</slot>
         </span>
@@ -106,7 +85,7 @@ const stepClasses = computed(() => [
   border-radius: 50%;
 }
 
-@media only screen and (width <= 767px) {
+@media only screen and (width <=767px) {
   :deep(.title) {
     &.is-8 {
       font-size: 3rem !important;

@@ -11,17 +11,12 @@
         <div class="item-dot" />
         <div class="item-right">
           <div class="max-w-4">
-            <Title
-              tag="h2"
-              :size="4"
-              weight="bold"
-              leading
-            >
-              <span>Push to deploy</span>
+            <Title tag="h2" :size="4" weight="bold" leading>
+              <span>New way to search jobs</span>
             </Title>
             <p class="paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Deinde
-              disputat, quod cuiusque generis animantium statui deceat extremum.
+              The most advanced job search engine in the world.
+
             </p>
           </div>
         </div>
@@ -34,17 +29,15 @@
         <div class="item-dot" />
         <div class="item-right">
           <div class="max-w-4">
-            <Title
-              tag="h2"
-              :size="4"
-              weight="bold"
-              leading
-            >
-              <span>Get your preview URL</span>
+            <Title tag="h2" :size="4" weight="bold" leading>
+              <span>Your own workflow and layout</span>
             </Title>
             <p class="paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Deinde
-              disputat, quod cuiusque generis animantium statui deceat extremum.
+              Why every job search engine is the same? what about you specific
+              needs?
+              <br>
+              <br>
+              You can now customize the workflows of you job search and arrange the layout how you want.
             </p>
           </div>
         </div>
@@ -57,17 +50,14 @@
         <div class="item-dot" />
         <div class="item-right">
           <div class="max-w-4">
-            <Title
-              tag="h2"
-              :size="4"
-              weight="bold"
-              leading
-            >
-              <span>Share and collaborate</span>
+            <Title tag="h2" :size="4" weight="bold" leading>
+              <span>Ghost jobs, Scams? Not on Our Watch
+              </span>
             </Title>
             <p class="paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Deinde
-              disputat, quod cuiusque generis animantium statui deceat extremum.
+              Every listing on our platform undergoes verification to ensure authenticity.
+              Say goodbye to deceptive posts and hidden scams – we filter out the noise so you only see real,
+              trusted opportunities. .
             </p>
           </div>
         </div>
@@ -134,7 +124,7 @@
   }
 }
 
-@media only screen and (width <= 767px) {
+@media only screen and (width <=767px) {
   .timeline {
     .timeline-item {
       flex-direction: column;
@@ -163,7 +153,7 @@
   }
 }
 
-@media only screen and (width >= 768px) and (width <= 1024px) and (orientation: portrait) {
+@media only screen and (width >=768px) and (width <=1024px) and (orientation: portrait) {
   .timeline {
     .timeline-item {
       .item-left {

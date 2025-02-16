@@ -6,9 +6,7 @@ import companiesData from '../data/10-companies.jsonl?raw'
 // The employee table data is still imported if needed elsewhere.
 // import { table } from '/@src/data/blocks/table'
 
-interface Props {
-  limit?: number
-}
+interface Props { }
 
 interface CompanyAnalysis {
   company_name: string;
@@ -17,9 +15,7 @@ interface CompanyAnalysis {
   };
 }
 
-const props = withDefaults(defineProps<Props>(), {
-  limit: 12 // Increased from 6 to 12 to show more companies
-})
+const props = defineProps<Props>()
 
 // Job boards data
 const jobBoards = {
@@ -183,7 +179,7 @@ onMounted(async () => {
           <SimpleTableHeader>Action</SimpleTableHeader>
         </SimpleTableRow>
 
-        <SimpleTableRow v-for="company in companies.slice(0, props.limit)" :key="company.company_id">
+        <SimpleTableRow v-for="company in companies" :key="company.company_id">
           <!-- Company Column (Logo, Name, Sphere) -->
           <SimpleTableCell>
             <SimpleTableCellFlex>
