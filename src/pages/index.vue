@@ -97,11 +97,7 @@ const jobBoards = {
     logo: 'https://www.ziprecruiter.com/favicon-144x144.png',
     url: 'https://ziprecruiter.com'
   },
-  monster: {
-    name: 'Monster',
-    logo: 'https://play-lh.googleusercontent.com/YqM8H7Vip-UqQmsKXeJKxlvw8UcEc9v7oMEoPOe-8VDh1wKUudK6rdQ5TEaGjv8BkWA=w240-h480-rw',
-    url: 'https://monster.com'
-  }
+
 }
 
 
@@ -234,7 +230,7 @@ const jobBoards = {
           </template>
         </TimelineTitle>
 
-        <TestimonialsMarquee :testimonials="testimonials" color="default"  />
+        <TestimonialsMarquee :testimonials="testimonials" color="default" />
 
         <CtaBlockB title-primary="Beta version"
           content-primary="This version is still in beta. public version launch end february " cta-primary="Launch"
@@ -284,9 +280,8 @@ const jobBoards = {
       </Container>
     </Section> -->
 
-    <FooterA FooterColors="white"
-      text="Join the movement for job search transparency. Find your next opportunity with confidence."
-      :social-links="socialLinks" />
+    <FooterA color="dark" :social-links="socialLinks">
+    </FooterA>
   </div>
 </template>
 

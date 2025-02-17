@@ -37,11 +37,11 @@ useHead(() => ({
     {
       rel: 'icon',
       type: 'image/svg+xml',
-      href: '/assets/logo/logo.svg',
+      href: '/assets/logo/ghostjobsLOGO.png',
     },
     {
       rel: 'alternate icon',
-      href: '/assets/logo/gg.svg',
+      href: '/assets/logo/ghostjobsLOGO.png',
       type: 'image/x-icon',
     },
     {
@@ -89,34 +89,34 @@ useHead(() => ({
     },
     config.url
       ? {
-          property: 'og:url',
-          content: config.url,
-        }
+        property: 'og:url',
+        content: config.url,
+      }
       : {},
     ...(!config.image
       ? []
       : [
-          {
-            property: 'og:image:type',
-            content: 'image/png',
-          },
-          {
-            property: 'og:image:width',
-            content: '1200',
-          },
-          {
-            property: 'og:image:height',
-            content: '630',
-          },
-          {
-            property: 'og:image',
-            content: config.image,
-          },
-          {
-            name: 'twitter:card',
-            content: 'summary_large_image',
-          },
-        ]),
+        {
+          property: 'og:image:type',
+          content: 'image/png',
+        },
+        {
+          property: 'og:image:width',
+          content: '1200',
+        },
+        {
+          property: 'og:image:height',
+          content: '630',
+        },
+        {
+          property: 'og:image',
+          content: config.image,
+        },
+        {
+          name: 'twitter:card',
+          content: 'summary_large_image',
+        },
+      ]),
     // Twitter
     {
       name: 'twitter:site',
@@ -127,8 +127,7 @@ useHead(() => ({
     {
       children: `(function () {
         const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
-        const setting = localStorage.getItem('color-schema') || '${
-          config.theme.default ?? 'system'
+        const setting = localStorage.getItem('color-schema') || '${config.theme.default ?? 'system'
         }}'
         if (setting === 'dark' || (prefersDark && setting !== 'light'))
           document.documentElement.classList.toggle('is-dark', true)
@@ -153,13 +152,8 @@ initDarkmode()
       <ClientOnly>
         <ReloadPrompt :app-name="config.name">
           <template #logo>
-            <DarkImage
-              :src="config.logo.src"
-              :src-dark="config.logo.srcDark"
-              alt=""
-              :width="config.logo.width"
-              :height="config.logo.height"
-            />
+            <DarkImage :src="config.logo.src" :src-dark="config.logo.srcDark" alt="" :width="config.logo.width"
+              :height="config.logo.height" />
           </template>
         </ReloadPrompt>
       </ClientOnly>

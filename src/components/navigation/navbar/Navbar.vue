@@ -10,14 +10,14 @@ interface NavbarProps {
   solid?: boolean
   items: (
     | {
-        label: string
-        to: string
-        target?: string
-      }
+      label: string
+      to: string
+      target?: string
+    }
     | {
-        label: string
-        megamenu: any
-      }
+      label: string
+      megamenu: any
+    }
   )[]
   cta?: {
     label: string
@@ -70,87 +70,43 @@ const handleLogout = async () => {
 </script>
 
 <template>
-  <nav
-    ref="navbar"
-    class="navbar is-transparent is-fixed-top is-fade"
-    role="navigation"
-    aria-label="main navigation"
+  <nav ref="navbar" class="navbar is-transparent is-fixed-top is-fade" role="navigation" aria-label="main navigation"
     :class="[
       isScrolled && 'is-scrolled',
       isNavbarOpen && 'is-solid',
       isMegamenuOpen && 'is-solid',
       props.inverted && 'is-inverted',
       props.solid && 'is-solid',
-    ]"
-    @mouseleave="() => selectMobileMenu()"
-  >
+    ]" @mouseleave="() => selectMobileMenu()">
     <div class="container">
       <div class="navbar-brand">
-        <RouterLink
-          v-preload-link
-          class="navbar-item"
-          to="/"
-        >
-          <DarkImage
-            v-if="config.logo?.src"
-            class="navbar-logo"
-            :src="config.logo?.src"
-            :src-dark="config.logo?.srcDark"
-            alt=""
-            :width="config.logo?.width"
-            :height="config.logo?.height"
-          />
+        <RouterLink v-preload-link class="navbar-item" to="/">
+          <DarkImage v-if="config.logo?.src" class="navbar-logo" :src="config.logo?.src"
+            :src-dark="config.logo?.srcDark" alt="" :width="config.logo?.width" :height="config.logo?.height" />
         </RouterLink>
-        <div
-          class="navbar-burger"
-          role="button"
-          tabindex="0"
-          @click.prevent="isNavbarOpen = !isNavbarOpen"
-          @keydown.space.prevent="() => (isNavbarOpen = !isNavbarOpen)"
-        >
+        <div class="navbar-burger" role="button" tabindex="0" @click.prevent="isNavbarOpen = !isNavbarOpen"
+          @keydown.space.prevent="() => (isNavbarOpen = !isNavbarOpen)">
           <Hamburger :open="isNavbarOpen" />
         </div>
       </div>
 
-      <div
-        class="navbar-menu b-centered-mobile b-centered-tablet-p"
-        :class="[isNavbarOpen && 'is-active']"
-      >
+      <div class="navbar-menu b-centered-mobile b-centered-tablet-p" :class="[isNavbarOpen && 'is-active']">
         <div class="navbar-start">
-          <template
-            v-for="item in props.items"
-            :key="item.label"
-          >
+          <template v-for="item in props.items" :key="item.label">
             <template v-if="'megamenu' in item && item.megamenu">
-              <button
-                class="navbar-item"
-                :class="[activeDropdown === item.label && 'is-selected']"
-                @mouseover="() => selectMobileMenu(item.label)"
-                @focusin="() => selectMobileMenu(item.label)"
-              >
+              <button class="navbar-item" :class="[activeDropdown === item.label && 'is-selected']"
+                @mouseover="() => selectMobileMenu(item.label)" @focusin="() => selectMobileMenu(item.label)">
                 <span class="has-naver mr-1">{{ item.label }}</span>
-                <i
-                  class="iconify"
-                  data-icon="feather:chevron-down"
-                />
+                <i class="iconify" data-icon="feather:chevron-down" />
               </button>
               <div class="megamenu is-active">
-                <component
-                  :is="item.megamenu"
-                  v-show="activeDropdown === item.label"
-                  @close="() => selectMobileMenu()"
-                />
+                <component :is="item.megamenu" v-show="activeDropdown === item.label"
+                  @close="() => selectMobileMenu()" />
               </div>
             </template>
             <template v-else-if="'to' in item">
-              <RouterLink
-                v-preload-link
-                :to="item.to"
-                class="navbar-item"
-                tabindex="0"
-                @mouseover="() => selectMobileMenu()"
-                @focusin="() => selectMobileMenu()"
-              >
+              <RouterLink v-preload-link :to="item.to" class="navbar-item" tabindex="0"
+                @mouseover="() => selectMobileMenu()" @focusin="() => selectMobileMenu()">
                 <span class="has-naver mr-1">{{ item.label }}</span>
               </RouterLink>
             </template>
@@ -158,10 +114,7 @@ const handleLogout = async () => {
         </div>
         <div class="navbar-end">
           <div class="navbar-item is-flex is-align-items-center is-justify-content-center">
-            <ThemeToggle
-              @mouseover="() => selectMobileMenu()"
-              @focusin="() => selectMobileMenu()"
-            />
+            <ThemeToggle @mouseover="() => selectMobileMenu()" @focusin="() => selectMobileMenu()" />
           </div>
 
           <!-- Show dropdown if logged in, else show Sign Up -->
@@ -172,14 +125,8 @@ const handleLogout = async () => {
 
               </a>
               <div class="navbar-dropdown is-right">
-                <button
-                  class="navbar-item"
-                  type="button"
-                  @click="handleLogout"
-                  @keydown.enter.prevent="handleLogout"
-
-                  @keydown.space.prevent="handleLogout"
-                >
+                <button class="navbar-item" type="button" @click="handleLogout" @keydown.enter.prevent="handleLogout"
+                  @keydown.space.prevent="handleLogout">
                   >
                   Logout
                 </button>
@@ -198,28 +145,16 @@ const handleLogout = async () => {
           </template>
 
           <div class="navbar-item">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeQdxO-UcsakziMc8EEx7w71OxtekoxXmwQk9uPF2pQwmuhtg/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button color="secondary">Report</Button>
-            </a>
+            <RouterLink to="/launch">
+
+              <Button color="secondary">Launch</Button>
+            </RouterLink>
+
           </div>
 
-          <div
-            v-if="props.cta"
-            class="navbar-item"
-          >
-            <RouterLink
-              :to="props.cta.to"
-              :target="props.cta?.target"
-            >
-              <Button
-                color="primary"
-                raised
-                bold
-              >
+          <div v-if="props.cta" class="navbar-item">
+            <RouterLink :to="props.cta.to" :target="props.cta?.target">
+              <Button color="primary" raised bold>
                 {{ props.cta.label }}
               </Button>
             </RouterLink>
@@ -293,7 +228,7 @@ const handleLogout = async () => {
     }
 
     &.is-selected {
-      > .iconify {
+      >.iconify {
         transform: rotate(180deg) !important;
       }
     }
@@ -343,7 +278,7 @@ const handleLogout = async () => {
       }
     }
 
-    > .social-item {
+    >.social-item {
       color: var(--medium-text);
       transition: color 0.3s;
 
@@ -352,12 +287,12 @@ const handleLogout = async () => {
       }
     }
 
-    > .button {
+    >.button {
       min-height: 48px;
       min-width: 110px;
     }
 
-    > .iconify {
+    >.iconify {
       transition: transform 0.3s;
       vertical-align: middle;
       font-size: 1.1rem;
@@ -630,7 +565,7 @@ const handleLogout = async () => {
   }
 }
 
-@media only screen and (width <= 1024px) {
+@media only screen and (width <=1024px) {
   .navbar {
     &.is-centered {
       &:not(.no-nav) {
@@ -657,7 +592,7 @@ const handleLogout = async () => {
   }
 }
 
-@media only screen and (width <= 980px) {
+@media only screen and (width <=980px) {
   .navbar {
     .navbar-brand {
       .navbar-burger {
@@ -667,7 +602,7 @@ const handleLogout = async () => {
   }
 }
 
-@media only screen and (width <= 767px) {
+@media only screen and (width <=767px) {
   .navbar {
     .navbar-brand {
       .navbar-burger {

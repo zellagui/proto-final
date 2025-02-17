@@ -31,10 +31,7 @@ const footerClasses = computed(() => [
 </script>
 
 <template>
-  <footer
-    class="footer"
-    :class="footerClasses"
-  >
+  <footer class="footer" :class="footerClasses">
     <FooterBubbles v-if="props.bubbles" />
 
     <div class="container">
@@ -43,65 +40,49 @@ const footerClasses = computed(() => [
         <div class="column is-4">
           <div class="level is-mobile mobile:mb-4">
             <slot name="leftLinks">
-              <RouterLink
-                :to="{ name: 'index' }"
-                class="level-item footer-link"
-              >
+              <RouterLink :to="{ name: 'index' }" class="level-item footer-link">
                 Home
               </RouterLink>
-              <RouterLink
-                :to="{ name: 'blog' }"
-                class="level-item footer-link"
-              >
+              <RouterLink :to="{ name: 'blog' }" class="level-item footer-link">
                 Job hacks
               </RouterLink>
-              <RouterLink
-                :to="{ name: 'contact-us' }"
-                class="level-item footer-link"
-              >
+              <RouterLink :to="{ name: 'contact-us' }" class="level-item footer-link">
                 Contact
               </RouterLink>
             </slot>
+          </div>
+          <div class="legal-links mt-4">
+            <RouterLink :to="{ name: 'legal-disclaimer' }" class="footer-link mx-2">
+              Disclaimer
+            </RouterLink>
+            <RouterLink :to="{ name: 'legal-terms' }" class="footer-link mx-2">
+              Terms
+            </RouterLink>
+            <RouterLink :to="{ name: 'legal-privacy' }" class="footer-link mx-2">
+              Privacy
+            </RouterLink>
+            <RouterLink :to="{ name: 'legal-cookies' }" class="footer-link mx-2">
+              Cookies
+            </RouterLink>
           </div>
         </div>
 
         <!-- Middle Column -->
         <div class="column is-4 has-text-centered">
-          <RouterLink
-            class="footer-logo-centered"
-            :to="{ name: 'index' }"
-          >
-            <DarkImage
-              class="size-44x44"
-              :src="config.logo.src"
-              :src-dark="config.logo.srcDark"
-              alt=""
-              :width="config.logo.width"
-              :height="config.logo.height"
-            />
+          <RouterLink class="footer-logo-centered" :to="{ name: 'index' }">
+            <DarkImage class="size-44x44" :src="config.logo.src" :src-dark="config.logo.srcDark" alt=""
+              :width="config.logo.width" :height="config.logo.height" />
             <span class="is-sr-only">Logo</span>
           </RouterLink>
         </div>
 
         <!-- Right Column -->
         <div class="column is-4 has-text-right">
-          <div
-            v-if="props.socialLinks"
-            class="level is-mobile"
-          >
-            <a
-              v-for="(link, index) in props.socialLinks"
-              :key="index"
-              :href="link.url"
-              class="level-item footer-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+          <div v-if="props.socialLinks" class="level is-mobile">
+            <a v-for="(link, index) in props.socialLinks" :key="index" :href="link.url" class="level-item footer-link"
+              target="_blank" rel="noopener noreferrer">
               <span class="icon">
-                <i
-                  class="iconify"
-                  :data-icon="link.icon"
-                />
+                <i class="iconify" :data-icon="link.icon" />
               </span>
               <span class="is-sr-only">{{ link.name }}</span>
             </a>
@@ -109,11 +90,8 @@ const footerClasses = computed(() => [
         </div>
       </div>
       <p class="paragraph rem-90 footer-text has-text-centered is-6">
-        <span
-          role="img"
-          aria-label="copyright"
-        >©</span>
-        2024-2025 Ghostjobs. All rights reserved.
+        <span role="img" aria-label="copyright">©</span>
+        2025-2026 Ghost Jobs. All rights reserved.
       </p>
     </div>
   </footer>
@@ -169,6 +147,7 @@ const footerClasses = computed(() => [
     font-family: var(--font);
     color: var(--medium-text);
     transition: color 0.3s;
+    font-size: 0.95rem;
 
     &::before {
       content: '';
@@ -197,6 +176,22 @@ const footerClasses = computed(() => [
     }
   }
 
+  .legal-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-left: 1rem;
+
+    .footer-link {
+      font-size: 0.85rem;
+      opacity: 0.7;
+
+      &::before {
+        width: 50%;
+      }
+    }
+  }
+
   .footer-text {
     font-family: var(--font);
     color: var(--medium-text);
@@ -218,10 +213,15 @@ const footerClasses = computed(() => [
   }
 }
 
-@media only screen and (width <= 767px) {
+@media only screen and (width <=767px) {
   .footer {
     .footer-link {
       margin-right: 0 !important;
+    }
+
+    .legal-links {
+      padding-left: 0.5rem;
+      margin-top: 1.5rem;
     }
 
     &.footer-curved {

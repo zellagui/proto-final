@@ -5,100 +5,99 @@ import { socialLinks } from '/@src/data/blocks/advanced/social'
 </script>
 
 <template>
-  <div class="launch-page">
-    <!-- Hero Section -->
-    <Section class="launch-hero">
-      <Container>
-        <div class="hero-content">
-          <div class="hero-badge">
-            <Icon icon="ph:sparkle-duotone" class="badge-icon" />
-            <span>Beta</span>
+  <div class="launch-wrapper">
+    <div class="launch-page">
+      <!-- Hero Section -->
+      <Section class="launch-hero">
+        <Container>
+          <div class="hero-content">
+            <div class="hero-badge">
+              <Icon icon="ph:sparkle-duotone" class="badge-icon" />
+              <span>Beta</span>
+            </div>
+
+            <Title tag="h1" :size="1" weight="bold" leading>
+              <span class="gradient-text">Ghost Jobs v1</span>
+            </Title>
+
+            <!-- Enhanced Search Bar -->
+            <div class="search-container">
+              <div class="search-features">
+                <div class="feature">
+                  <Icon icon="ph:shield-check-duotone" />
+                  <span>Privacy First</span>
+                </div>
+                <div class="feature">
+                  <Icon icon="ph:brain-duotone" />
+                  <span>AI Powered</span>
+                </div>
+                <div class="feature">
+                  <Icon icon="ph:chart-line-up-duotone" />
+                  <span>Real Data</span>
+                </div>
+              </div>
+
+              <div class="search-bar disabled">
+                <Icon icon="ph:magnifying-glass-duotone" class="search-icon" />
+                <input type="text" placeholder="Search jobs with transparency (Coming Soon)" disabled
+                  class="search-input">
+                <span class="coming-soon-badge">Beta Access Soon</span>
+              </div>
+
+              <div class="action-buttons">
+                <button class="action-button disabled">
+                  <Icon icon="ph:binoculars-duotone" class="button-icon" />
+                  <span>Track</span>
+                  <span class="alpha-badge">Alpha</span>
+                </button>
+
+                <button class="action-button disabled">
+                  <Icon icon="ph:warning-circle-duotone" class="button-icon" />
+                  <span>Report</span>
+                  <span class="alpha-badge">Alpha</span>
+                </button>
+
+                <button class="action-button disabled">
+                  <Icon icon="ph:puzzle-piece-duotone" class="button-icon" />
+                  <span>Extension</span>
+                  <span class="alpha-badge">Alpha</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </Section>
+
+      <!-- Companies Preview -->
+      <Section class="section-companies">
+        <Container>
+          <div class="companies-header">
+            <Title tag="h2" :size="2" weight="bold" leading>
+              <span>Discover Companies</span>
+            </Title>
+            <p class="companies-subtitle">
+              coma
+            </p>
           </div>
 
-          <Title tag="h1" :size="1" weight="bold" leading>
-            <span class="gradient-text">Ghost Jobs v1</span>
-          </Title>
-
-
-          <!-- Enhanced Search Bar -->
-          <div class="search-container">
-            <div class="search-features">
-              <div class="feature">
-                <Icon icon="ph:shield-check-duotone" />
-                <span>Privacy First</span>
+          <Suspense>
+            <template #default>
+              <CompanyList :columns="4" :limit="8" size="medium" rounded />
+            </template>
+            <template #fallback>
+              <div class="loading-placeholder">
+                <Icon icon="ph:circle-notch-duotone" class="spin" />
+                <span>Discovering innovative companies...</span>
               </div>
-              <div class="feature">
-                <Icon icon="ph:brain-duotone" />
-                <span>AI Powered</span>
-              </div>
-              <div class="feature">
-                <Icon icon="ph:chart-line-up-duotone" />
-                <span>Real Data</span>
-              </div>
-            </div>
-
-            <div class="search-bar disabled">
-              <Icon icon="ph:magnifying-glass-duotone" class="search-icon" />
-              <input type="text" placeholder="Search jobs with transparency (Coming Soon)" disabled
-                class="search-input">
-              <span class="coming-soon-badge">Beta Access Soon</span>
-            </div>
-
-            <div class="action-buttons">
-              <button class="action-button disabled">
-                <Icon icon="ph:binoculars-duotone" class="button-icon" />
-                <span>Track</span>
-                <span class="alpha-badge">Alpha</span>
-              </button>
-
-              <button class="action-button disabled">
-                <Icon icon="ph:warning-circle-duotone" class="button-icon" />
-                <span>Report</span>
-                <span class="alpha-badge">Alpha</span>
-              </button>
-
-              <button class="action-button disabled">
-                <Icon icon="ph:puzzle-piece-duotone" class="button-icon" />
-                <span>Extension</span>
-                <span class="alpha-badge">Alpha</span>
-              </button>
-            </div>
-            <!-- <Countdown thin date="Sep 28, 2022" /> -->
-
-          </div>
-        </div>
-      </Container>
-    </Section>
-
-    <!-- Companies Preview -->
-    <Section class="section-companies">
-      <Container>
-        <div class="companies-header">
-          <Title tag="h2" :size="2" weight="bold" leading>
-            <span>Discover Companies</span>
-          </Title>
-          <p class="companies-subtitle">
-            coma
-          </p>
-        </div>
-
-        <Suspense>
-          <template #default>
-            <CompanyList :columns="4" :limit="8" size="medium" rounded />
-          </template>
-          <template #fallback>
-            <div class="loading-placeholder">
-              <Icon icon="ph:circle-notch-duotone" class="spin" />
-              <span>Discovering innovative companies...</span>
-            </div>
-          </template>
-        </Suspense>
-      </Container>
-    </Section>
+            </template>
+          </Suspense>
+        </Container>
+      </Section>
+      <FooterA FooterColors="white"
+        text="Join the movement for job search transparency. Find your next opportunity with confidence."
+        :social-links="socialLinks" />
+    </div>
   </div>
-  <FooterA FooterColors="white"
-    text="Join the movement for job search transparency. Find your next opportunity with confidence."
-    :social-links="socialLinks" />
 </template>
 
 <style scoped lang="scss">

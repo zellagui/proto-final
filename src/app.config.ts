@@ -15,13 +15,12 @@ type AppConfig = VulkConfig<NavbarType, FooterType>
  */
 
 export default {
-  name: 'Ghosts job',
-  title: 'Ghosts Job',
+  name: 'Ghost Jobs',
+  title: 'Ghost Jobs',
   description:
-    'Vulk is a premium toolkit that lets you build powerful, SSR-Ready memorable websites.',
-  url: import.meta.env.VITE_APP_URL || 'http://localhost:3000/',
-  image:
-    'https://media.cssninja.io/embed/marketplace/product/wide.png?headline=Multipurpose%20Vue%203%20SSR%20SaaS%20Landing%20Pages%20UI%20Kit&url=https%3A%2F%2Fcdn.schema.io%2Fcssninja%2F626717a31bfb2b0019dc414b%2Fcaeea9b43d968b49533ed6f37ed7ad4e&previewUrl=https%3A%2F%2Fcdn.schema.io%2Fcssninja%2F625e9270282b940012bfae2e%2F12a2a61e3baa2df0b5c3cc408065959d',
+    'GhostJobs.io creates an ecosystem where job seekers can supercharge their career moves. With AI-driven insights, modular tools, and customizable workflows, we provide a next-gen job search experience—crafted to help you track, analyze, and optimize your job hunt.',
+  url: import.meta.env.VITE_APP_URL || 'http://localhost:3000/' || 'https://ghostjobs.io',
+  image: '/assets/promoImage.png',
   theme: {
     // Auto detect system color scheme
     default: 'light',
@@ -31,10 +30,10 @@ export default {
     disableTransitions: false,
   },
   logo: {
-    src: '/assets/logo/gg.svg',
+    src: '/assets/logo/ghostjobsLOGO.png?v=1',
     // srcDark: '/assets/logo/logo-dark.svg',
-    width: 50,
-    height: 50,
+    width: 60,
+    height: 60,
   },
   layout: {
     transition: 'fade-fast',
@@ -60,6 +59,10 @@ export default {
           {
             label: 'Launch',
             to: 'launch',
+          },
+          {
+            label: 'Community',
+            to: 'community',
           },
           {
             label: 'Job hacks',

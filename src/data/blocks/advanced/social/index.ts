@@ -14,4 +14,9 @@ export const socialLinks = [
     url: 'https://www.linkedin.com/company/104921225',
     icon: 'fa:linkedin',
   },
+  {
+    name: 'Chrome',
+    url: 'https://chromewebstore.google.com/detail/ghost-jobs/jhmmhjhhpibfampmkjfbiancbnbgogik?pli=1',
+    icon: 'fa:google',
+  },
 ]

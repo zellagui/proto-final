@@ -11,19 +11,14 @@
 
     <div class="trends-card-body">
       <div class="chart-container">
-        <ApexChart
-          type="area"
-          height="250"
-          :options="chartOptions"
-          :series="chartSeries"
-        />
+        <ApexChart type="area" height="250" :options="chartOptions" :series="chartSeries" />
       </div>
     </div>
   </Card>
 </template>
 
-<script setup>
-import { computed } from 'vue';
+<script setup lang="ts">
+import { computed, ref, onMounted } from 'vue';
 import ApexChart from 'vue3-apexcharts';
 
 const props = defineProps({
@@ -52,7 +47,7 @@ const chartSeries = computed(() => [{
 }]);
 
 // Chart options
-const chartOptions = computed(() => ({
+const chartOptions = ref({
   chart: {
     type: 'area',
     height: 250,
@@ -64,7 +59,17 @@ const chartOptions = computed(() => ({
       easing: 'easeinout',
       speed: 800
     },
-    background: 'transparent'
+    background: 'transparent',
+    events: {
+      mounted: function (chartContext: any) {
+        // Make all touch event listeners passive
+        const chartElement = chartContext.el;
+        const touchElements = chartElement.querySelectorAll('[data-touchstart]');
+        touchElements.forEach((el: HTMLElement) => {
+          el.addEventListener('touchstart', () => { }, { passive: true });
+        });
+      }
+    }
   },
   stroke: {
     curve: 'smooth',
@@ -137,7 +142,7 @@ const chartOptions = computed(() => ({
       formatter: (value) => `${Math.round(value)} jobs`
     }
   }
-}));
+});
 </script>
 
 <style lang="scss" scoped>

@@ -49,118 +49,72 @@ const submitForm = async () => {
 </script>
 
 <template>
-  <Hero
-    class="car-hero"
-    size="fullheight"
-    mask="slant"
-  >
-    <template #body>
-      <div class="columns is-vcentered">
-        <div class="column is-5">
-          <div class="hero-form-container">
-            <div class="hero-form">
-              <Title
-                tag="h2"
-                :size="4"
-                weight="semi"
-              >
-                Contact us
-              </Title>
-              <form @submit.prevent="submitForm">
-                <Field>
-                  <FieldLabel label="Full Name" />
-                  <Control icon="ph:user-duotone">
-                    <VInput
-                      v-model="name"
-                      placeholder="First and last name"
-                    />
-                  </Control>
-                </Field>
-                <Field>
-                  <FieldLabel label="Email Address" />
-                  <Control icon="ph:envelope-duotone">
-                    <VInput
-                      v-model="email"
-                      placeholder="Your email address"
-                    />
-                  </Control>
-                </Field>
-                <Field>
-                  <FieldLabel label="Message" />
-                  <Control>
-                    <VTextarea
-                      v-model="message"
-                      placeholder="Write something..."
-                    />
-                  </Control>
-                </Field>
-                <Field>
-                  <Control>
-                    <div class="py-2">
-                      <Checkbox
-                        v-model="subscribe"
-                        name="checkbox-1"
-                        label="I want to subscribe to the newsletter."
-                        color="default"
-                      />
-                    </div>
-                  </Control>
-                </Field>
-                <Field>
-                  <Control>
-                    <div class="py-2">
-                      <Button
-                        color="primary"
-                        fullwidth
-                        bold
-                        raised
-                        type="submit"
-                      >
-                        <span>Send</span>
-                      </Button>
-                    </div>
-                  </Control>
-                </Field>
-              </form>
+  <div class="contact-page">
+    <Hero class="car-hero" size="fullheight" mask="slant">
+      <template #body>
+        <div class="columns is-vcentered">
+          <div class="column is-5">
+            <div class="hero-form-container">
+              <div class="hero-form">
+                <Title tag="h2" :size="4" weight="semi">
+                  Contact us
+                </Title>
+                <form @submit.prevent="submitForm">
+                  <Field>
+                    <FieldLabel label="Full Name" />
+                    <Control icon="ph:user-duotone">
+                      <VInput v-model="name" placeholder="First and last name" />
+                    </Control>
+                  </Field>
+                  <Field>
+                    <FieldLabel label="Email Address" />
+                    <Control icon="ph:envelope-duotone">
+                      <VInput v-model="email" placeholder="Your email address" />
+                    </Control>
+                  </Field>
+                  <Field>
+                    <FieldLabel label="Message" />
+                    <Control>
+                      <VTextarea v-model="message" placeholder="Write something..." />
+                    </Control>
+                  </Field>
+                  <Field>
+                    <Control>
+                      <div class="py-2">
+                        <Checkbox v-model="subscribe" name="checkbox-1" label="I want to subscribe to the newsletter."
+                          color="default" />
+                      </div>
+                    </Control>
+                  </Field>
+                  <Field>
+                    <Control>
+                      <div class="py-2">
+                        <Button color="primary" fullwidth bold raised type="submit">
+                          <span>Send</span>
+                        </Button>
+                      </div>
+                    </Control>
+                  </Field>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="column is-7">
+            <div class="car-hero-composition mt-6">
+              <img class="main-image" src="/images/contact.svg" alt="Car hero image" width="1000" height="857">
+              <img class="left-image" :class="active" src="/images/contact.svg" alt="Car hero image" width="1000"
+                height="857">
+              <img class="right-image" :class="active" src="/images/contact.svg" alt="Car hero image" width="1000"
+                height="857">
             </div>
           </div>
         </div>
-        <div class="column is-7">
-          <div class="car-hero-composition mt-6">
-            <img
-              class="main-image"
-              src="/images/contact.svg"
-              alt="Car hero image"
-              width="1000"
-              height="857"
-            >
-            <img
-              class="left-image"
-              :class="active"
-              src="/images/contact.svg"
-              alt="Car hero image"
-              width="1000"
-              height="857"
-            >
-            <img
-              class="right-image"
-              :class="active"
-              src="/images/contact.svg"
-              alt="Car hero image"
-              width="1000"
-              height="857"
-            >
-          </div>
-        </div>
-      </div>
-    </template>
-  </Hero>
-  <FooterA
-    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Negare
-                non possum. Apparet statim, quae sint officia, quae actiones."
-    color="gray"
-    :social-links="socialLinks"
-  />
+      </template>
+    </Hero>
+    <FooterA text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Negare
+                non possum. Apparet statim, quae sint officia, quae actiones." color="gray"
+      :social-links="socialLinks" />
+  </div>
 </template>
 
 <style lang="scss" scoped>
@@ -217,7 +171,7 @@ const submitForm = async () => {
   }
 }
 
-@media only screen and (width <= 767px) {
+@media only screen and (width <=767px) {
   .car-hero {
     text-align: center;
 
@@ -237,7 +191,7 @@ const submitForm = async () => {
   }
 }
 
-@media only screen and (width >= 768px) and (width <= 1024px) and (orientation: portrait) {
+@media only screen and (width >=768px) and (width <=1024px) and (orientation: portrait) {
   .car-hero {
     text-align: center;
 

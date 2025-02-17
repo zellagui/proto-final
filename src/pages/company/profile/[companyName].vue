@@ -1,6 +1,8 @@
 # route lang="yaml"
 meta:
 layout: default
+navbar:
+enabled: true
 ---
 
 <script setup lang="ts">
@@ -98,61 +100,31 @@ onMounted(async () => {
         // Construct the file path
         const filePath = `../../../data/beta-data/company-reports-v2 copy/${formattedName}_analysis.json`
         console.log('Looking for file:', filePath);
-        console.log('Available paths:', Object.keys(analysisFiles));
 
         if (filePath in analysisFiles) {
           const rawData = await analysisFiles[filePath]()
-          const reportData = JSON.parse(rawData)
-
-          // Process the report data
-          if (reportData) {
-            // Format job counts
-            if (reportData.location_analysis?.total_jobs) {
-              reportData.location_analysis.total_jobs = parseInt(reportData.location_analysis.total_jobs);
-            }
-
-            // Format remote percentage
-            if (reportData.location_analysis?.remote_jobs) {
-              const remoteJobs = parseInt(reportData.location_analysis.remote_jobs);
-              const totalJobs = parseInt(reportData.location_analysis.total_jobs);
-              reportData.location_analysis.remote_percentage = totalJobs > 0 ?
-                ((remoteJobs / totalJobs) * 100).toFixed(2) : 0;
-            }
-
-            // Format salary bands
-            if (reportData.compensation?.bands) {
-              const bands = reportData.compensation.bands;
-              ['entry_level', 'mid_level', 'senior_level'].forEach(level => {
-                if (bands[level]) {
-                  bands[level].range = bands[level].range.map((val: number) =>
-                    Math.round(val).toLocaleString()
-                  );
-                  bands[level].count = parseInt(bands[level].count);
-                }
-              });
-            }
-
-            companyReport.value = reportData;
-            selectedCompanyStore.setReport?.(reportData);
-          }
+          companyReport.value = JSON.parse(rawData)
         } else {
-          console.error('Analysis file not found for:', formattedName);
+          console.error('Report file not found for:', formattedName);
           console.error('Available files:', Object.keys(analysisFiles));
+          throw new Error(`Report data not found for ${formattedName}`);
         }
-      } catch (reportErr) {
-        console.error('Error loading company report:', reportErr);
+      } catch (err) {
+        console.error('Error loading company report:', err);
+        error.value = err instanceof Error ? err.message : 'Failed to load company report';
       }
     } else {
-      error.value = 'Company not found'
+      error.value = `Company not found: ${urlName}`;
       console.error('Company not found:', urlName);
+      console.error('Available companies:', companies.map(c => c.name));
     }
   } catch (err) {
-    error.value = 'Failed to load company data'
-    console.error('Error:', err)
+    console.error('Error loading company data:', err);
+    error.value = err instanceof Error ? err.message : 'Failed to load company data';
   } finally {
-    isLoading.value = false
+    isLoading.value = false;
   }
-})
+});
 
 // Tabs logic
 const activeTab = ref('overview')
@@ -169,59 +141,30 @@ const isMobile = useMediaQuery('(max-width: 768px)')
 </script>
 
 <template>
-  <div v-if="company">
-    <!-- Company Header -->
-    <div class="profile-header">
-      <div class="profile-header-inner">
-        <div class="profile-avatar">
-          <img :src="company.logo || '/placeholder-logo.png'" :alt="company.name + ' logo'" class="avatar">
-          <h2 class="company-name">
-            {{ company.name }}
-          </h2>
-          <p class="company-sphere">
-            {{ company.sphere || 'Unknown Industry' }}
-          </p>
-        </div>
+  <div class="company-profile">
+    <!-- Loading State -->
+    <div v-if="isLoading" class="loading-state">
+      <div class="loading-content">
+        <Icon icon="ph:circle-notch-duotone" class="spin" />
+        <p>Loading company profile...</p>
       </div>
     </div>
 
-    <div class="profile-content">
-      <!-- Tabs -->
-      <Tabs v-model:selected="activeTab" :tabs="tabs" alignment="centered">
-        <template #tab="{ activeValue }">
-          <!-- Overview Content -->
-          <div v-if="activeValue === 'overview'">
-            <Overview :company="company" :company-report="companyReport" />
-          </div>
-
-          <!-- Reports Content -->
-          <div v-else-if="activeValue === 'reports'">
-            <report :company="company" />
-          </div>
-
-          <!-- Jobs Content -->
-          <div v-else-if="activeValue === 'jobs'" class="jobs-section">
-            <jobs :company="company" />
-          </div>
-
-          <!-- Discussion Content -->
-          <div v-else-if="activeValue === 'discussion'" class="discussion-section">
-            <div class="placeholder-content">
-              <h3>Discussion Coming Soon</h3>
-              <p>This feature will be available in a future update.</p>
-            </div>
-          </div>
-        </template>
-      </Tabs>
+    <!-- Error State -->
+    <div v-else-if="error" class="error-state">
+      <div class="error-content">
+        <Icon icon="ph:warning-circle-duotone" />
+        <p>{{ error }}</p>
+        <RouterLink to="/" class="button is-primary is-outlined">
+          Return Home
+        </RouterLink>
+      </div>
     </div>
-  </div>
 
-  <div v-else-if="error" class="error-state">
-    <p>{{ error }}</p>
-  </div>
-
-  <div v-else class="loading-state">
-    <p>Loading company details...</p>
+    <!-- Content State -->
+    <div v-else-if="company">
+      <Overview v-if="companyReport" :company-report="companyReport" />
+    </div>
   </div>
 </template>
 
@@ -326,4 +269,55 @@ const isMobile = useMediaQuery('(max-width: 768px)')
 }
 
 /* stylelint-enable */
+
+.company-profile {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-state,
+.error-state {
+  text-align: center;
+  padding: 2rem;
+
+  .loading-content,
+  .error-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  :deep(svg) {
+    font-size: 2rem;
+    color: var(--primary);
+  }
+
+  p {
+    font-size: 1.1rem;
+    color: var(--light-text);
+  }
+
+  .button {
+    margin-top: 1rem;
+  }
+}
+
+.loading-state {
+  .spin {
+    animation: spin 1s linear infinite;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
 </style>
