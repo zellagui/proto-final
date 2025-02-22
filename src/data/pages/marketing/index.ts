@@ -108,59 +108,56 @@ export const tabbedProcess = {
     {
       id: 0,
       icon: '/assets/icons/abstract/1.svg',
-      title: 'Goal-based Campaign Creation',
+      title: 'Multi-Source Aggregation',
       content:
-        'Build a foundation for long-term success. Our automation utilizes your individual product-level goals to create optimal advertising campaigns in four simple steps.',
+        'Pull real-time job listings from dozens of job boards and millions of corporate sites, consolidating all postings into a single feed. Never miss an opportunity, no matter where it’s posted.',
     },
     {
       id: 1,
       icon: '/assets/icons/abstract/2.svg',
-      title: 'Algorithmic Keyword Bidding',
+      title: 'Company Hiring History',
       content:
-        'Never set a keyword bid again. Our AI-powered optimization leverages your goals to find your ideal bid value, so you’re always capturing sales at the price that’s right for you.',
+        'Track and store each organization’s hiring data over time. Gain insights into trends, layoffs, and growth patterns that can inform your career decisions.',
     },
     {
       id: 2,
       icon: '/assets/icons/abstract/3.svg',
-      title: 'Automated Keyword Targeting',
+      title: 'Verification & Quality Control',
       content:
-        'Optimize your keywords for sales growth and profitability. Automatically capture new converting keywords while negating ones that are hurting performance.',
+        'Filter out ghost jobs, scams, and misleading postings before they ever reach your feed. Our system flags suspicious patterns and removes duplicates to ensure accurate, reliable listings.',
     },
     {
       id: 3,
       icon: '/assets/icons/abstract/4.svg',
-      title: 'Custom Analytics',
+      title: 'Real-Time Alerts & Transparent Records',
       content:
-        'Track progress to your goals. Understand your total business performance with individual and combined product, campaign, and profitability metrics.',
+        'Receive immediate notifications when new roles or trends surface. Explore an open, ledger-like record of each company’s hiring practices, so you always have the facts you need to stay ahead in a shifting market.',
     },
   ],
   images: [
     {
       id: 0,
       url: '/assets/illustrations/placeholder/placeholder-process-1.png',
-      darkUrl:
-        '/assets/illustrations/placeholder/placeholder-process-1-dark.png',
+      darkUrl: '/assets/illustrations/placeholder/placeholder-process-1-dark.png',
+    },
+    {
+      id: 1,
+      url: '/assets/illustrations/placeholder/placeholder-process-2.png',
+      darkUrl: '/assets/illustrations/placeholder/placeholder-process-2-dark.png',
     },
     {
       id: 2,
-      url: '/assets/illustrations/placeholder/placeholder-process-2.png',
-      darkUrl:
-        '/assets/illustrations/placeholder/placeholder-process-2-dark.png',
+      url: '/assets/illustrations/placeholder/placeholder-process-3.png',
+      darkUrl: '/assets/illustrations/placeholder/placeholder-process-3-dark.png',
     },
     {
       id: 3,
-      url: '/assets/illustrations/placeholder/placeholder-process-3.png',
-      darkUrl:
-        '/assets/illustrations/placeholder/placeholder-process-3-dark.png',
-    },
-    {
-      id: 4,
       url: '/assets/illustrations/placeholder/placeholder-process-4.png',
-      darkUrl:
-        '/assets/illustrations/placeholder/placeholder-process-4-dark.png',
+      darkUrl: '/assets/illustrations/placeholder/placeholder-process-4-dark.png',
     },
   ],
 }
+
 
 export const marketingProcess = {
   steps: [

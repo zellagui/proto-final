@@ -259,7 +259,7 @@ onMounted(() => {
               <i class="iconify" data-icon="ph:house-duotone" />
               <div class="stat-content">
                 <span class="stat-value">{{ remoteJobsPercentage }}{{ remoteJobsPercentage !== 'N/A' ? '%' : ''
-                  }}</span>
+                }}</span>
                 <span class="stat-label">Remote Jobs</span>
               </div>
             </div>
@@ -344,7 +344,7 @@ onMounted(() => {
       <LocationOverview v-if="companyReport" :company-report="companyReport" />
 
       <!-- Jobs List -->
-      <JobsList v-if="companyReport" :company-report="companyReport" />
+      <!-- <JobsList v-if="companyReport" :company-report="companyReport" /> -->
 
       <!-- Commenting out unused sections -->
       <!-- Profile Skills -->

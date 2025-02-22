@@ -20,7 +20,8 @@ export default {
   description:
     'GhostJobs.io creates an ecosystem where job seekers can supercharge their career moves. With AI-driven insights, modular tools, and customizable workflows, we provide a next-gen job search experience—crafted to help you track, analyze, and optimize your job hunt.',
   url: import.meta.env.VITE_APP_URL || 'http://localhost:3000/' || 'https://ghostjobs.io',
-  image: '/assets/promoImage.png',
+  image:
+    'public/assets/promoImage.png',
   theme: {
     // Auto detect system color scheme
     default: 'light',
@@ -30,7 +31,7 @@ export default {
     disableTransitions: false,
   },
   logo: {
-    src: '/assets/logo/ghostjobsLOGO.png?v=1',
+    src: 'public/assets/logo/ghostjobsLOGO.png',
     // srcDark: '/assets/logo/logo-dark.svg',
     width: 60,
     height: 60,

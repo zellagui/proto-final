@@ -529,11 +529,39 @@ const handleSubmit = async () => {
   }
 
   .platforms-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
   }
 
   .platform-card {
     margin: 0;
+
+    .card-content {
+      padding: 1rem;
+      gap: 0.75rem;
+    }
+
+    .platform-icon {
+      font-size: 1.75rem;
+    }
+
+    .platform-details {
+      h3 {
+        font-size: 1rem;
+      }
+
+      .highlight {
+        font-size: 0.85rem;
+      }
+    }
+
+    .card-action {
+      padding: 0.6rem 1rem;
+
+      .action-text {
+        font-size: 0.85rem;
+      }
+    }
   }
 }
 </style>

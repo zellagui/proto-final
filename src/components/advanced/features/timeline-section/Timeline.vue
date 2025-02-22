@@ -12,12 +12,15 @@
         <div class="item-right">
           <div class="max-w-4">
             <Title tag="h2" :size="4" weight="bold" leading>
-              <span>New way to search jobs</span>
+              <span>Unlock new ways to search jobs</span>
             </Title>
             <p class="paragraph">
-              The most advanced job search engine in the world.
-
+              Stay ahead of the curve with real-time listings across the market with the most advanced job search engine
+              in the world.
             </p>
+            <br>
+            <p class="paragraph">Personalize your search with 15 news fields to find the best opportunities, set up
+              time-saving automations, and organize the most important details in one place.</p>
           </div>
         </div>
       </div>
@@ -36,8 +39,7 @@
               Why every job search engine is the same? what about you specific
               needs?
               <br>
-              <br>
-              You can now customize the workflows of you job search and arrange the layout how you want.
+              Arrange your workflow the way you want and track what’s most important to you.
             </p>
           </div>
         </div>
@@ -51,13 +53,12 @@
         <div class="item-right">
           <div class="max-w-4">
             <Title tag="h2" :size="4" weight="bold" leading>
-              <span>Ghost jobs, Scams? Not on Our Watch
+              <span>Your Very Own Job Search Copilot
               </span>
             </Title>
             <p class="paragraph">
-              Every listing on our platform undergoes verification to ensure authenticity.
-              Say goodbye to deceptive posts and hidden scams – we filter out the noise so you only see real,
-              trusted opportunities. .
+              Leverage personalized recommendations, anomaly detection, and seamless integrations. Build the exact job
+              search engine you need to stay on top of market trends and opportunities.
             </p>
           </div>
         </div>

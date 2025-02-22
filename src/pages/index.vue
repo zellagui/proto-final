@@ -16,6 +16,9 @@ import {
 
 } from '/@src/data/pages/banking'
 import { testimonials } from '/@src/data/blocks/advanced/testimonials'
+import { tabbedProcess } from '/@src/data/pages/marketing'
+import { features } from '/@src/data/blocks/features'
+import { genericFaq } from '/@src/data/blocks/advanced/faq'
 
 // Stats data
 const content14 = [
@@ -107,114 +110,116 @@ const jobBoards = {
   <div class="page-content">
     <!-- Hero Section -->
     <Section class="hero-section" wave="wave-1" shape-color="grey">
-      <Container>
-        <!-- Title Section -->
-        <div class="hero-head has-text-centered">
-          <Title tag="h1" :size="1" weight="bold" class="title-main">
-            <span>
-              You deserve
-              <span class="text-primary">transparency</span>
-              in your job search.
+
+      <!-- Title Section -->
+      <div class="hero-head has-text-centered">
+        <Title tag="h1" :size="1" weight="bold" class="title-main">
+          <span>
+            You deserve
+            <span class="text-primary">transparency</span>
+            in your job search.
+          </span>
+        </Title>
+        <a href="https://www.producthunt.com/products/ghost-jobs" target="_blank" rel="noopener noreferrer">
+          <img src="/images/top-post-badge.svg" alt="Product Hunt Badge" class="ph-badge">
+        </a>
+
+
+        <div class="px-4 has-text-centered counter-section">
+          <div class="data-update-badge">
+            <Icon icon="ph:chart-line-up-duotone" :size="20" class="update-icon" />
+            <span class="current-data">January 2025 Data</span>
+            <span class="divider">•</span>
+            <span class="next-update">Next update: February 28th</span>
+            <span class="tooltip-text" title="We update our statistics monthly to provide the most accurate insights">
+              <Icon icon="ph:info-duotone" :size="16" />
             </span>
-          </Title>
-          <a href="https://www.producthunt.com/products/ghost-jobs" target="_blank" rel="noopener noreferrer">
-            <img src="/images/top-post-badge.svg" alt="Product Hunt Badge" class="ph-badge">
-          </a>
-
-
-          <div class="px-4 has-text-centered counter-section">
-            <div class="data-update-badge">
-              <Icon icon="ph:chart-line-up-duotone" :size="20" class="update-icon" />
-              <span class="current-data">January 2025 Data</span>
-              <span class="divider">•</span>
-              <span class="next-update">Next update: February 28th</span>
-              <span class="tooltip-text" title="We update our statistics monthly to provide the most accurate insights">
-                <Icon icon="ph:info-duotone" :size="16" />
-              </span>
+          </div>
+          <div class="stats-counter-grid">
+            <!-- Jobs Analyzed -->
+            <div class="counter-box">
+              <Icon icon="ph:magnifying-glass-duotone" :size="48" class="counter-icon has-text-primary" />
+              <div class="counter-content">
+                <Title tag="h3" :size="4" weight="bold" class="counter-number">
+                  <Counter :number="6" />M
+                </Title>
+                <p class="counter-title">
+                  Jobs Analyzed
+                </p>
+              </div>
             </div>
-            <div class="stats-counter-grid">
-              <!-- Jobs Analyzed -->
-              <div class="counter-box">
-                <Icon icon="ph:magnifying-glass-duotone" :size="48" class="counter-icon has-text-primary" />
-                <div class="counter-content">
-                  <Title tag="h3" :size="4" weight="bold" class="counter-number">
-                    <Counter :number="6" />M
-                  </Title>
-                  <p class="counter-title">
-                    Jobs Analyzed
-                  </p>
-                </div>
-              </div>
 
-              <!-- Ghost Jobs Detected -->
-              <div class="counter-box">
-                <Icon icon="ph:ghost-duotone" :size="48" class="counter-icon has-text-info" />
-                <div class="counter-content">
-                  <Title tag="h3" :size="4" weight="bold" class="counter-number">
-                    <Counter :number="523" />K
-                  </Title>
-                  <p class="counter-title">
-                    Companies Monitored
-                  </p>
-                </div>
+            <!-- Ghost Jobs Detected -->
+            <div class="counter-box">
+              <Icon icon="ph:ghost-duotone" :size="48" class="counter-icon has-text-info" />
+              <div class="counter-content">
+                <Title tag="h3" :size="4" weight="bold" class="counter-number">
+                  <Counter :number="523" />K
+                </Title>
+                <p class="counter-title">
+                  Companies Monitored
+                </p>
               </div>
+            </div>
 
-              <!-- Time Saved -->
-              <div class="counter-box">
-                <Icon icon="ph:clock-countdown-duotone" :size="48" class="counter-icon has-text-success" />
-                <div class="counter-content">
-                  <Title tag="h3" :size="4" weight="bold" class="counter-number">
-                    <Counter :number="8" />
-                  </Title>
-                  <p class="counter-title">
-                    Job Boards Monitored
-                  </p>
-                </div>
+            <!-- Time Saved -->
+            <div class="counter-box">
+              <Icon icon="ph:clock-countdown-duotone" :size="48" class="counter-icon has-text-success" />
+              <div class="counter-content">
+                <Title tag="h3" :size="4" weight="bold" class="counter-number">
+                  <Counter :number="8" />
+                </Title>
+                <p class="counter-title">
+                  Job Boards Monitored
+                </p>
               </div>
+            </div>
 
-              <!-- Community Reports -->
-              <div class="counter-box">
-                <Icon icon="ph:users-three-duotone" :size="48" class="counter-icon has-text-warning" />
-                <div class="counter-content">
-                  <Title tag="h3" :size="4" weight="bold" class="counter-number">
-                    <Counter :number="3500" />
-                  </Title>
-                  <p class="counter-title">
-                    Community Reports
-                  </p>
-                </div>
+            <!-- Community Reports -->
+            <div class="counter-box">
+              <Icon icon="ph:users-three-duotone" :size="48" class="counter-icon has-text-warning" />
+              <div class="counter-content">
+                <Title tag="h3" :size="4" weight="bold" class="counter-number">
+                  <Counter :number="3500" />
+                </Title>
+                <p class="counter-title">
+                  Community Reports
+                </p>
               </div>
             </div>
           </div>
         </div>
-      </Container>
+      </div>
+
     </Section>
+
+
     <Section color="grey">
       <Container>
-        <TimelineTitle title="Community Insight" subtitle="Report Bad behaviors with"
-          minititle="Tired of chasing ghost jobs ?" color="secondary" :step="1" />
+        <TimelineTitle subtitle="We Monitor the Market" minititle="Tired of chasing ghost jobs ?" color="secondary"
+          :step="1" />
+        <TabbedSection :steps="tabbedProcess.steps" />
 
-        <DevWindows />
+        <!-- <DevWindows /> -->
 
-        <TimelineTitle title="Job search tools" subtitle="The most advanced" minititle="AND MANY MORE MONITORED!"
-          color="primary" :step="2">
+        <TimelineTitle subtitle="Reinventing the Job Search Experience
+        " minititle="Take your job search to the next level with an ecosystem built for innovation.
+" color="primary" :step="2">
           <template #subheading>
-            <div class="is-flex is-justify-content-center py-4">
-              <AvatarGroup :avatars="techLogos" :limit="5" boxed />
-            </div>
+
           </template>
         </TimelineTitle>
 
         <Timeline />
 
-        <TimelineTitle title="The market" subtitle="We monitor for you" color="accent" :step="3">
+        <TimelineTitle subtitle="Community driven " color="accent" :step="3">
           <template #content>
             <div class="py-6 mx-auto max-w-9">
               <div class="columns b-columns-half-tablet-p">
                 <div class="column is-6">
                   <p class="paragraph">
                     From niche job boards to corporate career pages, we leave no stone unturned. By monitoring and
-                    breaking down all this data, we create a transparent, ledger-like record of each company’s hiring
+                    breaking down all this data, we create a transparent, ledger-like record of each company's hiring
                     practices—open for everyone to explore.
                   </p>
                 </div>
@@ -230,7 +235,49 @@ const jobBoards = {
           </template>
         </TimelineTitle>
 
-        <TestimonialsMarquee :testimonials="testimonials" color="default" />
+        <div class="features-wrapper">
+          <div class="features-container">
+            <div class="feature-item">
+              <div class="feature-header">
+                <div class="icon-wrapper has-background-primary-light">
+                  <Icon icon="ph:shield-check-duotone" class="has-text-primary" />
+                </div>
+                <h3>Report Anonymously</h3>
+              </div>
+              <p>Have something to say about a company? Speak up safely without fear of repercussions.</p>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-header">
+                <div class="icon-wrapper has-background-info-light">
+                  <Icon icon="ph:users-three-duotone" class="has-text-info" />
+                </div>
+                <h3>Public Discussion</h3>
+              </div>
+              <p>Engage in open dialogue about employers, job postings, and industry trends.</p>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-header">
+                <div class="icon-wrapper has-background-success-light">
+                  <Icon icon="ph:chart-pie-slice-duotone" class="has-text-success" />
+                </div>
+                <h3>Trust Score</h3>
+              </div>
+              <p>Our open-source trust score gives you full transparency into potential employers before you commit.</p>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-header">
+                <div class="icon-wrapper has-background-warning-light">
+                  <Icon icon="ph:rocket-launch-duotone" class="has-text-warning" />
+                </div>
+                <h3>Community-Driven Innovation</h3>
+              </div>
+              <p>Build on top of our platform, share custom workflows, and develop next-gen applications.</p>
+            </div>
+          </div>
+        </div>
 
         <CtaBlockB title-primary="Beta version"
           content-primary="This version is still in beta. public version launch end february " cta-primary="Launch"
@@ -238,7 +285,16 @@ const jobBoards = {
           content-secondary="You vision is important to us. Share your feedback with us" cta-secondary="Feedback"
           cta-secondary-link="contact" boxed shapes animated color="primary" />
 
+        <FaqListBoxed :items="genericFaq" />
 
+        <!-- <CtaBlockC title="Ready To Go?"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis est tam dissimile homini. Quae cum dixisset paulumque?"
+          shapes animated>
+          <Buttons>
+            <Button color="secondary" :long="2" raised bold>Subscribe</Button>
+            <Button :long="2" raised bold>Learn More</Button>
+          </Buttons>
+        </CtaBlockC> -->
       </Container>
 
     </Section>
@@ -288,12 +344,17 @@ const jobBoards = {
 <style lang="scss" scoped>
 .page-content {
   .hero-section {
-    padding: 20% 0 4rem;
+    padding: 12% 0 4rem;
     background: var(--white);
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 50vh;
+
+    @media (max-width: 768px) {
+      padding: 20% 0 2rem;
+      min-height: auto;
+    }
   }
 
   .hero-head {
@@ -301,6 +362,11 @@ const jobBoards = {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 1rem;
+
+    @media (max-width: 768px) {
+      margin-bottom: 2rem;
+    }
   }
 
   .title-main {
@@ -310,7 +376,9 @@ const jobBoards = {
     font-weight: 700;
 
     @media (max-width: 768px) {
-      font-size: 2.5rem;
+      font-size: 2rem;
+      line-height: 1.3;
+      margin-bottom: 1rem;
     }
   }
 
@@ -322,8 +390,29 @@ const jobBoards = {
     max-width: 600px;
   }
 
+  .ph-badge {
+    max-width: 250px;
+    height: auto;
+    margin: 1.5rem auto;
+    display: block;
+    transition: transform 0.3s ease;
+
+    @media (max-width: 768px) {
+      max-width: 200px;
+      margin: 1rem auto;
+    }
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+
   .counter-section {
-    margin-bottom: 6rem;
+    margin-top: 2rem;
+
+    @media (max-width: 768px) {
+      margin-top: 1rem;
+    }
   }
 
   .data-update-badge {
@@ -338,40 +427,22 @@ const jobBoards = {
     color: var(--light-text);
     margin-bottom: 2rem;
     box-shadow: var(--light-box-shadow);
-    transition: all 0.3s ease;
+    flex-wrap: wrap;
+    justify-content: center;
 
-    &:hover {
-      transform: translateY(-2px);
-      box-shadow: var(--light-box-shadow), 0 4px 12px rgba(0, 0, 0, 0.05);
-    }
+    @media (max-width: 768px) {
+      font-size: 0.8rem;
+      padding: 0.4rem 0.8rem;
+      margin-bottom: 1.5rem;
 
-    .update-icon {
-      color: var(--primary);
-    }
+      .divider {
+        display: none;
+      }
 
-    .current-data {
-      font-weight: 600;
-      color: var(--dark-text);
-    }
-
-    .divider {
-      color: var(--border-color);
-      margin: 0 0.25rem;
-    }
-
-    .next-update {
-      color: var(--light-text);
-    }
-
-    .tooltip-text {
-      display: inline-flex;
-      align-items: center;
-      color: var(--light-text);
-      cursor: help;
-      transition: color 0.3s ease;
-
-      &:hover {
-        color: var(--primary);
+      .next-update {
+        width: 100%;
+        text-align: center;
+        margin-top: 0.2rem;
       }
     }
   }
@@ -380,25 +451,27 @@ const jobBoards = {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
-    padding-top: 0rem;
+    padding: 0;
     max-width: 1200px;
     margin: 0 auto;
 
-    @media (max-width: 1024px) {
+    @media (width <=1024px) {
       grid-template-columns: repeat(2, 1fr);
-      gap: 1.5rem;
+      gap: 1rem;
+      padding: 0 0.5rem;
     }
 
-    @media (max-width: 768px) {
-      grid-template-columns: 1fr;
-      gap: 1.5rem;
+    @media (width <=480px) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.75rem;
+      padding: 0 0.5rem;
     }
   }
 
   .counter-box {
     background: var(--white);
     border-radius: 1rem;
-    padding: 1.5rem;
+    padding: 1.25rem;
     text-align: center;
     box-shadow: var(--light-box-shadow);
     border: 1px solid var(--border-color);
@@ -408,28 +481,33 @@ const jobBoards = {
     align-items: center;
     gap: 0.75rem;
 
-    &:hover {
-      transform: translateY(-5px);
-      box-shadow: var(--light-box-shadow), 0 8px 20px rgba(0, 0, 0, 0.1);
-
-      .counter-icon {
-        transform: scale(1.1);
-      }
-
-      .counter-number {
-        color: var(--primary);
-      }
+    @media (width <=480px) {
+      padding: 0.75rem;
+      flex-direction: row;
+      text-align: left;
+      justify-content: flex-start;
+      gap: 0.5rem;
     }
 
     .counter-icon {
       transition: transform 0.3s ease;
       margin-bottom: 0.5rem;
+      font-size: 2.5rem;
+
+      @media (width <=480px) {
+        margin-bottom: 0;
+        font-size: 1.75rem;
+      }
     }
 
     .counter-content {
       display: flex;
       flex-direction: column;
       gap: 0.25rem;
+
+      @media (width <=480px) {
+        align-items: flex-start;
+      }
     }
 
     .counter-number {
@@ -437,6 +515,10 @@ const jobBoards = {
       margin-bottom: 0;
       transition: color 0.3s ease;
       font-size: 2rem;
+
+      @media (width <=480px) {
+        font-size: 1.25rem;
+      }
     }
 
     .counter-title {
@@ -444,6 +526,10 @@ const jobBoards = {
       color: var(--light-text);
       margin: 0;
       font-weight: 500;
+
+      @media (width <=480px) {
+        font-size: 0.85rem;
+      }
     }
   }
 
@@ -491,6 +577,108 @@ const jobBoards = {
     .ph-badge {
       height: 54px;
       width: auto;
+    }
+  }
+
+  .features-wrapper {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    @media (width <=767px) {
+      padding: 1rem 0.75rem;
+    }
+  }
+
+  .features-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+
+    @media (width <=767px) {
+      gap: 1rem;
+    }
+  }
+
+  .feature-item {
+    background: var(--white);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+
+    @media (width <=767px) {
+      padding: 1rem;
+    }
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--light-box-shadow);
+
+      .icon-wrapper {
+        transform: scale(1.05);
+      }
+    }
+
+    .feature-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 0.75rem;
+
+      @media (width <=767px) {
+        gap: 0.75rem;
+        margin-bottom: 0.5rem;
+      }
+
+      h3 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--dark-text);
+        margin: 0;
+
+        @media (width <=767px) {
+          font-size: 0.95rem;
+        }
+      }
+    }
+
+    .icon-wrapper {
+      width: 2.5rem;
+      height: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 0.75rem;
+      transition: transform 0.3s ease;
+      flex-shrink: 0;
+
+      @media (width <=767px) {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+      }
+
+      :deep(svg) {
+        width: 1.5rem;
+        height: 1.5rem;
+
+        @media (width <=767px) {
+          width: 1.25rem;
+          height: 1.25rem;
+        }
+      }
+    }
+
+    p {
+      font-size: 0.9rem;
+      color: var(--light-text);
+      line-height: 1.5;
+      margin: 0;
+
+      @media (width <=767px) {
+        font-size: 0.85rem;
+      }
     }
   }
 }

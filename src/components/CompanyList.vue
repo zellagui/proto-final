@@ -39,11 +39,7 @@ const jobBoards = {
     logo: 'https://www.ziprecruiter.com/favicon-144x144.png',
     url: 'https://ziprecruiter.com'
   },
-  monster: {
-    name: 'Monster',
-    logo: 'https://play-lh.googleusercontent.com/YqM8H7Vip-UqQmsKXeJKxlvw8UcEc9v7oMEoPOe-8VDh1wKUudK6rdQ5TEaGjv8BkWA=w240-h480-rw',
-    url: 'https://monster.com'
-  }
+
 }
 
 // Function to get active job boards for a company (currently returning all as active)

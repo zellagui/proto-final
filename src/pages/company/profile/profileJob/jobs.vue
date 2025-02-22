@@ -96,17 +96,9 @@ const reportsStackbarConfig = computed<VueUiStackbarConfig>(() => ({
             The bar chart below shows the number of reports over the last 6 months.
           </p>
           <div class="chart-container">
-            <VueDataUi
-              component="VueUiStackbar"
-              :dataset="reportsStackbarDataset"
-              :config="reportsStackbarConfig"
-            />
+            <VueDataUi component="VueUiStackbar" :dataset="reportsStackbarDataset" :config="reportsStackbarConfig" />
             <div class="chart-axis-labels">
-              <span
-                v-for="(label, idx) in lastSixMonthsLabels"
-                :key="idx"
-                class="chart-axis-label"
-              >
+              <span v-for="(label, idx) in lastSixMonthsLabels" :key="idx" class="chart-axis-label">
                 {{ label }}
               </span>
             </div>
@@ -141,22 +133,11 @@ const reportsStackbarConfig = computed<VueUiStackbarConfig>(() => ({
         </div>
         <div class="jobs-card-body">
           <div class="jobs">
-            <div
-              v-if="!jobs || jobs.length === 0"
-              class="no-jobs"
-            >
+            <div v-if="!jobs || jobs.length === 0" class="no-jobs">
               <p>No job postings found for this company.</p>
             </div>
-            <div
-              v-for="(job, index) in jobs"
-              v-else
-              :key="index"
-              class="job"
-            >
-              <img
-                :src="company.logo_url || 'path_to_default_logo.png'"
-                alt="Company logo"
-              >
+            <div v-for="(job, index) in jobs" v-else :key="index" class="job">
+              <img :src="company.logo_url || 'path_to_default_logo.png'" alt="Company logo">
               <div class="meta">
                 <h3>{{ job.title || 'No Title' }}</h3>
                 <span>
@@ -182,18 +163,21 @@ const reportsStackbarConfig = computed<VueUiStackbarConfig>(() => ({
   padding-top: 0;
   display: flex;
   flex-direction: column;
-  gap: 2rem; /* spacing between cards */
+  gap: 2rem;
+  /* spacing between cards */
 }
 
 /* General Card Styling for charts */
-.chart-card, .jobs-card {
+.chart-card,
+.jobs-card {
   border: 1px solid var(--wrap-border-color);
   border-radius: 8px;
   background: #fff;
   padding: 1.5rem;
 }
 
-.chart-card-head, .jobs-card-head {
+.chart-card-head,
+.jobs-card-head {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -207,7 +191,7 @@ const reportsStackbarConfig = computed<VueUiStackbarConfig>(() => ({
     margin: 0;
   }
 
-  > a {
+  >a {
     font-size: 0.9rem;
     font-family: var(--font);
     font-weight: 500;
@@ -216,7 +200,8 @@ const reportsStackbarConfig = computed<VueUiStackbarConfig>(() => ({
   }
 }
 
-.chart-card-body, .jobs-card-body {
+.chart-card-body,
+.jobs-card-body {
   .chart-description {
     font-size: 0.9rem;
     font-family: var(--font);
@@ -273,13 +258,13 @@ const reportsStackbarConfig = computed<VueUiStackbarConfig>(() => ({
     display: flex;
     align-items: flex-start;
 
-    + .job {
+    +.job {
       margin-top: 1.5rem;
       padding-top: 1rem;
       border-top: 1px solid var(--wrap-border-color);
     }
 
-    > img {
+    >img {
       display: block;
       height: 44px;
       width: 44px;
@@ -329,7 +314,7 @@ const reportsStackbarConfig = computed<VueUiStackbarConfig>(() => ({
     flex-direction: column;
     align-items: flex-start;
 
-    > img {
+    >img {
       margin-bottom: 0.75rem;
     }
 

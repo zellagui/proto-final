@@ -33,28 +33,14 @@ const activeTab = ref('process-tab-0')
   <div class="tabbed-section py-6">
     <div class="columns is-vcentered b-columns-half-tablet-p">
       <div class="column is-5 is-offset-1">
-        <div
-          v-for="(item, index) in props.steps"
-          :key="index"
-          tabindex="0"
-          role="button"
-          class="tabbed-item"
-          :class="[activeTab === `process-tab-${index}` && 'is-active']"
-          data-content="1"
+        <div v-for="(item, index) in props.steps" :key="index" tabindex="0" role="button" class="tabbed-item"
+          :class="[activeTab === `process-tab-${index}` && 'is-active']" data-content="1"
           @click="activeTab = `process-tab-${index}`"
-          @keydown.space.prevent="() => (activeTab = `process-tab-${index}`)"
-        >
+          @keydown.space.prevent="() => (activeTab = `process-tab-${index}`)">
           <div class="box">
             <div class="box-header">
-              <DarkImage
-                :src="item.icon"
-                alt=""
-              />
-              <Title
-                tag="h3"
-                :size="6"
-                weight="bold"
-              >
+              <DarkImage :src="item.icon" alt="" />
+              <Title tag="h3" :size="6" weight="bold">
                 {{ item.title }}
               </Title>
             </div>
@@ -65,37 +51,22 @@ const activeTab = ref('process-tab-0')
         </div>
       </div>
       <div class="column is-5 is-relative">
-        <img
-          class="tabbed-image is-base is-relative is-block mx-auto"
-          src="/assets/illustrations/placeholder/placeholder-process.png"
-          alt="Process illustration"
-          @error.once="
+        <img class="tabbed-image is-base is-relative is-block mx-auto"
+          src="/assets/illustrations/placeholder/placeholder-process.png" alt="Process illustration" @error.once="
             (event) =>
               viaPlaceholderErrorHandler(
                 event,
                 `${props.imageWidth}x${props.imageHeight}`,
               )
-          "
-        >
+          ">
 
-        <DarkImage
-          v-for="(item, i) in props.images"
-          :key="i"
-          class="tabbed-image is-slide mx-auto"
-          :class="[activeTab === `process-tab-${i}` && 'is-active']"
-          :src="item.url"
-          :src-dark="item.darkUrl"
-          alt=""
-          :width="props.imageWidth"
-          :height="props.imageHeight"
-        />
+        <DarkImage v-for="(item, i) in props.images" :key="i" class="tabbed-image is-slide mx-auto"
+          :class="[activeTab === `process-tab-${i}` && 'is-active']" :src="item.url" :src-dark="item.darkUrl" alt=""
+          :width="props.imageWidth" :height="props.imageHeight" />
         <MockupFirst v-if="activeTab === 'process-tab-0'" />
         <MockupSecond v-if="activeTab === 'process-tab-1'" />
         <MockupThird v-if="activeTab === 'process-tab-2'" />
-        <MockupFourth
-          v-if="activeTab === 'process-tab-3'"
-          :loaded="activeTab === 'process-tab-3'"
-        />
+        <MockupFourth v-if="activeTab === 'process-tab-3'" :loaded="activeTab === 'process-tab-3'" />
       </div>
     </div>
   </div>
@@ -291,7 +262,7 @@ const activeTab = ref('process-tab-0')
   }
 }
 
-@media only screen and (width <= 767px) {
+@media only screen and (width <=767px) {
   .tabbed-section {
     .tabbed-item {
       .box {
